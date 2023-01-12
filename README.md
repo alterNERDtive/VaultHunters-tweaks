@@ -13,8 +13,8 @@ _Currently confirmed working on patch_: __5__
 ## Installation
 
 1. Clone or download this.
-2. Copy the `config` folder into your instance’s `minecraft` folder, or however
-   that one is called in the launcher you are using.
+2. Copy the `config` and `scripts` folders into your instance’s `minecraft`
+   folder, or however that one is called in the launcher you are using.
 
 ## Upgrading to a New Vault Hunters Version
 
