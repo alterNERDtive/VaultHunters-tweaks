@@ -26,11 +26,11 @@ craftingTable.addShaped("flux_flux_block", <item:fluxnetworks:flux_block>, [
 craftingTable.addShaped("flux_flux_point", <item:fluxnetworks:flux_point>, [
     [<item:fluxnetworks:flux_core>, <item:the_vault:perfect_larimar>, <item:fluxnetworks:flux_core>],
     [<item:minecraft:air>, <item:fluxnetworks:flux_block>, <item:minecraft:air>],
-    [<item:fluxnetworks:flux_core>, <item:the_vault:gem_pog>, <item:fluxnetworks:flux_core>]
+    [<item:fluxnetworks:flux_core>, <item:minecraft:air>, <item:fluxnetworks:flux_core>]
 ]);
 
 craftingTable.addShaped("flux_flux_plug", <item:fluxnetworks:flux_plug>, [
-    [<item:fluxnetworks:flux_core>, <item:the_vault:gem_pog>, <item:fluxnetworks:flux_core>],
+    [<item:fluxnetworks:flux_core>, <item:minecraft:air>, <item:fluxnetworks:flux_core>],
     [<item:minecraft:air>, <item:fluxnetworks:flux_block>, <item:minecraft:air>],
     [<item:fluxnetworks:flux_core>, <item:the_vault:perfect_larimar>, <item:fluxnetworks:flux_core>]
 ]);

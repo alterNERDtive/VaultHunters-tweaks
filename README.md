@@ -68,6 +68,10 @@ rules.
 * Lowered amount of kills required for kill bounties.
 * Lowered amount of ores required for mining bounties.
 
+### Fluxnet
+
+* Reverted crafting recipe changes introduced in update 5.
+
 ### Hunter
 
 * Halved cooldown times for all ranks.
