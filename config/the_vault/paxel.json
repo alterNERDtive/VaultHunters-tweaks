@@ -1,5 +1,4 @@
 {
-  "MAX_HARDNESS_ABOVE_TARGET": 5,
   "PULVERIZING_MAP": {
     "minecraft:cobblestone": {
       "item": {
@@ -207,27 +206,27 @@
   },
   "TIER_VALUES": {
     "the_vault:vaulterite_pickaxe": {
-      "STURDINESS_DECREMENT_PER_LEVEL": 10,
+      "STURDINESS_DECREMENT_PER_LEVEL": 1,
       "LEVEL_DELTA_PER_SOCKET": 5,
       "TIER_BASE_DURABILITY": 1500,
       "BASE_REPAIR_SLOTS": 1
     },
     "the_vault:vault_pickaxe": {
-      "STURDINESS_DECREMENT_PER_LEVEL": 5,
+      "STURDINESS_DECREMENT_PER_LEVEL": 1,
       "LEVEL_DELTA_PER_SOCKET": 3,
       "TIER_BASE_DURABILITY": 4000,
       "BASE_REPAIR_SLOTS": 2
     }, 
     "the_vault:black_chromatic_pickaxe": {
-      "STURDINESS_DECREMENT_PER_LEVEL": 4,
-      "LEVEL_DELTA_PER_SOCKET": 4,
+      "STURDINESS_DECREMENT_PER_LEVEL": 1,
+      "LEVEL_DELTA_PER_SOCKET": 3,
       "TIER_BASE_DURABILITY": 6000,
       "BASE_REPAIR_SLOTS": 3
     },
     "the_vault:echoing_pickaxe": {
-      "STURDINESS_DECREMENT_PER_LEVEL": 3,
+      "STURDINESS_DECREMENT_PER_LEVEL": 1,
       "LEVEL_DELTA_PER_SOCKET": 3,
-      "TIER_BASE_DURABILITY": 6000,
+      "TIER_BASE_DURABILITY": 8000,
       "BASE_REPAIR_SLOTS": 4
     },
     "the_vault:prismatic_pickaxe": {
@@ -249,7 +248,7 @@
         2
       ],
       "POSITIVE": true,
-      "MIN_YIELD": 100.0,
+      "MIN_YIELD": 400.0,
       "MAX_YIELD": 500.0,
       "BASE_VALUE": 0.0,
       "MAX_VALUE": 100000.0,
@@ -267,7 +266,7 @@
       ],
       "POSITIVE": true,
       "IS_DECIMAL": true,
-      "MIN_YIELD": 1.0,
+      "MIN_YIELD": 2.0,
       "MAX_YIELD": 3.0,
       "BASE_VALUE": 10.0,
       "MAX_VALUE": 100000.0,
@@ -285,7 +284,7 @@
       ],
       "POSITIVE": true,
       "IS_DECIMAL": true,
-      "MIN_YIELD": 0.3,
+      "MIN_YIELD": 0.6,
       "MAX_YIELD": 0.7,
       "BASE_VALUE": 0.0,
       "MAX_VALUE": 10.0,
@@ -303,7 +302,7 @@
       ],
       "POSITIVE": true,
       "IS_PERCENT": true,
-      "MIN_YIELD": 0.5,
+      "MIN_YIELD": 0.8,
       "MAX_YIELD": 1.0,
       "BASE_VALUE": 0.0,
       "MAX_VALUE": 100000.0,

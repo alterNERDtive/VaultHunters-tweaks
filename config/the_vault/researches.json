@@ -100,7 +100,7 @@
         "restricts": {
           "HITTABILITY": false,
           "BLOCK_INTERACTABILITY": true,
-          "USABILITY": false,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -243,7 +243,7 @@
         }
       },
       "name": "Xnet",
-      "cost": 4,
+      "cost": 2,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/xnet/helmet",
@@ -523,7 +523,7 @@
         }
       },
       "name": "Flux Networks",
-      "cost": 2,
+      "cost": 1,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/flux/helmet",
@@ -624,86 +624,86 @@
       "itemRestrictions": {
         "ae2:molecular_assembler": {
           "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": false
           }
         },
         "mekanism:formulaic_assemblicator": {
           "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": false
           }
         },
         "refinedstorage:crafter": {
           "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": false
           }
         },
         "rftoolsutility:crafter1": {
           "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": false
           }
         },
         "thermal:machine_crafter": {
           "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": false
           }
         },
         "create:mechanical_crafter": {
           "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": false
           }
         },
         "botania:crafting_halo": {
           "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": false
           }
         },
         "botania:auto_crafting_halo": {
           "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": false
           }
         },
         "botania:crafty_crate": {
           "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": false
           }
         },
         "ae2:blank_pattern": {
           "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": false
           }
         },
         "refinedstorage:pattern": {
           "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": false
           }
         }
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Automatic Genius",
-      "cost": 100,
+      "cost": 10,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/atomatic/helmet",

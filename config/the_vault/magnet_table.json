@@ -24,7 +24,7 @@
         2
       ],
       "POSITIVE": true,
-      "MIN_YIELD": 1,
+      "MIN_YIELD": 2,
       "MAX_YIELD": 2,
       "BASE_VALUE": 1,
       "MAX_VALUE": 100000,
@@ -54,7 +54,7 @@
         8
       ],
       "POSITIVE": true,
-      "MIN_YIELD": 100,
+      "MIN_YIELD": 200,
       "MAX_YIELD": 300,
       "BASE_VALUE": 700,
       "MAX_VALUE": 100000,
@@ -128,8 +128,8 @@
     }
   },
   "ITEMS_FOR_ONE_DURABILITY": 64,
-  "STURDINESS_FOR_PERK": 65,
-  "STURDINESS_DECREMENT": 5,
+  "STURDINESS_FOR_PERK": 93,
+  "STURDINESS_DECREMENT": 1,
   "BASE_REPAIR_SLOTS": 2,
   "MATERIAL_ITEMS": [
     "the_vault:vault_bronze",

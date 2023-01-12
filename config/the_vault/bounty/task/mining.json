@@ -8,7 +8,7 @@
             "value": "the_vault:ore_larimar",
             "amount": {
               "min": 2,
-              "max": 8
+              "max": 4
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -22,7 +22,7 @@
             "value": "the_vault:ore_benitoite",
             "amount": {
               "min": 2,
-              "max": 8
+              "max": 4
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -36,7 +36,7 @@
             "value": "the_vault:ore_painite",
             "amount": {
               "min": 2,
-              "max": 8
+              "max": 4
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -50,7 +50,7 @@
             "value": "the_vault:ore_wutodie",
             "amount": {
               "min": 2,
-              "max": 8
+              "max": 4
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -64,7 +64,7 @@
             "value": "the_vault:ore_black_opal",
             "amount": {
               "min": 2,
-              "max": 8
+              "max": 4
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -222,7 +222,7 @@
             "value": "the_vault:ore_larimar",
             "amount": {
               "min": 8,
-              "max": 64
+              "max": 16
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -236,7 +236,7 @@
             "value": "the_vault:ore_benitoite",
             "amount": {
               "min": 8,
-              "max": 32
+              "max": 16
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -250,7 +250,7 @@
             "value": "the_vault:ore_painite",
             "amount": {
               "min": 8,
-              "max": 48
+              "max": 16
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -264,7 +264,7 @@
             "value": "the_vault:ore_wutodie",
             "amount": {
               "min": 8,
-              "max": 32
+              "max": 16
             },
             "floorToNearestTen": false,
             "validDimensions": [],

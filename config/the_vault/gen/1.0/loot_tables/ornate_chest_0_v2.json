@@ -65,15 +65,15 @@
               }
             },
             {
-              "weight": 14,
-              "item": {
-                "id": "the_vault:carbon_nugget",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 4
-                  }
-              }
+                "weight": 14,
+                "item": {
+                  "id": "the_vault:carbon_nugget",
+                  "count": {
+                    "type": "uniform",
+                    "min": 4,
+                    "max": 8
+                    }
+                }
             }
           ]
         },

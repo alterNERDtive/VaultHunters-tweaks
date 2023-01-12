@@ -261,18 +261,19 @@
             }
           ]
         },
-        { "weight": 2,
+        {
+          "weight": 2,
           "pool": [
             {
-                "weight": 8,
-                "item": {
-                  "id": "minecraft:golden_carrot",
-                  "count": {
-                    "type": "uniform",
-                    "min": 1,
-                    "max": 1
-                    }
+              "weight": 8,
+              "item": {
+                "id": "minecraft:golden_carrot",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
                 }
+              }
             },
             {
               "weight": 2,
@@ -282,7 +283,123 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
+              }
+            }
+          ]
+        }
+        ,
+        {
+          "weight": 2,
+          "pool": [
+            {
+              "weight": 2,
+              "item": {
+                "id": "create:raw_zinc",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "mekanism:raw_osmium",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "mekanism:raw_tin",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "mekanism:raw_lead",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "mekanism:raw_uranium",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "powah:uraninite_raw",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "thermal:raw_tin",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "thermal:raw_lead",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "thermal:raw_silver",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "thermal:raw_nickel",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                }
               }
             }
           ]

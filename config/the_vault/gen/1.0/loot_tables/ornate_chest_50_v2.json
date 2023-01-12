@@ -70,7 +70,7 @@
                   "id": "the_vault:carbon_nugget",
                   "count": {
                     "type": "uniform",
-                    "min": 3,
+                    "min": 4,
                     "max": 8
                     }
                 }
