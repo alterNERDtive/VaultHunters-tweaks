@@ -522,15 +522,10 @@ craftingTable.remove(<tag:items:refinedstorage:detector>);
 craftingTable.remove(<item:refinedstorage:wireless_transmitter>);
 craftingTable.remove(<item:refinedstorage:external_storage>);
 craftingTable.remove(<item:refinedstorage:speed_upgrade>);
-craftingTable.remove(<item:refinedstorage:crafting_upgrade>);
 craftingTable.remove(<item:refinedstorage:stack_upgrade>);
 craftingTable.remove(<item:refinedstorage:wireless_grid>);
 craftingTable.remove(<item:refinedstorageaddons:wireless_crafting_grid>);
 craftingTable.remove(<tag:items:refinedstorage:controller>);
-craftingTable.remove(<item:refinedstorage:pattern_grid>);
-craftingTable.remove(<item:refinedstorage:crafter>);
-craftingTable.remove(<item:refinedstorage:crafter_manager>);
-craftingTable.remove(<item:refinedstorage:pattern>);
 
 // Weirding Gadget
 craftingTable.remove(<item:weirdinggadget:weirding_gadget>);
