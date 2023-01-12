@@ -68,6 +68,10 @@ rules.
 * Lowered amount of kills required for kill bounties.
 * Lowered amount of ores required for mining bounties.
 
+### Hunter
+
+* Halved cooldown times for all ranks.
+
 ### Ornate Chest
 
 * Increased amount of raw carbon dropped across all levels.

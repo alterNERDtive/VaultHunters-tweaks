@@ -6256,7 +6256,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 2400,
+        "cooldownTicks": 1200,
         "levelRequirement": 0
       },
       {
@@ -6272,7 +6272,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 2260,
+        "cooldownTicks": 1130,
         "levelRequirement": 0
       },
       {
@@ -6288,7 +6288,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 2120,
+        "cooldownTicks": 1060,
         "levelRequirement": 0
       },
       {
@@ -6304,7 +6304,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 1980,
+        "cooldownTicks": 990,
         "levelRequirement": 0
       },
       {
@@ -6320,7 +6320,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 1840,
+        "cooldownTicks": 920,
         "levelRequirement": 0
       },
       {
@@ -6336,7 +6336,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 1700,
+        "cooldownTicks": 850,
         "levelRequirement": 0
       },
       {
@@ -6352,7 +6352,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 1560,
+        "cooldownTicks": 780,
         "levelRequirement": 0
       },
       {
@@ -6368,7 +6368,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 1420,
+        "cooldownTicks": 710,
         "levelRequirement": 0
       },
       {
@@ -6384,7 +6384,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 1280,
+        "cooldownTicks": 640,
         "levelRequirement": 0
       },
       {
@@ -6400,7 +6400,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 1140,
+        "cooldownTicks": 570,
         "levelRequirement": 0
       },
       {
@@ -6416,7 +6416,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 1000,
+        "cooldownTicks": 500,
         "levelRequirement": 0
       },
       {
@@ -6432,7 +6432,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 860,
+        "cooldownTicks": 430,
         "levelRequirement": 0
       },
       {
@@ -6448,7 +6448,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 720,
+        "cooldownTicks": 360,
         "levelRequirement": 0
       },
       {
@@ -6464,7 +6464,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 580,
+        "cooldownTicks": 290,
         "levelRequirement": 0
       },
       {
@@ -6480,7 +6480,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 440,
+        "cooldownTicks": 220,
         "levelRequirement": 0
       },
       {
@@ -6496,7 +6496,7 @@
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 300,
+        "cooldownTicks": 150,
         "levelRequirement": 0
       }
     ]
