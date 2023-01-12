@@ -77,6 +77,10 @@ rules.
 * Reduced the chance of breaking your magnet to 1% per upgrade level.
 * Increased minimum quality of the durability upgrade.
 
+### Refined Storage
+
+* Reverted some of the crafting recipe changes introduced in update 5.
+
 ### Researches
 
 * Lowered the research cost of Xnet to 2.

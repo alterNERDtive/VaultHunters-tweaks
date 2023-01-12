@@ -47,7 +47,7 @@ craftingTable.addShapeless("rs_4k_storage_disk_shapeless", <item:refinedstorage:
 ]);
 
 craftingTable.addShaped("rs_16k_storage_part", <item:refinedstorage:16k_storage_part>, [
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:black_chromatic_steel_ingot>],
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:black_chromatic_steel_ingot>],
     [<item:refinedstorage:4k_storage_part>, <item:minecraft:redstone>, <item:refinedstorage:4k_storage_part>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:refinedstorage:4k_storage_part>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
@@ -57,7 +57,7 @@ craftingTable.addShapeless("rs_16k_storage_disk_shapeless", <item:refinedstorage
 ]);
 
 craftingTable.addShaped("rs_64k_storage_part", <item:refinedstorage:64k_storage_part>, [
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:black_chromatic_steel_ingot>],
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:black_chromatic_steel_ingot>],
     [<item:refinedstorage:16k_storage_part>, <item:the_vault:gem_pog>, <item:refinedstorage:16k_storage_part>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:refinedstorage:16k_storage_part>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
@@ -94,11 +94,11 @@ craftingTable.addShapeless("rs_raw_advanced_processor", <item:refinedstorage:raw
 ]);
 
 craftingTable.addShapeless("rs_destruction_core", <item:refinedstorage:destruction_core>, [
-    <item:refinedstorage:improved_processor>, <item:the_vault:vault_diamond>
+    <item:refinedstorage:improved_processor>, <item:compressium:quartz_1>
 ]);
 
 craftingTable.addShapeless("rs_construction_core", <item:refinedstorage:construction_core>, [
-    <item:refinedstorage:improved_processor>, <item:the_vault:vault_essence>
+    <item:refinedstorage:improved_processor>, <item:compressium:clay_1>
 ]);
 
 craftingTable.addShapeless("rs_shapeless_quartz_enriched_iron", <item:refinedstorage:quartz_enriched_iron> *9, [
@@ -131,9 +131,6 @@ craftingTable.addShaped("rs_crafting_grid", <item:refinedstorage:crafting_grid>,
     [<item:minecraft:air>, <item:minecraft:crafting_table>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:refinedstorage:grid>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:the_vault:echo_pog>, <item:minecraft:air>]
-]);
-craftingTable.addShapeless("rs_crafting_grid_small", <item:refinedstorageaddons:wireless_crafting_grid>, [
-    <item:refinedstorage:crafting_grid>, <item:the_vault:black_chromatic_steel_ingot>
 ]);
 
 craftingTable.addShapeless("rs_shapeless_crafting_grid", <item:refinedstorage:crafting_grid>, [
@@ -194,14 +191,9 @@ craftingTable.addShaped("rs_speed_upgrade", <item:refinedstorage:speed_upgrade>,
     [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>]
 ]);
 
-craftingTable.addShaped("rs_crafting_upgrade", <item:refinedstorage:crafting_upgrade>, [
-    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:construction_core>, <item:refinedstorage:quartz_enriched_iron>], [<tag:items:refinedstorage:crafting_tables>, <item:the_vault:gem_pog>, <tag:items:refinedstorage:crafting_tables>], 
-    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>]
-]);
-
 craftingTable.addShaped("rs_stack_upgrade", <item:refinedstorage:stack_upgrade>, [
     [<item:the_vault:vault_essence>, <item:refinedstorage:speed_upgrade>, <item:the_vault:vault_essence>],
-    [<item:refinedstorage:speed_upgrade>, <item:the_vault:gem_pog>, <item:refinedstorage:speed_upgrade>],
+    [<item:refinedstorage:speed_upgrade>, <item:refinedstorage:upgrade>, <item:refinedstorage:speed_upgrade>],
     [<item:the_vault:vault_essence>, <item:refinedstorage:speed_upgrade>, <item:the_vault:vault_essence>]
 ]);
 
@@ -216,31 +208,8 @@ craftingTable.addShapeless("rs_wireless_crafting_grid", <item:refinedstorageaddo
     <item:refinedstorage:wireless_grid>, <item:the_vault:black_chromatic_steel_ingot>
 ]);
 
-craftingTable.addShapeless("rs_pattern_grid", <item:refinedstorage:pattern_grid>, [
-    <item:refinedstorage:grid>, <item:refinedstorage:advanced_processor>,
-    <item:refinedstorage:pattern>, <item:the_vault:omega_pog>
-]);
-
 craftingTable.addShaped("rs_controller", <item:refinedstorage:controller>, [
     [<item:the_vault:chromatic_steel_ingot>, <item:refinedstorage:advanced_processor>, <item:the_vault:chromatic_steel_ingot>],
     [<item:refinedstorage:destruction_core>, <item:refinedstorage:machine_casing>, <item:refinedstorage:construction_core>],
     [<item:the_vault:chromatic_steel_ingot>, <item:refinedstorage:improved_processor>, <item:the_vault:chromatic_steel_ingot>]
-]);
-
-craftingTable.addShaped("rs_crafter", <item:refinedstorage:crafter>, [
-    [<item:the_vault:gem_pog>, <item:refinedstorage:construction_core>, <item:the_vault:gem_pog>],
-    [<item:refinedstorage:advanced_processor>, <item:refinedstorage:machine_casing>, <item:refinedstorage:advanced_processor>],
-    [<item:the_vault:gem_pog>,<item:refinedstorage:destruction_core>, <item:the_vault:gem_pog>]
-]);
-
-craftingTable.addShaped("rs_crafter_manager", <item:refinedstorage:crafter_manager>, [
-    [<item:refinedstorage:advanced_processor>, <item:refinedstorage:quartz_enriched_iron>, <tag:items:c:glass_blocks>],
-    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:machine_casing>, <tag:items:c:glass_blocks>],
-    [<item:refinedstorage:advanced_processor>,<item:refinedstorage:quartz_enriched_iron>, <tag:items:c:glass_blocks>]
-]);
-
-craftingTable.addShaped("rs_pattern", <item:refinedstorage:pattern>, [
-    [<item:the_vault:magic_silk>, <item:the_vault:magic_silk>, <item:the_vault:magic_silk>],
-    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>],
-    [<item:refinedstorage:quartz_enriched_iron>,<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>]
 ]);
