@@ -94,11 +94,11 @@ craftingTable.addShapeless("rs_raw_advanced_processor", <item:refinedstorage:raw
 ]);
 
 craftingTable.addShapeless("rs_destruction_core", <item:refinedstorage:destruction_core>, [
-    <item:refinedstorage:improved_processor>, <item:compressium:quartz_1>
+    <item:refinedstorage:improved_processor>, <item:the_vault:vault_diamond>
 ]);
 
 craftingTable.addShapeless("rs_construction_core", <item:refinedstorage:construction_core>, [
-    <item:refinedstorage:improved_processor>, <item:compressium:clay_1>
+    <item:refinedstorage:improved_processor>, <item:the_vault:vault_essence>
 ]);
 
 craftingTable.addShapeless("rs_shapeless_quartz_enriched_iron", <item:refinedstorage:quartz_enriched_iron> *9, [
