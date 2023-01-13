@@ -62,6 +62,10 @@ rules.
 
 ## Balance Changes
 
+### Botania
+
+* Re-enabled Crafty Crate, simply as an alternative to compacting drawers.
+
 ### Bounty Table
 
 * Lowered amount of items required for item discovery bounties.
