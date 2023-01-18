@@ -315,7 +315,6 @@ craftingTable.remove(<item:botania:holy_cloak>);
 craftingTable.remove(<item:botania:unholy_cloak>);
 craftingTable.remove(<item:botania:balance_cloak>);
 craftingTable.remove(<item:botania:invisibility_cloak>);
-craftingTable.remove(<item:botania:gaia_ingot>);
 craftingTable.remove(<item:botania:mana_ring_greater>);
 craftingTable.remove(<item:botania:magnet_ring_greater>);
 craftingTable.remove(<item:botania:aura_ring_greater>);

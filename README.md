@@ -65,6 +65,8 @@ rules.
 ### Botania
 
 * Re-enabled Crafty Crate, simply as an alternative to compacting drawers.
+* Re-enabled Gaia Ingot because I was curious. Can probably get some OP stuff
+  though.
 
 ### Bounty Table
 
