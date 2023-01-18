@@ -117,6 +117,11 @@ rules.
 
 * Lowered the maximum amount of an item you might need across the board.
 
+### Sophisticated Backpacks
+
+* Re-enabled Jukebox Upgrade. Because why the fuck is that even disabled in the
+  first place⁈
+
 ### Soul Shards
 
 * Increased drop rate of soul shards across the board.

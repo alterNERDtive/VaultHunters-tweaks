@@ -790,7 +790,6 @@ craftingTable.remove(<item:create:steam_engine>);
 
 // Backpacks
 craftingTable.remove(<item:sophisticatedbackpacks:stonecutter_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:jukebox_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_tool_swapper_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:battery_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:pump_upgrade>);
@@ -916,7 +915,6 @@ JEI.hideMod("alexsmobs");
 JEI.addIngredient(<item:alexsmobs:rainbow_glass>);
 // Backpacks
 JEI.hideIngredient(<item:sophisticatedbackpacks:stonecutter_upgrade>);
-JEI.hideIngredient(<item:sophisticatedbackpacks:jukebox_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:advanced_tool_swapper_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:battery_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:pump_upgrade>);
