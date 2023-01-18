@@ -80,6 +80,12 @@ rules.
 
 * Halved cooldown times for all ranks.
 
+### Iskallic Jewel
+
+* Added the ability to pulverize more things because why not
+  * Chromatic Iron Ore → 3x Raw Chromatic Iron
+  * any color Concrete → respective Concrete Powder
+
 ### Ornate Chest
 
 * Increased amount of raw carbon dropped across all levels.
