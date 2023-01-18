@@ -3455,7 +3455,7 @@
         }
       ],
       "SPAWNER": {
-        "baseMaxMobs": 2,
+        "baseMaxMobs": 0,
         "minSpawnDistance": 10.0,
         "maxSpawnDistance": 24.0,
         "despawnDistance": 26.0
@@ -3547,7 +3547,7 @@
         }
       ],
       "SPAWNER": {
-        "baseMaxMobs": 2,
+        "baseMaxMobs": 0,
         "minSpawnDistance": 10.0,
         "maxSpawnDistance": 24.0,
         "despawnDistance": 26.0
@@ -3653,7 +3653,7 @@
         }
       ],
       "SPAWNER": {
-        "baseMaxMobs": 2,
+        "baseMaxMobs": 0,
         "minSpawnDistance": 10.0,
         "maxSpawnDistance": 24.0,
         "despawnDistance": 26.0

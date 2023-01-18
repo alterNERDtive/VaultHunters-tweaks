@@ -45,6 +45,11 @@ Hunters Discord. For the latter, _DM me_ since discussing config changes that
 affect the balance of the pack are not to be discussed there as per the server
 rules.
 
+## Fixes
+
+* Fixed the Black Chromatic Pickaxe requiring 4 upgrades per socket (now 3).
+* No longer spawning random mobs in Vaults for lvl 65+.
+
 ## QoL Changes
 
 ### Raw Vaults (Sky Vaults)
@@ -128,7 +133,6 @@ rules.
 
 ### Tool Vise
 
-* Fixed the Black Chromatic Pickaxe requiring 4 upgrades per socket (now 3).
 * Reduced the chance of breaking your pick to 1% per upgrade level for all
   picks.
 * Increased minimum quality of all upgrades.
