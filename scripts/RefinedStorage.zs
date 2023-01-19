@@ -132,6 +132,9 @@ craftingTable.addShaped("rs_crafting_grid", <item:refinedstorage:crafting_grid>,
     [<item:minecraft:air>, <item:refinedstorage:grid>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:the_vault:echo_pog>, <item:minecraft:air>]
 ]);
+craftingTable.addShapeless("rs_crafting_grid_small", <item:refinedstorageaddons:wireless_crafting_grid>, [
+    <item:refinedstorage:crafting_grid>, <item:the_vault:black_chromatic_steel_ingot>
+]);
 
 craftingTable.addShapeless("rs_shapeless_crafting_grid", <item:refinedstorage:crafting_grid>, [
     <tag:items:refinedstorage:crafting_grid>, <item:minecraft:light_blue_dye>
