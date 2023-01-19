@@ -14,7 +14,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 60
+      "weight": 30
     },
     {
       "value": {
@@ -22,7 +22,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 25
+      "weight": 15
     },
     {
       "value": {
@@ -30,7 +30,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 40
+      "weight": 20
     },
     {
       "value": {
@@ -46,7 +46,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 30
+      "weight": 20
     },
     {
       "value": {
@@ -78,7 +78,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 40
+      "weight": 20
     },
     {
       "value": {
@@ -142,7 +142,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 60
+      "weight": 30
     },
     {
       "value": {
@@ -158,7 +158,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 60
+      "weight": 30
     },
     {
       "value": {
@@ -166,7 +166,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 60
+      "weight": 30
     },
     {
       "value": {
@@ -206,7 +206,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 60
+      "weight": 30
     },
     {
       "value": {
@@ -247,6 +247,38 @@
         "amountMax": 1
       },
       "weight": 2
+    },
+    {
+      "value": {
+        "id": "quark:wraith_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "id": "thermal:basalz_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "id": "thermal:blizz_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "id": "thermal:blitz_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 10
     }
   ]
 }

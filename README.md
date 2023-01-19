@@ -102,6 +102,15 @@ rules.
 * Reduced the chance of breaking your magnet to 1% per upgrade level.
 * Increased minimum quality of the durability upgrade.
 
+### Mystery Eggs
+
+* Added modded mob eggs to the mystery hostile egg:
+  * Wraith (Quark)
+  * Basalz (Thermal)
+  * Blizz (Thermal)
+  * Blitz (Thermal)
+* Reduced chance for the worst offenders to show up.
+
 ### Refined Storage
 
 * Reverted some of the crafting recipe changes introduced in update 5.
