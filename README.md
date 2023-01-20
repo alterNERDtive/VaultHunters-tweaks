@@ -154,3 +154,8 @@ rules.
 ### Vault Diffuser
 
 * Increased the payout for common scavenger items from 1 to 4.
+
+### “Wild” Modifier
+
+* Reduced the chances of getting a random “Wild” modifier based on level to be
+  in line with the other negative modifiers (weight 4→1).
