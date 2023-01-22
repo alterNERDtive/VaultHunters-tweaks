@@ -336,6 +336,8 @@ craftingTable.remove(<item:botania:king_key>);
 craftingTable.remove(<item:botania:knockback_belt>);
 craftingTable.remove(<item:botania:crystal_bow>);
 craftingTable.remove(<item:botania:livingwood_bow>);
+craftingTable.remove(<item:botania:thorn_chakram>);
+craftingTable.remove(<item:botania:flare_chakram>);
 craftingTable.remove(<item:botania:slingshot>);
 craftingTable.remove(<item:botania:flight_tiara>);
 craftingTable.remove(<item:botania:dice>);
@@ -383,6 +385,9 @@ craftingTable.remove(<item:botania:elementium_block>);
 craftingTable.remove(<item:botania:mana_diamond_block>);
 craftingTable.remove(<item:botania:dragonstone_block>);
 craftingTable.remove(<item:botania:bifrost_perm>);
+craftingTable.remove(<item:botania:fabulous_pool>);
+craftingTable.remove(<item:botania:mana_spreader>);
+craftingTable.remove(<item:botania:alchemy_catalyst>);
 
 //Drawers
 for logId, logName in logs {
@@ -493,6 +498,7 @@ craftingTable.remove(<item:mekanism:energy_tablet>);
 craftingTable.remove(<item:mekanism:steel_casing>);
 craftingTable.remove(<item:mekanism:digital_miner>);
 craftingTable.remove(<item:mekanism:dimensional_stabilizer>);
+craftingTable.remove(<item:mekanismgenerators:gas_burning_generator>);
 
 // Enercell
 craftingTable.remove(<item:enercell:enercell>);
@@ -699,6 +705,9 @@ craftingTable.remove(<item:storagenetwork:storage_kabel>);
 craftingTable.remove(<item:storagenetwork:filter_kabel>);
 craftingTable.remove(<item:storagenetwork:speed_upgrade>);
 craftingTable.remove(<item:storagenetwork:stack_upgrade>);
+craftingTable.remove(<item:storagenetwork:collector_remote>);
+craftingTable.remove(<item:storagenetwork:picker_remote>);
+
 
 // Xnet
 for cable in cables {
@@ -776,6 +785,9 @@ craftingTable.remove(<item:create:track_station>);
 craftingTable.remove(<item:create:crafting_blueprint>);
 craftingTable.remove(<item:create:gantry_carriage>);
 craftingTable.remove(<item:create:steam_engine>);
+craftingTable.remove(<item:create:schematicannon>);
+craftingTable.remove(<item:create:schematic_table>);
+craftingTable.remove(<item:create:empty_schematic>);
 <recipetype:create:crushing>.removeByName("create:crushing/veridium_recycling");
 <recipetype:create:crushing>.removeByName("create:crushing/veridium");
 <recipetype:create:crushing>.removeByName("create:crushing/crimsite_recycling");
@@ -796,6 +808,7 @@ craftingTable.remove(<item:create:steam_engine>);
 <recipetype:create:sequenced_assembly>.remove(<item:create:track>);
 
 // Backpacks
+craftingTable.remove(<item:sophisticatedbackpacks:advanced_refill_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:stonecutter_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:jukebox_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_tool_swapper_upgrade>);
@@ -903,6 +916,16 @@ craftingTable.remove(<item:powah:solar_panel_niotic>);
 craftingTable.remove(<item:powah:solar_panel_spirited>);
 craftingTable.remove(<item:powah:solar_panel_nitro>);
 craftingTable.remove(<item:powah:binding_card_dim>);
+craftingTable.remove(<item:powah:energy_cell_starter>);
+craftingTable.remove(<item:powah:ender_cell_starter>);
+craftingTable.remove(<item:powah:energy_cable_starter>);
+craftingTable.remove(<item:powah:battery_basic>);
+craftingTable.remove(<item:powah:energy_cell_basic>);
+craftingTable.remove(<item:powah:energy_cable_basic>);
+craftingTable.remove(<item:powah:furnator_basic>);
+craftingTable.remove(<item:powah:magmator_basic>);
+craftingTable.remove(<item:powah:thermo_generator_basic>);
+craftingTable.remove(<item:powah:solar_panel_basic>);
 <recipetype:powah:energizing>.remove(<item:powah:crystal_nitro>);
 <recipetype:powah:energizing>.remove(<item:powah:crystal_spirited>);
 <recipetype:powah:energizing>.remove(<item:powah:crystal_niotic>);
@@ -1027,6 +1050,8 @@ JEI.hideIngredient(<item:botania:terra_axe>);
 JEI.hideIngredient(<item:botania:terra_sword>);
 JEI.hideIngredient(<item:botania:mana_cookie>);
 JEI.hideIngredient(<item:botania:crafty_crate>);
+JEI.hideIngredient(<item:botania:thorn_chakram>);
+JEI.hideIngredient(<item:botania:flare_chakram>);
 JEI.hideIngredient(<item:botania:brew_vial>.withTag({brewKey: "botania:resistance" as string}));
 JEI.hideIngredient(<item:botania:brew_vial>.withTag({brewKey: "botania:feather_feet" as string}));
 JEI.hideIngredient(<item:botania:brew_vial>.withTag({brewKey: "botania:regen" as string}));
@@ -1049,7 +1074,6 @@ JEI.hideIngredient(<item:botania:incense_stick>.withTag({brewKey: "botania:blood
 JEI.hideIngredient(<item:botania:incense_stick>.withTag({brewKey: "botania:regen_weak" as string}));
 JEI.hideIngredient(<item:botania:incense_stick>.withTag({brewKey: "botania:regen" as string}));
 JEI.hideIngredient(<item:botania:incense_stick>.withTag({brewKey: "botania:soul_cross" as string}));
-
 for ring in rings {
   JEI.hideIngredient(<item:botania:${ring}_ring>);
 }
@@ -1112,6 +1136,7 @@ JEI.hideIngredient(<item:mekanism:advanced_bin>);
 JEI.hideIngredient(<item:mekanism:elite_bin>);
 JEI.hideIngredient(<item:mekanism:ultimate_bin>);
 JEI.hideIngredient(<item:mekanism:creative_bin>);
+
 // Create
 JEI.hideIngredient(<item:create:extendo_grip>);
 JEI.hideIngredient(<item:create:potato_cannon>);
@@ -1165,6 +1190,8 @@ JEI.hideIngredient(<item:thermal:rf_potato>);
 JEI.hideIngredient(<item:storagenetwork:inventory_remote>);
 JEI.hideIngredient(<item:storagenetwork:builder_remote>);
 JEI.hideIngredient(<item:storagenetwork:crafting_remote>);
+JEI.hideIngredient(<item:storagenetwork:collector_remote>);
+JEI.hideIngredient(<item:storagenetwork:picker_remote>);
 // Vault
 JEI.hideIngredient(<item:the_vault:sugar_plum_fairy_flower>);
 // IronFurnaces

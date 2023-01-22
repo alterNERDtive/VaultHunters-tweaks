@@ -70,8 +70,8 @@
                   "id": "the_vault:carbon_nugget",
                   "count": {
                     "type": "uniform",
-                    "min": 3,
-                    "max": 8
+                    "min": 6,
+                    "max": 18
                     }
                 }
               },
@@ -103,8 +103,8 @@
                   "id": "the_vault:vault_plating",
                   "count": {
                     "type": "uniform",
-                    "min": 1,
-                    "max": 2
+                    "min": 2,
+                    "max": 4
                     }
                 }
               }
@@ -203,32 +203,33 @@
                   "max": 3
                   }
               }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:vault_alloy",
+                "count": {
+                  "type": "uniform",
+                  "min": 3,
+                  "max": 8
+                  }
+              }
             }
           ]
           },
           { "weight": 2,
             "pool": [
+              
               {
-                  "weight": 64,
-                  "item": {
-                    "id": "the_vault:vault_ingot",
-                    "count": {
-                      "type": "uniform",
-                      "min": 1,
-                      "max": 3
-                      }
+              "weight": 64,
+              "item": {
+                "id": "the_vault:vault_alloy",
+                "count": {
+                  "type": "uniform",
+                  "min": 8,
+                  "max": 8
                   }
-              },
-              {
-                "weight": 36,
-                "item": {
-                  "id": "the_vault:vault_alloy",
-                  "count": {
-                    "type": "uniform",
-                    "min": 4,
-                    "max": 9
-                    }
-                }
+              }
               },
               {
                 "weight": 16,
@@ -337,7 +338,7 @@
                 }
               },
               {
-                "weight": 6,
+                "weight": 8,
                 "item": {
                   "id": "the_vault:fundamental_focus",
                   "count": {

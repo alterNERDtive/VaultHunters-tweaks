@@ -47,8 +47,8 @@ craftingTable.addShapeless("rs_4k_storage_disk_shapeless", <item:refinedstorage:
 ]);
 
 craftingTable.addShaped("rs_16k_storage_part", <item:refinedstorage:16k_storage_part>, [
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:refinedstorage:4k_storage_part>, <item:minecraft:redstone>, <item:refinedstorage:4k_storage_part>],
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:black_chromatic_steel_ingot>],
+    [<item:refinedstorage:4k_storage_part>, <item:minecraft:redstone_block>, <item:refinedstorage:4k_storage_part>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:refinedstorage:4k_storage_part>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
@@ -129,7 +129,7 @@ craftingTable.addShapeless("rs_shapeless_grid", <item:refinedstorage:grid>, [
 
 craftingTable.addShaped("rs_crafting_grid", <item:refinedstorage:crafting_grid>, [
     [<item:minecraft:air>, <item:minecraft:crafting_table>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:refinedstorage:grid>, <item:minecraft:air>],
+    [<item:minecraft:air>, <tag:items:refinedstorage:grid>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:the_vault:echo_pog>, <item:minecraft:air>]
 ]);
 craftingTable.addShapeless("rs_crafting_grid_small", <item:refinedstorageaddons:wireless_crafting_grid>, [

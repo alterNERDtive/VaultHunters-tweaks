@@ -66,7 +66,13 @@
       },
       "name": "Torch Master",
       "cost": 2,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "discoversModels": [
+        "the_vault:gear/armor/torch/helmet",
+        "the_vault:gear/armor/torch/chestplate",
+        "the_vault:gear/armor/torch/leggings",
+        "the_vault:gear/armor/torch/boots"
+      ]
     },
     {
       "modIds": [
@@ -1097,6 +1103,13 @@
           }
         },
         "sophisticatedbackpacks:void_upgrade": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "sophisticatedbackpacks:advanced_refill_upgrade": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,

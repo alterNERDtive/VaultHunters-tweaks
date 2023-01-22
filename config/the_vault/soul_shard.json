@@ -548,10 +548,10 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 1200,
-        "maxPrice": 4000
+        "minPrice": 6000,
+        "maxPrice": 10000
       },
-      "weight": 8
+      "weight": 4
     },
     {
       "value": {
@@ -560,10 +560,10 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 800,
-        "maxPrice": 1600
+        "minPrice": 3000,
+        "maxPrice": 6000
       },
-      "weight": 16
+      "weight": 8
     },
     {
       "value": {
@@ -620,10 +620,10 @@
           "AMOUNT": 1, 
           "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\"}"
         },
-        "minPrice": 400,
-        "maxPrice": 1200
+        "minPrice": 800,
+        "maxPrice": 2000
       },
-      "weight": 32
+      "weight": 24
     },
     {
       "value": {
@@ -632,10 +632,10 @@
           "AMOUNT": 1, 
           "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\"}"
         },
-        "minPrice": 400,
-        "maxPrice": 1200
+        "minPrice": 800,
+        "maxPrice": 2000
       },
-      "weight": 32
+      "weight": 24
     },
     {
       "value": {
@@ -644,10 +644,10 @@
           "AMOUNT": 1, 
           "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\"}"
         },
-        "minPrice": 400,
-        "maxPrice": 1200
+        "minPrice": 800,
+        "maxPrice": 2000
       },
-      "weight": 32
+      "weight": 24
     },
     {
       "value": {
@@ -656,10 +656,10 @@
           "AMOUNT": 1, 
           "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\"}"
         },
-        "minPrice": 400,
-        "maxPrice": 1200
+        "minPrice": 800,
+        "maxPrice": 2000
       },
-      "weight": 32
+      "weight": 24
     },
     {
       "value": {
@@ -668,10 +668,10 @@
           "AMOUNT": 1, 
           "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\"}"
         },
-        "minPrice": 400,
-        "maxPrice": 1200
+        "minPrice": 800,
+        "maxPrice": 2000
       },
-      "weight": 32
+      "weight": 24
     },
     {
       "value": {
@@ -680,10 +680,10 @@
           "AMOUNT": 1, 
           "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\"}"
         },
-        "minPrice": 400,
-        "maxPrice": 1200
+        "minPrice": 800,
+        "maxPrice": 2000
       },
-      "weight": 32
+      "weight": 24
     },
     {
       "value": {
@@ -692,10 +692,10 @@
           "AMOUNT": 1, 
           "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\"}"
         },
-        "minPrice": 400,
-        "maxPrice": 1200
+        "minPrice": 800,
+        "maxPrice": 2000
       },
-      "weight": 32
+      "weight": 24
     },
     {
       "value": {
@@ -704,10 +704,10 @@
           "AMOUNT": 1, 
           "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\"}"
         },
-        "minPrice": 400,
-        "maxPrice": 1200
+        "minPrice": 1200,
+        "maxPrice": 2400
       },
-      "weight": 12
+      "weight": 6
     },
     {
       "value": {
@@ -716,10 +716,10 @@
           "AMOUNT": 1, 
           "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\"}"
         },
-        "minPrice": 400,
-        "maxPrice": 1200
+        "minPrice": 1200,
+        "maxPrice": 2400
       },
-      "weight": 12
+      "weight": 6
     },
     {
       "value": {
@@ -728,10 +728,10 @@
           "AMOUNT": 1, 
           "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\"}"
         },
-        "minPrice": 400,
-        "maxPrice": 1200
+        "minPrice": 1200,
+        "maxPrice": 2400
       },
-      "weight": 12
+      "weight": 6
     },
     {
       "value": {
@@ -740,10 +740,10 @@
           "AMOUNT": 1, 
           "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\"}"
         },
-        "minPrice": 400,
-        "maxPrice": 1200
+        "minPrice": 1200,
+        "maxPrice": 2400
       },
-      "weight": 12
+      "weight": 6
     },
     {
       "value": {
@@ -1090,6 +1090,18 @@
         },
         "minPrice": 10,
         "maxPrice": 40
+      },
+      "weight": 64
+    },
+    {
+      "value": {
+        "item": {
+          "ITEM": "the_vault:cooked_vault_steak",
+          "AMOUNT": 1, 
+          "NBT": "{}"
+        },
+        "minPrice": 6,
+        "maxPrice": 18
       },
       "weight": 64
     }
