@@ -556,11 +556,11 @@
       },
       {
         "NAME": "minecraft:generic.attack_damage",
-        "MIN": 3.0,
-        "MAX": 5.0,
+        "MIN": 2.0,
+        "MAX": 4.0,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
-        "SCALE_PER_LEVEL": 0.08,
+        "SCALE_PER_LEVEL": 0.05,
         "SCALE_MAX_LEVEL": 80
       },
       {
@@ -569,7 +569,7 @@
         "MAX": 58.0,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
-        "SCALE_PER_LEVEL": 0.067,
+        "SCALE_PER_LEVEL": 0.08,
         "SCALE_MAX_LEVEL": 80
       }
 
@@ -662,11 +662,11 @@
       },
       {
         "NAME": "minecraft:generic.attack_damage",
-        "MIN": 1.5,
-        "MAX": 3.5,
+        "MIN": 1.0,
+        "MAX": 3.0,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
-        "SCALE_PER_LEVEL": 0.05,
+        "SCALE_PER_LEVEL": 0.03,
         "SCALE_MAX_LEVEL": 80
       },
       {
@@ -863,11 +863,11 @@
       },
       {
         "NAME": "minecraft:generic.attack_damage",
-        "MIN": 2.5,
+        "MIN": 2.0,
         "MAX": 3.5,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
-        "SCALE_PER_LEVEL": 0.08,
+        "SCALE_PER_LEVEL": 0.06,
         "SCALE_MAX_LEVEL": 80
       },
       {
@@ -876,7 +876,7 @@
         "MAX": 60.0,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
-        "SCALE_PER_LEVEL": 0.067,
+        "SCALE_PER_LEVEL": 0.07,
         "SCALE_MAX_LEVEL": 80
       }
 
@@ -1002,13 +1002,13 @@
         "MAX": 50.0,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
-        "SCALE_PER_LEVEL": 0.067,
+        "SCALE_PER_LEVEL": 0.08,
         "SCALE_MAX_LEVEL": 80
       },
       {
         "NAME": "minecraft:generic.attack_damage",
         "MIN": 2.0,
-        "MAX": 3.0,
+        "MAX": 2.5,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
         "SCALE_PER_LEVEL": 0.05,
@@ -1132,11 +1132,11 @@
       },
       {
         "NAME": "minecraft:generic.attack_damage",
-        "MIN": 3.0,
-        "MAX": 5.0,
+        "MIN": 3.2,
+        "MAX": 4.2,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
-        "SCALE_PER_LEVEL": 0.08,
+        "SCALE_PER_LEVEL": 0.05,
         "SCALE_MAX_LEVEL": 80
       },
       {
@@ -1145,7 +1145,7 @@
         "MAX": 60.0,
         "OPERATOR": "set",
         "ROLL_CHANCE": 1.0,
-        "SCALE_PER_LEVEL": 0.067,
+        "SCALE_PER_LEVEL": 0.07,
         "SCALE_MAX_LEVEL": 80
       }
 
@@ -3174,6 +3174,147 @@
         "SCALE_PER_LEVEL": 0.0,
         "SCALE_MAX_LEVEL": -1
       }
+    ],
+    "the_vault:bruiser_guardian": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.8,
+        "SCALE_PER_LEVEL": 0.0,
+        "SCALE_MAX_LEVEL": 20
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.8,
+        "SCALE_PER_LEVEL": 0.0,
+        "SCALE_MAX_LEVEL": 20
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 1.0,
+        "MAX": 2.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.08,
+        "SCALE_MAX_LEVEL": -1
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 45.0,
+        "MAX": 80.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.08,
+        "SCALE_MAX_LEVEL": -1
+      },
+      {
+        "NAME": "the_vault:generic.reach",
+        "MIN": 2.4,
+        "MAX": 2.8,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0,
+        "SCALE_MAX_LEVEL": -1
+      },
+      {
+        "NAME": "the_vault:generic.break_armor_chance",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0,
+        "SCALE_MAX_LEVEL": -1
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.45,
+        "MAX": 0.45,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0,
+        "SCALE_MAX_LEVEL": -1
+      },
+      {
+        "NAME": "the_vault:generic.thorns_chance",
+        "MIN": 0.05,
+        "MAX": 0.3,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0,
+        "SCALE_MAX_LEVEL": -1
+      },
+      {
+        "NAME": "the_vault:generic.thorns_damage",
+        "MIN": 0.5,
+        "MAX": 1.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0,
+        "SCALE_MAX_LEVEL": -1
+      }
+
+    ],
+    "the_vault:arbalist_guardian": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.8,
+        "SCALE_PER_LEVEL": 0.0,
+        "SCALE_MAX_LEVEL": 20
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.8,
+        "SCALE_PER_LEVEL": 0.0,
+        "SCALE_MAX_LEVEL": 20
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 1.0,
+        "MAX": 1.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.08,
+        "SCALE_MAX_LEVEL": -1
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 24.0,
+        "MAX": 68.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.08,
+        "SCALE_MAX_LEVEL": -1
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.35,
+        "MAX": 0.35,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0,
+        "SCALE_MAX_LEVEL": -1
+      },
+      {
+        "NAME": "the_vault:generic.crossbow_charge_time",
+        "MIN": 40.0,
+        "MAX": 80.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0,
+        "SCALE_MAX_LEVEL": -1
+      }
+
     ]
   },
   "LEVEL_OVERRIDES": [
@@ -3221,7 +3362,7 @@
         "despawnDistance": 26.0
       }
     },
-    { "MIN_LEVEL": 100,
+    { "MIN_LEVEL": 101,
       "MOB_POOL": [
         {
           "value": {
@@ -3284,1153 +3425,6 @@
       ],
       "SPAWNER": {
         "baseMaxMobs": 0,
-        "minSpawnDistance": 10.0,
-        "maxSpawnDistance": 24.0,
-        "despawnDistance": 26.0
-      }
-    },
-    { "MIN_LEVEL": 50,
-      "MOB_POOL": [
-        {
-          "value": {
-            "NAME": "minecraft:zombie"
-          },
-          "weight": 4
-        },
-        {
-          "value": {
-            "NAME": "minecraft:husk"
-          },
-          "weight": 12
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter"
-          },
-          "weight": 4
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_1"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "minecraft:creeper"
-          },
-          "weight": 2
-        },
-        {
-          "value": {
-            "NAME": "minecraft:skeleton"
-          },
-          "weight": 2
-        },
-        {
-          "value": {
-            "NAME": "minecraft:witch"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
-          },
-          "weight": 2
-        },
-        {
-          "value": {
-            "NAME": "minecraft:spider"
-          },
-          "weight": 1
-        }
-      ],
-      "BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:robot"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "the_vault:boogieman"
-          },
-          "weight": 4
-        }
-      ],
-      "RAFFLE_BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:arena_boss"
-          },
-          "weight": 1
-        }
-      ],
-      "SPAWNER": {
-        "baseMaxMobs": 0,
-        "minSpawnDistance": 10.0,
-        "maxSpawnDistance": 24.0,
-        "despawnDistance": 26.0
-      }
-    },
-    { "MIN_LEVEL": 65,
-      "MOB_POOL": [
-        {
-          "value": {
-            "NAME": "minecraft:zombie"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:husk"
-          },
-          "weight": 80
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter"
-          },
-          "weight": 50
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_1"
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "NAME": "minecraft:creeper"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:skeleton"
-          },
-          "weight": 40
-        },
-        {
-          "value": {
-            "NAME": "minecraft:witch"
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:spider"
-          },
-          "weight": 10
-        }
-      ],
-      "BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:robot"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "the_vault:boogieman"
-          },
-          "weight": 4
-        }
-      ],
-      "RAFFLE_BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:arena_boss"
-          },
-          "weight": 1
-        }
-      ],
-      "SPAWNER": {
-        "baseMaxMobs": 0,
-        "minSpawnDistance": 10.0,
-        "maxSpawnDistance": 24.0,
-        "despawnDistance": 26.0
-      }
-    },
-    { "MIN_LEVEL": 75,
-      "MOB_POOL": [
-        {
-          "value": {
-            "NAME": "minecraft:zombie"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:husk"
-          },
-          "weight": 80
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter"
-          },
-          "weight": 50
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_1"
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "NAME": "minecraft:creeper"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:skeleton"
-          },
-          "weight": 40
-        },
-        {
-          "value": {
-            "NAME": "minecraft:witch"
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vindicator"
-          },
-          "weight": 4
-        },
-        {
-          "value": {
-            "NAME": "minecraft:spider"
-          },
-          "weight": 20
-        }
-      ],
-      "BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:robot"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "the_vault:boogieman"
-          },
-          "weight": 4
-        }
-      ],
-      "RAFFLE_BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:arena_boss"
-          },
-          "weight": 1
-        }
-      ],
-      "SPAWNER": {
-        "baseMaxMobs": 0,
-        "minSpawnDistance": 10.0,
-        "maxSpawnDistance": 24.0,
-        "despawnDistance": 26.0
-      }
-    },
-    {
-      "MIN_LEVEL": 100,
-      "MOB_POOL": [
-        {
-          "value": {
-            "NAME": "minecraft:zombie"
-          },
-          "weight": 40
-        },
-        {
-          "value": {
-            "NAME": "the_vault:treasure_goblin"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "minecraft:husk"
-          },
-          "weight": 160
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter"
-          },
-          "weight": 100
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_1"
-          },
-          "weight": 50
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_2"
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "NAME": "minecraft:creeper"
-          },
-          "weight": 40
-        },
-        {
-          "value": {
-            "NAME": "minecraft:skeleton"
-          },
-          "weight": 80
-        },
-        {
-          "value": {
-            "NAME": "minecraft:witch"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:zombie",
-            "_COM": "minecraft:wither_skeleton"
-          },
-          "weight": 40
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vindicator"
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "NAME": "minecraft:spider"
-          },
-          "weight": 40
-        }
-      ],
-      "BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:robot"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "the_vault:boogieman"
-          },
-          "weight": 4
-        }
-      ],
-      "RAFFLE_BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:arena_boss"
-          },
-          "weight": 1
-        }
-      ],
-      "SPAWNER": {
-        "baseMaxMobs": 0,
-        "minSpawnDistance": 10.0,
-        "maxSpawnDistance": 24.0,
-        "despawnDistance": 26.0
-      }
-    },
-    { "MIN_LEVEL": 115,
-      "MOB_POOL": [
-        {
-          "value": {
-            "NAME": "minecraft:zombie"
-          },
-          "weight": 40
-        },
-        {
-          "value": {
-            "NAME": "the_vault:treasure_goblin"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "minecraft:husk"
-          },
-          "weight": 160
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter"
-          },
-          "weight": 100
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_1"
-          },
-          "weight": 50
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_2"
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "NAME": "minecraft:creeper"
-          },
-          "weight": 40
-        },
-        {
-          "value": {
-            "NAME": "minecraft:skeleton"
-          },
-          "weight": 80
-        },
-        {
-          "value": {
-            "NAME": "minecraft:stray"
-          },
-          "weight": 15
-        },
-        {
-          "value": {
-            "NAME": "minecraft:witch"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
-          },
-          "weight": 40
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vindicator"
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "NAME": "minecraft:spider"
-          },
-          "weight": 40
-        }
-      ],
-      "BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:robot"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "the_vault:boogieman"
-          },
-          "weight": 4
-        }
-      ],
-      "RAFFLE_BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:arena_boss"
-          },
-          "weight": 1
-        }
-      ],
-      "SPAWNER": {
-        "baseMaxMobs": 2,
-        "minSpawnDistance": 10.0,
-        "maxSpawnDistance": 24.0,
-        "despawnDistance": 26.0
-      }
-    },
-    { "MIN_LEVEL": 125,
-      "MOB_POOL": [
-        {
-          "value": {
-            "NAME": "minecraft:zombie"
-          },
-          "weight": 40
-        },
-        {
-          "value": {
-            "NAME": "the_vault:treasure_goblin"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "minecraft:husk"
-          },
-          "weight": 160
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter"
-          },
-          "weight": 90
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_1"
-          },
-          "weight": 60
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_2"
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "NAME": "minecraft:creeper"
-          },
-          "weight": 40
-        },
-        {
-          "value": {
-            "NAME": "minecraft:skeleton"
-          },
-          "weight": 80
-        },
-        {
-          "value": {
-            "NAME": "minecraft:stray"
-          },
-          "weight": 25
-        },
-        {
-          "value": {
-            "NAME": "minecraft:witch"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
-          },
-          "weight": 40
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vindicator"
-          },
-          "weight": 8
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vex"
-          },
-          "weight": 12
-        },
-        {
-          "value": {
-            "NAME": "minecraft:spider"
-          },
-          "weight": 40
-        }
-      ],
-      "BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:robot"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "the_vault:boogieman"
-          },
-          "weight": 4
-        }
-      ],
-      "RAFFLE_BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:arena_boss"
-          },
-          "weight": 1
-        }
-      ],
-      "SPAWNER": {
-        "baseMaxMobs": 2,
-        "minSpawnDistance": 10.0,
-        "maxSpawnDistance": 24.0,
-        "despawnDistance": 26.0
-      }
-    },
-    { "MIN_LEVEL": 150,
-      "MOB_POOL": [
-        {
-          "value": {
-            "NAME": "minecraft:zombie"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "the_vault:treasure_goblin"
-          },
-          "weight": 3
-        },
-        {
-          "value": {
-            "NAME": "minecraft:husk"
-          },
-          "weight": 480
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter"
-          },
-          "weight": 280
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_1"
-          },
-          "weight": 150
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_2"
-          },
-          "weight": 80
-        },
-        {
-          "value": {
-            "NAME": "minecraft:creeper"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "minecraft:skeleton"
-          },
-          "weight": 240
-        },
-        {
-          "value": {
-            "NAME": "minecraft:stray"
-          },
-          "weight": 75
-        },
-        {
-          "value": {
-            "NAME": "minecraft:witch"
-          },
-          "weight": 60
-        },
-        {
-          "value": {
-            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vindicator"
-          },
-          "weight": 24
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vex"
-          },
-          "weight": 36
-        },
-        {
-          "value": {
-            "NAME": "minecraft:spider"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "minecraft:ravager"
-          },
-          "weight": 1
-        }
-      ],
-      "BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:robot"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "the_vault:boogieman"
-          },
-          "weight": 4
-        }
-      ],
-      "RAFFLE_BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:arena_boss"
-          },
-          "weight": 1
-        }
-      ],
-      "SPAWNER": {
-        "baseMaxMobs": 2,
-        "minSpawnDistance": 10.0,
-        "maxSpawnDistance": 24.0,
-        "despawnDistance": 26.0
-      }
-    },
-    { "MIN_LEVEL": 175,
-      "MOB_POOL": [
-        {
-          "value": {
-            "NAME": "minecraft:zombie"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "the_vault:treasure_goblin"
-          },
-          "weight": 3
-        },
-        {
-          "value": {
-            "NAME": "minecraft:husk"
-          },
-          "weight": 480
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter"
-          },
-          "weight": 280
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_1"
-          },
-          "weight": 150
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_2"
-          },
-          "weight": 80
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_3"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:creeper"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "minecraft:skeleton"
-          },
-          "weight": 180
-        },
-        {
-          "value": {
-            "NAME": "minecraft:stray"
-          },
-          "weight": 75
-        },
-        {
-          "value": {
-            "NAME": "minecraft:witch"
-          },
-          "weight": 60
-        },
-        {
-          "value": {
-            "NAME": "minecraft:zombie",
-            "_COM": "minecraft:wither_skeleton"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vindicator"
-          },
-          "weight": 24
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vex"
-          },
-          "weight": 36
-        },
-        {
-          "value": {
-            "NAME": "minecraft:spider"
-          },
-          "weight": 80
-        },
-        {
-          "value": {
-            "NAME": "minecraft:cave_spider"
-          },
-          "weight": 100
-        },
-        {
-          "value": {
-            "NAME": "minecraft:ravager"
-          },
-          "weight": 1
-        }
-      ],
-      "BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:robot"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "the_vault:boogieman"
-          },
-          "weight": 4
-        }
-      ],
-      "RAFFLE_BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:arena_boss"
-          },
-          "weight": 1
-        }
-      ],
-      "SPAWNER": {
-        "baseMaxMobs": 2,
-        "minSpawnDistance": 10.0,
-        "maxSpawnDistance": 24.0,
-        "despawnDistance": 26.0
-      }
-    },
-    { "MIN_LEVEL": 225,
-      "MOB_POOL": [
-        {
-          "value": {
-            "NAME": "minecraft:zombie"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "the_vault:treasure_goblin"
-          },
-          "weight": 3
-        },
-        {
-          "value": {
-            "NAME": "minecraft:husk"
-          },
-          "weight": 480
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter"
-          },
-          "weight": 140
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_1"
-          },
-          "weight": 160
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_2"
-          },
-          "weight": 160
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_3"
-          },
-          "weight": 60
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_4"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:creeper"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "minecraft:skeleton"
-          },
-          "weight": 180
-        },
-        {
-          "value": {
-            "NAME": "minecraft:stray"
-          },
-          "weight": 75
-        },
-        {
-          "value": {
-            "NAME": "minecraft:witch"
-          },
-          "weight": 60
-        },
-        {
-          "value": {
-            "NAME": "minecraft:zombie",
-            "_COM": "minecraft:wither_skeleton"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vindicator"
-          },
-          "weight": 24
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vex"
-          },
-          "weight": 36
-        },
-        {
-          "value": {
-            "NAME": "minecraft:spider"
-          },
-          "weight": 80
-        },
-        {
-          "value": {
-            "NAME": "minecraft:cave_spider"
-          },
-          "weight": 100
-        },
-        {
-          "value": {
-            "NAME": "minecraft:ravager"
-          },
-          "weight": 1
-        }
-      ],
-      "BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:robot"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "the_vault:boogieman"
-          },
-          "weight": 4
-        }
-      ],
-      "RAFFLE_BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:arena_boss"
-          },
-          "weight": 1
-        }
-      ],
-      "SPAWNER": {
-        "baseMaxMobs": 2,
-        "minSpawnDistance": 10.0,
-        "maxSpawnDistance": 24.0,
-        "despawnDistance": 26.0
-      }
-    },
-    { "MIN_LEVEL": 250,
-      "MOB_POOL": [
-        {
-          "value": {
-            "NAME": "minecraft:zombie"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "the_vault:treasure_goblin"
-          },
-          "weight": 3
-        },
-        {
-          "value": {
-            "NAME": "minecraft:husk"
-          },
-          "weight": 400
-        },
-        {
-          "value": {
-            "NAME": "minecraft:piglin_brute"
-          },
-          "weight": 140
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter"
-          },
-          "weight": 140
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_1"
-          },
-          "weight": 160
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_2"
-          },
-          "weight": 160
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_3"
-          },
-          "weight": 60
-        },
-        {
-          "value": {
-            "NAME": "the_vault:vault_fighter_4"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:creeper"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "minecraft:skeleton"
-          },
-          "weight": 180
-        },
-        {
-          "value": {
-            "NAME": "minecraft:stray"
-          },
-          "weight": 75
-        },
-        {
-          "value": {
-            "NAME": "minecraft:pillager"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-            "NAME": "minecraft:witch"
-          },
-          "weight": 60
-        },
-        {
-          "value": {
-            "NAME": "minecraft:wither_skeleton",
-            "_COM": "minecraft:wither_skeleton"
-          },
-          "weight": 120
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vindicator"
-          },
-          "weight": 24
-        },
-        {
-          "value": {
-            "NAME": "minecraft:vex"
-          },
-          "weight": 36
-        },
-        {
-          "value": {
-            "NAME": "minecraft:spider"
-          },
-          "weight": 80
-        },
-        {
-          "value": {
-            "NAME": "minecraft:cave_spider"
-          },
-          "weight": 100
-        },
-        {
-          "value": {
-            "NAME": "minecraft:ravager"
-          },
-          "weight": 1
-        }
-      ],
-      "BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:robot"
-          },
-          "weight": 1
-        },
-        {
-          "value": {
-            "NAME": "the_vault:boogieman"
-          },
-          "weight": 4
-        }
-      ],
-      "RAFFLE_BOSS_POOL": [
-        {
-          "value": {
-            "NAME": "the_vault:arena_boss"
-          },
-          "weight": 1
-        }
-      ],
-      "SPAWNER": {
-        "baseMaxMobs": 2,
         "minSpawnDistance": 10.0,
         "maxSpawnDistance": 24.0,
         "despawnDistance": 26.0

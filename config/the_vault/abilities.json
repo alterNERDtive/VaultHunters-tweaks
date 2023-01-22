@@ -2553,7 +2553,7 @@
         "levelRequirement": 0
       },
       {
-        "leechPercent": 0.09,
+        "leechPercent": 0.0390,
         "damageIncrease": 0.64,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
