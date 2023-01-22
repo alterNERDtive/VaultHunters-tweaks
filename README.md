@@ -52,14 +52,6 @@ rules.
 
 ## QoL Changes
 
-### Raw Vaults (Sky Vaults)
-
-* Added modded ores to ore POIs.
-* Added modded ores to the farm and quarry rooms.
-* Adjusted vanilla ore chance slightly down and general ore spawn chance
-  slightly up to compensate for the larger ore pool.
-* Added modded raw ores to wooden chests.
-
 ### Vault Portal
 
 * Can now be built out of _any_ type of vault stone, including Bumbo Polished
