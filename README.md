@@ -72,6 +72,8 @@ rules.
 * Re-enabled Crafty Crate, simply as an alternative to compacting drawers.
 * Re-enabled Gaia Ingot because I was curious. Can probably get some OP stuff
   though.
+* Re-enabled dirt and water rods in Vaults. Seriously, they are just worse
+  versions of infinite Unobtainium + Infinite Water Bucket.
 
 ### Bounty Table
 
