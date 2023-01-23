@@ -134,6 +134,11 @@ rules.
 
 * Increased drop rate of soul shards across the board.
 
+### Spirit Extractor
+
+* Lowered revival costs by about 50% across the board.
+* Lowered death scaling.
+
 ### Tool Vise
 
 * Reduced the chance of breaking your pick to 1% per upgrade level for all
