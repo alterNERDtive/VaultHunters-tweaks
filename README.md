@@ -8,7 +8,7 @@ Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
 Ko-fi](https://ko-fi.com/S6S1DLYBS).
 
-_Currently confirmed working on patch_: __6__
+_Currently confirmed working on patch_: __6h__
 
 ## Installation
 
@@ -48,7 +48,6 @@ rules.
 ## Fixes
 
 * Fixed the Black Chromatic Pickaxe requiring 4 upgrades per socket (now 3).
-* Fixed Eternals _still_ only being able to eat basic burgers.
 
 ## QoL Changes
 
@@ -153,8 +152,3 @@ rules.
 ### Vault Diffuser
 
 * Increased the payout for common scavenger items from 1 to 4.
-
-### “Wild” Modifier
-
-* Reduced the chances of getting a random “Wild” modifier based on level to be
-  in line with the other negative modifiers (weight 4→1).

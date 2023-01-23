@@ -6928,7 +6928,7 @@
       {
         "percentageDamageAbsorbed": 0.1,
         "manaCostPerSecond": 1.5,
-        "manaPerDamageScalar": 1.0,
+        "manaPerDamageScalar": 2.5,
         "learningCost": 1,
         "regretCost": 1,
         "cooldownTicks": 500,
@@ -6937,7 +6937,7 @@
       {
         "percentageDamageAbsorbed": 0.2,
         "manaCostPerSecond": 1.5,
-        "manaPerDamageScalar": 1.0,
+        "manaPerDamageScalar": 2.5,
         "learningCost": 1,
         "regretCost": 1,
         "cooldownTicks": 500,
@@ -6946,7 +6946,7 @@
       {
         "percentageDamageAbsorbed": 0.3,
         "manaCostPerSecond": 1.5,
-        "manaPerDamageScalar": 1.0,
+        "manaPerDamageScalar": 2.5,
         "learningCost": 1,
         "regretCost": 1,
         "cooldownTicks": 500,
@@ -6955,7 +6955,7 @@
       {
         "percentageDamageAbsorbed": 0.4,
         "manaCostPerSecond": 2.0,
-        "manaPerDamageScalar": 1.0,
+        "manaPerDamageScalar": 2.5,
         "learningCost": 1,
         "regretCost": 1,
         "cooldownTicks": 500,
@@ -6964,7 +6964,7 @@
       {
         "percentageDamageAbsorbed": 0.5,
         "manaCostPerSecond": 2.0,
-        "manaPerDamageScalar": 1.0,
+        "manaPerDamageScalar": 2.5,
         "learningCost": 1,
         "regretCost": 1,
         "cooldownTicks": 500,
@@ -6973,7 +6973,7 @@
       {
         "percentageDamageAbsorbed": 0.6,
         "manaCostPerSecond": 2.0,
-        "manaPerDamageScalar": 1.0,
+        "manaPerDamageScalar": 2.5,
         "learningCost": 1,
         "regretCost": 1,
         "cooldownTicks": 500,
@@ -6982,7 +6982,7 @@
       {
         "percentageDamageAbsorbed": 0.7,
         "manaCostPerSecond": 2.5,
-        "manaPerDamageScalar": 1.0,
+        "manaPerDamageScalar": 2.5,
         "learningCost": 1,
         "regretCost": 1,
         "cooldownTicks": 500,
@@ -6991,7 +6991,7 @@
       {
         "percentageDamageAbsorbed": 0.8,
         "manaCostPerSecond": 2.5,
-        "manaPerDamageScalar": 1.0,
+        "manaPerDamageScalar": 2.5,
         "learningCost": 1,
         "regretCost": 1,
         "cooldownTicks": 500,
@@ -7000,7 +7000,7 @@
       {
         "percentageDamageAbsorbed": 0.9,
         "manaCostPerSecond": 2.5,
-        "manaPerDamageScalar": 1.0,
+        "manaPerDamageScalar": 2.5,
         "learningCost": 1,
         "regretCost": 1,
         "cooldownTicks": 500,
@@ -7009,7 +7009,7 @@
       {
         "percentageDamageAbsorbed": 1.0,
         "manaCostPerSecond": 3.0,
-        "manaPerDamageScalar": 1.0,
+        "manaPerDamageScalar": 2.5,
         "learningCost": 1,
         "regretCost": 1,
         "cooldownTicks": 500,
