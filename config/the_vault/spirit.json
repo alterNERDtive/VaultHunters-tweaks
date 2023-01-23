@@ -51,7 +51,7 @@
     {
       "minLevel": 50,
       "item": "the_vault:vault_silver",
-      "count": 2.5,
+      "count": 3,
       "gearRarityCost": {
         "SCRAPPY": 0,
         "COMMON": 2,
@@ -65,7 +65,7 @@
     {
       "minLevel": 65,
       "item": "the_vault:vault_gold",
-      "count": 0.5,
+      "count": 1.0,
       "gearRarityCost": {
         "SCRAPPY": 0,
         "COMMON": 1,
