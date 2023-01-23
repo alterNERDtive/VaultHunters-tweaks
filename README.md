@@ -48,7 +48,7 @@ rules.
 ## Fixes
 
 * Fixed the Black Chromatic Pickaxe requiring 4 upgrades per socket (now 3).
-* No longer spawning random mobs in Vaults for lvl 65+.
+* Fixed Eternals _still_ only being able to eat basic burgers.
 
 ## QoL Changes
 
