@@ -48,6 +48,8 @@ rules.
 ## Fixes
 
 * Fixed the Black Chromatic Pickaxe requiring 4 upgrades per socket (now 3).
+* Fixed “Wild” having a significantly higher weight than the other negative
+  modifiers past level 20.
 
 ## QoL Changes
 
