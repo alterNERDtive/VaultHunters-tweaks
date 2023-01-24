@@ -154,3 +154,19 @@ rules.
 ### Vault Diffuser
 
 * Increased the payout for common scavenger items from 1 to 4.
+
+
+## Advanced Things You Can Do
+
+__HERE BE DRAGONS__
+
+If you don’t know what you are doing, do not do it. I will not support any of
+your fuckups.
+
+### Remove Map Restrictions in Vaults
+
+1. Open `mods/the_vault-1.18.2-<version>.jar` as a Zip file.
+2. Open `assets/the_vault/the_vault.integration.mixins.json` and remove the
+   entries in the `"client": [],` row.
+3. Save the file.
+4. Save the jar.
