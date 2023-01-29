@@ -58,6 +58,10 @@ rules.
 * Can now be built out of _any_ type of vault stone, including Bumbo Polished
   and Chiseled.
 
+### Pulverizer
+
+* Added Dripstone Block → 2x Clay Ball as a recipe to Thermal’s Pulverizer.
+
 ## Balance Changes
 
 ### Botania

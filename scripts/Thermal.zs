@@ -60,6 +60,8 @@ for gemId, gemName in gems {
 
 <recipetype:thermal:pulverizer>.addRecipe("vaultstone_to_rock", [<item:the_vault:vault_cobblestone> % 100, <item:the_vault:chipped_vault_rock> % 50], <item:the_vault:vault_stone>, 3, 2000);
 
+<recipetype:thermal:pulverizer>.addRecipe("dripstone_to_clay", [<item:minecraft:clay_ball> *2, <item:minecraft:pointed_dripstone> % 25] , <item:minecraft:dripstone_block>, 3, 2000);
+
 craftingTable.addShaped("thermal_rf_coil", <item:thermal:rf_coil>, [
     [<item:minecraft:air>, <item:minecraft:air>, <item:the_vault:vault_diamond>],
     [<item:minecraft:air>, <tag:items:forge:storage_blocks/redstone>, <item:minecraft:air>],
