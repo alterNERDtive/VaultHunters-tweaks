@@ -108,6 +108,7 @@ rules.
   * Basalz (Thermal)
   * Blizz (Thermal)
   * Blitz (Thermal)
+* Added stoneling eggs to the mystery egg.
 * Reduced chance for the worst offenders to show up.
 
 ### Refined Storage
