@@ -186,14 +186,6 @@
     },
     {
       "value": {
-        "id": "quark:stoneling_spawn_egg",
-        "amountMin": 1,
-        "amountMax": 1
-      },
-      "weight": 4
-    },
-    {
-      "value": {
         "id": "minecraft:donkey_spawn_egg",
         "amountMin": 1,
         "amountMax": 1
