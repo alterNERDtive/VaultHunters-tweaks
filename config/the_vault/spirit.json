@@ -8,8 +8,8 @@
   "levelCosts": [
     {
       "minLevel": 0,
-      "item": "the_vault:vault_bronze",
-      "count": 4,
+      "item": "the_vault:vault_gold",
+      "count": 0.0,
       "gearRarityCost": {
         "SCRAPPY": 0,
         "COMMON": 0,
@@ -18,12 +18,50 @@
         "OMEGA": 3,
         "UNIQUE": 0
       },
+      "itemCost": [
+        [
+          {
+            "item": "the_vault:tool"
+          }, 
+          1
+        ],
+        [
+          {
+            "item": "the_vault:magnet" 
+          },
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          }, 
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          2
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+          },
+          4
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:netherite_backpack"
+          },
+          6
+        ]
+      ],
       "trinketCost": 10
     },
     {
       "minLevel": 20,
-      "item": "the_vault:vault_silver",
-      "count": 1,
+      "item": "the_vault:vault_gold",
+      "count": 0.05,
       "gearRarityCost": {
         "SCRAPPY": 0,
         "COMMON": 1,
@@ -32,12 +70,50 @@
         "OMEGA": 4,
         "UNIQUE": 0
       },
-      "trinketCost": 6
+      "itemCost": [
+        [
+          {
+            "item": "the_vault:tool"
+          }, 
+          2
+        ],
+        [
+          {
+            "item": "the_vault:magnet" 
+          },
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          }, 
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          2
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+          },
+          4
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:netherite_backpack"
+          },
+          6
+        ]
+      ],
+      "trinketCost": 10
     },
     {
       "minLevel": 40,
-      "item": "the_vault:vault_silver",
-      "count": 2,
+      "item": "the_vault:vault_gold",
+      "count": 0.1,
       "gearRarityCost": {
         "SCRAPPY": 0,
         "COMMON": 2,
@@ -46,26 +122,102 @@
         "OMEGA": 9,
         "UNIQUE": 0
       },
+      "itemCost": [
+        [
+          {
+            "item": "the_vault:tool"
+          }, 
+          4
+        ],
+        [
+          {
+            "item": "the_vault:magnet" 
+          },
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          }, 
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          2
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+          },
+          4
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:netherite_backpack"
+          },
+          6
+        ]
+      ],
       "trinketCost": 12
     },
     {
       "minLevel": 50,
-      "item": "the_vault:vault_silver",
-      "count": 3,
+      "item": "the_vault:vault_gold",
+      "count": 0.2,
       "gearRarityCost": {
         "SCRAPPY": 0,
-        "COMMON": 2,
-        "RARE": 9,
-        "EPIC": 16,
-        "OMEGA": 32,
+        "COMMON": 1,
+        "RARE": 1,
+        "EPIC": 2,
+        "OMEGA": 3,
         "UNIQUE": 0
       },
-      "trinketCost": 27
+      "itemCost": [
+        [
+          {
+            "item": "the_vault:tool"
+          }, 
+          4
+        ],
+        [
+          {
+            "item": "the_vault:magnet" 
+          },
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          }, 
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          2
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+          },
+          4
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:netherite_backpack"
+          },
+          6
+        ]
+      ],
+      "trinketCost": 14
     },
     {
       "minLevel": 65,
       "item": "the_vault:vault_gold",
-      "count": 1.0,
+      "count": 0.2,
       "gearRarityCost": {
         "SCRAPPY": 0,
         "COMMON": 1,
@@ -74,7 +226,45 @@
         "OMEGA": 4,
         "UNIQUE": 0
       },
-      "trinketCost": 5
+      "itemCost": [
+        [
+          {
+            "item": "the_vault:tool"
+          }, 
+          8
+        ],
+        [
+          {
+            "item": "the_vault:magnet" 
+          },
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          }, 
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          2
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+          },
+          4
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:netherite_backpack"
+          },
+          6
+        ]
+      ],
+      "trinketCost": 14
     }
   ]
 }

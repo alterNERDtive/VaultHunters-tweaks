@@ -8,7 +8,7 @@ Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
 Ko-fi](https://ko-fi.com/S6S1DLYBS).
 
-_Currently confirmed working on patch_: __6h__
+_Currently confirmed working on patch_: __7__
 
 ## Installation
 
@@ -47,7 +47,6 @@ rules.
 
 ## Fixes
 
-* Fixed the Black Chromatic Pickaxe requiring 4 upgrades per socket (now 3).
 * Fixed “Wild” having a significantly higher weight than the other negative
   modifiers past level 20.
 
@@ -74,8 +73,6 @@ rules.
 
 ### Bounty Table
 
-* Lowered amount of items required for item discovery bounties.
-* Lowered amount of kills required for kill bounties.
 * Lowered amount of ores required for mining bounties.
 
 ### Fluxnet
@@ -85,21 +82,6 @@ rules.
 ### Hunter
 
 * Halved cooldown times for all ranks.
-
-### Iskallic Jewel
-
-* Added the ability to pulverize more things because why not
-  * Chromatic Iron Ore → 3x Raw Chromatic Iron
-  * any color Concrete → respective Concrete Powder
-
-### Ornate Chest
-
-* Increased amount of raw carbon dropped across all levels.
-
-### Magnet Table
-
-* Reduced the chance of breaking your magnet to 1% per upgrade level.
-* Increased minimum quality of the durability upgrade.
 
 ### Mystery Eggs
 
@@ -142,15 +124,8 @@ rules.
 
 ### Spirit Extractor
 
-* Lowered revival costs by about 50% across the board.
+* Lowered revival costs across the board.
 * Lowered death scaling.
-
-### Tool Vise
-
-* Reduced the chance of breaking your pick to 1% per upgrade level for all
-  picks.
-* Increased minimum quality of all upgrades.
-* Increased base durability of Echoing Pickaxe to 8000.
 
 ### Vault Altar
 

@@ -8,8 +8,8 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 1000,
-        "maxPrice": 2000
+        "minPrice": 1500,
+        "maxPrice": 2500
       },
       "weight": 32
     },
@@ -20,8 +20,8 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 2000,
-        "maxPrice": 5000
+        "minPrice": 3000,
+        "maxPrice": 6000
       },
       "weight": 4
     },
@@ -59,7 +59,7 @@
         "minPrice": 200,
         "maxPrice": 600
       },
-      "weight": 96
+      "weight": 72
     },
     {
       "value": {
@@ -188,8 +188,8 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 2000,
-        "maxPrice": 4000
+        "minPrice": 3000,
+        "maxPrice": 7000
       },
       "weight": 4
     },
@@ -224,8 +224,8 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 1200,
-        "maxPrice": 2400
+        "minPrice": 2000,
+        "maxPrice": 2800
       },
       "weight": 16
     },
@@ -296,8 +296,8 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 800,
-        "maxPrice": 2400
+        "minPrice": 1800,
+        "maxPrice": 3200
       },
       "weight": 8
     },
@@ -308,10 +308,10 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 800,
-        "maxPrice": 2400
+        "minPrice": 1800,
+        "maxPrice": 3200
       },
-      "weight": 8
+      "weight": 6
     },
     {
       "value": {
@@ -334,150 +334,6 @@
         },
         "minPrice": 800,
         "maxPrice": 2400
-      },
-      "weight": 8
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:gorgeous_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 400,
-        "maxPrice": 1200
-      },
-      "weight": 8
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:ash_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 400,
-        "maxPrice": 1200
-      },
-      "weight": 8
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:benite_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 400,
-        "maxPrice": 1200
-      },
-      "weight": 16
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:bombing_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 400,
-        "maxPrice": 1200
-      },
-      "weight": 8
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:echoing_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 1600,
-        "maxPrice": 3400
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:petzan_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 1200,
-        "maxPrice": 1800
-      },
-      "weight": 8
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:pogging_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 1600,
-        "maxPrice": 3400
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:tubic_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 400,
-        "maxPrice": 1200
-      },
-      "weight": 8
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:xen_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 400,
-        "maxPrice": 1200
-      },
-      "weight": 8
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:sparking_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 400,
-        "maxPrice": 1200
-      },
-      "weight": 8
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:iskallic_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 400,
-        "maxPrice": 1200
-      },
-      "weight": 8
-    },
-    {
-      "value": {
-        "item": {
-          "ITEM": "the_vault:upal_jewel",
-          "AMOUNT": 1, 
-          "NBT": "{}"
-        },
-        "minPrice": 400,
-        "maxPrice": 1200
       },
       "weight": 8
     },
@@ -612,6 +468,18 @@
         "maxPrice": 1200
       },
       "weight": 16
+    },
+    {
+      "value": {
+        "item": {
+          "ITEM": "the_vault:jewel",
+          "AMOUNT": 1, 
+          "NBT": "{\"the_vault:gear_roll_type_pool\":\"jewel_blackmarket\"}"
+        },
+        "minPrice": 200,
+        "maxPrice": 600
+      },
+      "weight": 164
     },
     {
       "value": {
@@ -1122,6 +990,11 @@
       "max": 4,
       "chance": 0.4
     },
+    "the_vault:t2_zombie": {
+      "min": 2,
+      "max": 4,
+      "chance": 0.6
+    },
     "minecraft:husk": {
       "min": 2,
       "max": 4,
@@ -1131,6 +1004,21 @@
       "min": 2,
       "max": 4,
       "chance": 0.4
+    },
+    "the_vault:t2_husk": {
+      "min": 2,
+      "max": 4,
+      "chance": 0.6
+    },
+    "the_vault:t1_drowned": {
+      "min": 2,
+      "max": 4,
+      "chance": 0.4
+    },
+    "the_vault:t2_drowned": {
+      "min": 2,
+      "max": 4,
+      "chance": 0.6
     },
     "minecraft:vindicator": {
       "min": 4,
@@ -1156,6 +1044,11 @@
       "min": 2,
       "max": 4,
       "chance": 0.8
+    },
+    "the_vault:t2_skeleton": {
+      "min": 2,
+      "max": 4,
+      "chance": 1.0
     },
     "minecraft:ravager": {
       "min": 15,
