@@ -49,6 +49,7 @@ rules.
 
 * Fixed “Wild” having a significantly higher weight than the other negative
   modifiers past level 20.
+* Notch Apples now banned in Vaults as intended.
 
 ## QoL Changes
 
