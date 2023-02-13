@@ -113,6 +113,13 @@ rules.
 
 * Lowered the maximum amount of an item you might need across the board.
 
+### Snapshot Modifiers
+
+(Beginner’s Grace, Casual mode, Afterlife, Phoenix)
+
+* Removed gear durability damage penalty. I wish there was a way to bring “old”
+  casual back, but there is not.
+
 ### Sophisticated Backpacks
 
 * Re-enabled Jukebox Upgrade. Because why the fuck is that even disabled in the

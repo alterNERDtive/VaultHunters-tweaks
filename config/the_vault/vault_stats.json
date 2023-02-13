@@ -1,6 +1,6 @@
 {
-  "percentOfExperienceDealtAsDurabilityDamage": 0.08,
-  "freeExperienceNotDealtAsDurabilityDamage": 400,
+  "percentOfExperienceDealtAsDurabilityDamage": 0.00,
+  "freeExperienceNotDealtAsDurabilityDamage": 10000,
   "chests": {
     "WOODEN": {
       "COMMON": 10.0,
