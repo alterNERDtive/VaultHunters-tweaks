@@ -83,6 +83,10 @@ rules.
 
 * Halved cooldown times for all ranks.
 
+### Jewels
+
+* Max size lowered to 50.
+
 ### Mystery Eggs
 
 * Added modded mob eggs to the mystery hostile egg:
