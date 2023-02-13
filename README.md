@@ -8,7 +8,7 @@ Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
 Ko-fi](https://ko-fi.com/S6S1DLYBS).
 
-_Currently confirmed working on patch_: __7__
+_Currently confirmed working on patch_: __7.6H__
 
 ## Installation
 
@@ -49,7 +49,6 @@ rules.
 
 * Fixed “Wild” having a significantly higher weight than the other negative
   modifiers past level 20.
-* Notch Apples now banned in Vaults as intended.
 
 ## QoL Changes
 
