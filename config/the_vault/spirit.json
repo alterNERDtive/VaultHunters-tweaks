@@ -21,11 +21,11 @@
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
         "CHROMATIC_STEEL_INGOT": 0,
-        "VAULTERITE_INGOT": 2,
-        "VAULT_ALLOY": 6,
-        "BLACK_CHROMATIC_STEEL_INGOT": 12,
-        "ECHOING_INGOT": 24,
-        "OMEGA_POG": 48
+        "VAULTERITE_INGOT": 1,
+        "VAULT_ALLOY": 2,
+        "BLACK_CHROMATIC_STEEL_INGOT": 4,
+        "ECHOING_INGOT": 8,
+        "OMEGA_POG": 12
       },
       "itemCost": [
         [
@@ -70,11 +70,11 @@
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
         "CHROMATIC_STEEL_INGOT": 0,
-        "VAULTERITE_INGOT": 2,
-        "VAULT_ALLOY": 6,
-        "BLACK_CHROMATIC_STEEL_INGOT": 12,
-        "ECHOING_INGOT": 24,
-        "OMEGA_POG": 48
+        "VAULTERITE_INGOT": 1,
+        "VAULT_ALLOY": 2,
+        "BLACK_CHROMATIC_STEEL_INGOT": 4,
+        "ECHOING_INGOT": 8,
+        "OMEGA_POG": 12
       },
       "itemCost": [
         [
@@ -119,11 +119,11 @@
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
         "CHROMATIC_STEEL_INGOT": 0,
-        "VAULTERITE_INGOT": 2,
-        "VAULT_ALLOY": 6,
-        "BLACK_CHROMATIC_STEEL_INGOT": 12,
-        "ECHOING_INGOT": 24,
-        "OMEGA_POG": 48
+        "VAULTERITE_INGOT": 1,
+        "VAULT_ALLOY": 2,
+        "BLACK_CHROMATIC_STEEL_INGOT": 4,
+        "ECHOING_INGOT": 8,
+        "OMEGA_POG": 12
       },
       "itemCost": [
         [
@@ -168,11 +168,11 @@
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
         "CHROMATIC_STEEL_INGOT": 0,
-        "VAULTERITE_INGOT": 2,
-        "VAULT_ALLOY": 6,
-        "BLACK_CHROMATIC_STEEL_INGOT": 12,
-        "ECHOING_INGOT": 24,
-        "OMEGA_POG": 48
+        "VAULTERITE_INGOT": 1,
+        "VAULT_ALLOY": 2,
+        "BLACK_CHROMATIC_STEEL_INGOT": 4,
+        "ECHOING_INGOT": 8,
+        "OMEGA_POG": 12
       },
       "itemCost": [
         [
@@ -217,11 +217,11 @@
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
         "CHROMATIC_STEEL_INGOT": 0,
-        "VAULTERITE_INGOT": 2,
-        "VAULT_ALLOY": 6,
-        "BLACK_CHROMATIC_STEEL_INGOT": 12,
-        "ECHOING_INGOT": 24,
-        "OMEGA_POG": 48
+        "VAULTERITE_INGOT": 1,
+        "VAULT_ALLOY": 2,
+        "BLACK_CHROMATIC_STEEL_INGOT": 4,
+        "ECHOING_INGOT": 8,
+        "OMEGA_POG": 12
       },
       "itemCost": [
         [
