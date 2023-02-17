@@ -7,13 +7,13 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 
 <recipetype:minecraft:smithing>.addJsonRecipe("quark_flamerang", { 
   "base": {"item":"quark:pickarang"},
-  "addition": {"item":"the_vault:black_chromatic_steel_ingot"},
+  "addition": {"item":"the_vault:chromatic_steel_ingot"},
   "result": {"item":"quark:flamerang"}
 });
 
 craftingTable.addShaped("quark_pickarang", <item:quark:pickarang>, [
     [<item:the_vault:vault_diamond>, <item:the_vault:driftwood>, <item:quark:diamond_heart>],
-    [<item:minecraft:air>, <item:the_vault:echo_pog>, <item:the_vault:driftwood>],
+    [<item:minecraft:air>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:driftwood>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:the_vault:vault_diamond>]
 ]);
 

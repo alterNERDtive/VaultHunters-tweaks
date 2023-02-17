@@ -97,6 +97,11 @@ rules.
 * Added stoneling eggs to the mystery egg.
 * Reduced chance for the worst offenders to show up.
 
+### Pickarang/Flamarang
+
+* Made significantly cheaper. Because fuck gating essential tools behind Echo
+  POGs just because someone™ doesn’t like them.
+
 ### Refined Storage
 
 * Reverted some of the crafting recipe changes introduced in update 5.
