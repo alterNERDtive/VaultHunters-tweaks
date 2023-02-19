@@ -85,7 +85,7 @@ rules.
 
 ### Jewels
 
-* Max size lowered to 50.
+* Max size lowered to 40.
 
 ### Mystery Eggs
 

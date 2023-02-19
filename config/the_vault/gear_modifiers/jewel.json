@@ -12,7 +12,7 @@
             "weight": 100,
             "value": {
               "min": 10,
-              "max": 50,
+              "max": 40,
               "step": 1
             }
           }
