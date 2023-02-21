@@ -49,6 +49,8 @@ rules.
 
 * Fixed “Wild” having a significantly higher weight than the other negative
   modifiers past level 20.
+* Vault compass can once again be put in a backpack. The exploit that prompted
+  the ban has been fixed, the ban not lifted.
 
 ## QoL Changes
 
