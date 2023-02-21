@@ -12,7 +12,7 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 });
 
 craftingTable.addShaped("quark_pickarang", <item:quark:pickarang>, [
-    [<item:the_vault:vault_diamond>, <item:the_vault:driftwood>, <item:quark:diamond_heart>],
+    [<item:the_vault:vault_diamond>, <item:the_vault:driftwood>, <item:the_vault:vault_essence>],
     [<item:minecraft:air>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:driftwood>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:the_vault:vault_diamond>]
 ]);
