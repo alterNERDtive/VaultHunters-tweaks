@@ -51,6 +51,8 @@ rules.
   modifiers past level 20.
 * Vault compass can once again be put in a backpack. The exploit that prompted
   the ban has been fixed, the ban not lifted.
+* Totems of Undying stack in backpacks again. Since they no longer revive you,
+  the unstackability is not necessary anymore.
 
 ## QoL Changes
 
