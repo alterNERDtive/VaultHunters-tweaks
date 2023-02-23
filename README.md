@@ -74,6 +74,8 @@ rules.
   though.
 * Re-enabled dirt and water rods in Vaults. Seriously, they are just worse
   versions of infinite Unobtainium + Infinite Water Bucket.
+* Orechids can now create modded ores from Stone and Deepslate (script courtesy
+  of Kaptainwutax via Tangofrags’ Discord).
 
 ### Bounty Table
 
