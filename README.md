@@ -60,6 +60,8 @@ rules.
 
 * Can now be built out of _any_ type of vault stone, including Bumbo Polished
   and Chiseled.
+* Can now be built out of “Template Frames” created by an Extruder Mk2 router
+  module. Because I want to build fancy things.
 
 ### Pulverizer
 
