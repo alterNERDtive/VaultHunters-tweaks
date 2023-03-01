@@ -879,7 +879,6 @@ craftingTable.remove(<item:waystones:warp_dust>);
 craftingTable.remove(<item:waystones:warp_plate>);
 
 // Modular Routers
-craftingTable.remove(<item:modularrouters:player_module>);
 craftingTable.remove(<item:modularrouters:sender_module_1>);
 craftingTable.remove(<item:modularrouters:sender_module_2>);
 craftingTable.remove(<item:modularrouters:sender_module_3>);

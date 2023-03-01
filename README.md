@@ -93,6 +93,12 @@ rules.
 
 * Max size lowered to 40.
 
+### Modular Routers
+
+* Re-enabled the player module. (Be __careful__ with this one. The vault mod
+  does … weird things to your inventory when you die. Most things are fixed by
+  relogging.)
+
 ### Mystery Eggs
 
 * Added modded mob eggs to the mystery hostile egg:
