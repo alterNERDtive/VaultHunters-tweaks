@@ -28,11 +28,11 @@
       "max": 140
     }
   },
-  "totalMaximumProficiency": 20000,
+  "totalMaximumProficiency": 100000,
   "totalCategoryProficiency": 10000,
   "proficiencyPerCraft": {
-    "min": 1,
-    "max": 20
+    "min": 10,
+    "max": 200
   },
   "proficiencyPools": [
     {

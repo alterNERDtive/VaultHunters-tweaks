@@ -87,6 +87,11 @@ rules.
 
 * Reverted crafting recipe changes introduced in update 5.
 
+### Gear Crafting
+
+* Reverted the 10x proficiency gain nerf from a bunch of updates ago.
+* Removed the cap on total proficiency.
+
 ### Hunter
 
 * Halved cooldown times for all ranks.
