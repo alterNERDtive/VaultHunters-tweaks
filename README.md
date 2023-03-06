@@ -83,6 +83,10 @@ rules.
 
 * Lowered amount of ores required for mining bounties.
 
+### Budding Crystal (Sky Vauts)
+
+* Increased growth rate.
+
 ### Fluxnet
 
 * Reverted crafting recipe changes introduced in update 5.

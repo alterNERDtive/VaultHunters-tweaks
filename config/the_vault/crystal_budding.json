@@ -1,5 +1,5 @@
 {
-  "maxSecondsBetweenGrowthUpdates": 400.0,
-  "minSecondsBetweenGrowthUpdates": 280.0,
+  "maxSecondsBetweenGrowthUpdates": 300.0,
+  "minSecondsBetweenGrowthUpdates": 200.0,
   "showParticles": true
 }
