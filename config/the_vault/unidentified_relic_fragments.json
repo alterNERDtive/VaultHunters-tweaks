@@ -7,7 +7,7 @@
     },
     {
       "value": "the_vault:relic/cupcake/frag5",
-      "weight": 1
+      "weight": 2
     },
     {
       "value": "the_vault:relic/nazar/frag4",
@@ -23,7 +23,7 @@
     },
     {
       "value": "the_vault:relic/twitch/frag5",
-      "weight": 1
+      "weight": 2
     },
     {
       "value": "the_vault:relic/cupcake/frag3",
@@ -51,7 +51,7 @@
     },
     {
       "value": "the_vault:relic/nazar/frag5",
-      "weight": 1
+      "weight": 2
     },
     {
       "value": "the_vault:relic/cupcake/frag1",
@@ -67,7 +67,7 @@
     },
     {
       "value": "the_vault:relic/miner/frag5",
-      "weight": 1
+      "weight": 2
     },
     {
       "value": "the_vault:relic/miner/frag2",
@@ -79,7 +79,7 @@
     },
     {
       "value": "the_vault:relic/warrior/frag5",
-      "weight": 1
+      "weight": 2
     },
     {
       "value": "the_vault:relic/dragon/frag1",
@@ -139,7 +139,7 @@
     },
     {
       "value": "the_vault:relic/richity/frag5",
-      "weight": 1
+      "weight": 2
     },
     {
       "value": "the_vault:relic/elemental/frag4",
@@ -151,7 +151,7 @@
     },
     {
       "value": "the_vault:relic/elemental/frag5",
-      "weight": 1
+      "weight": 2
     },
     {
       "value": "the_vault:relic/elemental/frag2",

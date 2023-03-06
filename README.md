@@ -125,6 +125,11 @@ rules.
 
 * Reverted some of the crafting recipe changes introduced in update 5.
 
+### Relic Fragment
+
+* Doubled the weight of \#5 fragments. Now all of them are equally likely to
+  drop.
+
 ### Researches
 
 * Lowered the research cost of Xnet to 2.
