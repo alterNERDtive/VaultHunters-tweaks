@@ -136,11 +136,7 @@ rules.
 
 ### Researches
 
-* Lowered the research cost of Xnet to 2.
-* Lowered the research penalty in the “Power” category to +2.
-* Lowered the research penalty in the “Handling” category to +1.
-* Lowered the research penalty in the “Big Mods” category to +8.
-* Lowered the research penalty in the “Big Toys” category to +8.
+* Lowered the research penalty in the “Production” category to +8.
 * Lowered the research cost of Automatic Genius to 10.
   * Also removed the _need_ for automatic genius alltogether. I did not really
     want to do that, but then I realized that you need to unlock _all_
@@ -178,19 +174,3 @@ rules.
 ### Vault Diffuser
 
 * Increased the payout for common scavenger items from 1 to 4.
-
-
-## Advanced Things You Can Do
-
-__HERE BE DRAGONS__
-
-If you don’t know what you are doing, do not do it. I will not support any of
-your fuckups.
-
-### Remove Map Restrictions in Vaults
-
-1. Open `mods/the_vault-1.18.2-<version>.jar` as a Zip file.
-2. Open `assets/the_vault/the_vault.integration.mixins.json` and remove the
-   entries in the `"client": [],` row.
-3. Save the file.
-4. Save the jar.

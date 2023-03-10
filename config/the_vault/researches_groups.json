@@ -25,7 +25,7 @@
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "BigToys": 8.0
+        "BigToys": 12.0
       }
     },
     "Production": {
@@ -41,7 +41,7 @@
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "Production": 6.0
+        "Production": 8.0
       }
     },
     "BigMods": {
@@ -54,7 +54,7 @@
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "BigMods": 8.0
+        "BigMods": 12.0
       }
     },
     "Power": {
@@ -68,7 +68,7 @@
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "Power": 2.0
+        "Power": 5.0
       }
     },
     "QoL": {
@@ -111,7 +111,7 @@
         ],
         "globalCostIncrease": 0.0,
         "groupCostIncrease": {
-          "Handling": 1.0
+          "Handling": 5.0
         }
     }
   }

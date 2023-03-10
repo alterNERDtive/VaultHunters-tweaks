@@ -249,7 +249,7 @@
         }
       },
       "name": "Xnet",
-      "cost": 2,
+      "cost": 4,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/xnet/helmet",
