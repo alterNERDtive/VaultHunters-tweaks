@@ -87,6 +87,11 @@ rules.
 
 * Increased growth rate.
 
+### Easy Villagers
+
+* “Vaultified” the recipes for Breeder, Converter and Incubator to bring them
+  in line with the rest of the EV recipes.
+
 ### Fluxnet
 
 * Reverted crafting recipe changes introduced in update 5.
