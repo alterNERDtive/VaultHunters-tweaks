@@ -7,7 +7,7 @@ craftingTable.remove(<item:easy_villagers:incubator>);
 
 craftingTable.addShaped("easy_breeder", <item:easy_villagers:breeder>, [
     [<item:minecraft:tinted_glass>, <item:minecraft:tinted_glass>, <item:minecraft:tinted_glass>],
-    [<item:minecraft:tinted_glass>, <tag:items:minecraft:bed>, <item:minecraft:tinted_glass>],
+    [<item:minecraft:tinted_glass>, <tag:items:minecraft:beds>, <item:minecraft:tinted_glass>],
     [<item:the_vault:chromatic_steel_ingot>, <tag:items:minecraft:planks>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
