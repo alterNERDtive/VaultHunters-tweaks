@@ -172,6 +172,17 @@ rules.
 * Lowered revival costs across the board.
 * Lowered death scaling.
 
+### Spore Blossom
+
+* added Botania transmutation recipes:
+  * Azalea → Flowering Azalea
+  * Flowering Azalea → Spore Blossom
+  * Spore Blossom → Azalea
+* added Phytogenic Insolator recipe
+
+Currently the only way to farm Spore Blossoms is Botany Pots. That sucks.
+Taking suggestions for other recipe ideas!
+
 ### Vault Altar
 
 * Increased chance of getting a lucky recipe from 10% to 35%.
