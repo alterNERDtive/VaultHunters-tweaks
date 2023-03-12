@@ -125,6 +125,9 @@ rules.
 
 * Made significantly cheaper. Because fuck gating essential tools behind Echo
   POGs just because someone™ doesn’t like them.
+* Made compressed blocks found in factory room mineable again. Yes, that
+  enables cheese. But otherwise you couldn’t use it on some blocks found in raw
+  vault quarries.
 
 ### Refined Storage
 
