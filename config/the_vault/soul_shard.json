@@ -20,10 +20,10 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 3000,
-        "maxPrice": 6000
+        "minPrice": 6000,
+        "maxPrice": 9000
       },
-      "weight": 4
+      "weight": 2
     },
     {
       "value": {
@@ -56,10 +56,10 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 200,
-        "maxPrice": 600
+        "minPrice": 400,
+        "maxPrice": 900
       },
-      "weight": 72
+      "weight": 48
     },
     {
       "value": {
@@ -224,10 +224,10 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 2000,
-        "maxPrice": 2800
+        "minPrice": 4000,
+        "maxPrice": 7000
       },
-      "weight": 16
+      "weight": 4
     },
     {
       "value": {
@@ -332,10 +332,10 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 800,
-        "maxPrice": 2400
+        "minPrice": 400,
+        "maxPrice": 800
       },
-      "weight": 8
+      "weight": 16
     },
     {
       "value": {
@@ -440,10 +440,22 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 300,
-        "maxPrice": 1200
+        "minPrice": 2000,
+        "maxPrice": 4000
       },
-      "weight": 48
+      "weight": 8
+    },
+    {
+      "value": {
+        "item": {
+          "ITEM": "the_vault:vault_catalyst_chaos",
+          "AMOUNT": 1, 
+          "NBT": "{}"
+        },
+        "minPrice": 3000,
+        "maxPrice": 6000
+      },
+      "weight": 8
     },
     {
       "value": {
@@ -480,6 +492,41 @@
         "maxPrice": 600
       },
       "weight": 164
+    },
+    {
+      "value": {
+        "item": {
+          "ITEM": "the_vault:inscription",
+          "AMOUNT": 1,
+          "NBT": "{pool:\"the_vault:bounty\"}"
+        },
+        "minPrice": 1000,
+        "maxPrice": 1600
+      },
+      "weight": 24
+    },
+    {
+      "value": {
+        "item": {
+          "ITEM": "the_vault:inscription",
+          "AMOUNT": 1,
+          "NBT": "{pool:\"the_vault:empty\"}"
+        },
+        "minPrice": 1000,
+        "maxPrice": 1600
+      },
+      "weight": 84
+    },
+    {
+      "value": {
+        "item": {
+          "ITEM": "the_vault:inscription_piece",
+          "AMOUNT": 1
+        },
+        "minPrice": 200,
+        "maxPrice": 400
+      },
+      "weight": 100
     },
     {
       "value": {
@@ -944,8 +991,8 @@
           "AMOUNT": 1, 
           "NBT": "{}"
         },
-        "minPrice": 40,
-        "maxPrice": 160
+        "minPrice": 300,
+        "maxPrice": 900
       },
       "weight": 40
     },
@@ -996,6 +1043,11 @@
       "chance": 0.4
     },
     "minecraft:husk": {
+      "min": 1,
+      "max": 2,
+      "chance": 0.2
+    },
+    "minecraft:drowned": {
       "min": 1,
       "max": 2,
       "chance": 0.2

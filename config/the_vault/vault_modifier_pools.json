@@ -13,6 +13,16 @@
                 "weight": 1000
               }
             ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:beginners_insurance",
+                "weight": 1
+              }
+            ]
           }
         ]
       },
@@ -72,61 +82,14 @@
                 "weight": 20
               }
             ]
-          },
-          {
-            "min": 1,
-            "max": 1,
-            "pool": [
-              {
-                "value": "the_vault:dummy",
-                "weight": 8
-              }
-            ]
-          },
-          {
-            "min": 1,
-            "max": 1,
-            "pool": [
-              {
-                "value": "the_vault:trapped",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:dummy",
-                "weight": 10
-              }
-            ]
-          },
-          {
-            "min": 1,
-            "max": 1,
-            "pool": [
-              {
-                "value": "the_vault:chunky_mobs",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:furious_mobs",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:frail",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:dummy",
-                "weight": 12
-              }
-            ]
           }
         ]
       },
-      {
-        "level": 20,
+      { "level": 20,
         "entries": [
           {
-            "min": 1,
-            "max": 1,
+            "min": 4,
+            "max": 4,
             "pool": [
               {
                 "value": "the_vault:gilded",
@@ -146,7 +109,7 @@
               },
               {
                 "value": "the_vault:dummy",
-                "weight": 20
+                "weight": 36
               }
             ]
           },
@@ -156,17 +119,21 @@
             "pool": [
               {
                 "value": "the_vault:prismatic",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:prosperous",
                 "weight": 1
               },
               {
                 "value": "the_vault:dummy",
-                "weight": 14
+                "weight": 30
               }
             ]
           },
           {
-            "min": 1,
-            "max": 1,
+            "min": 4,
+            "max": 4,
             "pool": [
               {
                 "value": "the_vault:item_quantity",
@@ -177,69 +144,54 @@
                 "weight": 1
               },
               {
-                "value": "the_vault:dummy",
-                "weight": 12
-              }
-            ]
-          },
-          {
-            "min": 1,
-            "max": 1,
-            "pool": [
+                "value": "the_vault:plentiful",
+                "weight": 1
+              },
               {
                 "value": "the_vault:dummy",
-                "weight": 8
+                "weight": 18
               }
             ]
           },
           {
-            "min": 1,
-            "max": 1,
+            "min": 4,
+            "max": 4,
             "pool": [
               {
                 "value": "the_vault:trapped",
                 "weight": 1
               },
               {
-                "value": "the_vault:dummy",
-                "weight": 8
-              }
-            ]
-          },
-          {
-            "min": 1,
-            "max": 1,
-            "pool": [
-              {
                 "value": "the_vault:chunky_mobs",
                 "weight": 1
               },
               {
-                "value": "the_vault:wild",
-                "weight": 4
-              },
+                "value": "the_vault:dummy",
+                "weight": 18
+              }
+            ]
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "pool": [
               {
-                "value": "the_vault:furious_mobs",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:frail",
+                "value": "the_vault:xp_gain",
                 "weight": 1
               },
               {
                 "value": "the_vault:dummy",
-                "weight": 16
+                "weight": 36
               }
             ]
           }
         ]
       },
-      {
-        "level": 50,
+      { "level": 50,
         "entries": [
           {
-            "min": 1,
-            "max": 3,
+            "min": 4,
+            "max": 4,
             "pool": [
               {
                 "value": "the_vault:gilded",
@@ -259,27 +211,31 @@
               },
               {
                 "value": "the_vault:dummy",
-                "weight": 20
+                "weight": 36
               }
             ]
           },
           {
             "min": 1,
-            "max": 2,
+            "max": 1,
             "pool": [
               {
                 "value": "the_vault:prismatic",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:prosperous",
                 "weight": 1
               },
               {
                 "value": "the_vault:dummy",
-                "weight": 24
+                "weight": 30
               }
             ]
           },
           {
-            "min": 1,
-            "max": 2,
+            "min": 4,
+            "max": 4,
             "pool": [
               {
                 "value": "the_vault:item_quantity",
@@ -290,58 +246,52 @@
                 "weight": 1
               },
               {
-                "value": "the_vault:dummy",
-                "weight": 12
-              }
-            ]
-          },
-          {
-            "min": 1,
-            "max": 1,
-            "pool": [
+                "value": "the_vault:plentiful",
+                "weight": 1
+              },
               {
                 "value": "the_vault:dummy",
-                "weight": 8
+                "weight": 18
               }
             ]
           },
           {
-            "min": 1,
-            "max": 2,
+            "min": 5,
+            "max": 5,
             "pool": [
               {
                 "value": "the_vault:trapped",
                 "weight": 1
               },
               {
-                "value": "the_vault:dummy",
-                "weight": 26
-              }
-            ]
-          },
-          {
-            "min": 1,
-            "max": 3,
-            "pool": [
-              {
                 "value": "the_vault:chunky_mobs",
-                "weight": 2
-              },
-              {
-                "value": "the_vault:furious_mobs",
                 "weight": 1
               },
               {
                 "value": "the_vault:wild",
-                "weight": 4
+                "weight": 1
               },
               {
-                "value": "the_vault:frail",
+                "value": "the_vault:furious",
                 "weight": 1
               },
               {
                 "value": "the_vault:dummy",
-                "weight": 32
+                "weight": 36
+              }
+            ]
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "pool": [
+              {
+                "value": "the_vault:xp_gain",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:dummy",
+                "weight": 36
               }
             ]
           }
@@ -359,6 +309,16 @@
               {
                 "value": "the_vault:beginners_grace",
                 "weight": 1000
+              }
+            ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:beginners_insurance",
+                "weight": 1
               }
             ]
           }
@@ -386,6 +346,16 @@
                 "weight": 1000
               }
             ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:beginners_insurance",
+                "weight": 1
+              }
+            ]
           }
         ]
       },
@@ -409,6 +379,16 @@
               {
                 "value": "the_vault:xp_reduction",
                 "weight": 1000
+              }
+            ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:beginners_insurance",
+                "weight": 1
               }
             ]
           }
@@ -436,6 +416,16 @@
                 "weight": 1000
               }
             ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:beginners_insurance",
+                "weight": 1
+              }
+            ]
           }
         ]
       },
@@ -461,6 +451,16 @@
                 "weight": 1000
               }
             ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:beginners_insurance",
+                "weight": 1
+              }
+            ]
           }
         ]
       }
@@ -471,12 +471,8 @@
         "entries": [
           {
             "min": 2,
-            "max": 2,
+            "max": 4,
             "pool": [
-              {
-                "value": "the_vault:cherry",
-                "weight": 10
-              },
               {
                 "value": "the_vault:cake_item_quantity",
                 "weight": 80
@@ -487,6 +483,7 @@
               }
             ]
           },
+
           {
             "min": 2,
             "max": 2,
@@ -496,10 +493,21 @@
                 "weight": 10
               }
             ]
+          },
+          {
+            "min": 2,
+            "max": 2,
+            "pool": [
+              {
+                "value": "the_vault:cake_chunky_mobs",
+                "weight": 10
+              }
+            ]
           }
         ]
       }
     ],
+
     "the_vault:catalyst_positive": [
       {
         "level": 0,
@@ -509,20 +517,24 @@
             "max": 1,
             "pool": [
               {
-                "value": "the_vault:coin_pile",
-                "weight": 12
-              },
-              {
-                "value": "the_vault:gilded",
+                "value": "the_vault:coin_cascade",
                 "weight": 10
               },
               {
-                "value": "the_vault:living",
+                "value": "the_vault:gilded_cascade",
                 "weight": 10
               },
               {
-                "value": "the_vault:ornate",
-                "weight": 8
+                "value": "the_vault:living_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:ornate_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:wooden_cascade",
+                "weight": 10
               },
               {
                 "value": "the_vault:plentiful",
@@ -531,6 +543,10 @@
               {
                 "value": "the_vault:extended",
                 "weight": 10
+              },
+              {
+                "value": "the_vault:xp_gain",
+                "weight": 4
               }
             ]
           }
@@ -546,28 +562,8 @@
             "max": 1,
             "pool": [
               {
-                "value": "the_vault:injured",
+                "value": "the_vault:random_negative",
                 "weight": 6
-              },
-              {
-                "value": "the_vault:chunky_mobs",
-                "weight": 28
-              },
-              {
-                "value": "the_vault:furious_mobs",
-                "weight": 28
-              },
-              {
-                "value": "the_vault:wild",
-                "weight": 28
-              },
-              {
-                "value": "the_vault:trapped",
-                "weight": 16
-              },
-              {
-                "value": "the_vault:frail",
-                "weight": 10
               }
             ]
           }
@@ -787,6 +783,14 @@
               {
                 "value": "the_vault:inert",
                 "weight": 8
+              },
+              {
+                "value": "the_vault:poor",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:unlucky",
+                "weight": 10
               },
               {
                 "value": "the_vault:locked",
@@ -1125,6 +1129,133 @@
               {
                 "value": "the_vault:idona_favour_3",
                 "weight": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "the_vault:vault_catalyst_chaos": [
+      {
+        "level": 0,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:chaos",
+                "weight": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "the_vault:chaos": [
+      {
+        "level": 0,
+        "entries": [
+          {
+            "min": 30,
+            "max": 30,
+            "pool": [
+              {
+                "value": "the_vault:wild",
+                "weight": 6
+              },
+              {
+                "value": "the_vault:furious_mobs",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:chunky_mobs",
+                "weight": 6
+              },
+              {
+                "value": "the_vault:trapped",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:gilded",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:ornate",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:living",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:plentiful",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:item_quantity",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:item_rarity",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:xp_gain",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:frail",
+                "weight": 3
+              },
+              {
+                "value": "the_vault:haunted",
+                "weight": 3
+              },
+              {
+                "value": "the_vault:infuriated_mobs",
+                "weight": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "the_vault:random_negative": [
+      {
+        "level": 0,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:wild",
+                "weight": 3
+              },
+              {
+                "value": "the_vault:furious_mobs",
+                "weight": 5
+              },
+              {
+                "value": "the_vault:chunky_mobs",
+                "weight": 5
+              },
+              {
+                "value": "the_vault:trapped",
+                "weight": 5
+              },
+              {
+                "value": "the_vault:infuriated_mobs",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:draining",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:shortened",
+                "weight": 4
               }
             ]
           }

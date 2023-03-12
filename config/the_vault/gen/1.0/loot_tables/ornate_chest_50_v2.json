@@ -32,17 +32,6 @@
                   }
               },
               {
-                "weight": 16,
-                "item": {
-                "id": "minecraft:iron_nugget",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 4
-                  }
-                }
-              },
-              {
                 "weight": 10,
                 "item": {
                   "id": "minecraft:iron_ingot",

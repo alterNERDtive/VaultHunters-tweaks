@@ -642,6 +642,48 @@
             "CRAFTABILITY": true
           }
         },
+        "refinedstorage:pattern_grid": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:crafting_terminal": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:pattern_encoding_terminal": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:pattern_access_terminal": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:pattern_provider": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:cable_pattern_provider": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
         "refinedstorage:crafter": {
           "restricts": {
             "HITTABILITY": true,
@@ -709,7 +751,7 @@
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Automatic Genius",
-      "cost": 100,
+      "cost": 1,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/atomatic/helmet",

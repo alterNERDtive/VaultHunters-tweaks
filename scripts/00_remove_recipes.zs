@@ -545,10 +545,10 @@ craftingTable.remove(<item:refinedstorage:stack_upgrade>);
 craftingTable.remove(<item:refinedstorage:wireless_grid>);
 craftingTable.remove(<item:refinedstorageaddons:wireless_crafting_grid>);
 craftingTable.remove(<tag:items:refinedstorage:controller>);
-craftingTable.remove(<item:refinedstorage:pattern_grid>);
 craftingTable.remove(<item:refinedstorage:crafter>);
 craftingTable.remove(<item:refinedstorage:crafter_manager>);
 craftingTable.remove(<item:refinedstorage:pattern>);
+craftingTable.removeByRegex(".*refinedstorage:.*_pattern_grid");
 
 // Weirding Gadget
 craftingTable.remove(<item:weirdinggadget:weirding_gadget>);
@@ -648,6 +648,11 @@ craftingTable.remove(<item:torchmaster:megatorch>);
 
 // Elevators
 craftingTable.remove(<tag:items:elevatorid:elevators>);
+
+// Architects pallete
+craftingTable.remove(<item:architects_palette:charcoal_block>);
+furnace.remove(<item:architects_palette:charcoal_block>);
+smoker.remove(<item:architects_palette:charcoal_block>);
 
 // Traders
 craftingTable.remove(<item:easy_piglins:barterer>);
@@ -1194,10 +1199,16 @@ JEI.hideIngredient(<item:irongenerators:invar_generator>);
 JEI.hideIngredient(<item:powah:player_aerial_pearl>);
 JEI.hideIngredient(<item:powah:aerial_pearl>);
 JEI.hideIngredient(<item:powah:binding_card_dim>);
+JEI.hideIngredient(<item:powah:blank_card>);
+JEI.hideIngredient(<item:powah:binding_card>);
 // Thermal
 JEI.hideIngredient(<item:thermal:redprint>);
 JEI.hideIngredient(<item:thermal:xp_crystal>);
 JEI.hideIngredient(<item:thermal:rf_potato>);
+JEI.hideIngredient(<item:thermal:drill_head>);
+JEI.hideIngredient(<item:thermal:device_potion_diffuser>);
+JEI.hideIngredient(<item:thermal:chiller_rod_cast>);
+JEI.hideIngredient(<item:thermal:chiller_ingot_cast>);
 // Simple Storage
 JEI.hideIngredient(<item:storagenetwork:inventory_remote>);
 JEI.hideIngredient(<item:storagenetwork:builder_remote>);
@@ -1220,3 +1231,16 @@ JEI.hideIngredient(<item:ironfurnaces:upgrade_gold>);
 JEI.hideIngredient(<item:ironfurnaces:upgrade_iron>);
 JEI.hideIngredient(<item:ironfurnaces:upgrade_silver2>);
 JEI.hideIngredient(<item:ironfurnaces:upgrade_obsidian2>);
+JEI.hideIngredient(<item:ironfurnaces:augment_generator>);
+JEI.hideIngredient(<item:ironfurnaces:item_linker>);
+JEI.hideIngredient(<item:ironfurnaces:augment_xp>);
+// Rf Tools
+JEI.hideIngredient(<item:rftoolsbase:infused_enderpearl>);
+JEI.hideIngredient(<item:rftoolsbase:infused_diamond>);
+JEI.hideIngredient(<item:rftoolsbase:dimensionalshard>);
+JEI.hideIngredient(<item:rftoolsbase:machine_infuser>);
+JEI.hideIngredient(<item:rftoolsbase:crafting_card>);
+JEI.hideIngredient(<item:rftoolsbase:tablet>);
+JEI.hideIngredient(<item:rftoolsbase:tablet_filled>);
+// Titanium
+JEI.hideMod("titanium");

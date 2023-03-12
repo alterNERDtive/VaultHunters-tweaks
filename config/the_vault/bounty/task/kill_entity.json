@@ -75,20 +75,6 @@
         {
           "rewardPool": "common",
           "value": {
-            "value": "quark:wraith",
-            "amount": {
-              "min": 3,
-              "max": 12
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true
-          },
-          "weight": 20
-        },
-        {
-          "rewardPool": "common",
-          "value": {
             "value": "the_vault:vault_fighter",
             "amount": {
               "min": 3,
@@ -174,20 +160,6 @@
           "rewardPool": "rare",
           "value": {
             "value": "minecraft:drowned",
-            "amount": {
-              "min": 6,
-              "max": 18
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true
-          },
-          "weight": 2
-        },
-        {
-          "rewardPool": "rare",
-          "value": {
-            "value": "quark:wraith",
             "amount": {
               "min": 6,
               "max": 18
@@ -249,8 +221,8 @@
           "value": {
             "value": "minecraft:skeleton",
             "amount": {
-              "min": 5,
-              "max": 15
+              "min": 10,
+              "max": 20
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -263,22 +235,22 @@
           "value": {
             "value": "minecraft:stray",
             "amount": {
-              "min": 5,
+              "min": 7,
               "max": 15
             },
             "floorToNearestTen": false,
             "validDimensions": [],
             "vaultOnly": true
           },
-          "weight": 20
+          "weight": 16
         },
         {
           "rewardPool": "common",
           "value": {
             "value": "minecraft:zombie",
             "amount": {
-              "min": 5,
-              "max": 15
+              "min": 14,
+              "max": 30
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -291,28 +263,28 @@
           "value": {
             "value": "minecraft:husk",
             "amount": {
-              "min": 5,
-              "max": 15
+              "min": 14,
+              "max": 30
             },
             "floorToNearestTen": false,
             "validDimensions": [],
             "vaultOnly": true
           },
-          "weight": 20
+          "weight": 16
         },
         {
           "rewardPool": "common",
           "value": {
             "value": "minecraft:drowned",
             "amount": {
-              "min": 5,
-              "max": 15
+              "min": 14,
+              "max": 30
             },
             "floorToNearestTen": false,
             "validDimensions": [],
             "vaultOnly": true
           },
-          "weight": 20
+          "weight": 16
         },
         {
           "rewardPool": "common",
@@ -333,8 +305,8 @@
           "value": {
             "value": "the_vault:vault_fighter",
             "amount": {
-              "min": 5,
-              "max": 15
+              "min": 15,
+              "max": 30
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -347,7 +319,7 @@
           "value": {
             "value": "the_vault:vault_spider",
             "amount": {
-              "min": 5,
+              "min": 7,
               "max": 15
             },
             "floorToNearestTen": false,
@@ -361,7 +333,7 @@
           "value": {
             "value": "minecraft:skeleton",
             "amount": {
-              "min": 8,
+              "min": 10,
               "max": 20
             },
             "floorToNearestTen": false,
@@ -375,7 +347,7 @@
           "value": {
             "value": "minecraft:stray",
             "amount": {
-              "min": 8,
+              "min": 10,
               "max": 20
             },
             "floorToNearestTen": false,
@@ -389,8 +361,8 @@
           "value": {
             "value": "minecraft:zombie",
             "amount": {
-              "min": 8,
-              "max": 20
+              "min": 20,
+              "max": 40
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -403,8 +375,8 @@
           "value": {
             "value": "minecraft:husk",
             "amount": {
-              "min": 8,
-              "max": 20
+              "min": 20,
+              "max": 40
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -417,8 +389,8 @@
           "value": {
             "value": "minecraft:drowned",
             "amount": {
-              "min": 8,
-              "max": 20
+              "min": 15,
+              "max": 35
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -431,8 +403,8 @@
           "value": {
             "value": "quark:wraith",
             "amount": {
-              "min": 8,
-              "max": 20
+              "min": 10,
+              "max": 25
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -445,8 +417,8 @@
           "value": {
             "value": "the_vault:vault_fighter",
             "amount": {
-              "min": 8,
-              "max": 20
+              "min": 20,
+              "max": 50
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -459,8 +431,8 @@
           "value": {
             "value": "the_vault:vault_spider",
             "amount": {
-              "min": 8,
-              "max": 20
+              "min": 12,
+              "max": 25
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -488,7 +460,7 @@
             "value": "minecraft:elder_guardian",
             "amount": {
               "min": 1,
-              "max": 2
+              "max": 1
             },
             "floorToNearestTen": false,
             "validDimensions": ["minecraft:overworld"],
@@ -506,7 +478,7 @@
             "value": "minecraft:skeleton",
             "amount": {
               "min": 16,
-              "max": 36
+              "max": 30
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -520,7 +492,7 @@
             "value": "minecraft:stray",
             "amount": {
               "min": 16,
-              "max": 36
+              "max": 30
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -534,7 +506,7 @@
             "value": "minecraft:zombie",
             "amount": {
               "min": 16,
-              "max": 36
+              "max": 40
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -548,7 +520,7 @@
             "value": "minecraft:husk",
             "amount": {
               "min": 16,
-              "max": 36
+              "max": 40
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -576,7 +548,7 @@
             "value": "quark:wraith",
             "amount": {
               "min": 16,
-              "max": 36
+              "max": 30
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -590,7 +562,7 @@
             "value": "the_vault:vault_fighter",
             "amount": {
               "min": 16,
-              "max": 36
+              "max": 48
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -618,7 +590,7 @@
             "value": "minecraft:skeleton",
             "amount": {
               "min": 24,
-              "max": 60
+              "max": 50
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -631,22 +603,22 @@
           "value": {
             "value": "minecraft:stray",
             "amount": {
-              "min": 24,
-              "max": 60
+              "min": 20,
+              "max": 50
             },
             "floorToNearestTen": false,
             "validDimensions": [],
             "vaultOnly": true
           },
-          "weight": 2
+          "weight": 1
         },
         {
           "rewardPool": "rare",
           "value": {
             "value": "minecraft:zombie",
             "amount": {
-              "min": 24,
-              "max": 60
+              "min": 35,
+              "max": 75
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -659,8 +631,8 @@
           "value": {
             "value": "minecraft:husk",
             "amount": {
-              "min": 24,
-              "max": 60
+              "min": 30,
+              "max": 65
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -673,7 +645,7 @@
           "value": {
             "value": "minecraft:drowned",
             "amount": {
-              "min": 24,
+              "min": 35,
               "max": 60
             },
             "floorToNearestTen": false,
@@ -688,7 +660,7 @@
             "value": "quark:wraith",
             "amount": {
               "min": 24,
-              "max": 60
+              "max": 40
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -701,8 +673,8 @@
           "value": {
             "value": "the_vault:vault_fighter",
             "amount": {
-              "min": 24,
-              "max": 60
+              "min": 30,
+              "max": 80
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -757,8 +729,8 @@
           "value": {
             "value": "minecraft:elder_guardian",
             "amount": {
-              "min": 2,
-              "max": 3
+              "min": 1,
+              "max": 2
             },
             "floorToNearestTen": false,
             "validDimensions": ["minecraft:overworld"],
