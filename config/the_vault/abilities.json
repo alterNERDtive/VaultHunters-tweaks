@@ -774,387 +774,387 @@
   "NOVA": {
     "speedLevelConfiguration": [
       {
+        "durationTicks": 50,
+        "amplifier": 20,
+        "radius": 4.5,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 600,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 55,
+        "amplifier": 20,
+        "radius": 4.7,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 593,
+        "levelRequirement": 0
+      },
+      {
         "durationTicks": 60,
         "amplifier": 20,
-        "radius": 3.0,
-        "percentAttackDamageDealt": 0.0,
-        "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 8.0,
-        "learningCost": 1,
-        "regretCost": 1,
-        "cooldownTicks": 500,
-        "levelRequirement": 0
-      },
-      {
-        "durationTicks": 66,
-        "amplifier": 20,
-        "radius": 3.3,
-        "percentAttackDamageDealt": 0.0,
-        "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 8.0,
-        "learningCost": 1,
-        "regretCost": 1,
-        "cooldownTicks": 500,
-        "levelRequirement": 0
-      },
-      {
-        "durationTicks": 72,
-        "amplifier": 20,
-        "radius": 3.6,
+        "radius": 4.9,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
         "manaCost": 9.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 586,
         "levelRequirement": 0
       },
       {
-        "durationTicks": 78,
+        "durationTicks": 65,
         "amplifier": 20,
-        "radius": 3.9,
+        "radius": 5.1,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
         "manaCost": 9.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 579,
         "levelRequirement": 0
       },
       {
-        "durationTicks": 82,
+        "durationTicks": 70,
         "amplifier": 20,
-        "radius": 4.1,
+        "radius": 5.3,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 572,
         "levelRequirement": 0
       },
       {
-        "durationTicks": 86,
+        "durationTicks": 75,
         "amplifier": 20,
-        "radius": 4.3,
+        "radius": 5.5,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
         "manaCost": 10.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 565,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 80,
+        "amplifier": 20,
+        "radius": 5.7,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 558,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 85,
+        "amplifier": 20,
+        "radius": 5.9,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 551,
         "levelRequirement": 0
       },
       {
         "durationTicks": 90,
         "amplifier": 20,
-        "radius": 4.5,
+        "radius": 6.2,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 11.0,
+        "manaCost": 12.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 544,
         "levelRequirement": 0
       },
       {
         "durationTicks": 94,
         "amplifier": 20,
-        "radius": 4.7,
+        "radius": 6.5,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 11.0,
+        "manaCost": 12.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 537,
         "levelRequirement": 0
       },
       {
         "durationTicks": 98,
         "amplifier": 20,
-        "radius": 4.9,
+        "radius": 6.8,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 12.0,
+        "manaCost": 13.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 530,
         "levelRequirement": 0
       },
       {
         "durationTicks": 102,
         "amplifier": 20,
-        "radius": 5.1,
+        "radius": 7.1,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 12.0,
+        "manaCost": 13.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 523,
         "levelRequirement": 0
       },
       {
         "durationTicks": 106,
         "amplifier": 20,
-        "radius": 5.3,
+        "radius": 7.4,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 13.0,
+        "manaCost": 14.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 516,
         "levelRequirement": 0
       },
       {
         "durationTicks": 110,
         "amplifier": 20,
-        "radius": 5.5,
+        "radius": 7.7,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 13.0,
+        "manaCost": 14.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 509,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 112,
+        "amplifier": 20,
+        "radius": 8.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 502,
         "levelRequirement": 0
       },
       {
         "durationTicks": 114,
         "amplifier": 20,
-        "radius": 5.7,
+        "radius": 8.4,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 14.0,
+        "manaCost": 15.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 495,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 116,
+        "amplifier": 20,
+        "radius": 8.8,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 488,
         "levelRequirement": 0
       },
       {
         "durationTicks": 118,
         "amplifier": 20,
-        "radius": 5.9,
+        "radius": 9.2,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 14.0,
+        "manaCost": 16.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 481,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 120,
+        "amplifier": 20,
+        "radius": 9.6,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 474,
         "levelRequirement": 0
       },
       {
         "durationTicks": 122,
         "amplifier": 20,
-        "radius": 6.1,
+        "radius": 10.0,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 15.0,
+        "manaCost": 17.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 468,
         "levelRequirement": 0
       },
       {
         "durationTicks": 124,
         "amplifier": 20,
-        "radius": 6.2,
+        "radius": 10.4,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 15.0,
+        "manaCost": 18.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 462,
         "levelRequirement": 0
       },
       {
         "durationTicks": 126,
         "amplifier": 20,
-        "radius": 6.3,
+        "radius": 10.8,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 16.0,
+        "manaCost": 18.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 456,
         "levelRequirement": 0
       },
       {
         "durationTicks": 128,
         "amplifier": 20,
-        "radius": 6.4,
+        "radius": 11.2,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 16.0,
+        "manaCost": 19.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 450,
         "levelRequirement": 0
       },
       {
         "durationTicks": 130,
         "amplifier": 20,
-        "radius": 6.5,
+        "radius": 11.6,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 17.0,
+        "manaCost": 19.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 444,
         "levelRequirement": 0
       },
       {
         "durationTicks": 132,
         "amplifier": 20,
-        "radius": 6.6,
+        "radius": 12.0,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 17.0,
+        "manaCost": 20.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 438,
         "levelRequirement": 0
       },
       {
         "durationTicks": 134,
         "amplifier": 20,
-        "radius": 6.7,
+        "radius": 12.5,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 18.0,
+        "manaCost": 20.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 432,
         "levelRequirement": 0
       },
       {
         "durationTicks": 136,
         "amplifier": 20,
-        "radius": 6.8,
+        "radius": 13.0,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 18.0,
+        "manaCost": 21.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 426,
         "levelRequirement": 0
       },
       {
         "durationTicks": 138,
         "amplifier": 20,
-        "radius": 6.9,
+        "radius": 13.5,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 19.0,
+        "manaCost": 21.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 420,
         "levelRequirement": 0
       },
       {
-        "durationTicks": 140,
+        "durationTicks": 141,
         "amplifier": 20,
-        "radius": 7.0,
+        "radius": 14.0,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 19.0,
+        "manaCost": 22.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
-        "levelRequirement": 0
-      },
-      {
-        "durationTicks": 142,
-        "amplifier": 20,
-        "radius": 7.1,
-        "percentAttackDamageDealt": 0.0,
-        "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 20.0,
-        "learningCost": 1,
-        "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 415,
         "levelRequirement": 0
       },
       {
         "durationTicks": 144,
         "amplifier": 20,
-        "radius": 7.2,
+        "radius": 14.5,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 20.0,
+        "manaCost": 22.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 410,
         "levelRequirement": 0
       },
       {
-        "durationTicks": 146,
+        "durationTicks": 147,
         "amplifier": 20,
-        "radius": 7.3,
+        "radius": 15.0,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 21.0,
+        "manaCost": 23.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
-        "levelRequirement": 0
-      },
-      {
-        "durationTicks": 148,
-        "amplifier": 20,
-        "radius": 7.4,
-        "percentAttackDamageDealt": 0.0,
-        "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 21.0,
-        "learningCost": 1,
-        "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 405,
         "levelRequirement": 0
       },
       {
         "durationTicks": 150,
         "amplifier": 20,
-        "radius": 7.5,
-        "percentAttackDamageDealt": 0.0,
-        "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 22.0,
-        "learningCost": 1,
-        "regretCost": 1,
-        "cooldownTicks": 500,
-        "levelRequirement": 0
-      },
-      {
-        "durationTicks": 152,
-        "amplifier": 20,
-        "radius": 7.6,
-        "percentAttackDamageDealt": 0.0,
-        "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 22.0,
-        "learningCost": 1,
-        "regretCost": 1,
-        "cooldownTicks": 500,
-        "levelRequirement": 0
-      },
-      {
-        "durationTicks": 154,
-        "amplifier": 20,
-        "radius": 7.7,
+        "radius": 15.5,
         "percentAttackDamageDealt": 0.0,
         "knockbackStrengthMultiplier": 0.0,
         "manaCost": 23.0,
         "learningCost": 1,
         "regretCost": 1,
-        "cooldownTicks": 500,
-        "levelRequirement": 0
-      },
-      {
-        "durationTicks": 156,
-        "amplifier": 20,
-        "radius": 7.8,
-        "percentAttackDamageDealt": 0.0,
-        "knockbackStrengthMultiplier": 0.0,
-        "manaCost": 23.0,
-        "learningCost": 1,
-        "regretCost": 1,
-        "cooldownTicks": 500,
+        "cooldownTicks": 400,
         "levelRequirement": 0
       }
     ],
@@ -2275,7 +2275,7 @@
     "leechLevelConfiguration": [
       {
         "leechPercent": 0.02,
-        "damageIncrease": 0.02,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2284,7 +2284,7 @@
       },
       {
         "leechPercent": 0.0206,
-        "damageIncrease": 0.04,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2293,7 +2293,7 @@
       },
       {
         "leechPercent": 0.0212,
-        "damageIncrease": 0.06,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2302,7 +2302,7 @@
       },
       {
         "leechPercent": 0.0218,
-        "damageIncrease": 0.08,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2311,7 +2311,7 @@
       },
       {
         "leechPercent": 0.0224,
-        "damageIncrease": 0.10,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2320,7 +2320,7 @@
       },
       {
         "leechPercent": 0.023,
-        "damageIncrease": 0.12,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2329,7 +2329,7 @@
       },
       {
         "leechPercent": 0.0236,
-        "damageIncrease": 0.14,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2338,7 +2338,7 @@
       },
       {
         "leechPercent": 0.0242,
-        "damageIncrease": 0.16,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2347,7 +2347,7 @@
       },
       {
         "leechPercent": 0.0248,
-        "damageIncrease": 0.18,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2356,7 +2356,7 @@
       },
       {
         "leechPercent": 0.0254,
-        "damageIncrease": 0.20,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2365,7 +2365,7 @@
       },
       {
         "leechPercent": 0.026,
-        "damageIncrease": 0.22,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2374,7 +2374,7 @@
       },
       {
         "leechPercent": 0.0266,
-        "damageIncrease": 0.24,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2383,7 +2383,7 @@
       },
       {
         "leechPercent": 0.0272,
-        "damageIncrease": 0.26,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2392,7 +2392,7 @@
       },
       {
         "leechPercent": 0.0278,
-        "damageIncrease": 0.28,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2401,7 +2401,7 @@
       },
       {
         "leechPercent": 0.0284,
-        "damageIncrease": 0.30,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2410,7 +2410,7 @@
       },
       {
         "leechPercent": 0.029,
-        "damageIncrease": 0.32,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2419,7 +2419,7 @@
       },
       {
         "leechPercent": 0.03,
-        "damageIncrease": 0.34,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2428,7 +2428,7 @@
       },
       {
         "leechPercent": 0.0306,
-        "damageIncrease": 0.36,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2437,7 +2437,7 @@
       },
       {
         "leechPercent": 0.0312,
-        "damageIncrease": 0.38,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2446,7 +2446,7 @@
       },
       {
         "leechPercent": 0.0318,
-        "damageIncrease": 0.40,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2455,7 +2455,7 @@
       },
       {
         "leechPercent": 0.0324,
-        "damageIncrease": 0.42,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2464,7 +2464,7 @@
       },
       {
         "leechPercent": 0.033,
-        "damageIncrease": 0.44,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2473,7 +2473,7 @@
       },
       {
         "leechPercent": 0.0336,
-        "damageIncrease": 0.46,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2482,7 +2482,7 @@
       },
       {
         "leechPercent": 0.0342,
-        "damageIncrease": 0.48,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2491,7 +2491,7 @@
       },
       {
         "leechPercent": 0.0348,
-        "damageIncrease": 0.50,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2500,7 +2500,7 @@
       },
       {
         "leechPercent": 0.0354,
-        "damageIncrease": 0.52,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2509,7 +2509,7 @@
       },
       {
         "leechPercent": 0.036,
-        "damageIncrease": 0.54,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2518,7 +2518,7 @@
       },
       {
         "leechPercent": 0.0366,
-        "damageIncrease": 0.56,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2527,7 +2527,7 @@
       },
       {
         "leechPercent": 0.0372,
-        "damageIncrease": 0.58,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2536,7 +2536,7 @@
       },
       {
         "leechPercent": 0.0378,
-        "damageIncrease": 0.60,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2545,7 +2545,7 @@
       },
       {
         "leechPercent": 0.0384,
-        "damageIncrease": 0.62,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2554,7 +2554,7 @@
       },
       {
         "leechPercent": 0.0390,
-        "damageIncrease": 0.64,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 8.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2565,7 +2565,7 @@
     "chainLevelConfiguration": [
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.02,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2574,7 +2574,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.04,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2583,7 +2583,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.06,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2592,7 +2592,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.08,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2601,7 +2601,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.10,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2610,7 +2610,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.12,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2619,7 +2619,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.14,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2628,7 +2628,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.16,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2637,7 +2637,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.18,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2646,7 +2646,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.20,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2655,7 +2655,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.22,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2664,7 +2664,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.24,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2673,7 +2673,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.26,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2682,7 +2682,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.28,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2691,7 +2691,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.30,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2700,7 +2700,7 @@
       },
       {
         "additionalChainCount": 2,
-        "damageIncrease": 0.32,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 5.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2709,7 +2709,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.34,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2718,7 +2718,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.36,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2727,7 +2727,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.38,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2736,7 +2736,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.40,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2745,7 +2745,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.42,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2754,7 +2754,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.44,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2763,7 +2763,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.46,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2772,7 +2772,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.48,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2781,7 +2781,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.50,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2790,7 +2790,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.52,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2799,7 +2799,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.54,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2808,7 +2808,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.56,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2817,7 +2817,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.58,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2826,7 +2826,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.60,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2835,7 +2835,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.62,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -2844,7 +2844,7 @@
       },
       {
         "additionalChainCount": 3,
-        "damageIncrease": 0.64,
+        "damageIncrease": 0.0,
         "manaCostPerSecond": 10.0,
         "learningCost": 1,
         "regretCost": 1,
@@ -4753,7 +4753,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -4776,7 +4778,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -4799,7 +4803,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -4822,7 +4828,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -4845,7 +4853,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -4868,7 +4878,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -4891,7 +4903,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -4914,7 +4928,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -4937,7 +4953,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -4960,7 +4978,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -4983,7 +5003,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -5006,7 +5028,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -5029,7 +5053,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -5052,7 +5078,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -5075,7 +5103,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,
@@ -5098,7 +5128,9 @@
           "the_vault:soul_altar_tile_entity",
           "the_vault:vault_treasure_chest_tile_entity",
           "the_vault:scavenger_altar_tile_entity",
-          "the_vault:monolith_tile_entity"
+          "the_vault:monolith_tile_entity",
+          "the_vault:lodestone_tile_entity",
+          "the_vault:crake_pedestal_tile_entity"
         ],
         "searchRadius": 48.0,
         "color": -14308352,

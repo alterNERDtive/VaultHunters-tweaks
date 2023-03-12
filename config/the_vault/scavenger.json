@@ -11,7 +11,7 @@
             "multiplier": 2.0,
             "color": 5353215
           },
-          "the_vault:scavenger_zombie_hide": {
+          "the_vault:scavenger_old_book": {
             "weight": 4,
             "multiplier": 1.0,
             "color": 16771072
@@ -95,9 +95,9 @@
             "multiplier": 0.5,
             "color": 5353215
           },
-          "the_vault:scavenger_skeleton_bone_shard": {
+          "the_vault:scavenger_zombie_arm": {
             "weight": 4,
-            "multiplier": 0.2,
+            "multiplier": 0.3,
             "color": 16771072
           },
           "the_vault:scavenger_zombie_brain": {
@@ -141,6 +141,33 @@
         }
       },
       {
+        "type": "ore",
+        "probability": 0.3,
+        "icon": "the_vault:textures/gui/scavenger/vault_ore.png",
+        "entries": {
+          "the_vault:scavenger_skeleton_bone_shard": {
+            "weight": 8,
+            "multiplier": 0.7,
+            "color": 5353215
+          },
+          "the_vault:scavenger_skeleton_wishbone": {
+            "weight": 4,
+            "multiplier": 0.5,
+            "color": 16771072
+          },
+          "the_vault:scavenger_skeleton_ribcage": {
+            "weight": 2,
+            "multiplier": 0.3,
+            "color": 16711935
+          },
+          "the_vault:scavenger_skeleton_skull": {
+            "weight": 1,
+            "multiplier": 0.15,
+            "color": 7012096
+          }
+        }
+      },
+      {
         "type": "mob",
         "probability": 0.3,
         "icon": "the_vault:textures/gui/scavenger/mob.png",
@@ -152,18 +179,22 @@
               "minecraft:skeleton",
               "the_vault:t1_skeleton",
               "the_vault:t2_skeleton",
+              "the_vault:t3_skeleton",
 
               "minecraft:creeper",
               "the_vault:t1_creeper",
               "the_vault:t2_creeper",
+              "the_vault:t3_creeper",
 
               "minecraft:stray",
               "the_vault:t1_stray",
               "the_vault:t2_stray",
+              "the_vault:t3_stray",
 
               "minecraft:wither_skeleton",
               "the_vault:t1_wither_skeleton",
               "the_vault:t2_wither_skeleton",
+              "the_vault:t3_wither_skeleton",
 
               "quark:wraith",
               "minecraft:polar_bear",
@@ -202,12 +233,15 @@
               "minecraft:zombie",
               "the_vault:t1_zombie",
               "the_vault:t2_zombie",
+              "the_vault:t3_zombie",
               "minecraft:drowned",
               "the_vault:t1_drowned",
               "the_vault:t2_drowned",
+              "the_vault:t3_drowned",
               "minecraft:husk",
               "the_vault:t1_husk",
               "the_vault:t2_husk",
+              "the_vault:t4_husk",
               "minecraft:enderman",
               "the_vault:t1_enderman",
               "the_vault:t2_enderman",

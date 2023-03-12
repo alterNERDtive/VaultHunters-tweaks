@@ -68,23 +68,57 @@
     "minecraft:zombie": 5.0,
     "minecraft:skeleton": 18.0,
     "minecraft:drowned": 5.0,
+    "minecraft:piglin": 6.0,
+    "minecraft:endermen": 10.0,
     "minecraft:stray": 20.0,
+    "minecraft:wither_skeleton": 24.0,
     "minecraft:polar_bear": 64.0,
     "quark:wraith": 16.0,
+    "minecraft:magma_cube": 40.0,
+    "minecraft:piglin_brute": 64.0,
+    "alexsmobs:soul_vulture": 72.0,
+    "alexsmobs:rocky_roller": 80.0,
+    "minecraft:shulker": 40.0,
+    "minecraft:silverfish": 12.0,
+    "auxiliaryblocks:snowdood": 20.0,
+    "quark:foxhound": 24.0,
+    "the_vault:winter_wolf": 40.0,
     "minecraft:creeper": 40.0,
     "minecraft:husk": 5.0,
     "minecraft:witch": 96.0,
     "minecraft:slime": 32.0,
+    "the_vault:arbalist_guardian": 100.0,
+    "the_vault:bruiser_guardian": 100.0,
     "the_vault:vault_fighter_1": 18.0,
     "the_vault:vault_fighter_2": 36.0,
+    "the_vault:vault_fighter_3": 50.0,
+    "the_vault:t1_creeper": 50.0,
+    "the_vault:t2_creeper": 70.0,
+    "the_vault:t3_creeper": 90.0,
     "the_vault:t1_zombie": 10.0,
     "the_vault:t2_zombie": 20.0,
+    "the_vault:t3_zombie": 30.0,
     "the_vault:t1_skeleton": 24.0,
     "the_vault:t2_skeleton": 32.0,
+    "the_vault:t3_skeleton": 40.0,
+    "the_vault:t1_wither_skeleton": 24.0,
+    "the_vault:t2_wither_skeleton": 32.0,
+    "the_vault:t3_wither_skeleton": 40.0,
+    "the_vault:t1_stray": 24.0,
+    "the_vault:t2_stray": 32.0,
+    "the_vault:t3_stray": 40.0,
     "the_vault:t1_husk": 10.0,
     "the_vault:t2_husk": 20.0,
+    "the_vault:t3_husk": 30.0,
     "the_vault:t1_drowned": 12.0,
     "the_vault:t2_drowned": 24.0,
+    "the_vault:t3_drowned": 32.0,
+    "the_vault:t1_piglin": 12.0,
+    "the_vault:t2_piglin": 24.0,
+    "the_vault:t3_piglin": 32.0,
+    "the_vault:t1_enderman": 16.0,
+    "the_vault:t2_enderman": 32.0,
+    "the_vault:t3_enderman": 40.0,
     "the_vault:vault_spider": 24.0,
     "the_vault:elite_zombie": 1400.0,
     "the_vault:elite_husk": 1400.0,
@@ -99,12 +133,12 @@
     "boss": {
       "BAILED": 0,
       "FAILED": 0,
-      "COMPLETED": 7000
+      "COMPLETED": 9000
     },
     "scavenger": {
       "BAILED": 0,
       "FAILED": 0,
-      "COMPLETED": 5000
+      "COMPLETED": 9000
     },
     "speedrun": {
       "BAILED": 0,
@@ -114,17 +148,27 @@
     "monolith": {
       "BAILED": 0,
       "FAILED": 0,
-      "COMPLETED": 2000
+      "COMPLETED": 5000
     },
     "cake": {
       "BAILED": 0,
       "FAILED": 0,
-      "COMPLETED": 9000
+      "COMPLETED": 200
+    },
+    "elixir": {
+      "BAILED": 0,
+      "FAILED": 0,
+      "COMPLETED": 7000
     },
     "default": {
       "BAILED": 0,
       "FAILED": 0,
       "COMPLETED": 4000
+    },
+    "empty": {
+      "BAILED": 0,
+      "FAILED": 0,
+      "COMPLETED": 0
     }
   }
 }

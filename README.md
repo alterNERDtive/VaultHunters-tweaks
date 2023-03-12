@@ -8,7 +8,7 @@ Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
 Ko-fi](https://ko-fi.com/S6S1DLYBS).
 
-_Currently confirmed working on patch_: __7.7__
+_Currently confirmed working on patch_: __8.0.1__
 
 ## Installation
 
@@ -79,10 +79,6 @@ rules.
 * Orechids can now create modded ores from Stone and Deepslate (script courtesy
   of Kaptainwutax via Tangofrags’ Discord).
 
-### Bounty Table
-
-* Lowered amount of ores required for mining bounties.
-
 ### Budding Crystal (Sky Vauts)
 
 * Increased growth rate.
@@ -142,10 +138,8 @@ rules.
 ### Researches
 
 * Lowered the research penalty in the “Production” category to +8.
-* Lowered the research cost of Automatic Genius to 10.
-  * Also removed the _need_ for automatic genius alltogether. I did not really
-    want to do that, but then I realized that you need to unlock _all_
-    prerequisite mods before you can get it.
+* Raised the research cost of Automatic Genius to 10.
+* Automatic Genius no longer requires unlocking everything else.
 
 ### Scavenger Vaults
 

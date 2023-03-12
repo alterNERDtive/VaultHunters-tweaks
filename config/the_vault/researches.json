@@ -642,67 +642,109 @@
             "CRAFTABILITY": false
           }
         },
+        "refinedstorage:pattern_grid": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:crafting_terminal": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:pattern_encoding_terminal": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:pattern_access_terminal": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:pattern_provider": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2:cable_pattern_provider": {
+          "restricts": {
+            "USABILITY": true,
+            "HITTABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
         "refinedstorage:crafter": {
           "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": false
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "rftoolsutility:crafter1": {
           "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": false
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "thermal:machine_crafter": {
           "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": false
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "create:mechanical_crafter": {
           "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": false
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "botania:crafting_halo": {
           "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": false
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "botania:auto_crafting_halo": {
           "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": false
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "botania:crafty_crate": {
           "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": false
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "ae2:blank_pattern": {
           "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": false
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "refinedstorage:pattern": {
           "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": false
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
           }
         }
       },
