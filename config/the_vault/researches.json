@@ -649,13 +649,6 @@
             "CRAFTABILITY": true
           }
         },
-        "ae2:crafting_terminal": {
-          "restricts": {
-            "USABILITY": true,
-            "HITTABILITY": true,
-            "CRAFTABILITY": true
-          }
-        },
         "ae2:pattern_encoding_terminal": {
           "restricts": {
             "USABILITY": true,

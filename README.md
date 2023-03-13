@@ -53,6 +53,7 @@ rules.
   the ban has been fixed, the ban not lifted.
 * Totems of Undying stack in backpacks again. Since they no longer revive you,
   the unstackability is not necessary anymore.
+* Removed the Automatic Genius requirement from AE2 crafting terminals.
 
 ## QoL Changes
 
