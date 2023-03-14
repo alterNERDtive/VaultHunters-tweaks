@@ -398,6 +398,7 @@ craftingTable.remove(<item:botania:bifrost_perm>);
 craftingTable.remove(<item:botania:fabulous_pool>);
 craftingTable.remove(<item:botania:mana_spreader>);
 craftingTable.remove(<item:botania:alchemy_catalyst>);
+craftingTable.remove(<item:botania:mana_fluxfield>);
 
 //Drawers
 for logId, logName in logs {

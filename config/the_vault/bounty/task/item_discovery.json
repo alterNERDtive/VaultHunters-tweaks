@@ -301,20 +301,6 @@
           "weight": 4
         },
         {
-          "rewardPool": "common",
-          "value": {
-            "value": "the_vault:scavenger_skeleton_bone_shard",
-            "amount": {
-              "min": 2,
-              "max": 8
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true
-          },
-          "weight": 4
-        },
-        {
           "rewardPool": "rare",
           "value": {
             "value": "the_vault:scavenger_pottery_shard",
@@ -374,20 +360,6 @@
           "rewardPool": "rare",
           "value": {
             "value": "the_vault:scavenger_green_bangle",
-            "amount": {
-              "min": 2,
-              "max": 4
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true
-          },
-          "weight": 2
-        },
-        {
-          "rewardPool": "rare",
-          "value": {
-            "value": "the_vault:scavenger_skeleton_ribcage",
             "amount": {
               "min": 2,
               "max": 4
@@ -725,20 +697,6 @@
           "weight": 4
         },
         {
-          "rewardPool": "common",
-          "value": {
-            "value": "the_vault:scavenger_skeleton_bone_shard",
-            "amount": {
-              "min": 2,
-              "max": 10
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true
-          },
-          "weight": 4
-        },
-        {
           "rewardPool": "rare",
           "value": {
             "value": "the_vault:scavenger_pottery_shard",
@@ -798,20 +756,6 @@
           "rewardPool": "rare",
           "value": {
             "value": "the_vault:scavenger_green_bangle",
-            "amount": {
-              "min": 2,
-              "max": 5
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true
-          },
-          "weight": 2
-        },
-        {
-          "rewardPool": "rare",
-          "value": {
-            "value": "the_vault:scavenger_skeleton_ribcage",
             "amount": {
               "min": 2,
               "max": 5
@@ -1137,20 +1081,6 @@
         {
           "rewardPool": "common",
           "value": {
-            "value": "the_vault:scavenger_skeleton_bone_shard",
-            "amount": {
-              "min": 4,
-              "max": 10
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true
-          },
-          "weight": 4
-        },
-        {
-          "rewardPool": "common",
-          "value": {
             "value": "the_vault:scavenger_pottery_shard",
             "amount": {
               "min": 4,
@@ -1208,20 +1138,6 @@
           "rewardPool": "common",
           "value": {
             "value": "the_vault:scavenger_green_bangle",
-            "amount": {
-              "min": 3,
-              "max": 8
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true
-          },
-          "weight": 2
-        },
-        {
-          "rewardPool": "common",
-          "value": {
-            "value": "the_vault:scavenger_skeleton_ribcage",
             "amount": {
               "min": 3,
               "max": 8
@@ -1587,20 +1503,6 @@
           "weight": 4
         },
         {
-          "rewardPool": "common",
-          "value": {
-            "value": "the_vault:scavenger_wishbone",
-            "amount": {
-              "min": 4,
-              "max": 10
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true
-          },
-          "weight": 4
-        },
-        {
           "rewardPool": "rare",
           "value": {
             "value": "the_vault:scavenger_spider_webbing_spool",
@@ -1660,20 +1562,6 @@
           "rewardPool": "rare",
           "value": {
             "value": "the_vault:scavenger_cracked_pearl",
-            "amount": {
-              "min": 3,
-              "max": 8
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true
-          },
-          "weight": 2
-        },
-        {
-          "rewardPool": "rare",
-          "value": {
-            "value": "the_vault:scavenger_skeleton_skull",
             "amount": {
               "min": 3,
               "max": 8
@@ -1857,8 +1745,8 @@
           "value": {
             "value": "the_vault:jewel",
             "amount": {
-              "min": 8,
-              "max": 30
+              "min": 12,
+              "max": 24
             },
             "floorToNearestTen": false,
             "validDimensions": [],
