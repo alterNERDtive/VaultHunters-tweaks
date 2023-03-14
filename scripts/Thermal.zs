@@ -188,3 +188,5 @@ craftingTable.addShaped("thermal_satchel", <item:thermal:satchel>, [
 
 <recipetype:thermal:brewer>.addRecipe("healing_pot", <fluid:cofh_core:potion>.withTag({Potion: "minecraft:healing"}) * 1000,
  <item:minecraft:golden_apple>, <fluid:cofh_core:potion>.withTag({Potion: "minecraft:awkward"}) * 1000, 500);
+
+ <recipetype:thermal:insolator>.addRecipe("insolator_spore_blossom", [<item:minecraft:spore_blossom> *2], <item:minecraft:spore_blossom>, 1500, 30000);
