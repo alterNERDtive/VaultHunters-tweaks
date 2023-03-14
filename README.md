@@ -173,14 +173,16 @@ rules.
 
 ### Spore Blossom
 
-* added Botania transmutation recipes:
-  * Azalea → Flowering Azalea
-  * Flowering Azalea → Spore Blossom
-  * Spore Blossom → Azalea
-* added Phytogenic Insolator recipe
+* ~~added Botania transmutation recipes:~~
+  * ~~Azalea → Flowering Azalea~~
+  * ~~Flowering Azalea → Spore Blossom~~
+  * ~~Spore Blossom → Azalea~~
+* ~~added Phytogenic Insolator recipe~~
 
-Currently the only way to farm Spore Blossoms is Botany Pots. That sucks.
-Taking suggestions for other recipe ideas!
+~~Currently the only way to farm Spore Blossoms is Botany Pots. That sucks.
+Taking suggestions for other recipe ideas!~~
+
+Those have been integrated into the mod pack!
 
 ### Vault Altar
 

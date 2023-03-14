@@ -180,21 +180,3 @@ craftingTable.addShaped("botania_alchemy_catalyst", <item:botania:alchemy_cataly
 
 // <recipetype:botania:mana_infusion>.addRecipe("mana_infusion_vault_stone",  <item:the_vault:chipped_vault_rock>,
 //  <item:the_vault:vault_stone> *2, 10000, <block:botania:alchemy_catalyst>);
-
-<recipetype:botania:mana_infusion>.addRecipe("mana_infusion_flowering_azalea",
-    <item:minecraft:flowering_azalea>,
-    <item:minecraft:azalea>,
-    10000,
-    <block:botania:conjuration_catalyst>);
-
-<recipetype:botania:mana_infusion>.addRecipe("mana_infusion_spore_blossom",
-    <item:minecraft:spore_blossom>,
-    <item:minecraft:flowering_azalea>,
-    10000,
-    <block:botania:conjuration_catalyst>);
-
-<recipetype:botania:mana_infusion>.addRecipe("mana_infusion_azalea",
-    <item:minecraft:azalea>,
-    <item:minecraft:spore_blossom>,
-    10000,
-    <block:botania:conjuration_catalyst>);
