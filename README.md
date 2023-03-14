@@ -8,7 +8,7 @@ Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
 Ko-fi](https://ko-fi.com/S6S1DLYBS).
 
-_Currently confirmed working on patch_: __8.0.2__
+_Currently confirmed working on patch_: __8.0.3__
 
 ## Installation
 
@@ -102,6 +102,10 @@ rules.
 ### Hunter
 
 * Halved cooldown times for all ranks.
+
+### JEI Integration
+
+* Up-to-date version of Freud’s JEI integration script for vault mod stuff.
 
 ### Jewels
 
