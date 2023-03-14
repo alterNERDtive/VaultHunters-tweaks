@@ -79,6 +79,7 @@ rules.
   versions of infinite Unobtainium + Infinite Water Bucket.
 * Orechids can now create modded ores from Stone and Deepslate (script courtesy
   of Kaptainwutax via Tangofrags’ Discord).
+* Re-enabled Redstone Fluxfield.
 
 ### Budding Crystal (Sky Vauts)
 
