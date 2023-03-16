@@ -154,6 +154,11 @@ rules.
 
 * Lowered the maximum amount of an item you might need across the board.
 
+### Sky Vaults
+
+* Moved Nether room to lvl 0.
+* Moved End room to lvl 20.
+
 ### Snapshot Modifiers
 
 (Beginner’s Grace, Casual mode, Afterlife, Phoenix)
