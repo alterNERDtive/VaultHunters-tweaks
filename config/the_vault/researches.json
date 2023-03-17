@@ -306,7 +306,7 @@
           "ENTITY_INTERACTABILITY": false
         }
       },
-      "name": "Weirding Gadgets",
+      "name": "Chunk Loaders",
       "cost": 5,
       "usesKnowledge": true
     },
