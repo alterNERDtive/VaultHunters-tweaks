@@ -294,6 +294,7 @@
     },
     {
       "modIds": [
+        "chunkloaders",
         "weirdinggadget"
       ],
       "restrictions": {

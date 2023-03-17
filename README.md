@@ -15,6 +15,10 @@ _Currently confirmed working on patch_: __8.0.3__
 1. Clone or download this.
 2. Copy the `config` and `scripts` folders into your instance’s `minecraft`
    folder, or however that one is called in the launcher you are using.
+3. Either _remove `scripts/ChunkLoaders.zs`_ or install the
+   [Chunk Loaders mod](https://www.curseforge.com/minecraft/mc-mods/chunk-loaders)
+   and _update_ “SuperMartijn642's Core Lib” and “Trash Cans” to their latest
+   versions.
 
 ## Upgrading to a New Vault Hunters Version
 
@@ -23,6 +27,10 @@ _Currently confirmed working on patch_: __8.0.3__
    have modified; otherwise you might break things.
 2. Pull or download this.
 3. Copy files again.
+4. Either _remove `scripts/ChunkLoaders.zs`_ or install the
+   [Chunk Loaders mod](https://www.curseforge.com/minecraft/mc-mods/chunk-loaders)
+   and _update_ “SuperMartijn642's Core Lib” and “Trash Cans” to their latest
+   versions, again.
 
 ## FAQ
 
@@ -84,6 +92,11 @@ rules.
 ### Budding Crystal (Sky Vauts)
 
 * Increased growth rate.
+
+### Chunk Loaders
+
+* Added the Chunk Loaders mod to the Weirding Gadgets research, complete with
+  vaultified recipes.
 
 ### Easy Villagers
 
