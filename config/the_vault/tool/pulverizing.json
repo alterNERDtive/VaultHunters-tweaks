@@ -92,7 +92,7 @@
         ]
       }
     ],
-    "the_vault:vault_stone": [
+    "the_vault:vault_cobblestone": [
       {
         "roll": {
           "type": "constant",
