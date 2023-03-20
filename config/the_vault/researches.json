@@ -180,7 +180,10 @@
     },
     {
       "modIds": [
-        "ae2"
+        "ae2",
+        "ae2things",
+        "appbot",
+        "appmek"
       ],
       "restrictions": {
         "restricts": {
@@ -335,7 +338,8 @@
     },
     {
       "modIds": [
-        "botania"
+        "botania",
+        "appbot"
       ],
       "restrictions": {
         "restricts": {
@@ -358,7 +362,8 @@
     },
     {
       "modIds": [
-        "mekanism"
+        "mekanism",
+        "appmek"
       ],
       "restrictions": {
         "restricts": {
