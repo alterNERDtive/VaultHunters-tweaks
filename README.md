@@ -79,6 +79,10 @@ rules.
 
 ## Balance Changes
 
+### Applied Energistics
+
+* Lowered the cost of 64 and 256k storage components.
+
 ### Botania
 
 * Re-enabled Crafty Crate, simply as an alternative to compacting drawers.
@@ -152,6 +156,7 @@ rules.
 ### Refined Storage
 
 * Reverted some of the crafting recipe changes introduced in update 5.
+* Lowered the cost of 64k storage parts.
 
 ### Relic Fragment
 

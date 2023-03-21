@@ -49,7 +49,7 @@ craftingTable.addShapeless("rs_4k_storage_disk_shapeless", <item:refinedstorage:
 
 craftingTable.addShaped("rs_16k_storage_part", <item:refinedstorage:16k_storage_part>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:refinedstorage:4k_storage_part>, <item:minecraft:redstone_block>, <item:refinedstorage:4k_storage_part>],
+    [<item:refinedstorage:4k_storage_part>, <item:minecraft:redstone_dust>, <item:refinedstorage:4k_storage_part>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:refinedstorage:4k_storage_part>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
@@ -59,7 +59,7 @@ craftingTable.addShapeless("rs_16k_storage_disk_shapeless", <item:refinedstorage
 
 craftingTable.addShaped("rs_64k_storage_part", <item:refinedstorage:64k_storage_part>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<item:refinedstorage:16k_storage_part>, <item:the_vault:echo_pog>, <item:refinedstorage:16k_storage_part>],
+    [<item:refinedstorage:16k_storage_part>, <item:the_vault:gem_pog>, <item:refinedstorage:16k_storage_part>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:refinedstorage:16k_storage_part>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
