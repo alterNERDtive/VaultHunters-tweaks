@@ -1,4 +1,4 @@
-//* scripts made by Douwsky
+/* scripts made by Douwsky
 for Iskall85's Vaulthunters */
 
 // adding recipes
