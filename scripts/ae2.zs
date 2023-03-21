@@ -71,7 +71,7 @@ craftingTable.addShapeless("ae2_storage_cell_1k_shapeless", <item:ae2:item_stora
 ]);
 
 craftingTable.addShaped("ae2_4k_component", <item:ae2:cell_component_4k>, [
-    [<item:the_vault:chromatic_steel_ingot>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_iron_ingot>],
     [<item:ae2:cell_component_1k>, <item:the_vault:perfect_larimar>, <item:ae2:cell_component_1k>],
     [<item:minecraft:redstone>, <item:ae2:cell_component_1k>, <item:minecraft:redstone>]
 ]);
@@ -81,9 +81,9 @@ craftingTable.addShapeless("ae2_storage_cell_4k_shapeless", <item:ae2:item_stora
 ]);
 
 craftingTable.addShaped("ae2_16k_component", <item:ae2:cell_component_16k>, [
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:ae2:calculation_processor>, <item:the_vault:black_chromatic_steel_ingot>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_steel_ingot>],
     [<item:ae2:cell_component_4k>, <item:minecraft:redstone>, <item:ae2:cell_component_4k>],
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:ae2:cell_component_4k>, <item:the_vault:black_chromatic_steel_ingot>]
+    [<item:the_vault:chromatic_steel_ingot>, <item:ae2:cell_component_4k>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShapeless("ae2_storage_cell_16k_shapeless", <item:ae2:item_storage_cell_16k>, [
@@ -91,9 +91,9 @@ craftingTable.addShapeless("ae2_storage_cell_16k_shapeless", <item:ae2:item_stor
 ]);
 
 craftingTable.addShaped("ae2_64k_component", <item:ae2:cell_component_64k>, [
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:ae2:calculation_processor>, <item:the_vault:black_chromatic_steel_ingot>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_steel_ingot>],
     [<item:ae2:cell_component_16k>, <item:the_vault:vault_diamond>, <item:ae2:cell_component_16k>],
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:ae2:cell_component_16k>, <item:the_vault:black_chromatic_steel_ingot>]
+    [<item:the_vault:chromatic_steel_ingot>, <item:ae2:cell_component_16k>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShapeless("ae2_storage_cell_64k_shapeless", <item:ae2:item_storage_cell_64k>, [
