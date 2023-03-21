@@ -112,9 +112,8 @@ craftingTable.addShaped("create_electron_tube", <item:create:electron_tube>, [
 ]);
 
 craftingTable.addShaped("create_chute", <item:create:chute> *2, [
-    [<item:create:andesite_alloy>, <item:create:andesite_alloy>, <item:minecraft:air>],
-    [<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+    [<item:create:andesite_alloy>, <item:create:andesite_alloy>],
+    [<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>]
 ]);
 
 craftingTable.addShaped("create_smart_chute", <item:create:smart_chute>, [

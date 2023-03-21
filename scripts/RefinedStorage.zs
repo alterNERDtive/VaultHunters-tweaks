@@ -74,9 +74,8 @@ craftingTable.addShaped("rs_processor_binding", <item:refinedstorage:processor_b
 ]);
 
 craftingTable.addShaped("rs_quartz_enriched_iron", <item:refinedstorage:quartz_enriched_iron> *2, [
-    [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:air>],
-    [<item:the_vault:chromatic_iron_ingot>, <item:minecraft:quartz>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+    [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:minecraft:quartz>]
 ]);
 
 craftingTable.addShapeless("rs_raw_basic_processor", <item:refinedstorage:raw_basic_processor>, [
