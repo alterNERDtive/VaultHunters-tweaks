@@ -170,8 +170,9 @@ rules.
 * Lowered the research penalty in the “Production” category to +8.
 * Raised the research cost of Automatic Genius to 10.
 * Automatic Genius no longer requires unlocking everything else.
-* Added research requirements for AE2 Things, Applied Botanics, Applied
-  Mekanistics; if you do not run these mods, it shouldn’t have any effect.
+* Added research requirements for AE2 Things, AE 2 WTLib, Applied Botanics,
+  Applied Mekanistics; if you do not run these mods, it shouldn’t have any
+  effect.
 
 ### Scavenger Vaults
 
