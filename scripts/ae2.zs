@@ -141,9 +141,9 @@ craftingTable.addShaped("ae2_annihilation_core", <item:ae2:annihilation_core>, [
 ]);
 
 craftingTable.addShaped("ae2_molecular_assembler", <item:ae2:molecular_assembler>, [
-    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:ae2:quartz_glass>, <item:the_vault:chromatic_iron_ingot>],
     [<item:ae2:formation_core>, <item:minecraft:crafting_table>, <item:ae2:annihilation_core>],
-    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>]
+    [<item:the_vault:chromatic_iron_ingot>, <item:ae2:quartz_glass>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
 craftingTable.addShaped("ae2_interface", <item:ae2:interface>, [
@@ -180,8 +180,7 @@ craftingTable.addShapeless("ae2_shapeless_crafting_terminal", <item:ae2:crafting
 ]);
 
 craftingTable.addShapeless("ae2_shapeless_pattern_encoding_terminal", <item:ae2:pattern_encoding_terminal>, [
-    <item:ae2:crafting_terminal>, <item:ae2:engineering_processor>,
-    <item:ae2:blank_pattern>, <item:the_vault:omega_pog>
+    <item:ae2:crafting_terminal>, <item:ae2:engineering_processor>
 ]);
 
 craftingTable.addShaped("ae2_charger", <item:ae2:charger>, [
@@ -213,8 +212,7 @@ craftingTable.addShaped("ae2_shapeless_acceleration_card", <item:ae2:speed_card>
 ]);
 
 craftingTable.addShapeless("ae2_shapeless_crafting_card", <item:ae2:crafting_card>, [
-    <item:ae2:basic_card>, <item:minecraft:crafting_table>,
-    <item:the_vault:gem_pog>
+    <item:ae2:basic_card>, <item:minecraft:crafting_table>
 ]);
 
 craftingTable.addShaped("ae2_energy_cell", <item:ae2:energy_cell>, [
@@ -274,9 +272,9 @@ craftingTable.addShaped("ae2_network_wireless_booster", <item:ae2:wireless_boost
 ]);
 
 craftingTable.addShaped("ae2_pattern_provider", <item:ae2:pattern_provider>, [
-    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>], 
-    [<item:ae2:formation_core>, <item:minecraft:crafting_table>, <item:ae2:annihilation_core>],
-    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_pog>, <item:the_vault:chromatic_iron_ingot>]
+    [<item:the_vault:chromatic_iron_ingot>, <item:minecraft:crafting_table>, <item:the_vault:chromatic_iron_ingot>], 
+    [<item:ae2:formation_core>, <item:minecraft:air>, <item:ae2:annihilation_core>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:minecraft:crafting_table>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
 craftingTable.addShaped("ae2_pattern", <item:ae2:blank_pattern>, [
