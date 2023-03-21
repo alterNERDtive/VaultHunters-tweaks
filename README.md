@@ -63,8 +63,6 @@ rules.
   the unstackability is not necessary anymore.
 * Removed the Automatic Genius requirement from AE2 crafting terminals.
 * Pulverizing now working with Vault Stone as expected.
-* Fixed Create Chute requiring a 3x3 crafting grid.
-* Fixed Quartz Enriched Iron requiring a 3x3 crafting grid.
 
 ## QoL Changes
 
