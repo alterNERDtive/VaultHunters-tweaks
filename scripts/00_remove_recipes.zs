@@ -1232,3 +1232,9 @@ JEI.hideIngredient(<item:rftoolsbase:crafting_card>);
 JEI.hideIngredient(<item:rftoolsbase:tablet>);
 JEI.hideIngredient(<item:rftoolsbase:tablet_filled>);
 // Titanium
+
+
+craftingTable.remove(<item:ae2wtlib:infinity_booster_card>);
+craftingTable.remove(<item:ae2wtlib:magnet_card>);
+JEI.hideIngredient(<item:ae2wtlib:infinity_booster_card>);
+JEI.hideIngredient(<item:ae2wtlib:magnet_card>);
