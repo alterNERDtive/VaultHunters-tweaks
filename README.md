@@ -62,6 +62,8 @@ rules.
 * Totems of Undying stack in backpacks again. Since they no longer revive you,
   the unstackability is not necessary anymore.
 * Removed the Automatic Genius requirement from AE2 crafting terminals.
+* Made AE2 Wireless Terminal compatible with curio slots, like the crafting
+  variant.
 
 ## QoL Changes
 
