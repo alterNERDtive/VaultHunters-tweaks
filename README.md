@@ -62,7 +62,6 @@ rules.
 * Totems of Undying stack in backpacks again. Since they no longer revive you,
   the unstackability is not necessary anymore.
 * Removed the Automatic Genius requirement from AE2 crafting terminals.
-* Pulverizing now working with Vault Stone as expected.
 
 ## QoL Changes
 
