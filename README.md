@@ -64,6 +64,7 @@ rules.
 * Removed the Automatic Genius requirement from AE2 crafting terminals.
 * Made AE2 Wireless Terminal compatible with curio slots, like the crafting
   variant.
+* Removed Simple Storage Networks recipes.
 
 ## QoL Changes
 
@@ -193,6 +194,11 @@ rules.
 
 * Re-enabled Jukebox Upgrade. Because why the fuck is that even disabled in the
   first place⁈
+
+### Sophisticated Storage
+
+* It’s in now! Recipes vaultified.
+* Replaces SSN research.
 
 ### Soul Shards
 

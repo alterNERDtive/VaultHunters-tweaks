@@ -19,7 +19,7 @@
     },
     {
       "modIds": [
-        "storagenetwork"
+        "sophisticatedstorage"
       ],
       "restrictions": {
         "restricts": {
@@ -30,8 +30,8 @@
           "ENTITY_INTERACTABILITY": false
         }
       },
-      "name": "Simple Storage Network",
-      "cost": 2,
+      "name": "Sophisticated Storage",
+      "cost": 3,
       "usesKnowledge": true
     },
     {
