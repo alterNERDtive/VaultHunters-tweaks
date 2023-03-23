@@ -1,6 +1,5 @@
 // GONE LUL CRI MOAR
 
-cratingTable.remove(<item:storagenetwork:network_book>);
 cratingTable.remove(<item:storagenetwork:import_kabel>);
 cratingTable.remove(<item:storagenetwork:import_filter_kabel>);
 cratingTable.remove(<item:storagenetwork:export_kabel>);
