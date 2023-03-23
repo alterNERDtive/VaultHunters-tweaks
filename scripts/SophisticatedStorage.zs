@@ -156,7 +156,7 @@ craftingTable.addShaped("sophisticatedstorage_diamond_to_netherite_tier_upgrade"
   [<item:sophisticatedstorage:chest>, <item:the_vault:gem_pog>, <item:sophisticatedstorage:chest>],
   [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:chromatic_steel_block>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
-JEI.addIngredient(<item:sophisticatedstorage:gold_to_diamond_tier_upgrade>);
+JEI.addIngredient(<item:sophisticatedstorage:diamond_to_netherite_tier_upgrade>);
 
 // Tools
 
