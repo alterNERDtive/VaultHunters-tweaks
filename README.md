@@ -109,6 +109,8 @@ rules.
 
 * “Vaultified” the recipes for Breeder, Converter and Incubator to bring them
   in line with the rest of the EV recipes.
+* Made the Trader block available without an unlock. Eliminates villager AI
+  issues and improves server performance.
 
 ### Fluxnet
 

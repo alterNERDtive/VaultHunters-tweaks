@@ -387,29 +387,6 @@
     },
     {
       "modIds": [
-        "easy_villagers"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Easy Villagers",
-      "cost": 2,
-      "usesKnowledge": true,
-      "discoversModels": [
-        "the_vault:gear/armor/villager/helmet",
-        "the_vault:gear/armor/villager/chestplate",
-        "the_vault:gear/armor/villager/leggings",
-        "the_vault:gear/armor/villager/boots"
-      ]
-    },
-    {
-      "modIds": [
         "easy_piglins"
       ],
       "restrictions": {
@@ -633,6 +610,63 @@
     }
   ],
   "CUSTOM_RESEARCHES": [
+    {
+      "itemRestrictions": {
+        "easy_villagers:auto_trader": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "easy_villagers:breeder": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "easy_villagers:converter": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "easy_villagers:farmer": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "easy_villagers:incubator": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "easy_villagers:iron_farm": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Easy Villagers",
+      "cost": 2,
+      "usesKnowledge": true,
+      "discoversModels": [
+        "the_vault:gear/armor/villager/helmet",
+        "the_vault:gear/armor/villager/chestplate",
+        "the_vault:gear/armor/villager/leggings",
+        "the_vault:gear/armor/villager/boots"
+      ]
+    },
     {
       "itemRestrictions": {
         "ae2:molecular_assembler": {
