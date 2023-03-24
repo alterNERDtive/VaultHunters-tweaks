@@ -126,6 +126,7 @@ rules.
 ### JEI Integration
 
 * Up-to-date version of Freud’s JEI integration script for vault mod stuff.
+* Removed all the outdated / uncraftable / not yet implemented vault stuff.
 
 ### Jewels
 
