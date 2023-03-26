@@ -79,6 +79,8 @@ rules.
 * Made AE2 Wireless Terminal compatible with curio slots, like the crafting
   variant.
 * Removed Simple Storage Network’s recipes.
+* Fixed trailing comma, rendering wooden chest enhancement altar requirements
+  invalid.
 
 ## QoL Changes
 
