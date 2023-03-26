@@ -126,10 +126,6 @@ rules.
 * Made the Trader block available without an unlock. Eliminates villager AI
   issues and improves server performance.
 
-### Fluxnet
-
-* Reverted crafting recipe changes introduced in update 5.
-
 ### Gear Crafting
 
 * Reverted the 10x proficiency gain nerf from a bunch of updates ago.
