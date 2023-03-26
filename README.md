@@ -19,6 +19,13 @@ _Currently confirmed working on patch_: __8.0.3__
    [Chunk Loaders mod](https://www.curseforge.com/minecraft/mc-mods/chunk-loaders)
    and _update_ “SuperMartijn642's Core Lib” and “Trash Cans” to their latest
    versions.
+4. Either _remove `scripts/SophisticatedStorage.zs`_ or install the
+   [Sophisticated Storage mod](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage).
+5. Either _remove `scripts/ae2addons.zs`_ or install the
+   [Applied Botanics](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon),
+   [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics)
+   and [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)
+   mods.
 
 ## Upgrading to a New Vault Hunters Version
 
@@ -31,6 +38,13 @@ _Currently confirmed working on patch_: __8.0.3__
    [Chunk Loaders mod](https://www.curseforge.com/minecraft/mc-mods/chunk-loaders)
    and _update_ “SuperMartijn642's Core Lib” and “Trash Cans” to their latest
    versions, again.
+5. Either _remove `scripts/SophisticatedStorage.zs`_ or install the
+   [Sophisticated Storage mod](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage).
+6. Either _remove `scripts/ae2addons.zs`_ or install the
+   [Applied Botanics](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon),
+   [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics)
+   and [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)
+   mods.
 
 ## FAQ
 
