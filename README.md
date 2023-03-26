@@ -89,10 +89,6 @@ rules.
 * Can now be built out of “Template Frames” created by an Extruder Mk2 router
   module. Because I want to build fancy things.
 
-### Pulverizer
-
-* Added Dripstone Block → 2x Clay Ball as a recipe to Thermal’s Pulverizer.
-
 ## Balance Changes
 
 ### Applied Energistics
