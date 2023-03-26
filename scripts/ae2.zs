@@ -1,8 +1,6 @@
 /* scripts made by Douwsky
 for Iskall85's Vaulthunters */
 
-<tag:items:curios:curio>.add(<item:ae2:wireless_terminal>);
-
 // adding recipes
 
 craftingTable.addShaped("ae2_controller", <item:ae2:controller>, [
