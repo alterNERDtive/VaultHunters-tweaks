@@ -20,7 +20,9 @@ _Currently confirmed working on patch_: __8.0.3__
    and _update_ “SuperMartijn642's Core Lib” and “Trash Cans” to their latest
    versions.
 4. Either _remove `scripts/SophisticatedStorage.zs`_ or install the
-   [Sophisticated Storage mod](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage).
+   [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage)
+   and [Crafting Station](https://www.curseforge.com/minecraft/mc-mods/crafting-station)
+   mods.
 5. Either _remove `scripts/ae2addons.zs`_ or install the
    [Applied Botanics](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon),
    [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics)
@@ -39,7 +41,9 @@ _Currently confirmed working on patch_: __8.0.3__
    and _update_ “SuperMartijn642's Core Lib” and “Trash Cans” to their latest
    versions, again.
 5. Either _remove `scripts/SophisticatedStorage.zs`_ or install the
-   [Sophisticated Storage mod](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage).
+   [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage)
+   and [Crafting Station](https://www.curseforge.com/minecraft/mc-mods/crafting-station)
+   mods.
 6. Either _remove `scripts/ae2addons.zs`_ or install the
    [Applied Botanics](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon),
    [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics)
@@ -207,6 +211,8 @@ rules.
 
 * It’s in now! Recipes vaultified.
 * Replaces SSN research.
+* Includes the Crafting Station mod to have an equivalent to SSN’s Storage
+  Request Table.
 
 ### Soul Shards
 

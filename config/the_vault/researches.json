@@ -19,6 +19,7 @@
     },
     {
       "modIds": [
+        "craftingstation",
         "sophisticatedstorage"
       ],
       "restrictions": {

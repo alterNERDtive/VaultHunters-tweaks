@@ -1,6 +1,32 @@
 /* scripts made by alterNERDtive
 for Iskall85's Vaulthunters */
 
+import crafttweaker.api.recipe.SmithingRecipeManager;
+import mods.jei.JEI;
+
+/**
+The main drawback of this vs. the role SSN fills in the default Vault Hunters
+pack is that Sophisticated Storage does not have a (crafting) grid as a way to
+access all the items in the system centrally. The controller does this for
+other mods (RS/AE/etc.pp.), but not for players.
+The Crafting Station mod remedies that by providing the Crafting Station block
+from Tinker’s Construct. It can read adjacent inventories and displays them
+alongside the crafting grid. It does _not_ work with any of the other storage
+mods (Drawer Controller, RS / ME Interface).
+*/
+
+craftingTable.remove(<item:craftingstation:crafting_station>);
+craftingTable.addShaped("crafting_station", <item:craftingstation:crafting_station>, [
+  [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>],
+  [<item:the_vault:driftwood>, <item:the_vault:gem_pog>, <item:the_vault:driftwood>],
+  [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>]
+]);
+
+craftingTable.remove(<item:craftingstation:crafting_station_slab>);
+craftingTable.addShapeless("crafting_station_slab", <item:craftingstation:crafting_station_slab>, [
+  <item:craftingstation:crafting_station>
+]);
+
 /**
 Generally inspired by both SSN recipe costs (for cheap early game storage) and
 Sophisticated Backpacks recipe style (for obvious reasons). Generally aimed at
@@ -9,8 +35,6 @@ vaults. For the same reason it probably doesn’t have to be split into several
 researches.
 */
 
-import crafttweaker.api.recipe.SmithingRecipeManager;
-import mods.jei.JEI;
 JEI.hideMod("sophisticatedstorage");
 
 /**
