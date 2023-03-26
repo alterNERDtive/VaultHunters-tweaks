@@ -78,7 +78,7 @@ rules.
 * Removed the Automatic Genius requirement from AE2 crafting terminals.
 * Made AE2 Wireless Terminal compatible with curio slots, like the crafting
   variant.
-* Removed Simple Storage Networks recipes.
+* Removed Simple Storage Network’s recipes.
 
 ## QoL Changes
 
@@ -110,7 +110,7 @@ rules.
   of Kaptainwutax via Tangofrags’ Discord).
 * Re-enabled Redstone Fluxfield.
 
-### Budding Crystal (Sky Vauts)
+### Budding Crystal (Sky Vaults)
 
 * Increased growth rate.
 
@@ -157,11 +157,10 @@ rules.
 ### Mystery Eggs
 
 * Added modded mob eggs to the mystery hostile egg:
-  * Wraith (Quark)
   * Basalz (Thermal)
-  * Blizz (Thermal)
   * Blitz (Thermal)
-* Added stoneling eggs to the mystery egg.
+  * Blizz (Thermal)
+  * Wraith (Quark)
 * Reduced chance for the worst offenders to show up.
 
 ### Pickarang/Flamarang
@@ -171,6 +170,11 @@ rules.
 * Made compressed blocks found in factory room mineable again. Yes, that
   enables cheese. But otherwise you couldn’t use it on some blocks found in raw
   vault quarries.
+
+### Raw Vaults (Sky Vaults)
+
+* Moved Nether room to lvl 0.
+* Moved End room to lvl 20.
 
 ### Refined Storage
 
@@ -195,14 +199,7 @@ rules.
 
 * Lowered the maximum amount of an item you might need across the board.
 
-### Sky Vaults
-
-* Moved Nether room to lvl 0.
-* Moved End room to lvl 20.
-
-### Snapshot Modifiers
-
-(Beginner’s Grace, Casual mode, Afterlife, Phoenix)
+### Snapshot Modifiers (Beginner’s Grace, Casual mode, Afterlife, Phoenix)
 
 * Removed gear durability damage penalty. I wish there was a way to bring “old”
   casual back, but there is not.
@@ -237,7 +234,7 @@ rules.
 ~~Currently the only way to farm Spore Blossoms is Botany Pots. That sucks.
 Taking suggestions for other recipe ideas!~~
 
-Those have been integrated into the mod pack!
+Those have been officially integrated into the mod pack! \o/
 
 ### Vault Altar
 
