@@ -242,7 +242,7 @@ craftingTable.remove(<item:sophisticatedstorage:advanced_feeding_upgrade>);
 craftingTable.remove(<item:sophisticatedstorage:compacting_upgrade>);
 craftingTable.addShaped("sophisticatedstorage_compacting_upgrade", <item:sophisticatedstorage:compacting_upgrade>, [
   [<item:the_vault:vault_diamond>, <item:the_vault:vault_diamond>, <item:the_vault:vault_diamond>],
-  [<item:the_vault:black_chromatic_steel_ingot>, <item:sophisticatedstorage:upgrade_base>, <item:the_vault:black_chromatic_steel_ingot>],
+  [<item:the_vault:chromatic_steel_ingot>, <item:sophisticatedstorage:upgrade_base>, <item:the_vault:chromatic_steel_ingot>],
   [<item:the_vault:vault_essence>, <item:the_vault:vault_essence>, <item:the_vault:vault_essence>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:compacting_upgrade>);
