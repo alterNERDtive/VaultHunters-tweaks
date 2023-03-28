@@ -168,6 +168,7 @@
 		"minecraft:ender_pearl"
 	],
 	"BLOCK_BLACKLIST": [
+		"sophisticatedstorage:*",
 		"chunkloaders:*",
 		"darkutils:*",
 		"refinedstorage:portable_grid",
