@@ -25,8 +25,9 @@ _Currently confirmed working on patch_: __8.0.3__
    mods.
 5. Either _remove `scripts/ae2addons.zs`_ or install the
    [Applied Botanics](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon),
-   [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics)
-   and [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)
+   [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics),
+   [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things) and
+   [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester)
    mods.
 
 ## Upgrading to a New Vault Hunters Version
@@ -46,8 +47,9 @@ _Currently confirmed working on patch_: __8.0.3__
    mods.
 6. Either _remove `scripts/ae2addons.zs`_ or install the
    [Applied Botanics](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon),
-   [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics)
-   and [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)
+   [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics),
+   [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)
+   [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester)
    mods.
 
 ## FAQ
@@ -145,6 +147,10 @@ rules.
 ### Jewels
 
 * Max size lowered to 40.
+
+### ME Requester
+
+* Added the ME Requester mod (similar to what the RS Requester does).
 
 ### Modular Routers
 
