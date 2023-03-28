@@ -185,7 +185,8 @@
         "ae2things",
         "ae2wtlib",
         "appbot",
-        "appmek"
+        "appmek",
+        "merequester"
       ],
       "restrictions": {
         "restricts": {
