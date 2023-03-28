@@ -99,6 +99,19 @@ craftingTable.addShaped("sophisticatedstorage_limited_barrel_2", <item:sophistic
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:limited_barrel_2>);
 
+craftingTable.remove(<item:sophisticatedstorage:limited_barrel_3>);
+craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_3>);
+craftingTable.remove(<item:sophisticatedstorage:limited_gold_barrel_3>);
+craftingTable.remove(<item:sophisticatedstorage:limited_diamond_barrel_3>);
+smithing.remove(<item:sophisticatedstorage:limited_netherite_barrel_3>);
+
+craftingTable.addShaped("sophisticatedstorage_limited_barrel_3", <item:sophisticatedstorage:limited_barrel_3>, [
+  [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:driftwood>, <item:the_vault:chromatic_iron_ingot>],
+  [<item:the_vault:driftwood>, <tag:items:minecraft:logs>, <item:the_vault:driftwood>],
+  [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>]
+]);
+JEI.addIngredient(<item:sophisticatedstorage:limited_barrel_3>);
+
 craftingTable.remove(<item:sophisticatedstorage:limited_barrel_4>);
 craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_4>);
 craftingTable.remove(<item:sophisticatedstorage:limited_gold_barrel_4>);
