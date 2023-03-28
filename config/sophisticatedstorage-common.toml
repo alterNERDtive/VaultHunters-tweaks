@@ -12,7 +12,7 @@
 		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Iron Barrel Settings
 	[common.IronBarrel]
@@ -21,7 +21,7 @@
 		inventorySlotCount = 54
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 3
 
 	#Gold Barrel Settings
 	[common.GoldBarrel]
@@ -30,7 +30,7 @@
 		inventorySlotCount = 81
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 3
 
 	#Diamond Barrel Settings
 	[common.DiamondBarrel]
@@ -39,7 +39,7 @@
 		inventorySlotCount = 108
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 5
 
 	#Netherite Barrel Settings
 	[common.NetheriteBarrel]
@@ -48,7 +48,7 @@
 		inventorySlotCount = 132
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 7
 
 	#Limited Barrel I Settings
 	[common.LimitedBarrelI]
@@ -57,7 +57,7 @@
 		baseSlotLimitMultiplier = 32
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Limited Iron Barrel I Settings
 	[common.LimitedIronBarrelI]
@@ -66,7 +66,7 @@
 		baseSlotLimitMultiplier = 64
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 3
 
 	#Limited Gold Barrel I Settings
 	[common.LimitedGoldBarrelI]
@@ -75,7 +75,7 @@
 		baseSlotLimitMultiplier = 96
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 3
 
 	#Limited Diamond Barrel I Settings
 	[common.LimitedDiamondBarrelI]
@@ -84,7 +84,7 @@
 		baseSlotLimitMultiplier = 128
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 5
 
 	#Limited Netherite Barrel I Settings
 	[common.LimitedNetheriteBarrelI]
@@ -93,7 +93,7 @@
 		baseSlotLimitMultiplier = 160
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 7
 
 	#Limited Barrel II Settings
 	[common.LimitedBarrelII]
@@ -102,7 +102,7 @@
 		baseSlotLimitMultiplier = 16
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Limited Iron Barrel II Settings
 	[common.LimitedIronBarrelII]
@@ -111,7 +111,7 @@
 		baseSlotLimitMultiplier = 32
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 3
 
 	#Limited Gold Barrel II Settings
 	[common.LimitedGoldBarrelII]
@@ -120,7 +120,7 @@
 		baseSlotLimitMultiplier = 48
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 3
 
 	#Limited Diamond Barrel II Settings
 	[common.LimitedDiamondBarrelII]
@@ -129,7 +129,7 @@
 		baseSlotLimitMultiplier = 64
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 5
 
 	#Limited Netherite Barrel II Settings
 	[common.LimitedNetheriteBarrelII]
@@ -138,7 +138,7 @@
 		baseSlotLimitMultiplier = 80
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 7
 
 	#Limited Barrel III Settings
 	[common.LimitedBarrelIII]
@@ -147,7 +147,7 @@
 		baseSlotLimitMultiplier = 10
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Limited Iron Barrel III Settings
 	[common.LimitedIronBarrelIII]
@@ -156,7 +156,7 @@
 		baseSlotLimitMultiplier = 20
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 3
 
 	#Limited Gold Barrel III Settings
 	[common.LimitedGoldBarrelIII]
@@ -165,7 +165,7 @@
 		baseSlotLimitMultiplier = 30
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 3
 
 	#Limited Diamond Barrel III Settings
 	[common.LimitedDiamondBarrelIII]
@@ -174,7 +174,7 @@
 		baseSlotLimitMultiplier = 40
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 5
 
 	#Limited Netherite Barrel III Settings
 	[common.LimitedNetheriteBarrelIII]
@@ -183,7 +183,7 @@
 		baseSlotLimitMultiplier = 50
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 7
 
 	#Limited Barrel IV Settings
 	[common.LimitedBarrelIV]
@@ -192,7 +192,7 @@
 		baseSlotLimitMultiplier = 8
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Limited Iron Barrel IV Settings
 	[common.LimitedIronBarrelIV]
@@ -201,7 +201,7 @@
 		baseSlotLimitMultiplier = 16
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 3
 
 	#Limited Gold Barrel IV Settings
 	[common.LimitedGoldBarrelIV]
@@ -210,7 +210,7 @@
 		baseSlotLimitMultiplier = 24
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 3
 
 	#Limited Diamond Barrel IV Settings
 	[common.LimitedDiamondBarrelIV]
@@ -219,7 +219,7 @@
 		baseSlotLimitMultiplier = 32
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 5
 
 	#Limited Netherite Barrel IV Settings
 	[common.LimitedNetheriteBarrelIV]
@@ -228,7 +228,7 @@
 		baseSlotLimitMultiplier = 40
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 7
 
 	#Wood Chest Settings
 	[common.WoodChest]
@@ -237,7 +237,7 @@
 		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Iron Chest Settings
 	[common.IronChest]
@@ -246,7 +246,7 @@
 		inventorySlotCount = 54
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 3
 
 	#Gold Chest Settings
 	[common.GoldChest]
@@ -255,7 +255,7 @@
 		inventorySlotCount = 81
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 3
 
 	#Diamond Chest Settings
 	[common.DiamondChest]
@@ -264,7 +264,7 @@
 		inventorySlotCount = 108
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 5
 
 	#Netherite Chest Settings
 	[common.NetheriteChest]
@@ -273,7 +273,7 @@
 		inventorySlotCount = 132
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 7
 
 	#Shulker Box Settings
 	[common.ShulkerBox]
@@ -282,7 +282,7 @@
 		inventorySlotCount = 27
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 2
 
 	#Iron Shulker Box Settings
 	[common.IronShulkerBox]
@@ -291,7 +291,7 @@
 		inventorySlotCount = 54
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 3
 
 	#Gold Shulker Box Settings
 	[common.GoldShulkerBox]
@@ -300,7 +300,7 @@
 		inventorySlotCount = 81
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 3
 
 	#Diamond Shulker Box Settings
 	[common.DiamondShulkerBox]
@@ -309,7 +309,7 @@
 		inventorySlotCount = 108
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 5
 
 	#Netherite Shulker Box Settings
 	[common.NetheriteShulkerBox]
@@ -318,7 +318,7 @@
 		inventorySlotCount = 132
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 7
 
 	#Stack Upgrade Settings
 	[common.stackUpgrade]

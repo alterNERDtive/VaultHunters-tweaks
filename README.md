@@ -213,6 +213,8 @@ rules.
 * Replaces SSN research.
 * Includes the Crafting Station mod to have an equivalent to SSN’s Storage
   Request Table.
+* Increased the upgrade slot count from 1/2/2/3/4 to 2/3/3/5/7 to match
+  Backpacks. We want this to replace those for bulk storage, no?
 
 ### Soul Shards
 
