@@ -219,14 +219,14 @@ craftingTable.remove(<item:sophisticatedstorage:advanced_pickup_upgrade>);
 craftingTable.remove(<item:sophisticatedstorage:filter_upgrade>);
 craftingTable.addShaped("sophisticatedstorage_filter_upgrade", <item:sophisticatedstorage:filter_upgrade>, [
   [<item:the_vault:gem_larimar>, <item:the_vault:magic_silk>, <item:the_vault:gem_larimar>],
-  [<item:the_vault:magic_silk>, <item:sophisticatedbackpacks:upgrade_base>, <item:the_vault:magic_silk>],
+  [<item:the_vault:magic_silk>, <item:sophisticatedstorage:upgrade_base>, <item:the_vault:magic_silk>],
   [<item:the_vault:vault_essence>, <item:the_vault:magic_silk>, <item:the_vault:vault_essence>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:filter_upgrade>);
 craftingTable.remove(<item:sophisticatedstorage:advanced_filter_upgrade>);
 craftingTable.addShaped("sophisticatedstorage_advanced_filter_upgrade", <item:sophisticatedstorage:advanced_filter_upgrade>, [
   [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>],
-  [<item:the_vault:magic_silk>, <item:sophisticatedbackpacks:filter_upgrade>, <item:the_vault:magic_silk>],
+  [<item:the_vault:magic_silk>, <item:sophisticatedstorage:filter_upgrade>, <item:the_vault:magic_silk>],
   [<item:the_vault:vault_essence>, <item:the_vault:vault_diamond>, <item:the_vault:vault_essence>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:advanced_filter_upgrade>);
