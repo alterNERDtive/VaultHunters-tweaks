@@ -145,8 +145,9 @@ craftingTable.addShaped("sophisticatedstorage_controller", <item:sophisticatedst
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:controller>);
 craftingTable.addShaped("sophisticatedstorage_storage_link", <item:sophisticatedstorage:storage_link>, [
-  [<item:the_vault:vault_essence>, <item:the_vault:driftwood>],
-  [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>]
+  [<item:the_vault:vault_essence>, <item:the_vault:driftwood>, <item:minecraft:air>],
+  [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:air>],
+  [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:storage_link>);
 
