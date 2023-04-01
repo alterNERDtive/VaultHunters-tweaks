@@ -15,11 +15,20 @@
       {"value": {"id": "colossalchests:interface_wood", "amountMin": 1, "amountMax": 1}, "weight": 3},
       {"value": {"id": "colossalchests:colossal_chest_wood", "amountMin": 1, "amountMax": 1}, "weight": 1}
     ],
-    "Simple Storage Network": [
-      {"value": {"id": "storagenetwork:kabel", "amountMin": 1, "amountMax": 16}, "weight": 30},
-      {"value": {"id": "storagenetwork:storage_kabel", "amountMin": 1, "amountMax": 8}, "weight": 15},
-      {"value": {"id": "storagenetwork:speed_upgrade", "amountMin": 1, "amountMax": 8}, "weight": 5},
-      {"value": {"id": "storagenetwork:stack_upgrade", "amountMin": 1, "amountMax": 8}, "weight": 1}
+    "Sophisticated Storage": [
+      {"value": {"id": "sophisticatedstorage:upgrade_base", "amountMin": 1, "amountMax": 2}, "weight": 30},
+      {"value": {"id": "sophisticatedstorage:basic_to_iron_tier_upgrade", "amountMin": 1, "amountMax": 2}, "weight": 20},
+      {"value": {"id": "sophisticatedstorage:iron_to_gold_tier_upgrade", "amountMin": 1, "amountMax": 2}, "weight": 15},
+      {"value": {"id": "sophisticatedstorage:gold_to_diamond_tier_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "sophisticatedstorage:diamond_to_netherite_tier_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "sophisticatedstorage:jukebox_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "sophisticatedstorage:stack_upgrade_tier_4", "amountMin": 1, "amountMax": 1}, "weight": 1}
+    ],
+    "Chunk Loaders": [
+      {"value": {"id": "chunkloaders:single_chunk_loader", "amountMin": 1, "amountMax": 1}, "weight": 30},
+      {"value": {"id": "chunkloaders:basic_chunk_loader", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "chunkloaders:advanced_loader", "amountMin": 1, "amountMax": 1}, "weight": 3},
+      {"value": {"id": "chunkloaders:ultimate_chunk_loader", "amountMin": 1, "amountMax": 1}, "weight": 1}
     ],
     "Drawers": [
       {"value": {"id": "framedcompactdrawers:framed_full_one", "amountMin": 1, "amountMax": 1}, "weight": 30},
@@ -61,9 +70,9 @@
       {"value": {"id": "ae2:item_storage_cell_1k", "amountMin": 1, "amountMax": 1}, "weight": 100},
       {"value": {"id": "ae2:item_storage_cell_4k", "amountMin": 1, "amountMax": 1}, "weight": 25},
       {"value": {"id": "ae2:item_storage_cell_16k", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "ae2:item_storage_cell_64k", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "ae2:item_storage_cell_64k", "amountMin": 1, "amountMax": 1}, "weight": 10},
       {"value": {"id": "ae2:terminal", "amountMin": 1, "amountMax": 1}, "weight": 10},
-      {"value": {"id": "ae2:crafting_terminal", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "ae2:crafting_terminal", "amountMin": 1, "amountMax": 1}, "weight": 10},
       {"value": {"id": "ae2:controller", "amountMin": 1, "amountMax": 1}, "weight": 4},
       {"value": {"id": "ae2:speed_card", "amountMin": 1, "amountMax": 1}, "weight": 140},
       {"value": {"id": "ae2:fuzzy_card", "amountMin": 1, "amountMax": 1}, "weight": 140},
@@ -72,15 +81,15 @@
       {"value": {"id": "ae2:storage_bus", "amountMin": 1, "amountMax": 1}, "weight": 90}
     ],
     "Pouches": [
-      {"value": {"id": "minecraft:rabbit_hide", "amountMin": 2, "amountMax": 8}, "weight": 32},
-      {"value": {"id": "the_vault:magic_silk", "amountMin": 1, "amountMax": 4}, "weight": 16},
-      {"value": {"id": "minecraft:bundle", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "minecraft:rabbit_hide", "amountMin": 2, "amountMax": 8}, "weight": 16},
+      {"value": {"id": "the_vault:magic_silk", "amountMin": 1, "amountMax": 4}, "weight": 8},
+      {"value": {"id": "minecraft:bundle", "amountMin": 1, "amountMax": 1}, "weight": 4},
       {"value": {"id": "sophisticatedbackpacks:backpack", "amountMin": 1, "amountMax": 1}, "weight": 1},
       {"value": {"id": "sophisticatedbackpacks:upgrade_base", "amountMin": 1, "amountMax": 1}, "weight": 4}
     ],
     "Double Pouches": [
-      {"value": {"id": "minecraft:rabbit_hide", "amountMin": 2, "amountMax": 8}, "weight": 32},
-      {"value": {"id": "the_vault:magic_silk", "amountMin": 1, "amountMax": 4}, "weight": 16},
+      {"value": {"id": "minecraft:rabbit_hide", "amountMin": 2, "amountMax": 8}, "weight": 16},
+      {"value": {"id": "the_vault:magic_silk", "amountMin": 1, "amountMax": 4}, "weight": 8},
       {"value": {"id": "sophisticatedbackpacks:iron_backpack", "amountMin": 1, "amountMax": 1}, "weight": 1},
       {"value": {"id": "sophisticatedbackpacks:upgrade_base", "amountMin": 1, "amountMax": 1}, "weight": 4}
     ],
@@ -136,8 +145,8 @@
       {"value": {"id": "modularrouters:augment_core", "amountMin": 1, "amountMax": 4}, "weight": 86},
       {"value": {"id": "modularrouters:modular_router", "amountMin": 1, "amountMax": 2}, "weight": 64},
       {"value": {"id": "modularrouters:stack_augment", "amountMin": 1, "amountMax": 1}, "weight": 32},
-      {"value": {"id": "modularrouters:vacuum_module", "amountMin": 1, "amountMax": 1}, "weight": 1},
-      {"value": {"id": "modularrouters:sender_module_3", "amountMin": 1, "amountMax": 1}, "weight": 1}
+      {"value": {"id": "modularrouters:vacuum_module", "amountMin": 1, "amountMax": 1}, "weight": 16},
+      {"value": {"id": "modularrouters:sender_module_3", "amountMin": 1, "amountMax": 1}, "weight": 16}
     ],
     "Create": [
       {"value": {"id": "create:nixie_tube", "amountMin": 1, "amountMax": 1}, "weight": 20},
