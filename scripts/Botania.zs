@@ -118,8 +118,8 @@ craftingTable.addShaped("botania_dragonstone_block", <item:botania:dragonstone_b
 ]);
 
 craftingTable.addShaped("botania_livingwood_twig", <item:botania:livingwood_twig>, [
-    [<item:minecraft:air>, <tag:items:botania:livingwood_logs>, <item:minecraft:air>],
-    [<item:minecraft:air>, <tag:items:botania:livingwood_logs>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:botania:livingwood_planks>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:botania:livingwood_planks>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:the_vault:driftwood>, <item:minecraft:air>]
 ]);
 
