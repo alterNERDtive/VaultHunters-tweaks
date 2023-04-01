@@ -62,7 +62,7 @@ craftingTable.addShaped("ae2_mana_cell_housing", <item:appbot:mana_cell_housing>
 
 // Applied Mekanistics
 
-craftingTable.remove(<item:appbot:mana_cell_housing>);
+craftingTable.remove(<item:appbot:chemical_cell_housing>);
 craftingTable.addShaped("ae2_chemical_cell_housing", <item:appmek:chemical_cell_housing>, [
   [<item:the_vault:chromatic_iron_ingot>, <item:minecraft:redstone_block>, <item:the_vault:chromatic_iron_ingot>],
   [<item:minecraft:redstone_block>, <item:minecraft:air>, <item:minecraft:redstone_block>],
