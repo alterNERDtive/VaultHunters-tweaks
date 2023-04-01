@@ -55,8 +55,8 @@ craftingTable.addShaped("ae2_disk_housing", <item:ae2things:disk_housing>, [
 
 craftingTable.remove(<item:appbot:mana_cell_housing>);
 craftingTable.addShaped("ae2_mana_cell_housing", <item:appbot:mana_cell_housing>, [
-  [<item:the_vault:chromatic_iron_ingot>, <item:botania:life_essence>, <item:the_vault:chromatic_iron_ingot>],
-  [<item:botania:life_essence>, <item:minecraft:air>, <item:botania:life_essence>],
+  [<item:the_vault:chromatic_iron_ingot>, <item:botania:elementium_ingot>, <item:the_vault:chromatic_iron_ingot>],
+  [<item:botania:elementium_ingot>, <item:minecraft:air>, <item:botania:elementium_ingot>],
   [<item:botania:manasteel_ingot>, <item:botania:manasteel_ingot>, <item:botania:manasteel_ingot>]
 ]);
 
