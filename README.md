@@ -193,7 +193,8 @@ rules.
 ### Researches
 
 * Lowered the research penalty in the “Production” category to +8.
-* Raised the research cost of Automatic Genius to 10.
+* Raised the research cost of Automatic Genius to ~~10~~ 3. Might change again,
+  not sure on the balancing of this one yet.
 * Automatic Genius no longer requires unlocking everything else.
 * Added research requirements for AE2 Things, AE 2 WTLib, Applied Botanics,
   Applied Mekanistics; if you do not run these mods, it shouldn’t have any
