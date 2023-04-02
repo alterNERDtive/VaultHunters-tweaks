@@ -87,6 +87,8 @@ rules.
 * Removed Simple Storage Network’s recipes.
 * Fixed trailing comma, rendering wooden chest enhancement altar requirements
   invalid.
+* Pulverizing Stone → Gravel is now a thing. You want to use Silk Touch with 
+  Pulverizing …
 
 ## QoL Changes
 

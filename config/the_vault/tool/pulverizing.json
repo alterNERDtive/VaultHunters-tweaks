@@ -1,5 +1,21 @@
 {
   "loot": {
+    "minecraft:stone": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:gravel"
+            }
+          }
+        ]
+      }
+    ],
     "minecraft:cobblestone": [
       {
         "roll": {
