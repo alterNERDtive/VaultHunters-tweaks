@@ -51,6 +51,18 @@ craftingTable.addShaped("ae2_disk_housing", <item:ae2things:disk_housing>, [
   [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
+// AE2WTLib
+
+craftingTable.remove(<item:ae2wtlib:wireless_pattern_encoding_terminal>);
+craftingTable.addShaped("ae2wtlib_wireless_pattern_terminal", <item:ae2wtlib:wireless_pattern_encoding_terminal>, [
+  [<item:minecraft:air>, <item:ae2:wireless_receiver>, <item:minecraft:air>],
+  [<item:minecraft:air>, <item:ae2:pattern_encoding_terminal>, <item:minecraft:air>],
+  [<item:minecraft:air>, <item:ae2:dense_energy_cell>, <item:minecraft:air>]
+]);
+craftingTable.addShapeless("ae2wtlib_wireless_pattern_terminal_from_terminal", <item:ae2wtlib:wireless_pattern_encoding_terminal>, [
+    <item:ae2:wireless_terminal>, <item:ae2:engineering_processor>
+]);
+
 // Applied Botanics
 
 craftingTable.remove(<item:appbot:mana_cell_housing>);
