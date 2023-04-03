@@ -180,7 +180,7 @@ craftingTable.addShapeless("ae2_shapeless_crafting_terminal", <item:ae2:crafting
 ]);
 
 craftingTable.addShapeless("ae2_shapeless_pattern_encoding_terminal", <item:ae2:pattern_encoding_terminal>, [
-    <item:ae2:crafting_terminal>, <item:ae2:engineering_processor>
+    <item:ae2:terminal>, <item:ae2:engineering_processor>
 ]);
 
 craftingTable.addShaped("ae2_charger", <item:ae2:charger>, [
