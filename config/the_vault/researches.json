@@ -515,7 +515,7 @@
         }
       },
       "name": "Flux Networks",
-      "cost": 1,
+      "cost": 2,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/flux/helmet",
