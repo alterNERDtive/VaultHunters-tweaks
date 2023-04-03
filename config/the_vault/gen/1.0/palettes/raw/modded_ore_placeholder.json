@@ -22,8 +22,7 @@
             "thermal:deepslate_sulfur_ore": 5,
             "thermal:deepslate_silver_ore": 7,
             "thermal:deepslate_nickel_ore": 7,
-            "thermal:deepslate_apatite_ore": 8,
-            "rftoolsbase:dimensionalshard_overworld": 1
+            "thermal:deepslate_apatite_ore": 8
           },
           "failure": {
             "minecraft:deepslate": 1

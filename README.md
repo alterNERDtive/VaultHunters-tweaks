@@ -181,6 +181,8 @@ rules.
 
 * Moved Nether room to lvl 0.
 * Moved End room to lvl 20.
+* Removed Dimensional Shard Ore from the modder ore resource rooms. It is 
+  literally useless in this pack.
 
 ### Refined Storage
 
