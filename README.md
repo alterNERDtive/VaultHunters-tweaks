@@ -115,6 +115,7 @@ rules.
 * Orechids can now create modded ores from Stone and Deepslate (script courtesy
   of Kaptainwutax via Tangofrags’ Discord).
 * Re-enabled Redstone Fluxfield.
+* Can now dupe Unobtanium. Why? Why not.
 
 ### Budding Crystal (Sky Vaults)
 

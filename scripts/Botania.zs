@@ -178,5 +178,19 @@ craftingTable.addShaped("botania_alchemy_catalyst", <item:botania:alchemy_cataly
     <block:botania:alchemy_catalyst>
 );
 
+<recipetype:botania:mana_infusion>.addRecipe("mana_infusion_obtanium",
+    <item:architects_palette:unobtanium> *2,
+    <item:architects_palette:unobtanium>,
+    1,
+    <block:botania:conjuration_catalyst>
+);
+
+<recipetype:botania:mana_infusion>.addRecipe("mana_infusion_obtanium_block",
+    <item:architects_palette:unobtanium_block> *2,
+    <item:architects_palette:unobtanium_block>,
+    1,
+    <block:botania:conjuration_catalyst>
+    );
+
 // <recipetype:botania:mana_infusion>.addRecipe("mana_infusion_vault_stone",  <item:the_vault:chipped_vault_rock>,
 //  <item:the_vault:vault_stone> *2, 10000, <block:botania:alchemy_catalyst>);
