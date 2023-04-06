@@ -115,9 +115,6 @@
       "x": 38,
       "y": 0,
       "specializationStyles": {
-        "Vein Miner_Fortune": {
-          "icon": "the_vault:gui/abilities/vein_miner_fortune"
-        },
         "Vein Miner_Durability": {
           "icon": "the_vault:gui/abilities/vein_miner_durability"
         },

@@ -29,6 +29,9 @@ _Currently confirmed working on patch_: __8.0.3__
    [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things) and
    [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester)
    mods.
+6. Open the Vault Hunters mod jar file (`mods/the_vault-1.18.2-<version>.jar`) 
+   as a Zip file.
+7. Copy the `data` folder from `ores` into the mod jar file.
 
 ## Upgrading to a New Vault Hunters Version
 
@@ -51,6 +54,9 @@ _Currently confirmed working on patch_: __8.0.3__
    [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)
    [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester)
    mods.
+7. Open the Vault Hunters mod jar file (`mods/the_vault-1.18.2-<version>.jar`) 
+   as a Zip file.
+8. Copy the `data` folder from `ores` into the mod jar file.
 
 ## FAQ
 
@@ -132,6 +138,18 @@ rules.
   in line with the rest of the EV recipes.
 * Made the Trader block available without an unlock. Eliminates villager AI
   issues and improves server performance.
+
+### Fortune and Vault Ores
+
+* Removed Vein Miner: Fortune.
+* Removed the chance to roll 0 on breaking Vault Ores.
+
+This should make the other Vein Miner specs (or unspecced!) more useful. It also 
+removes the unfun mechanic of getting 0 off an ore.
+
+The end result should be getting roughly the same amount of gems with Fortune 
+3 that you got before with Fortune 4, and a significant increase if using lower 
+levels of Fortune or none at all.
 
 ### Gear Crafting
 
