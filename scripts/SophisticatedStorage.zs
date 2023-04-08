@@ -262,7 +262,7 @@ craftingTable.addShaped("sophisticatedstorage_compression_upgrade", <item:sophis
     [<item:the_vault:perfect_larimar>, <item:sophisticatedstorage:upgrade_base>, <item:the_vault:perfect_larimar>],
     [<item:the_vault:vault_essence>, <item:the_vault:vault_diamond>, <item:the_vault:vault_essence>]
 ]);
-JEI.addIngredient(<item:sophisticatedstorage:advanced_compacting_upgrade>);
+JEI.addIngredient(<item:sophisticatedstorage:compression_upgrade>);
 
 // Akin to Backpacks/Drawers.
 craftingTable.remove(<item:sophisticatedstorage:void_upgrade>);
