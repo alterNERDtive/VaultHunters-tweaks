@@ -1,6 +1,6 @@
 
-#Common Settings
-[common]
+#Server Settings
+[server]
 	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
 	disallowedItems = ["minecraft:bundle", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box", "minecraft:enchanted_golden_apple", "supplementaries:sack", "supplementaries:safe"]
 	#Turns on/off loot added to various vanilla chest loot tables
@@ -15,7 +15,7 @@
 	noInteractionBlocks = ["the_vault:wooden_chest", "the_vault:altar_chest", "the_vault:gilded_chest", "the_vault:ornate_chest", "the_vault:treasure_chest", "the_vault:living_chest"]
 
 	#Leather Backpack Settings
-	[common.leatherBackpack]
+	[server.leatherBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
 		inventorySlotCount = 27
@@ -24,7 +24,7 @@
 		upgradeSlotCount = 2
 
 	#Iron Backpack Settings
-	[common.ironBackpack]
+	[server.ironBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
 		inventorySlotCount = 54
@@ -33,7 +33,7 @@
 		upgradeSlotCount = 3
 
 	#Gold Backpack Settings
-	[common.goldBackpack]
+	[server.goldBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
 		inventorySlotCount = 81
@@ -42,7 +42,7 @@
 		upgradeSlotCount = 3
 
 	#Diamond Backpack Settings
-	[common.diamondBackpack]
+	[server.diamondBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
 		inventorySlotCount = 108
@@ -51,7 +51,7 @@
 		upgradeSlotCount = 5
 
 	#Netherite Backpack Settings
-	[common.netheriteBackpack]
+	[server.netheriteBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
 		inventorySlotCount = 120
@@ -60,7 +60,7 @@
 		upgradeSlotCount = 7
 
 	#Compacting Upgrade Settings
-	[common.compactingUpgrade]
+	[server.compactingUpgrade]
 		#Number of Compacting Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -69,7 +69,7 @@
 		slotsInRow = 3
 
 	#Advanced Compacting Upgrade Settings
-	[common.advancedCompactingUpgrade]
+	[server.advancedCompactingUpgrade]
 		#Number of Advanced Compacting Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -78,7 +78,7 @@
 		slotsInRow = 4
 
 	#Deposit Upgrade Settings
-	[common.depositUpgrade]
+	[server.depositUpgrade]
 		#Number of Deposit Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -87,7 +87,7 @@
 		slotsInRow = 3
 
 	#Advanced Deposit Upgrade Settings
-	[common.advancedDepositUpgrade]
+	[server.advancedDepositUpgrade]
 		#Number of Advanced Deposit Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -96,7 +96,7 @@
 		slotsInRow = 4
 
 	#Feeding Upgrade Settings
-	[common.feedingUpgrade]
+	[server.feedingUpgrade]
 		#Number of Feeding Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -105,7 +105,7 @@
 		slotsInRow = 3
 
 	#Advanced Feeding Upgrade Settings
-	[common.advancedFeedingUpgrade]
+	[server.advancedFeedingUpgrade]
 		#Number of Advanced Feeding Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -114,7 +114,7 @@
 		slotsInRow = 4
 
 	#Filter Upgrade Settings
-	[common.filterUpgrade]
+	[server.filterUpgrade]
 		#Number of Filter Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -123,7 +123,7 @@
 		slotsInRow = 3
 
 	#Advanced Filter Upgrade Settings
-	[common.advancedFilterUpgrade]
+	[server.advancedFilterUpgrade]
 		#Number of Advanced Filter Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -132,7 +132,7 @@
 		slotsInRow = 4
 
 	#Magnet Upgrade Settings
-	[common.magnetUpgrade]
+	[server.magnetUpgrade]
 		#Number of Magnet Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -144,7 +144,7 @@
 		magnetRange = 3
 
 	#Advanced Magnet Upgrade Settings
-	[common.advancedMagnetUpgrade]
+	[server.advancedMagnetUpgrade]
 		#Number of Advanced Magnet Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -156,7 +156,7 @@
 		magnetRange = 5
 
 	#Pickup Upgrade Settings
-	[common.pickupUpgrade]
+	[server.pickupUpgrade]
 		#Number of Pickup Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -165,7 +165,7 @@
 		slotsInRow = 3
 
 	#Advanced Pickup Upgrade Settings
-	[common.advancedPickupUpgrade]
+	[server.advancedPickupUpgrade]
 		#Number of Advanced Pickup Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -174,7 +174,7 @@
 		slotsInRow = 4
 
 	#Refill Upgrade Settings
-	[common.refillUpgrade]
+	[server.refillUpgrade]
 		#Number of Refill Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 6
@@ -182,8 +182,17 @@
 		#Range: 1 ~ 6
 		slotsInRow = 3
 
+	#Advanced Refill Upgrade Settings
+	[server.advancedRefillUpgrade]
+		#Number of Advanced Refill Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 12
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
+
 	#Restock Upgrade Settings
-	[common.restockUpgrade]
+	[server.restockUpgrade]
 		#Number of Restock Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -192,7 +201,7 @@
 		slotsInRow = 3
 
 	#Advanced Restock Upgrade Settings
-	[common.advancedRestockUpgrade]
+	[server.advancedRestockUpgrade]
 		#Number of Advanced Restock Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -201,7 +210,7 @@
 		slotsInRow = 4
 
 	#Void Upgrade Settings
-	[common.voidUpgrade]
+	[server.voidUpgrade]
 		#Number of Void Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -212,7 +221,7 @@
 		voidAnythingEnabled = false
 
 	#Advanced Void Upgrade Settings
-	[common.advancedVoidUpgrade]
+	[server.advancedVoidUpgrade]
 		#Number of Advanced Void Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -223,12 +232,12 @@
 		voidAnythingEnabled = true
 
 	#Stack Upgrade Settings
-	[common.stackUpgrade]
+	[server.stackUpgrade]
 		#List of items that are not supposed to stack in storage even when stack upgrade is inserted. Item registry names are expected here.
 		nonStackableItems = ["supplementaries:sack", "minecraft:potion", "supplementaries:safe"]
 
 	#Smelting Upgrade Settings
-	[common.smeltingUpgrade]
+	[server.smeltingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -237,7 +246,7 @@
 		fuelEfficiencyMultiplier = 1.0
 
 	#Smoking Upgrade Settings
-	[common.smokingUpgrade]
+	[server.smokingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -246,7 +255,7 @@
 		fuelEfficiencyMultiplier = 1.0
 
 	#Blasting Upgrade Settings
-	[common.blastingUpgrade]
+	[server.blastingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -255,7 +264,7 @@
 		fuelEfficiencyMultiplier = 1.0
 
 	#Auto-Smelting Upgrade Settings
-	[common.autoSmeltingUpgrade]
+	[server.autoSmeltingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -276,7 +285,7 @@
 		fuelFilterSlotsInRow = 4
 
 	#Auto-Smoking Upgrade Settings
-	[common.autoSmokingUpgrade]
+	[server.autoSmokingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -297,7 +306,7 @@
 		fuelFilterSlotsInRow = 4
 
 	#Auto-Blasting Upgrade Settings
-	[common.autoBlastingUpgrade]
+	[server.autoBlastingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -318,14 +327,14 @@
 		fuelFilterSlotsInRow = 4
 
 	#Inception Upgrade Settings
-	[common.inceptionUpgrade]
+	[server.inceptionUpgrade]
 		#Allows / Disallows backpack upgrades to work with inventories of Backpacks in the Backpack with Inception Upgrade
 		upgradesUseInventoriesOfBackpacksInBackpack = true
 		#Allows / Disallows upgrades to be functional even when they are in Backpacks in the inventory of Backpack with Inception Upgrade
 		upgradesInContainedBackpacksAreFunctional = true
 
 	#Tool Swapper Upgrade Settings
-	[common.toolSwapperUpgrade]
+	[server.toolSwapperUpgrade]
 		#Number of Tool Swapper Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 8
@@ -334,7 +343,7 @@
 		slotsInRow = 4
 
 	#Tank Upgrade Settings
-	[common.tankUpgrade]
+	[server.tankUpgrade]
 		#Capacity in mB the tank upgrade will have per row of storage slots
 		#Range: 500 ~ 20000
 		capacityPerSlotRow = 4000
@@ -352,7 +361,7 @@
 		energyPerSlotRow = 10000
 
 	#Pump Upgrade Settings
-	[common.pumpUpgrade]
+	[server.pumpUpgrade]
 		#Number of fluid filter slots
 		#Range: 1 ~ 20
 		filterSlots = 4
@@ -364,7 +373,7 @@
 		stackMultiplierRatio = 1.0
 
 	#Xp Pump Upgrade Settings
-	[common.xpPumpUpgrade]
+	[server.xpPumpUpgrade]
 		#Whether xp pump can mend items with mending. Set false here to turn off the feature altogether.
 		mendingOn = true
 		#How many experience points at a maximum would be used to mend an item per operation (every 5 ticks and 1 xp point usually translates to 2 damage repaired).
@@ -372,7 +381,7 @@
 		maxXpPointsPerMending = 5
 
 	#Settings for Spawning Entities with Backpack
-	[common.entityBackpackAdditions]
+	[server.entityBackpackAdditions]
 		#Chance of an entity spawning with Backpack
 		#Range: 0.0 ~ 1.0
 		chance = 0.0
@@ -399,7 +408,7 @@
 		#Range: 0.0 ~ 0.2
 		lootingChanceIncreasePerLevel = 0.01
 
-	[common.nerfs]
+	[server.nerfs]
 		#Determines if too many backpacks in player's inventory cause slowness to the player
 		tooManyBackpacksSlowness = false
 		#Maximum number of backpacks in player's inventory that will not cause slowness
@@ -410,13 +419,4 @@
 		slownessLevelsPerAdditionalBackpack = 1.0
 		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
 		onlyWornBackpackTriggersUpgrades = false
-
-	#Advanced Refill Upgrade Settings
-	[common.advancedRefillUpgrade]
-		#Number of Advanced Refill Upgrade's filter slots
-		#Range: 1 ~ 20
-		filterSlots = 12
-		#Number of filter slots displayed in a row
-		#Range: 1 ~ 6
-		slotsInRow = 4
 

@@ -255,6 +255,15 @@ craftingTable.addShaped("sophisticatedstorage_advanced_compacting_upgrade", <ite
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:advanced_compacting_upgrade>);
 
+// _Actual_ “Compacting Storage”. Will void items though, currently.
+craftingTable.remove(<item:sophisticatedstorage:compression_upgrade>);
+craftingTable.addShaped("sophisticatedstorage_compression_upgrade", <item:sophisticatedstorage:compression_upgrade>, [
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:perfect_larimar>, <item:sophisticatedstorage:upgrade_base>, <item:the_vault:perfect_larimar>],
+    [<item:the_vault:vault_essence>, <item:the_vault:vault_diamond>, <item:the_vault:vault_essence>]
+]);
+JEI.addIngredient(<item:sophisticatedstorage:advanced_compacting_upgrade>);
+
 // Akin to Backpacks/Drawers.
 craftingTable.remove(<item:sophisticatedstorage:void_upgrade>);
 craftingTable.addShaped("sophisticatedstorage_void_upgrade", <item:sophisticatedstorage:void_upgrade>, [

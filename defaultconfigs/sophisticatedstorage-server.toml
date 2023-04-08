@@ -1,12 +1,12 @@
 
-#Common Settings
-[common]
+#Server Settings
+[server]
 	#Threshold of number of item entities dropped from chest / barrel above which break is canceled (unless shift key is pressed) and message is displayed explaining to player many drops and packing tape use
 	#Range: 0 ~ 1000
 	tooManyItemEntityDrops = 200
 
 	#Wood Barrel Settings
-	[common.WoodBarrel]
+	[server.WoodBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 27
@@ -15,7 +15,7 @@
 		upgradeSlotCount = 2
 
 	#Iron Barrel Settings
-	[common.IronBarrel]
+	[server.IronBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 54
@@ -24,7 +24,7 @@
 		upgradeSlotCount = 3
 
 	#Gold Barrel Settings
-	[common.GoldBarrel]
+	[server.GoldBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 81
@@ -33,7 +33,7 @@
 		upgradeSlotCount = 3
 
 	#Diamond Barrel Settings
-	[common.DiamondBarrel]
+	[server.DiamondBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 108
@@ -42,7 +42,7 @@
 		upgradeSlotCount = 5
 
 	#Netherite Barrel Settings
-	[common.NetheriteBarrel]
+	[server.NetheriteBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 132
@@ -51,187 +51,187 @@
 		upgradeSlotCount = 7
 
 	#Limited Barrel I Settings
-	[common.LimitedBarrelI]
+	[server.LimitedBarrelI]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 32
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 2
 
 	#Limited Iron Barrel I Settings
-	[common.LimitedIronBarrelI]
+	[server.LimitedIronBarrelI]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 64
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
 
 	#Limited Gold Barrel I Settings
-	[common.LimitedGoldBarrelI]
+	[server.LimitedGoldBarrelI]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 96
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
 
 	#Limited Diamond Barrel I Settings
-	[common.LimitedDiamondBarrelI]
+	[server.LimitedDiamondBarrelI]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 128
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 5
 
 	#Limited Netherite Barrel I Settings
-	[common.LimitedNetheriteBarrelI]
+	[server.LimitedNetheriteBarrelI]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 160
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 7
 
 	#Limited Barrel II Settings
-	[common.LimitedBarrelII]
+	[server.LimitedBarrelII]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 16
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 2
 
 	#Limited Iron Barrel II Settings
-	[common.LimitedIronBarrelII]
+	[server.LimitedIronBarrelII]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 32
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
 
 	#Limited Gold Barrel II Settings
-	[common.LimitedGoldBarrelII]
+	[server.LimitedGoldBarrelII]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 48
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
 
 	#Limited Diamond Barrel II Settings
-	[common.LimitedDiamondBarrelII]
+	[server.LimitedDiamondBarrelII]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 64
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 5
 
 	#Limited Netherite Barrel II Settings
-	[common.LimitedNetheriteBarrelII]
+	[server.LimitedNetheriteBarrelII]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 80
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 7
 
 	#Limited Barrel III Settings
-	[common.LimitedBarrelIII]
+	[server.LimitedBarrelIII]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 10
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 2
 
 	#Limited Iron Barrel III Settings
-	[common.LimitedIronBarrelIII]
+	[server.LimitedIronBarrelIII]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 20
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
 
 	#Limited Gold Barrel III Settings
-	[common.LimitedGoldBarrelIII]
+	[server.LimitedGoldBarrelIII]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 30
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
 
 	#Limited Diamond Barrel III Settings
-	[common.LimitedDiamondBarrelIII]
+	[server.LimitedDiamondBarrelIII]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 40
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 5
 
 	#Limited Netherite Barrel III Settings
-	[common.LimitedNetheriteBarrelIII]
+	[server.LimitedNetheriteBarrelIII]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 50
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 7
 
 	#Limited Barrel IV Settings
-	[common.LimitedBarrelIV]
+	[server.LimitedBarrelIV]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 8
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 2
 
 	#Limited Iron Barrel IV Settings
-	[common.LimitedIronBarrelIV]
+	[server.LimitedIronBarrelIV]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 16
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
 
 	#Limited Gold Barrel IV Settings
-	[common.LimitedGoldBarrelIV]
+	[server.LimitedGoldBarrelIV]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 24
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 3
 
 	#Limited Diamond Barrel IV Settings
-	[common.LimitedDiamondBarrelIV]
+	[server.LimitedDiamondBarrelIV]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 32
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 5
 
 	#Limited Netherite Barrel IV Settings
-	[common.LimitedNetheriteBarrelIV]
+	[server.LimitedNetheriteBarrelIV]
 		#Multiplier that's used to calculate base slot limit
-		#Range: 1 ~ 256
+		#Range: 1 ~ 8192
 		baseSlotLimitMultiplier = 40
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 7
 
 	#Wood Chest Settings
-	[common.WoodChest]
+	[server.WoodChest]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 27
@@ -240,7 +240,7 @@
 		upgradeSlotCount = 2
 
 	#Iron Chest Settings
-	[common.IronChest]
+	[server.IronChest]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 54
@@ -249,7 +249,7 @@
 		upgradeSlotCount = 3
 
 	#Gold Chest Settings
-	[common.GoldChest]
+	[server.GoldChest]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 81
@@ -258,7 +258,7 @@
 		upgradeSlotCount = 3
 
 	#Diamond Chest Settings
-	[common.DiamondChest]
+	[server.DiamondChest]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 108
@@ -267,7 +267,7 @@
 		upgradeSlotCount = 5
 
 	#Netherite Chest Settings
-	[common.NetheriteChest]
+	[server.NetheriteChest]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 132
@@ -276,7 +276,7 @@
 		upgradeSlotCount = 7
 
 	#Shulker Box Settings
-	[common.ShulkerBox]
+	[server.ShulkerBox]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 27
@@ -285,7 +285,7 @@
 		upgradeSlotCount = 2
 
 	#Iron Shulker Box Settings
-	[common.IronShulkerBox]
+	[server.IronShulkerBox]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 54
@@ -294,7 +294,7 @@
 		upgradeSlotCount = 3
 
 	#Gold Shulker Box Settings
-	[common.GoldShulkerBox]
+	[server.GoldShulkerBox]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 81
@@ -303,7 +303,7 @@
 		upgradeSlotCount = 3
 
 	#Diamond Shulker Box Settings
-	[common.DiamondShulkerBox]
+	[server.DiamondShulkerBox]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 108
@@ -312,7 +312,7 @@
 		upgradeSlotCount = 5
 
 	#Netherite Shulker Box Settings
-	[common.NetheriteShulkerBox]
+	[server.NetheriteShulkerBox]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
 		inventorySlotCount = 132
@@ -321,12 +321,12 @@
 		upgradeSlotCount = 7
 
 	#Stack Upgrade Settings
-	[common.stackUpgrade]
+	[server.stackUpgrade]
 		#List of items that are not supposed to stack in storage even when stack upgrade is inserted. Item registry names are expected here.
 		nonStackableItems = ["minecraft:bundle", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
 
 	#Compacting Upgrade Settings
-	[common.compactingUpgrade]
+	[server.compactingUpgrade]
 		#Number of Compacting Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -335,7 +335,7 @@
 		slotsInRow = 3
 
 	#Advanced Compacting Upgrade Settings
-	[common.advancedCompactingUpgrade]
+	[server.advancedCompactingUpgrade]
 		#Number of Advanced Compacting Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -344,7 +344,7 @@
 		slotsInRow = 4
 
 	#Deposit Upgrade Settings
-	[common.depositUpgrade]
+	[server.depositUpgrade]
 		#Number of Deposit Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -353,7 +353,7 @@
 		slotsInRow = 3
 
 	#Advanced Deposit Upgrade Settings
-	[common.advancedDepositUpgrade]
+	[server.advancedDepositUpgrade]
 		#Number of Advanced Deposit Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -362,7 +362,7 @@
 		slotsInRow = 4
 
 	#Feeding Upgrade Settings
-	[common.feedingUpgrade]
+	[server.feedingUpgrade]
 		#Number of Feeding Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -371,7 +371,7 @@
 		slotsInRow = 3
 
 	#Advanced Feeding Upgrade Settings
-	[common.advancedFeedingUpgrade]
+	[server.advancedFeedingUpgrade]
 		#Number of Advanced Feeding Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -380,7 +380,7 @@
 		slotsInRow = 4
 
 	#Filter Upgrade Settings
-	[common.filterUpgrade]
+	[server.filterUpgrade]
 		#Number of Filter Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -389,7 +389,7 @@
 		slotsInRow = 3
 
 	#Advanced Filter Upgrade Settings
-	[common.advancedFilterUpgrade]
+	[server.advancedFilterUpgrade]
 		#Number of Advanced Filter Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -398,7 +398,7 @@
 		slotsInRow = 4
 
 	#Magnet Upgrade Settings
-	[common.magnetUpgrade]
+	[server.magnetUpgrade]
 		#Number of Magnet Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -410,7 +410,7 @@
 		magnetRange = 3
 
 	#Advanced Magnet Upgrade Settings
-	[common.advancedMagnetUpgrade]
+	[server.advancedMagnetUpgrade]
 		#Number of Advanced Magnet Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -422,7 +422,7 @@
 		magnetRange = 5
 
 	#Pickup Upgrade Settings
-	[common.pickupUpgrade]
+	[server.pickupUpgrade]
 		#Number of Pickup Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -431,7 +431,7 @@
 		slotsInRow = 3
 
 	#Advanced Pickup Upgrade Settings
-	[common.advancedPickupUpgrade]
+	[server.advancedPickupUpgrade]
 		#Number of Advanced Pickup Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -440,7 +440,7 @@
 		slotsInRow = 4
 
 	#Void Upgrade Settings
-	[common.voidUpgrade]
+	[server.voidUpgrade]
 		#Number of Void Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 9
@@ -451,7 +451,7 @@
 		voidAnythingEnabled = true
 
 	#Advanced Void Upgrade Settings
-	[common.advancedVoidUpgrade]
+	[server.advancedVoidUpgrade]
 		#Number of Advanced Void Upgrade's filter slots
 		#Range: 1 ~ 20
 		filterSlots = 16
@@ -462,7 +462,7 @@
 		voidAnythingEnabled = true
 
 	#Smelting Upgrade Settings
-	[common.smeltingUpgrade]
+	[server.smeltingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -471,7 +471,7 @@
 		fuelEfficiencyMultiplier = 1.0
 
 	#Smoking Upgrade Settings
-	[common.smokingUpgrade]
+	[server.smokingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -480,7 +480,7 @@
 		fuelEfficiencyMultiplier = 1.0
 
 	#Blasting Upgrade Settings
-	[common.blastingUpgrade]
+	[server.blastingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -489,7 +489,7 @@
 		fuelEfficiencyMultiplier = 1.0
 
 	#Auto-Smelting Upgrade Settings
-	[common.autoSmeltingUpgrade]
+	[server.autoSmeltingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -510,7 +510,7 @@
 		fuelFilterSlotsInRow = 4
 
 	#Auto-Smoking Upgrade Settings
-	[common.autoSmokingUpgrade]
+	[server.autoSmokingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -531,7 +531,7 @@
 		fuelFilterSlotsInRow = 4
 
 	#Auto-Blasting Upgrade Settings
-	[common.autoBlastingUpgrade]
+	[server.autoBlastingUpgrade]
 		#Smelting speed multiplier (1.0 equals speed at which vanilla furnace smelts items)
 		#Range: 0.25 ~ 4.0
 		smeltingSpeedMultiplier = 1.0
@@ -552,7 +552,7 @@
 		fuelFilterSlotsInRow = 4
 
 	#Pump Upgrade Settings
-	[common.pumpUpgrade]
+	[server.pumpUpgrade]
 		#Number of fluid filter slots
 		#Range: 1 ~ 20
 		filterSlots = 4
@@ -564,10 +564,18 @@
 		stackMultiplierRatio = 1.0
 
 	#Xp Pump Upgrade Settings
-	[common.xpPumpUpgrade]
+	[server.xpPumpUpgrade]
 		#Whether xp pump can mend items with mending. Set false here to turn off the feature altogether.
 		mendingOn = true
 		#How many experience points at a maximum would be used to mend an item per operation (every 5 ticks and 1 xp point usually translates to 2 damage repaired).
 		#Range: 1 ~ 20
 		maxXpPointsPerMending = 5
+
+	#Compression Upgrade Settings
+	[server.compressionUpgrade]
+		#Defines how many slots at a maximum compression upgrade is able to use
+		#Range: 3 ~ 9
+		maxNumberOfSlots = 5
+		#List of items that can be decompressed by compression upgrade and their results. Item registry names are expected here in format of "mod:itemBeingDecompressed=Nxmod:itemDecompressResult
+		additionalDecompressibleItems = ["minecraft:glowstone=4xminecraft:glowstone_dust", "minecraft:quartz_block=4xminecraft:quartz"]
 
