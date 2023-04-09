@@ -192,11 +192,11 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/phytogenic_insulator"
     },
-    "Automatic Genius": {
+    "RFTools Utility": {
       "x": 60,
       "y": 160,
-      "frameType": "STAR",
-      "icon": "the_vault:gui/researches/automatic_genius"
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/rftools_utility"
     },
     "Dark Utilities": {
       "x": 110,
@@ -257,6 +257,12 @@
       "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/iron_furnaces"
+    },
+    "Automatic Genius": {
+      "x": 390,
+      "y": 240,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/researches/automatic_genius"
     }
     
     

@@ -609,6 +609,23 @@
         "the_vault:gear/armor/meka_dark/leggings",
         "the_vault:gear/armor/meka_dark/boots"
       ]
+    },
+    {
+      "modIds": [
+        "rftoolsutility"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": true
+        }
+      },
+      "name": "RFTools Utility",
+      "cost": 3,
+      "usesKnowledge": true
     }
   ],
   "CUSTOM_RESEARCHES": [

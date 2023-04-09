@@ -29,9 +29,12 @@ _Currently confirmed working on patch_: __8.0.3__
    [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things) and
    [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester)
    mods.
-6. Open the Vault Hunters mod jar file (`mods/the_vault-1.18.2-<version>.jar`) 
+6. Either _remove `scripts/RFToolsUtility.zs`_ or install the
+   [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
+   mod.
+7. Open the Vault Hunters mod jar file (`mods/the_vault-1.18.2-<version>.jar`) 
    as a Zip file.
-7. Copy the `data` folder from `ores` into the mod jar file.
+8. Copy the `data` folder from `ores` into the mod jar file.
 
 ## Upgrading to a New Vault Hunters Version
 
@@ -54,9 +57,12 @@ _Currently confirmed working on patch_: __8.0.3__
    [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)
    [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester)
    mods.
-7. Open the Vault Hunters mod jar file (`mods/the_vault-1.18.2-<version>.jar`) 
+7. Either _remove `scripts/RFToolsUtility.zs`_ or install the
+   [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
+   mod.
+8. Open the Vault Hunters mod jar file (`mods/the_vault-1.18.2-<version>.jar`) 
    as a Zip file.
-8. Copy the `data` folder from `ores` into the mod jar file.
+9. Copy the `data` folder from `ores` into the mod jar file.
 
 ## FAQ
 
