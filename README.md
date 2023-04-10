@@ -116,6 +116,8 @@ rules.
 ### Applied Energistics
 
 * Lowered the cost of 64 and 256k storage components.
+* Removed Chiseled Quartz / Quartz Pillars from the Energy Cell recipe. Just any 
+  Quartz block now. Like, wtf where they even thinking doing that recipe⁈
 
 ### Botania
 

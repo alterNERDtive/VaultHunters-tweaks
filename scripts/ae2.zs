@@ -216,9 +216,9 @@ craftingTable.addShapeless("ae2_shapeless_crafting_card", <item:ae2:crafting_car
 ]);
 
 craftingTable.addShaped("ae2_energy_cell", <item:ae2:energy_cell>, [
-    [<item:ae2:quartz_pillar>, <tag:items:forge:gems/fluix>, <item:ae2:chiseled_quartz_block>],
+    [<tag:items:c:quartz_blocks>, <tag:items:forge:gems/fluix>, <tag:items:c:quartz_blocks>],
     [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:perfect_larimar>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:ae2:chiseled_quartz_block>, <tag:items:forge:gems/fluix>, <item:ae2:quartz_pillar>]
+    [<tag:items:c:quartz_blocks>, <tag:items:forge:gems/fluix>, <tag:items:c:quartz_blocks>]
 ]);
 
 craftingTable.addShaped("ae2_crafting_unit", <item:ae2:crafting_unit>, [
