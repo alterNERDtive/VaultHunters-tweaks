@@ -1,7 +1,3 @@
-/* scripts made by Douwsky
-for Iskall85's Vaulthunters
-Credits to freud for this jei integration */
-
 import mods.jei.category.Custom;
 import mods.jei.JEI;
 import mods.jei.category.SimpleJeiCategory;
@@ -9,8 +5,12 @@ import mods.jei.category.JeiCategory;
 import crafttweaker.api.text.TextComponent;
 import mods.jei.component.JeiDrawable;
 import crafttweaker.api.resource.ResourceLocation;
+import crafttweaker.api.item.IItemStack;
 
-var pulveriseCat = JeiCategory.create<Custom>("pulverising", new TextComponent("Pulverising"), <item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]})]) as Custom;
+
+var pulveriseTool = <item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4], Enchantments: [{lvl: 1 as short, id: "minecraft:silk_touch" as string}]}); 
+
+var pulveriseCat = JeiCategory.create<Custom>("pulverising", new TextComponent("Pulverising"), pulveriseTool, [pulveriseTool]) as Custom;
 pulveriseCat.background = JeiDrawable.blank(177, 53) as JeiDrawable;
 
 pulveriseCat.addDrawable(15, 9, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
@@ -20,21 +20,21 @@ pulveriseCat.addDrawable(43, 4, JeiDrawable.of(new ResourceLocation("create", "t
 pulveriseCat.addSlot(0, 16, 10, true);
 pulveriseCat.addSlot(1, 48, 27, true);
 pulveriseCat.addSlot(2, 139, 27, false);
-pulveriseCat.addRecipe([<item:minecraft:gravel>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:cobblestone>]);
-pulveriseCat.addRecipe([<item:minecraft:sand>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:gravel>]);
-pulveriseCat.addRecipe([<item:minecraft:brick> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:bricks>]);
-pulveriseCat.addRecipe([<item:minecraft:nether_brick> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:nether_bricks>]);
-pulveriseCat.addRecipe([<item:minecraft:nether_wart> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:nether_wart_block>]);
-pulveriseCat.addRecipe([<item:the_vault:chipped_vault_rock>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:the_vault:vault_stone>]);
-pulveriseCat.addRecipe([<item:minecraft:sand> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:sandstone>]);
-pulveriseCat.addRecipe([<item:minecraft:red_sand> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:red_sandstone>]);
-pulveriseCat.addRecipe([<item:minecraft:prismarine_shard> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:prismarine>]);
-pulveriseCat.addRecipe([<item:minecraft:prismarine_shard> * 4], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:prismarine_bricks>]);
-pulveriseCat.addRecipe([<item:minecraft:granite>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:polished_granite>]);
-pulveriseCat.addRecipe([<item:minecraft:diorite>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:polished_diorite>]);
-pulveriseCat.addRecipe([<item:minecraft:andesite>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:polished_andesite>]);
-pulveriseCat.addRecipe([<item:minecraft:quartz>], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:quartz_block>]);
-pulveriseCat.addRecipe([<item:minecraft:pointed_dripstone> * 2], [<item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4]}), <item:minecraft:dripstone_block>]);
+pulveriseCat.addRecipe([<item:minecraft:gravel>], [pulveriseTool, <item:minecraft:cobblestone>]);
+pulveriseCat.addRecipe([<item:minecraft:sand>], [pulveriseTool, <item:minecraft:gravel>]);
+pulveriseCat.addRecipe([<item:minecraft:brick> * 2], [pulveriseTool, <item:minecraft:bricks>]);
+pulveriseCat.addRecipe([<item:minecraft:nether_brick> * 2], [pulveriseTool, <item:minecraft:nether_bricks>]);
+pulveriseCat.addRecipe([<item:minecraft:nether_wart> * 2], [pulveriseTool, <item:minecraft:nether_wart_block>]);
+pulveriseCat.addRecipe([<item:the_vault:chipped_vault_rock>], [pulveriseTool, <item:the_vault:vault_stone>]);
+pulveriseCat.addRecipe([<item:minecraft:sand> * 2], [pulveriseTool, <item:minecraft:sandstone>]);
+pulveriseCat.addRecipe([<item:minecraft:red_sand> * 2], [pulveriseTool, <item:minecraft:red_sandstone>]);
+pulveriseCat.addRecipe([<item:minecraft:prismarine_shard> * 2], [pulveriseTool, <item:minecraft:prismarine>]);
+pulveriseCat.addRecipe([<item:minecraft:prismarine_shard> * 4], [pulveriseTool, <item:minecraft:prismarine_bricks>]);
+pulveriseCat.addRecipe([<item:minecraft:granite>], [pulveriseTool, <item:minecraft:polished_granite>]);
+pulveriseCat.addRecipe([<item:minecraft:diorite>], [pulveriseTool, <item:minecraft:polished_diorite>]);
+pulveriseCat.addRecipe([<item:minecraft:andesite>], [pulveriseTool, <item:minecraft:polished_andesite>]);
+pulveriseCat.addRecipe([<item:minecraft:quartz>], [pulveriseTool, <item:minecraft:quartz_block>]);
+pulveriseCat.addRecipe([<item:minecraft:pointed_dripstone> * 2], [pulveriseTool, <item:minecraft:dripstone_block>]);
 JEI.addCategory(pulveriseCat);
 
 var armourCat = JeiCategory.create<Custom>("artisan_station", new TextComponent("Vault Forge"), <item:the_vault:vault_forge>, [<item:the_vault:vault_forge>]) as Custom;
@@ -219,50 +219,69 @@ inscription.addSlot(9, 47, 26, true);
 inscription.addSlot(10, 68, 26, true);
 inscription.addSlot(11, 158, 26, false);
 
+function runeItem(pool as string, color as int, model as int) as IItemStack {
+  return <item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: pool, count: 1 as int, color: color}], model: model, time: 0 as int, instability: 0.0 as float}});
+}
+
 inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.05 as float, entries: [{count: 1 as int, color: 16777215 as int, type: 0 as int}], model: 0 as int, time: 400 as int, instability: 0.01 as float}})], [<item:the_vault:inscription_piece> * 8, <item:the_vault:vault_bronze> * 64]);
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/mush_room" as string, count: 1 as int, color: 7012096 as int}], model: 2 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:living_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/mush_room" as string, count: 1 as int, color: 7012096 as int}], model: 2 as int, time: 0 as int, instability: 0.0 as float}}));
+// Mushroom
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/mush_room", 7012096, 2)], [<item:the_vault:living_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/mush_room", 7012096, 2));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/blacksmith" as string, count: 1 as int, color: 7012096 as int}], model: 1 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:ornate_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/blacksmith" as string, count: 1 as int, color: 7012096 as int}], model: 1 as int, time: 0 as int, instability: 0.0 as float}}));
+// Blacksmith
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/blacksmith", 7012096, 1)], [<item:the_vault:ornate_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/blacksmith", 7012096, 1));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/library" as string, count: 1 as int, color: 7012096 as int}], model: 3 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:gilded_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/library" as string, count: 1 as int, color: 7012096 as int}], model: 3 as int, time: 0 as int, instability: 0.0 as float}}));
+// Library
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/library", 7012096, 3)], [<item:the_vault:gilded_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/library", 7012096, 3));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/digsite" as string, count: 1 as int, color: 7012096 as int}], model: 6 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:wooden_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/digsite" as string, count: 1 as int, color: 7012096 as int}], model: 6 as int, time: 0 as int, instability: 0.0 as float}}));
+// Digsite
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/digsite", 7012096, 6)], [<item:the_vault:wooden_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/digsite", 7012096, 6));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/cove" as string, count: 1 as int, color: 7012096 as int}], model: 4 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/cove" as string, count: 1 as int, color: 7012096 as int}], model: 4 as int, time: 0 as int, instability: 0.0 as float}}));
+// Cove
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/cove", 7012096, 4)], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/cove", 7012096, 4));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/mine" as string, count: 1 as int, color: 7012096 as int}], model: 9 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:gem_larimar> * 256, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/mine" as string, count: 1 as int, color: 7012096 as int}], model: 9 as int, time: 0 as int, instability: 0.0 as float}}));
+// Mine
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/mine", 7012096, 9)], [<item:the_vault:gem_larimar> * 256, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/mine", 7012096, 9));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/vendor" as string, count: 1 as int, color: 7012096 as int}], model: 12 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:poisonous_mushroom> * 16, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:hunter_eye> * 2]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/vendor" as string, count: 1 as int, color: 7012096 as int}], model: 12 as int, time: 0 as int, instability: 0.0 as float}}));
+// Vendor
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/vendor", 7012096, 12)], [<item:the_vault:poisonous_mushroom> * 16, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:hunter_eye> * 2]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/vendor", 7012096, 12));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/painting" as string, count: 1 as int, color: 7012096 as int}], model: 10 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:wooden_chest_scroll> * 2, <item:the_vault:living_chest_scroll> * 2, <item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8, <item:the_vault:bounty_pearl> * 8]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/omega/painting" as string, count: 1 as int, color: 7012096 as int}], model: 10 as int, time: 0 as int, instability: 0.0 as float}}));
+// Painting
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/painting", 7012096, 10)], [<item:the_vault:wooden_chest_scroll> * 2, <item:the_vault:living_chest_scroll> * 2, <item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8, <item:the_vault:bounty_pearl> * 8]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/painting", 7012096, 10));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/dragon" as string, count: 1 as int, color: 15769088 as int}], model: 7 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/dragon" as string, count: 1 as int, color: 15769088 as int}], model: 7 as int, time: 0 as int, instability: 0.0 as float}}));
+// Dragon
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/dragon", 15769088, 7)], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/dragon", 15769088, 7));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/village" as string, count: 1 as int, color: 15769088 as int}], model: 13 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:living_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/village" as string, count: 1 as int, color: 15769088 as int}], model: 13 as int, time: 0 as int, instability: 0.0 as float}}));
+// Village
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/village", 15769088, 13)], [<item:the_vault:living_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/village", 15769088, 13));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/factory" as string, count: 1 as int, color: 15769088 as int}], model: 8 as int, time: 0 as int, instability: 0.0 as float}})], [<item:minecraft:netherite_block>, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/factory" as string, count: 1 as int, color: 15769088 as int}], model: 8 as int, time: 0 as int, instability: 0.0 as float}}));
+// Factory
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/factory", 15769088, 8)], [<item:minecraft:netherite_block>, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/factory", 15769088, 8));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/wildwest" as string, count: 1 as int, color: 15769088 as int}], model: 14 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/wildwest" as string, count: 1 as int, color: 15769088 as int}], model: 14 as int, time: 0 as int, instability: 0.0 as float}}));
+// Wild West
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/wildwest", 15769088, 14)], [<item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/wildwest", 15769088, 14));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/x-mark" as string, count: 1 as int, color: 15769088 as int}], model: 15 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/x-mark" as string, count: 1 as int, color: 15769088 as int}], model: 15 as int, time: 0 as int, instability: 0.0 as float}}));
+// X-Mark
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/x-mark", 15769088, 15)], [<item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/x-mark", 15769088, 15));
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/crystal_caves" as string, count: 1 as int, color: 15769088 as int}], model: 5 as int, time: 0 as int, instability: 0.0 as float}})], [<item:the_vault:gem_larimar> * 64, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
-JEI.addIngredient(<item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: "the_vault:vault/rooms/challenge/crystal_caves" as string, count: 1 as int, color: 15769088 as int}], model: 5 as int, time: 0 as int, instability: 0.0 as float}}));
+// Crystal Caves
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/crystal_caves", 15769088, 5)], [<item:the_vault:gem_larimar> * 64, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
+JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/crystal_caves", 15769088, 5));
 
+// Add category
 JEI.addCategory(inscription);
 
 
@@ -288,90 +307,455 @@ for i in 0 .. 11 {
     }
 }
 
-blackMarket.addRecipe([<item:the_vault:skill_orb>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 1500\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2500\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:unidentified_treasure_key>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 6000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 9000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.06%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:unidentified_artifact>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 25000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.03%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:knowledge_star>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 1000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:repair_core>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 900\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.38%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:sour_orange>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 1000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 1600\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.23%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:sweet_kiwi>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 180\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:bitter_lemon>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.35%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:skill_shard>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 160\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 300\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:knowledge_star_shard>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 160\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 300\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:vault_platinum>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 100\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 600\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.46%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:empty_flask>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 120\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 2.76%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:regret_chunk>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 10\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 60\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 2.76%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:regret_orb>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 160\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:gem_pog>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 600\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.46%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:echo_pog>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 3000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 7000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.12%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:gem_echo>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 1200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.35%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:vault_diamond_block>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 100\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.46%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:blank_key>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 4000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 7000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.12%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:mod_box>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:mystery_box>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 300\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:wild_focus>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 10\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 60\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 2.76%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:amplifying_focus>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 100\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 2.76%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:nullifying_focus>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 100\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:opportunistic_focus>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 1800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 3200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.23%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:resilient_focus>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 1800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 3200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.17%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:fundamental_focus>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 100\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.46%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:chaotic_focus>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.46%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:vault_essence>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 100\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 2.76%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 4,
-<item:the_vault:vault_diamond>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 50\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 300\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 2.76%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:vault_diamond>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 50\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 300\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 3,
-<item:the_vault:vault_alloy>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 300\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 700\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.38%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 9,
-<item:the_vault:vault_alloy>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 300\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 700\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.38%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 14,
-<item:the_vault:trinket>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 6000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 10000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.12%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:trinket_scrap>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 3000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 6000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.23%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:phoenix_feather>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 600\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 1600\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:eye_of_avarice>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 2000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 4000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.23%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:vault_catalyst_chaos>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 3000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 6000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.23%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:vault_catalyst_fragment>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 50\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 100\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:aura_scroll>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 600\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 1200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.46%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:jewel>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 600\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 4.72%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:inscription>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 1000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 1600\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.69%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:inscription>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 1000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 1600\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 2.42%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:inscription_piece>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 2.88%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:helmet>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.69%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:chestplate>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.69%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:leggings>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.69%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:boots>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.69%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:sword>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.69%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:axe>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.69%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:shield>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 800\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2000\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.69%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:idol_benevolent>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 1200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.17%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:idol_omniscient>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 1200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.17%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:idol_timekeeper>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 1200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.17%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:idol_malevolence>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 1200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 2400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.17%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:black_chromatic_steel_ingot>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 500\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 900\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.23%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:black_chromatic_steel_nugget>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 250\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 500\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.46%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 4,
-<item:the_vault:mystical_powder>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 180\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:minecraft:diamond>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 10\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 16,
-<item:minecraft:diamond>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 10\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 8,
-<item:minecraft:netherite_ingot>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 30\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 2,
-<item:minecraft:elytra>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 140\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:magnetite>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 10\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 4,
-<item:the_vault:magic_silk>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 10\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 2.76%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 4,
-<item:the_vault:magic_silk>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 10\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 8,
-<item:the_vault:vault_diamond>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.38%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:eternal_soul>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:eternal_soul>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 160\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 500\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.46%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 4,
-<item:minecraft:golden_apple>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:soul_flame>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 120\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:vault_plating>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 100\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 4,
-<item:the_vault:vault_plating>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 100\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 8,
-<item:the_vault:vault_gold>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:plain_burger>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:crystal_seal_empty>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 160\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:crystal_seal_hunter>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:crystal_seal_cake>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:crystal_seal_executioner>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.92%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:minecraft:trident>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 20\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 120\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.38%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:minecraft:totem_of_undying>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 160\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.38%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:chromatic_steel_block>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 400\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 1200\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 0.46%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:mote_clarity>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 80\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.15%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:mote_purity>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 300\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 900\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.15%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1,
-<item:the_vault:carbon>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 10\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 40\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 4,
-<item:the_vault:cooked_vault_steak>.withTag({display: {Lore: ["[{\"text\":\"Min Price: 6\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: 18\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: 1.84%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * 1], []);
+function blackMarketItem(item as string, minPrice as int, maxPrice as int, chance as float, quantity as int) as IItemStack {
+  return <item:${item}>.withTag({display: {Lore: ["[{\"text\":\"Min Price: " + minPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: " + maxPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: " + chance + "%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * quantity;
+}
+
+blackMarket.addRecipe([blackMarketItem("the_vault:skill_orb", 1500, 2500, 0.92, 1),
+blackMarketItem("the_vault:unidentified_treasure_key", 6000, 9000, 0.06, 1),
+blackMarketItem("the_vault:unidentified_artifact", 20000, 25000, 0.03, 1),
+blackMarketItem("the_vault:knowledge_star", 1000, 2000, 0.92, 1),
+blackMarketItem("the_vault:repair_core", 400, 900, 1.38, 1),
+blackMarketItem("the_vault:sour_orange", 1000, 1600, 0.23, 1),
+blackMarketItem("the_vault:sweet_kiwi", 80, 180, 1.84, 1),
+blackMarketItem("the_vault:bitter_lemon", 200, 800, 0.35, 1),
+blackMarketItem("the_vault:skill_shard", 160, 300, 1.84, 1),
+blackMarketItem("the_vault:knowledge_star_shard", 160, 300, 1.84, 1),
+blackMarketItem("the_vault:vault_platinum", 100, 600, 0.46, 1),
+blackMarketItem("the_vault:empty_flask", 20, 120, 2.76, 1),
+blackMarketItem("the_vault:regret_chunk", 10, 60, 2.76, 1),
+blackMarketItem("the_vault:regret_orb", 80, 160, 1.84, 1),
+blackMarketItem("the_vault:gem_pog", 600, 2000, 0.46, 1),
+blackMarketItem("the_vault:echo_pog", 3000, 7000, 0.12, 1),
+blackMarketItem("the_vault:gem_echo", 400, 1200, 0.35, 1),
+blackMarketItem("the_vault:vault_diamond_block", 100, 800, 0.46, 1),
+blackMarketItem("the_vault:blank_key", 4000, 7000, 0.12, 1),
+blackMarketItem("the_vault:mod_box", 400, 2400, 1.84, 1),
+blackMarketItem("the_vault:mystery_box", 40, 300, 0.92, 1),
+blackMarketItem("the_vault:wild_focus", 10, 60, 2.76, 1),
+blackMarketItem("the_vault:amplifying_focus", 20, 100, 2.76, 1),
+blackMarketItem("the_vault:nullifying_focus", 20, 100, 1.84, 1),
+blackMarketItem("the_vault:opportunistic_focus", 1800, 3200, 0.23, 1),
+blackMarketItem("the_vault:resilient_focus", 1800, 3200, 0.17, 1),
+blackMarketItem("the_vault:fundamental_focus", 100, 400, 0.46, 1),
+blackMarketItem("the_vault:chaotic_focus", 400, 800, 0.46, 1),
+blackMarketItem("the_vault:vault_essence", 40, 100, 2.76, 4),
+blackMarketItem("the_vault:vault_diamond", 50, 300, 2.76, 1),
+blackMarketItem("the_vault:vault_diamond", 50, 300, 0.92, 3),
+blackMarketItem("the_vault:vault_alloy", 300, 700, 1.38, 9),
+blackMarketItem("the_vault:vault_alloy", 300, 700, 1.38, 14),
+blackMarketItem("the_vault:trinket", 6000, 10000, 0.12, 1),
+blackMarketItem("the_vault:trinket_scrap", 3000, 6000, 0.23, 1),
+blackMarketItem("the_vault:phoenix_feather", 600, 1600, 0.92, 1),
+blackMarketItem("the_vault:eye_of_avarice", 2000, 4000, 0.23, 1),
+blackMarketItem("the_vault:vault_catalyst_chaos", 3000, 6000, 0.23, 1),
+blackMarketItem("the_vault:vault_catalyst_fragment", 50, 100, 1.84, 1),
+blackMarketItem("the_vault:aura_scroll", 600, 1200, 0.46, 1),
+blackMarketItem("the_vault:jewel", 200, 600, 4.72, 1),
+blackMarketItem("the_vault:inscription", 1000, 1600, 0.69, 1),
+blackMarketItem("the_vault:inscription", 1000, 1600, 2.42, 1),
+blackMarketItem("the_vault:inscription_piece", 200, 400, 2.88, 1),
+blackMarketItem("the_vault:helmet", 800, 2000, 0.69, 1),
+blackMarketItem("the_vault:chestplate", 800, 2000, 0.69, 1),
+blackMarketItem("the_vault:leggings", 800, 2000, 0.69, 1),
+blackMarketItem("the_vault:boots", 800, 2000, 0.69, 1),
+blackMarketItem("the_vault:sword", 800, 2000, 0.69, 1),
+blackMarketItem("the_vault:axe", 800, 2000, 0.69, 1),
+blackMarketItem("the_vault:shield", 800, 2000, 0.69, 1),
+blackMarketItem("the_vault:idol_benevolent", 1200, 2400, 0.17, 1),
+blackMarketItem("the_vault:idol_omniscient", 1200, 2400, 0.17, 1),
+blackMarketItem("the_vault:idol_timekeeper", 1200, 2400, 0.17, 1),
+blackMarketItem("the_vault:idol_malevolence", 1200, 2400, 0.17, 1),
+blackMarketItem("the_vault:black_chromatic_steel_ingot", 500, 900, 0.23, 1),
+blackMarketItem("the_vault:black_chromatic_steel_nugget", 250, 500, 0.46, 4),
+blackMarketItem("the_vault:mystical_powder", 80, 180, 0.92, 1),
+blackMarketItem("minecraft:diamond", 10, 40, 0.92, 16),
+blackMarketItem("minecraft:diamond", 10, 40, 0.92, 8),
+blackMarketItem("minecraft:netherite_ingot", 30, 80, 0.92, 2),
+blackMarketItem("minecraft:elytra", 80, 140, 1.84, 1),
+blackMarketItem("the_vault:magnetite", 10, 40, 1.84, 4),
+blackMarketItem("the_vault:magic_silk", 10, 40, 2.76, 4),
+blackMarketItem("the_vault:magic_silk", 10, 40, 1.84, 8),
+blackMarketItem("the_vault:vault_diamond", 20, 80, 1.38, 1),
+blackMarketItem("the_vault:eternal_soul", 20, 80, 0.92, 1),
+blackMarketItem("the_vault:eternal_soul", 160, 500, 0.46, 4),
+blackMarketItem("minecraft:golden_apple", 20, 40, 1.84, 1),
+blackMarketItem("the_vault:soul_flame", 40, 120, 1.84, 1),
+blackMarketItem("the_vault:vault_plating", 20, 100, 1.84, 4),
+blackMarketItem("the_vault:vault_plating", 20, 100, 1.84, 8),
+blackMarketItem("the_vault:vault_gold", 20, 80, 1.84, 1),
+blackMarketItem("the_vault:plain_burger", 20, 80, 1.84, 1),
+blackMarketItem("the_vault:crystal_seal_empty", 40, 160, 1.84, 1),
+blackMarketItem("the_vault:crystal_seal_hunter", 80, 200, 0.92, 1),
+blackMarketItem("the_vault:crystal_seal_cake", 80, 200, 0.92, 1),
+blackMarketItem("the_vault:crystal_seal_executioner", 80, 200, 0.92, 1),
+blackMarketItem("minecraft:trident", 20, 120, 1.38, 1),
+blackMarketItem("minecraft:totem_of_undying", 80, 160, 1.38, 1),
+blackMarketItem("the_vault:chromatic_steel_block", 400, 1200, 0.46, 1),
+blackMarketItem("the_vault:mote_clarity", 40, 80, 1.15, 1),
+blackMarketItem("the_vault:mote_purity", 300, 900, 1.15, 1),
+blackMarketItem("the_vault:carbon", 10, 40, 1.84, 4),
+blackMarketItem("the_vault:cooked_vault_steak", 6, 18, 1.84, 1)], []);
 
 JEI.addCategory(blackMarket);
+
+// Relics
+JEI.hideIngredient(<item:the_vault:vault_relic>);
+JEI.hideIngredient(<item:the_vault:vault_relic_fragment>);
+
+var relic_pedestal = JeiCategory.create<Custom>("relic_pedestal", new TextComponent("Relic Pedestal"), <item:the_vault:relic_pedestal>, [<item:the_vault:relic_pedestal>]) as Custom;
+relic_pedestal.background = JeiDrawable.blank(159, 28) as JeiDrawable;
+
+relic_pedestal.addDrawable(4, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+relic_pedestal.addDrawable(25, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+relic_pedestal.addDrawable(46, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+relic_pedestal.addDrawable(67, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+relic_pedestal.addDrawable(88, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+relic_pedestal.addDrawable(136, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+
+relic_pedestal.addDrawable(109, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 62, 93, 21, 15) as JeiDrawable);
+
+relic_pedestal.addSlot(0, 5, 6, true);
+relic_pedestal.addSlot(1, 26, 6, true);
+relic_pedestal.addSlot(2, 47, 6, true);
+relic_pedestal.addSlot(3, 68, 6, true);
+relic_pedestal.addSlot(4, 89, 6, true);
+relic_pedestal.addSlot(5, 137, 6, false);
+
+
+function addRelic(category as JeiCategory, relicID as string) as void {
+    for i in 1 .. 5 {
+        JEI.addIngredient(<item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag" + i}));
+    }
+
+    category.addRecipe([<item:the_vault:vault_relic>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/statue"})], 
+    [<item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag1"}),
+    <item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag2"}),
+    <item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag3"}),
+    <item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag4"}),
+    <item:the_vault:vault_relic_fragment>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/frag5"})]);
+
+    JEI.addIngredient(<item:the_vault:vault_relic>.withTag({VaultModelId:"the_vault:relic/" + relicID + "/statue"}));
+}
+
+addRelic(relic_pedestal, 'cupcake');
+addRelic(relic_pedestal, 'dragon');
+addRelic(relic_pedestal, 'elemental');
+addRelic(relic_pedestal, 'miner');
+addRelic(relic_pedestal, 'nazar');
+addRelic(relic_pedestal, 'richity');
+addRelic(relic_pedestal, 'twitch');
+addRelic(relic_pedestal, 'warrior');
+
+// Add category
+JEI.addCategory(relic_pedestal);
+
+// Crystal Recipes
+var crystal = JeiCategory.create<Custom>("vault_crystal", new TextComponent("Vault Crystal"), <item:the_vault:vault_altar>, [<item:the_vault:vault_altar>]) as Custom;
+crystal.background = JeiDrawable.blank(175, 135) as JeiDrawable;
+
+for i in 0 .. 6 {
+    crystal.addDrawable(4, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(26, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(47, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(68, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(89, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(110, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(131, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+    crystal.addDrawable(152, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
+}
+
+for i in 0 .. 6 {
+    for column in 0 .. 8 {
+        crystal.addSlot(8 * i + column, 6 + (column * 21), 6 + (i * 21), false);
+    }
+}
+
+function crystalItem(item as string, level as string, pool as string) as IItemStack {
+  return <item:${item}>.withTag({display: {Lore: ["[{\"text\":\"Level: \",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\""+ level + "\",\"color\":\"white\",\"bold\":false},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false}]" as string, "[{\"text\":\"Pool: \",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"" + pool +"\",\"color\":\"white\",\"bold\":false}]" as string]}});
+}
+
+// Misc Items
+crystal.addRecipe([[crystalItem("minecraft:pointed_dripstone", 0, "Misc")],
+[crystalItem("minecraft:gold_ingot", 0, "Misc")],
+[crystalItem("minecraft:iron_ingot", 0, "Misc")],
+[crystalItem("minecraft:redstone", 0, "Misc")],
+[crystalItem("minecraft:emerald", 0, "Misc")],
+[crystalItem("minecraft:lapis_lazuli", 0, "Misc")],
+[crystalItem("minecraft:copper_ingot", 0, "Misc")],
+[crystalItem("minecraft:coal", 0, "Misc"),
+crystalItem("minecraft:charcoal", 0, "Misc")],
+[crystalItem("minecraft:amethyst_shard", 10, "Misc")],
+[crystalItem("minecraft:diamond", 10, "Misc")],
+[crystalItem("minecraft:spore_blossom", 10, "Misc")],
+[crystalItem("minecraft:glowstone_dust", 20, "Misc")],
+[crystalItem("minecraft:quartz", 20, "Misc")],
+[crystalItem("minecraft:name_tag", 20, "Misc")],
+[crystalItem("minecraft:prismarine_shard", 40, "Misc")],
+[crystalItem("minecraft:prismarine_crystals", 40, "Misc")],
+[crystalItem("minecraft:chorus_flower", 40, "Misc")],
+[crystalItem("minecraft:dead_brain_coral", 40, "Misc"),
+crystalItem("minecraft:dead_bubble_coral", 40, "Misc"),
+crystalItem("minecraft:dead_fire_coral", 40, "Misc"),
+crystalItem("minecraft:dead_horn_coral", 40, "Misc"),
+crystalItem("minecraft:dead_tube_coral", 40, "Misc"),
+crystalItem("minecraft:dead_tube_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_brain_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_bubble_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_fire_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_horn_coral_fan", 40, "Misc")],
+[crystalItem("minecraft:brain_coral", 40, "Misc"),
+crystalItem("minecraft:bubble_coral", 40, "Misc"),
+crystalItem("minecraft:fire_coral", 40, "Misc"),
+crystalItem("minecraft:horn_coral", 40, "Misc"),
+crystalItem("minecraft:tube_coral", 40, "Misc"),
+crystalItem("minecraft:tube_coral_fan", 40, "Misc"),
+crystalItem("minecraft:brain_coral_fan", 40, "Misc"),
+crystalItem("minecraft:bubble_coral_fan", 40, "Misc"),
+crystalItem("minecraft:fire_coral_fan", 40, "Misc"),
+crystalItem("minecraft:horn_coral_fan", 40, "Misc")],
+[crystalItem("minecraft:totem_of_undying", 40, "Misc")],
+[crystalItem("minecraft:saddle", 40, "Misc")],
+[crystalItem("minecraft:cobweb", 40, "Misc")],
+[crystalItem("minecraft:sponge", 75, "Misc")],
+[crystalItem("minecraft:nether_star", 75, "Misc")]],[]);
+
+// Resource
+crystal.addRecipe([[crystalItem("minecraft:cobblestone", 0, "Resource")],
+[crystalItem("minecraft:diorite", 0, "Resource")],
+[crystalItem("minecraft:andesite", 0, "Resource")],
+[crystalItem("minecraft:granite", 0, "Resource")],
+[crystalItem("minecraft:stone", 0, "Resource")],
+[crystalItem("minecraft:gravel", 0, "Resource")],
+[crystalItem("minecraft:sand", 0, "Resource"),
+crystalItem("minecraft:red_sand", 0, "Resource")],
+[crystalItem("minecraft:dirt", 0, "Resource")],
+[crystalItem("minecraft:oak_log", 0, "Resource"),
+crystalItem("minecraft:spruce_log", 0, "Resource"),
+crystalItem("minecraft:birch_log", 0, "Resource"),
+crystalItem("minecraft:jungle_log", 0, "Resource"),
+crystalItem("minecraft:acacia_log", 0, "Resource"),
+crystalItem("minecraft:dark_oak_log", 0, "Resource")],
+[crystalItem("minecraft:moss_block", 10, "Resource")],
+[crystalItem("minecraft:white_wool", 10, "Resource"),
+crystalItem("minecraft:orange_wool", 10, "Resource"),
+crystalItem("minecraft:magenta_wool", 10, "Resource"),
+crystalItem("minecraft:light_blue_wool", 10, "Resource"),
+crystalItem("minecraft:yellow_wool", 10, "Resource"),
+crystalItem("minecraft:lime_wool", 10, "Resource"),
+crystalItem("minecraft:pink_wool", 10, "Resource"),
+crystalItem("minecraft:gray_wool", 10, "Resource"),
+crystalItem("minecraft:light_gray_wool", 10, "Resource"),
+crystalItem("minecraft:cyan_wool", 10, "Resource"),
+crystalItem("minecraft:purple_wool", 10, "Resource"),
+crystalItem("minecraft:blue_wool", 10, "Resource"),
+crystalItem("minecraft:brown_wool", 10, "Resource"),
+crystalItem("minecraft:green_wool", 10, "Resource"),
+crystalItem("minecraft:red_wool", 10, "Resource"),
+crystalItem("minecraft:black_wool", 10, "Resource")],
+[crystalItem("minecraft:glass", 10, "Resource"),
+crystalItem("minecraft:white_stained_glass", 10, "Resource"),
+crystalItem("minecraft:orange_stained_glass", 10, "Resource"),
+crystalItem("minecraft:magenta_stained_glass", 10, "Resource"),
+crystalItem("minecraft:light_blue_stained_glass", 10, "Resource"),
+crystalItem("minecraft:yellow_stained_glass", 10, "Resource"),
+crystalItem("minecraft:lime_stained_glass", 10, "Resource"),
+crystalItem("minecraft:pink_stained_glass", 10, "Resource"),
+crystalItem("minecraft:gray_stained_glass", 10, "Resource"),
+crystalItem("minecraft:light_gray_stained_glass", 10, "Resource"),
+crystalItem("minecraft:cyan_stained_glass", 10, "Resource"),
+crystalItem("minecraft:purple_stained_glass", 10, "Resource"),
+crystalItem("minecraft:blue_stained_glass", 10, "Resource"),
+crystalItem("minecraft:brown_stained_glass", 10, "Resource"),
+crystalItem("minecraft:green_stained_glass", 10, "Resource"),
+crystalItem("minecraft:red_stained_glass", 10, "Resource"),
+crystalItem("minecraft:black_stained_glass", 10, "Resource")],
+[crystalItem("minecraft:smooth_stone", 10, "Resource")],
+[crystalItem("minecraft:bricks", 10, "Resource")],
+[crystalItem("minecraft:netherrack", 10, "Resource")],
+[crystalItem("minecraft:soul_sand", 10, "Resource")],
+[crystalItem("minecraft:basalt", 10, "Resource")],
+[crystalItem("minecraft:white_terracotta", 10, "Resource"),
+crystalItem("minecraft:orange_terracotta", 10, "Resource"),
+crystalItem("minecraft:magenta_terracotta", 10, "Resource"),
+crystalItem("minecraft:light_blue_terracotta", 10, "Resource"),
+crystalItem("minecraft:yellow_terracotta", 10, "Resource"),
+crystalItem("minecraft:lime_terracotta", 10, "Resource"),
+crystalItem("minecraft:pink_terracotta", 10, "Resource"),
+crystalItem("minecraft:gray_terracotta", 10, "Resource"),
+crystalItem("minecraft:light_gray_terracotta", 10, "Resource"),
+crystalItem("minecraft:cyan_terracotta", 10, "Resource"),
+crystalItem("minecraft:purple_terracotta", 10, "Resource"),
+crystalItem("minecraft:blue_terracotta", 10, "Resource"),
+crystalItem("minecraft:brown_terracotta", 10, "Resource"),
+crystalItem("minecraft:green_terracotta", 10, "Resource"),
+crystalItem("minecraft:red_terracotta", 10, "Resource"),
+crystalItem("minecraft:black_terracotta", 10, "Resource"),
+crystalItem("minecraft:terracotta", 10, "Resource")],
+[crystalItem("minecraft:deepslate", 10, "Resource"),
+crystalItem("minecraft:cobbled_deepslate", 10, "Resource")],
+[crystalItem("minecraft:tuff", 10, "Resource")],
+[crystalItem("minecraft:mossy_cobblestone", 20, "Resource")],
+[crystalItem("minecraft:obsidian", 20, "Resource")],
+[crystalItem("minecraft:ice", 20, "Resource")],
+[crystalItem("minecraft:white_concrete", 20, "Resource"),
+crystalItem("minecraft:orange_concrete", 20, "Resource"),
+crystalItem("minecraft:magenta_concrete", 20, "Resource"),
+crystalItem("minecraft:light_blue_concrete", 20, "Resource"),
+crystalItem("minecraft:yellow_concrete", 20, "Resource"),
+crystalItem("minecraft:lime_concrete", 20, "Resource"),
+crystalItem("minecraft:pink_concrete", 20, "Resource"),
+crystalItem("minecraft:gray_concrete", 20, "Resource"),
+crystalItem("minecraft:light_gray_concrete", 20, "Resource"),
+crystalItem("minecraft:cyan_concrete", 20, "Resource"),
+crystalItem("minecraft:purple_concrete", 20, "Resource"),
+crystalItem("minecraft:blue_concrete", 20, "Resource"),
+crystalItem("minecraft:brown_concrete", 20, "Resource"),
+crystalItem("minecraft:green_concrete", 20, "Resource"),
+crystalItem("minecraft:red_concrete", 20, "Resource"),
+crystalItem("minecraft:black_concrete", 20, "Resource")],
+[crystalItem("minecraft:white_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:orange_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:magenta_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:light_blue_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:yellow_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:lime_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:pink_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:gray_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:light_gray_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:cyan_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:purple_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:blue_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:brown_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:green_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:red_concrete_powder", 20, "Resource"),
+crystalItem("minecraft:black_concrete_powder", 20, "Resource")],
+[crystalItem("minecraft:blackstone", 20, "Resource")],
+[crystalItem("minecraft:dripstone_block", 20, "Resource")],
+[crystalItem("minecraft:prismarine", 20, "Resource")],
+[crystalItem("minecraft:purpur_block", 40, "Resource")],
+[crystalItem("minecraft:mycelium", 40, "Resource")],
+[crystalItem("minecraft:end_stone", 40, "Resource")],
+[crystalItem("minecraft:magma_block", 40, "Resource")],
+[crystalItem("minecraft:nether_wart_block", 40, "Resource")],
+[crystalItem("minecraft:warped_wart_block", 40, "Resource")],
+[crystalItem("minecraft:shroomlight", 40, "Resource")],
+[crystalItem("minecraft:podzol", 40, "Resource")],
+[crystalItem("minecraft:crimson_stem", 75, "Resource")],
+[crystalItem("minecraft:warped_stem", 75, "Resource")],
+[crystalItem("minecraft:crying_obsidian", 75, "Resource")],
+[crystalItem("minecraft:calcite", 75, "Resource")],
+[crystalItem("minecraft:rooted_dirt", 75, "Resource")]],[]);
+
+// Mob
+crystal.addRecipe([[crystalItem("minecraft:string", 0, "Mob")],
+[crystalItem("minecraft:rotten_flesh", 0, "Mob")],
+[crystalItem("minecraft:bone", 0, "Mob")],
+[crystalItem("minecraft:spider_eye", 0, "Mob")],
+[crystalItem("minecraft:arrow", 0, "Mob")],
+[crystalItem("minecraft:feather", 10, "Mob")],
+[crystalItem("minecraft:porkchop", 10, "Mob")],
+[crystalItem("minecraft:beef", 10, "Mob")],
+[crystalItem("minecraft:chicken", 10, "Mob")],
+[crystalItem("minecraft:rabbit", 10, "Mob")],
+[crystalItem("minecraft:slime_ball", 10, "Mob")],
+[crystalItem("minecraft:egg", 10, "Mob")],
+[crystalItem("minecraft:leather", 10, "Mob")],
+[crystalItem("minecraft:rabbit_hide", 10, "Mob")],
+[crystalItem("minecraft:white_dye", 10, "Mob"),
+crystalItem("minecraft:orange_dye", 10, "Mob"),
+crystalItem("minecraft:magenta_dye", 10, "Mob"),
+crystalItem("minecraft:light_blue_dye", 10, "Mob"),
+crystalItem("minecraft:yellow_dye", 10, "Mob"),
+crystalItem("minecraft:lime_dye", 10, "Mob"),
+crystalItem("minecraft:pink_dye", 10, "Mob"),
+crystalItem("minecraft:gray_dye", 10, "Mob"),
+crystalItem("minecraft:light_gray_dye", 10, "Mob"),
+crystalItem("minecraft:cyan_dye", 10, "Mob"),
+crystalItem("minecraft:purple_dye", 10, "Mob"),
+crystalItem("minecraft:blue_dye", 10, "Mob"),
+crystalItem("minecraft:brown_dye", 10, "Mob"),
+crystalItem("minecraft:green_dye", 10, "Mob"),
+crystalItem("minecraft:red_dye", 10, "Mob"),
+crystalItem("minecraft:black_dye", 10, "Mob")],
+[crystalItem("minecraft:poisonous_potato", 10, "Mob")],
+[crystalItem("minecraft:mutton", 10, "Mob")],
+[crystalItem("minecraft:salmon", 10, "Mob")],
+[crystalItem("minecraft:cod", 10, "Mob")],
+[crystalItem("minecraft:cocoa_beans", 10, "Mob")],
+[crystalItem("minecraft:gunpowder", 10, "Mob")],
+[crystalItem("minecraft:honey_bottle", 20, "Mob")],
+[crystalItem("minecraft:blaze_rod", 20, "Mob")],
+[crystalItem("minecraft:ender_pearl", 20, "Mob")],
+[crystalItem("minecraft:rabbit_foot", 20, "Mob")],
+[crystalItem("minecraft:honeycomb", 20, "Mob")],
+[crystalItem("minecraft:ink_sac", 20, "Mob")],
+[crystalItem("minecraft:glow_ink_sac", 20, "Mob")],
+[crystalItem("minecraft:pufferfish", 20, "Mob")],
+[crystalItem("minecraft:ghast_tear", 40, "Mob")],
+[crystalItem("minecraft:magma_cream", 40, "Mob")],
+[crystalItem("minecraft:nautilus_shell", 40, "Mob")],
+[crystalItem("minecraft:turtle_egg", 40, "Mob")],
+[crystalItem("minecraft:wither_skeleton_skull", 40, "Mob")]],[]);
+
+// Farmable
+crystal.addRecipe([[crystalItem("minecraft:sugar_cane", 0, "Farmable")],
+[crystalItem("minecraft:carrot", 0, "Farmable")],
+[crystalItem("minecraft:potato", 0, "Farmable")],
+[crystalItem("minecraft:wheat_seeds", 0, "Farmable")],
+[crystalItem("minecraft:oak_leaves", 0, "Farmable"),
+crystalItem("minecraft:spruce_leaves", 0, "Farmable"),
+crystalItem("minecraft:birch_leaves", 0, "Farmable"),
+crystalItem("minecraft:jungle_leaves", 0, "Farmable"),
+crystalItem("minecraft:acacia_leaves", 0, "Farmable"),
+crystalItem("minecraft:dark_oak_leaves", 0, "Farmable"),
+crystalItem("minecraft:azalea_leaves", 0, "Farmable"),
+crystalItem("minecraft:flowering_azalea_leaves", 0, "Farmable"),
+crystalItem("ecologics:coconut_leaves", 0, "Farmable"),
+crystalItem("ecologics:walnut_leaves", 0, "Farmable")],
+[crystalItem("minecraft:kelp", 10, "Farmable")],
+[crystalItem("minecraft:cactus", 10, "Farmable")],
+[crystalItem("minecraft:bamboo", 10, "Farmable")],
+[crystalItem("minecraft:vine", 10, "Farmable")],
+[crystalItem("minecraft:beetroot", 10, "Farmable")],
+[crystalItem("minecraft:snowball", 10, "Farmable")],
+[crystalItem("minecraft:pumpkin", 10, "Farmable")],
+[crystalItem("minecraft:melon", 10, "Farmable")],
+[crystalItem("minecraft:sea_pickle", 10, "Farmable")],
+[crystalItem("minecraft:dandelion", 10, "Farmable"),
+crystalItem("minecraft:poppy", 10, "Farmable"),
+crystalItem("minecraft:blue_orchid", 10, "Farmable"),
+crystalItem("minecraft:allium", 10, "Farmable"),
+crystalItem("minecraft:azure_bluet", 10, "Farmable"),
+crystalItem("minecraft:oxeye_daisy", 10, "Farmable"),
+crystalItem("minecraft:cornflower", 10, "Farmable"),
+crystalItem("minecraft:lily_of_the_valley", 10, "Farmable")],
+[crystalItem("minecraft:beetroot_seeds", 10, "Farmable")],
+[crystalItem("minecraft:sweet_berries", 10, "Farmable")],
+[crystalItem("minecraft:apple", 10, "Farmable")],
+[crystalItem("minecraft:seagrass", 10, "Farmable")],
+[crystalItem("minecraft:brown_mushroom", 20, "Farmable")],
+[crystalItem("minecraft:red_mushroom", 20, "Farmable")],
+[crystalItem("minecraft:red_tulip", 20, "Farmable"),
+crystalItem("minecraft:orange_tulip", 20, "Farmable"),
+crystalItem("minecraft:white_tulip", 20, "Farmable"),
+crystalItem("minecraft:pink_tulip", 20, "Farmable")],
+[crystalItem("minecraft:sunflower", 20, "Farmable"),
+crystalItem("minecraft:rose_bush", 20, "Farmable"),
+crystalItem("minecraft:peony", 20, "Farmable"),
+crystalItem("minecraft:lilac", 20, "Farmable")],
+[crystalItem("minecraft:glow_lichen", 20, "Farmable")],
+[crystalItem("minecraft:clay_ball", 20, "Farmable")],
+[crystalItem("minecraft:brick", 20, "Farmable")],
+[crystalItem("minecraft:glow_berries", 20, "Farmable")],
+[crystalItem("minecraft:nether_wart", 20, "Farmable")],
+[crystalItem("minecraft:twisting_vines", 40, "Farmable")],
+[crystalItem("minecraft:big_dripleaf", 40, "Farmable")],
+[crystalItem("minecraft:crimson_fungus", 40, "Farmable")],
+[crystalItem("minecraft:warped_fungus", 40, "Farmable")],
+[crystalItem("minecraft:chorus_fruit", 40, "Farmable")],
+[crystalItem("minecraft:lily_pad", 40, "Farmable")],
+[crystalItem("minecraft:wither_rose", 75, "Farmable")]],[]);
+
+// Add category
+JEI.addCategory(crystal);
