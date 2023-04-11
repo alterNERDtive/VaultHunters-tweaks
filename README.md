@@ -279,6 +279,11 @@ Those have been officially integrated into the mod pack! \o/
 ### Vault Altar
 
 * Increased chance of getting a lucky recipe from 10% to 35%.
+* Recipe ingredients are now tagged for your filtering pleasure:
+  * `the_vault:altar_requirements`
+  * `the_vault:altar_requirements/<level>`
+  * `the_vault:altar_requirements/<pool>`
+  * `the_vault:altar_requirements/<pool>/<level>`
 
 ### Vault Diffuser
 
