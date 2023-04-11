@@ -10,6 +10,32 @@
         "weight": 1
       }
     ],
+    "RFTools Utility": [
+      {"value": {"id": "rftoolsbase:machine_base", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "rftoolsutility:analog", "amountMin": 1, "amountMax": 2}, "weight": 1},
+      {"value": {"id": "rftoolsutility:counter", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:digit", "amountMin": 1, "amountMax": 3}, "weight": 1},
+      {"value": {"id": "rftoolsutility:invchecker", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:sensor", "amountMin": 1, "amountMax": 2}, "weight": 1},
+      {"value": {"id": "rftoolsutility:sequencer", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:logic", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:timer", "amountMin": 1, "amountMax": 2}, "weight": 1},
+      {"value": {"id": "rftoolsutility:wire", "amountMin": 2, "amountMax": 4}, "weight": 1},
+      {"value": {"id": "rftoolsutility:redstone_receiver", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:redstone_transmitter", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:screen", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "rftoolsutility:screen_controller", "amountMin": 1, "amountMax": 1}, "weight": 3},
+      {"value": {"id": "rftoolsutility:text_module", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:energy_module", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:fluid_module", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:button_module", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:redstone_module", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:counter_module", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:tank", "amountMin": 1, "amountMax": 2}, "weight": 1},
+      {"value": {"id": "rftoolsbase:tablet", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:screen_link", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolsutility:redstone_information", "amountMin": 1, "amountMax": 1}, "weight": 1}
+    ],
     "Colossal Chests": [
       {"value": {"id": "colossalchests:chest_wall_wood", "amountMin": 1, "amountMax": 1}, "weight": 6},
       {"value": {"id": "colossalchests:interface_wood", "amountMin": 1, "amountMax": 1}, "weight": 3},
