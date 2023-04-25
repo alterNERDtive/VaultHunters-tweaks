@@ -57,6 +57,10 @@ craftingTable.addShaped("sophisticatedstorage_chest", <item:sophisticatedstorage
   [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:chest>);
+JEI.addIngredient(<item:sophisticatedstorage:iron_chest>);
+JEI.addIngredient(<item:sophisticatedstorage:gold_chest>);
+JEI.addIngredient(<item:sophisticatedstorage:diamond_chest>);
+JEI.addIngredient(<item:sophisticatedstorage:netherite_chest>);
 
 // Barrels
 
@@ -72,6 +76,10 @@ craftingTable.addShaped("sophisticatedstorage_barrel", <item:sophisticatedstorag
   [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:barrel>);
+JEI.addIngredient(<item:sophisticatedstorage:iron_barrel>);
+JEI.addIngredient(<item:sophisticatedstorage:gold_barrel>);
+JEI.addIngredient(<item:sophisticatedstorage:diamond_barrel>);
+JEI.addIngredient(<item:sophisticatedstorage:netherite_barrel>);
 
 craftingTable.remove(<item:sophisticatedstorage:limited_barrel_1>);
 craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_1>);
@@ -85,6 +93,10 @@ craftingTable.addShaped("sophisticatedstorage_limited_barrel_1", <item:sophistic
   [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:limited_barrel_1>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_iron_barrel_1>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_gold_barrel_1>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_diamond_barrel_1>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_netherite_barrel_1>);
 
 craftingTable.remove(<item:sophisticatedstorage:limited_barrel_2>);
 craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_2>);
@@ -98,6 +110,10 @@ craftingTable.addShaped("sophisticatedstorage_limited_barrel_2", <item:sophistic
   [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:limited_barrel_2>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_iron_barrel_2>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_gold_barrel_2>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_diamond_barrel_2>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_netherite_barrel_2>);
 
 craftingTable.remove(<item:sophisticatedstorage:limited_barrel_3>);
 craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_3>);
@@ -111,6 +127,10 @@ craftingTable.addShaped("sophisticatedstorage_limited_barrel_3", <item:sophistic
   [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:limited_barrel_3>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_iron_barrel_3>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_gold_barrel_3>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_diamond_barrel_3>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_netherite_barrel_3>);
 
 craftingTable.remove(<item:sophisticatedstorage:limited_barrel_4>);
 craftingTable.remove(<item:sophisticatedstorage:limited_iron_barrel_4>);
@@ -124,6 +144,10 @@ craftingTable.addShaped("sophisticatedstorage_limited_barrel_4", <item:sophistic
   [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:limited_barrel_4>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_iron_barrel_4>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_gold_barrel_4>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_diamond_barrel_4>);
+JEI.addIngredient(<item:sophisticatedstorage:limited_netherite_barrel_4>);
 
 // Shulkers
 
