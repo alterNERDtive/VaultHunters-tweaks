@@ -266,25 +266,25 @@ craftingTable.remove(<item:sophisticatedstorage:advanced_feeding_upgrade>);
 // much”.
 craftingTable.remove(<item:sophisticatedstorage:compacting_upgrade>);
 craftingTable.addShaped("sophisticatedstorage_compacting_upgrade", <item:sophisticatedstorage:compacting_upgrade>, [
-  [<item:the_vault:vault_diamond>, <item:the_vault:vault_diamond>, <item:the_vault:vault_diamond>],
-  [<item:the_vault:chromatic_steel_ingot>, <item:sophisticatedstorage:upgrade_base>, <item:the_vault:chromatic_steel_ingot>],
-  [<item:the_vault:vault_essence>, <item:the_vault:vault_essence>, <item:the_vault:vault_essence>]
+  [<item:the_vault:vault_essence>, <item:the_vault:vault_essence>, <item:the_vault:vault_essence>],
+  [<item:the_vault:perfect_larimar>, <item:sophisticatedstorage:upgrade_base>, <item:the_vault:perfect_larimar>],
+  [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:compacting_upgrade>);
 craftingTable.remove(<item:sophisticatedstorage:advanced_compacting_upgrade>);
 craftingTable.addShaped("sophisticatedstorage_advanced_compacting_upgrade", <item:sophisticatedstorage:advanced_compacting_upgrade>, [
-  [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>],
+  [<item:the_vault:vault_essence>, <item:the_vault:vault_diamond>, <item:the_vault:vault_essence>],
   [<item:the_vault:extraordinary_larimar>, <item:sophisticatedstorage:compacting_upgrade>, <item:the_vault:extraordinary_larimar>],
-  [<item:the_vault:vault_essence>, <item:the_vault:vault_diamond>, <item:the_vault:vault_essence>]
+  [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:advanced_compacting_upgrade>);
 
 // _Actual_ “Compacting Storage”. Will void items though, currently.
 craftingTable.remove(<item:sophisticatedstorage:compression_upgrade>);
 craftingTable.addShaped("sophisticatedstorage_compression_upgrade", <item:sophisticatedstorage:compression_upgrade>, [
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:vault_essence>, <item:the_vault:vault_diamond>, <item:the_vault:vault_essence>],
     [<item:the_vault:perfect_larimar>, <item:sophisticatedstorage:upgrade_base>, <item:the_vault:perfect_larimar>],
-    [<item:the_vault:vault_essence>, <item:the_vault:vault_diamond>, <item:the_vault:vault_essence>]
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:compression_upgrade>);
 
