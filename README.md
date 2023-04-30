@@ -8,7 +8,7 @@ Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
 Ko-fi](https://ko-fi.com/S6S1DLYBS).
 
-_Currently confirmed working on patch_: __8.0.3__
+_Currently confirmed working on patch_: __9.0.1__
 
 ## Installation
 
@@ -101,6 +101,7 @@ rules.
   invalid.
 * Pulverizing Stone → Gravel is now a thing. You want to use Silk Touch with 
   Pulverizing …
+* Mods no longer have a chance to spawn with backpacks.
 
 ## QoL Changes
 
@@ -128,7 +129,7 @@ rules.
   versions of infinite Unobtainium + Infinite Water Bucket.
 * Orechids can now create modded ores from Stone and Deepslate (script courtesy
   of Kaptainwutax via Tangofrags’ Discord).
-* Re-enabled Redstone Fluxfield.
+* ~~Re-enabled Redstone Fluxfield.~~ Now its own research in the official pack.
 * Can now dupe Unobtanium. Why? Why not.
 
 ### Budding Crystal (Sky Vaults)
@@ -161,8 +162,10 @@ levels of Fortune or none at all.
 
 ### Gear Crafting
 
-* Reverted the 10x proficiency gain nerf from a bunch of updates ago.
-* Removed the cap on total proficiency.
+* ~~Reverted the 10x proficiency gain nerf from a bunch of updates ago.~~~
+* ~~Removed the cap on total proficiency.~~~
+
+These have been integrated into the base balancing.
 
 ### Hunter
 
@@ -206,17 +209,19 @@ levels of Fortune or none at all.
 
 ### Raw Vaults (Sky Vaults)
 
-* Moved Nether room to lvl 0.
-* Moved End room to lvl 20.
+* ~~Moved Nether room to lvl 0.~~
+* ~~Moved End room to lvl 20.~~
 * Removed Dimensional Shard Ore from the modder ore resource rooms. It is 
   literally useless in this pack.
+
+Rooms have been fixed in the official files.
 
 ### Refined Storage
 
 * Reverted some of the crafting recipe changes introduced in update 5.
 * Lowered the cost of 64k storage parts.
 
-### Relic Fragment
+### Relic Fragments
 
 * Doubled the weight of \#5 fragments. Now all of them are equally likely to
   drop.
@@ -256,12 +261,14 @@ levels of Fortune or none at all.
 
 ### Soul Shards
 
-* Increased drop rate of soul shards across the board.
+* ~~Increased drop rate of soul shards across the board.~~
+
+Has been matched (surpassed even) by official balance changes.
 
 ### Spirit Extractor
 
 * Lowered revival costs across the board.
-* Lowered death scaling.
+* ~~Lowered death scaling.~~ Has been removed in the official pack.
 
 ### Spore Blossom
 

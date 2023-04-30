@@ -33,10 +33,16 @@ var gems = {
 for ingotId, ingotName in ingots {
   <recipetype:thermal:press>.remove(<item:thermal:${ingotId}_gear>);
   <recipetype:thermal:press>.addRecipe("thermal_" + ingotId + "_gear_press_vh", [<item:thermal:${ingotId}_gear>], <fluid:minecraft:empty>, [ingotName * 4, <item:the_vault:perfect_larimar>], 500);
-  craftingTable.addShaped("thermal_" + ingotId + "_gear", <item:thermal:${ingotId}_gear>, [
+craftingTable.addShaped("thermal_" + ingotId + "_gear", <item:thermal:${ingotId}_gear>, [
     [<item:the_vault:gem_larimar>, ingotName, <item:the_vault:gem_larimar>],
     [ingotName, <item:the_vault:chromatic_iron_ingot>, ingotName],
     [<item:the_vault:gem_larimar>, ingotName, <item:the_vault:gem_larimar>]
+]);
+
+craftingTable.addShaped("thermal_" + ingotId + "_plate", <item:thermal:${ingotId}_plate>, [
+    [ingotName, <item:the_vault:gem_larimar>, ingotName],
+    [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_larimar>],
+    [ingotName, <item:the_vault:gem_larimar>, ingotName]
 ]);
 }
 
@@ -61,9 +67,9 @@ for gemId, gemName in gems {
 <recipetype:thermal:pulverizer>.addRecipe("vaultstone_to_rock", [<item:the_vault:vault_cobblestone> % 100, <item:the_vault:chipped_vault_rock> % 50], <item:the_vault:vault_stone>, 3, 2000);
 
 craftingTable.addShaped("thermal_rf_coil", <item:thermal:rf_coil>, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:the_vault:vault_diamond>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:the_vault:perfect_larimar>],
     [<item:minecraft:air>, <tag:items:forge:storage_blocks/redstone>, <item:minecraft:air>],
-    [<item:the_vault:vault_diamond>, <item:minecraft:air>, <item:minecraft:air>]
+    [<item:the_vault:perfect_larimar>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("thermal_redstone_servo", <item:thermal:redstone_servo>, [
@@ -190,3 +196,7 @@ craftingTable.addShaped("thermal_satchel", <item:thermal:satchel>, [
  <item:minecraft:golden_apple>, <fluid:cofh_core:potion>.withTag({Potion: "minecraft:awkward"}) * 1000, 500);
 
 <recipetype:thermal:insolator>.addRecipe("insolator_spore_blossom", [<item:minecraft:spore_blossom> *2], <item:minecraft:spore_blossom>, 1500, 30000);
+
+<recipetype:thermal:insolator>.addRecipe("insolator_crimson_fungi", [<item:minecraft:crimson_fungus> % 110, <item:minecraft:crimson_stem> % 600, <item:minecraft:shroomlight> % 5, <item:minecraft:nether_wart_block> % 5], <item:minecraft:crimson_fungus>, 1500, 30000);
+
+<recipetype:thermal:insolator>.addRecipe("insolator_warped_fungi", [<item:minecraft:warped_fungus> % 110, <item:minecraft:warped_stem> % 600, <item:minecraft:shroomlight> % 5, <item:minecraft:warped_wart_block> % 5], <item:minecraft:warped_fungus>, 1500, 30000);

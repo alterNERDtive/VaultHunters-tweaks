@@ -213,7 +213,9 @@
                 "weight": 7,
                 "item": {
                   "id": "the_vault:boots",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "ornate0"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -225,7 +227,9 @@
                 "weight": 7,
                 "item": {
                   "id": "the_vault:leggings",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "ornate0"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -237,7 +241,9 @@
                 "weight": 7,
                 "item": {
                   "id": "the_vault:chestplate",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "ornate0"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -249,7 +255,9 @@
                 "weight": 7,
                 "item": {
                   "id": "the_vault:helmet",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "ornate0"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -261,7 +269,9 @@
                 "weight": 7,
                 "item": {
                   "id": "the_vault:sword",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "ornate0"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -273,7 +283,9 @@
                 "weight": 7,
                 "item": {
                   "id": "the_vault:axe",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "ornate0"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -285,7 +297,9 @@
                 "weight": 7,
                 "item": {
                   "id": "the_vault:shield",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "ornate0"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -297,7 +311,9 @@
                 "weight": 7,
                 "item": {
                   "id": "the_vault:magnet",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "ornate0"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,

@@ -32,6 +32,11 @@ for biome, stoneType in apothecary {
 ]);
 }
 
+craftingTable.addShapeless("ender_air", <item:botania:ender_air_bottle>, [
+    <item:minecraft:end_stone>, <item:botania:mana_pearl>, <item:minecraft:glass_bottle>,
+    <item:minecraft:chorus_fruit>
+]);
+
 <recipetype:botania:mana_infusion>.addRecipe("mana_diamond", <item:botania:mana_diamond>,
  <item:the_vault:vault_diamond>, 37500);
 
@@ -57,7 +62,7 @@ for biome, stoneType in apothecary {
   <item:botania:mana_diamond>, <item:the_vault:extraordinary_larimar>);
 
 <recipetype:botania:elven_trade>.addRecipe("elven_trade_dreamwood", [<item:botania:dreamwood>],
-  <item:botania:livingwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>);
+  <item:botania:livingwood>);
 
 <recipetype:botania:brew>.addRecipe("rune_altar_test", <brew:botania:healing>, <item:minecraft:golden_apple>, <item:minecraft:nether_wart>);
 
@@ -152,6 +157,13 @@ craftingTable.addShaped("botania_fancy_pool", <item:botania:fabulous_pool>, [
     [<item:botania:bifrost_perm>, <item:botania:mana_pool>, <item:botania:bifrost_perm>],
     [<item:botania:bifrost_perm>, <item:botania:bifrost_perm>, <item:botania:bifrost_perm>]
 ]);
+
+craftingTable.addShaped("botania_flux_field", <item:botania:mana_fluxfield>, [
+    [<item:botania:livingrock>, <item:the_vault:chromatic_steel_ingot>, <item:botania:livingrock>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:botania:terrasteel_block>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:botania:livingrock>, <item:the_vault:chromatic_steel_ingot>, <item:botania:livingrock>]
+]);
+
 
 craftingTable.addShaped("botania_mana_spreader", <item:botania:mana_spreader>, [[<tag:items:botania:livingwood_logs>, <tag:items:botania:livingwood_logs>, <tag:items:botania:livingwood_logs>], [<item:the_vault:perfect_larimar>, <tag:items:botania:petals>,<item:minecraft:air>], [<tag:items:botania:livingwood_logs>, <tag:items:botania:livingwood_logs>, <tag:items:botania:livingwood_logs>]]);
 

@@ -78,6 +78,12 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/botania"
     },
+    "Botania Flux Field": {
+      "x": 490,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/botania_flux_field"
+    },
     "Mekanism": {
       "x": 250,
       "y": 120,
@@ -132,7 +138,7 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/building_gadgets"
     },
-    "Chunk Loaders": {
+    "Weirding Gadgets": {
       "x": 60,
       "y": 240,
       "frameType": "RECTANGULAR",
@@ -258,15 +264,29 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/iron_furnaces"
     },
-    "Automatic Genius": {
+    "Potions": {
       "x": 390,
       "y": 240,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/potion"
+    },
+    "Mixtures": {
+      "x": 440,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/mixture"
+    },
+    "Brews": {
+      "x": 490,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/brew"
+    },
+    "Automatic Genius": {
+      "x": 390,
+      "y": 320,
       "frameType": "STAR",
       "icon": "the_vault:gui/researches/automatic_genius"
     }
-    
-    
-    
   }
-    
 }

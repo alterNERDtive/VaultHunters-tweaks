@@ -9,6 +9,7 @@
           "probability": 0.35,
           "success": {
             "ae2:deepslate_quartz_ore": 5,
+            "ae2:sky_stone_block": 5,
             "create:deepslate_zinc_ore": 5,
             "mekanism:deepslate_tin_ore": 5,
             "thermal:deepslate_tin_ore": 5,

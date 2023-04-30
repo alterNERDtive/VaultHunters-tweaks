@@ -3,6 +3,8 @@
 [server]
 	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
 	disallowedItems = ["minecraft:bundle", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box", "minecraft:enchanted_golden_apple", "supplementaries:sack", "supplementaries:safe"]
+	#List of blocks that inventory interaction upgrades can't interact with - e.g. "minecraft:shulker_box"
+	noInteractionBlocks = ["the_vault:wooden_chest", "the_vault:altar_chest", "the_vault:gilded_chest", "the_vault:ornate_chest", "the_vault:treasure_chest", "the_vault:living_chest"]
 	#Turns on/off loot added to various vanilla chest loot tables
 	chestLootEnabled = false
 	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
@@ -11,8 +13,8 @@
 	allowOpeningOtherPlayerBackpacks = false
 	#Allows disabling item display settings. Primarily in cases where custom backpack model doesn't support showing the item. (Requires game restart to take effect)
 	itemDisplayDisabled = false
-	#List of blocks that inventory interaction upgrades can't interact with - e.g. "minecraft:shulker_box"
-	noInteractionBlocks = ["the_vault:wooden_chest", "the_vault:altar_chest", "the_vault:gilded_chest", "the_vault:ornate_chest", "the_vault:treasure_chest", "the_vault:living_chest"]
+	#Allows disabling logic that dedupes backpacks with the same UUID in players' inventory. This is here to allow turning off the logic just in case it would be causing performance issues.
+	tickDedupeLogicDisabled = false
 
 	#Leather Backpack Settings
 	[server.leatherBackpack]
@@ -195,10 +197,10 @@
 	[server.restockUpgrade]
 		#Number of Restock Upgrade's filter slots
 		#Range: 1 ~ 20
-		filterSlots = 9
+		filterSlots = 16
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
-		slotsInRow = 3
+		slotsInRow = 4
 
 	#Advanced Restock Upgrade Settings
 	[server.advancedRestockUpgrade]
@@ -218,7 +220,7 @@
 		#Range: 1 ~ 6
 		slotsInRow = 3
 		#Determines whether void upgrade allows voiding anything or it only has overflow option
-		voidAnythingEnabled = false
+		voidAnythingEnabled = true
 
 	#Advanced Void Upgrade Settings
 	[server.advancedVoidUpgrade]
@@ -234,7 +236,7 @@
 	#Stack Upgrade Settings
 	[server.stackUpgrade]
 		#List of items that are not supposed to stack in storage even when stack upgrade is inserted. Item registry names are expected here.
-		nonStackableItems = ["supplementaries:sack", "minecraft:potion", "supplementaries:safe"]
+		nonStackableItems = ["supplementaries:sack", "minecraft:potion", "supplementaries:safe", "botania:brew_vial", "botania:brew_flask", "botania:bauble_box"]
 
 	#Smelting Upgrade Settings
 	[server.smeltingUpgrade]

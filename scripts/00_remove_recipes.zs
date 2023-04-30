@@ -221,6 +221,7 @@ craftingTable.remove(<item:snad:snad>);
 <recipetype:ae2:inscriber>.remove(<item:ae2:engineering_processor>);
 <recipetype:ae2:inscriber>.remove(<item:ae2:printed_engineering_processor>);
 craftingTable.remove(<item:ae2:controller>);
+craftingTable.remove(<item:ae2:vibration_chamber>);
 craftingTable.remove(<item:ae2:matter_cannon>);
 craftingTable.remove(<item:ae2:crafting_card>);
 craftingTable.remove(<item:ae2:cell_component_1k>);
@@ -261,6 +262,15 @@ craftingTable.remove(<item:ae2:wireless_booster>);
 craftingTable.remove(<item:ae2:pattern_provider>);
 craftingTable.remove(<item:ae2:blank_pattern>);
 craftingTable.remove(<item:ae2:spatial_anchor>);
+craftingTable.remove(<item:ae2things:disk_housing>);
+craftingTable.remove(<item:ae2things:disk_drive_1k>);
+craftingTable.remove(<item:ae2things:disk_drive_4k>);
+craftingTable.remove(<item:ae2things:disk_drive_16k>);
+craftingTable.remove(<item:ae2things:disk_drive_64k>);
+craftingTable.remove(<item:ae2things:disk_drive_256k>);
+craftingTable.remove(<item:ae2things:advanced_inscriber>);
+craftingTable.remove(<item:ae2:security_station>);
+craftingTable.remove(<item:ae2:quantum_ring>);
 
 // Twigs
 craftingTable.remove(<item:twigs:stripped_bamboo_planks>);
@@ -542,6 +552,10 @@ craftingTable.remove(<item:refinedstorage:stack_upgrade>);
 craftingTable.remove(<item:refinedstorage:wireless_grid>);
 craftingTable.remove(<item:refinedstorageaddons:wireless_crafting_grid>);
 craftingTable.remove(<tag:items:refinedstorage:controller>);
+craftingTable.remove(<item:refinedstorage:crafter>);
+craftingTable.remove(<item:refinedstorage:crafter_manager>);
+craftingTable.remove(<item:refinedstorage:pattern>);
+craftingTable.remove(<tag:items:refinedstorage:pattern_grid>);
 
 // Weirding Gadget
 craftingTable.remove(<item:weirdinggadget:weirding_gadget>);
@@ -717,7 +731,9 @@ craftingTable.remove(<item:storagenetwork:speed_upgrade>);
 craftingTable.remove(<item:storagenetwork:stack_upgrade>);
 craftingTable.remove(<item:storagenetwork:collector_remote>);
 craftingTable.remove(<item:storagenetwork:picker_remote>);
-
+craftingTable.remove(<item:storagenetwork:export_kabel>);
+craftingTable.remove(<item:storagenetwork:import_filter_kabel>);
+craftingTable.remove(<item:storagenetwork:import_kabel>);
 
 // Xnet
 for cable in cables {
@@ -864,11 +880,6 @@ craftingTable.remove(<item:sophisticatedbackpacks:restock_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_restock_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:deposit_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_deposit_upgrade>);
-
-// Vault
-craftingTable.remove(<item:the_vault:vault_artisan_station>);
-craftingTable.remove(<item:the_vault:vault_forge>);
-craftingTable.remove(<item:the_vault:orb_frame>);
 
 // Waystones
 craftingTable.remove(<item:waystones:waystone>);
@@ -1107,7 +1118,6 @@ JEI.hideIngredient(<item:mekanism:atomic_disassembler>);
 JEI.hideIngredient(<item:mekanism:jetpack_armored>);
 JEI.hideIngredient(<item:mekanism:portable_teleporter>);
 JEI.hideIngredient(<item:mekanism:cardboard_box>);
-JEI.hideIngredient(<item:mekanism:upgrade_stone_generator>);
 JEI.hideIngredient(<item:mekanism:module_base>);
 JEI.hideIngredient(<item:mekanism:module_energy_unit>);
 JEI.hideIngredient(<item:mekanism:module_laser_dissipation_unit>);
@@ -1204,8 +1214,262 @@ JEI.hideIngredient(<item:storagenetwork:builder_remote>);
 JEI.hideIngredient(<item:storagenetwork:crafting_remote>);
 JEI.hideIngredient(<item:storagenetwork:collector_remote>);
 JEI.hideIngredient(<item:storagenetwork:picker_remote>);
+JEI.hideIngredient(<item:storagenetwork:request>);
+JEI.hideIngredient(<item:storagenetwork:export_kabel>);
+JEI.hideIngredient(<item:storagenetwork:filter_kabel>);
+JEI.hideIngredient(<item:storagenetwork:import_filter_kabel>);
+JEI.hideIngredient(<item:storagenetwork:import_kabel>);
+
 // Vault
+var gems = {
+  "gorgeous_gemstone": "gorgeous",
+  "ashium_gemstone": "ashium",
+  "benitoite_gemstone": "benitoite",
+  "bomignite_gemstone": "bomignite",
+  "echoing_gemstone": "echoing",
+  "petzanite_gemstone": "petzanite",
+  "pogging_gemstone": "pogging",
+  "tubium_gemstone": "tubium",
+  "wutodic_gemstone": "wutodic",
+  "xenium_gemstone": "xenium",
+  "sparking_gemstone": "sparking",
+  "upaline_gemstone": "upaline",
+  "iskallic_gemstone": "iskallic"
+};
+
+for gemId, gemName in gems {
+ JEI.hideIngredient(<item:the_vault:${gemName}_gemstone>);
+  }
+var jewels = {
+  "echoing_jewel": "echoing",
+  "petzan_jewel": "petzan",
+  "gorgeous_jewel": "gorgeous",
+  "ash_jewele": "ash",
+  "benite_jewel": "benite",
+  "bombing_jewel": "bombing",
+  "pogging_jewel": "pogging",
+  "tubic_jewel": "tubic",
+  "xen_jewel": "xen",
+  "sparking_jewel": "sparking",
+  "iskallic_jewel": "iskallic",
+  "upal_jewel": "upal",
+};
+
+for jewelId, jewelName in jewels {
+ JEI.hideIngredient(<item:the_vault:${jewelName}_jewel>);
+  }
 JEI.hideIngredient(<item:the_vault:sugar_plum_fairy_flower>);
+JEI.hideIngredient(<item:the_vault:pylon>);
+JEI.hideIngredient(<item:the_vault:tool_vise>);
+JEI.hideIngredient(<item:the_vault:rune>);
+JEI.hideIngredient(<item:the_vault:scavenger_blue_scroll>);
+JEI.hideIngredient(<item:the_vault:scavenger_creeper_foot>);
+JEI.hideIngredient(<item:the_vault:scavenger_creeper_fuse>);
+JEI.hideIngredient(<item:the_vault:scavenger_creeper_tnt>);
+JEI.hideIngredient(<item:the_vault:scavenger_creeper_vial>);
+JEI.hideIngredient(<item:the_vault:scavenger_creeper_soul_charm>);
+JEI.hideIngredient(<item:the_vault:scavenger_drowned_barnacle>);
+JEI.hideIngredient(<item:the_vault:scavenger_drowned_eye>);
+JEI.hideIngredient(<item:the_vault:scavenger_drowned_vial>);
+JEI.hideIngredient(<item:the_vault:scavenger_drowned_soul_charm>);
+JEI.hideIngredient(<item:the_vault:scavenger_skeleton_milky_eye>);
+JEI.hideIngredient(<item:the_vault:scavenger_skeleton_milky_vial>);
+JEI.hideIngredient(<item:the_vault:scavenger_skeleton_soul_charm>);
+JEI.hideIngredient(<item:the_vault:scavenger_spider_fangs>);
+JEI.hideIngredient(<item:the_vault:scavenger_spider_leg>);
+JEI.hideIngredient(<item:the_vault:scavenger_spider_cursed_charm>);
+JEI.hideIngredient(<item:the_vault:scavenger_spider_vial>);
+JEI.hideIngredient(<item:the_vault:scavenger_zombie_ear>);
+JEI.hideIngredient(<item:the_vault:scavenger_zombie_eye>);
+JEI.hideIngredient(<item:the_vault:scavenger_zombie_hide>);
+JEI.hideIngredient(<item:the_vault:scavenger_zombie_nose>);
+JEI.hideIngredient(<item:the_vault:scavenger_blue_bangle>);
+JEI.hideIngredient(<item:the_vault:scavenger_pink_bangle>);
+JEI.hideIngredient(<item:the_vault:scavenger_broken_pottery>);
+JEI.hideIngredient(<item:the_vault:scavenger_poultice_jar>);
+JEI.hideIngredient(<item:the_vault:scavenger_preserves_jar>);
+JEI.hideIngredient(<item:the_vault:scavenger_spice_jar>);
+JEI.hideIngredient(<item:the_vault:cube_block>);
+JEI.hideIngredient(<item:the_vault:vault_crate_champion>);
+// JEI.hideIngredient(<item:the_vault:legendary_treasure_*>);
+JEI.hideIngredient(<item:the_vault:mystic_pear>);
+JEI.hideIngredient(<item:the_vault:rokkit_launcha>);
+JEI.hideIngredient(<item:the_vault:wild_spawner>);
+JEI.hideIngredient(<item:the_vault:pandoras_box>);
+JEI.hideIngredient(<item:the_vault:etching>);
+JEI.hideIngredient(<item:the_vault:etching_fragment>);
+JEI.hideIngredient(<item:the_vault:monolith>);
+JEI.hideIngredient(<item:the_vault:unknown_item>);
+JEI.hideIngredient(<item:the_vault:vaulterite_pickaxe>);
+JEI.hideIngredient(<item:the_vault:vault_pickaxe>);
+JEI.hideIngredient(<item:the_vault:prismatic_pickaxe>);
+JEI.hideIngredient(<item:the_vault:echoing_pickaxe>);
+JEI.hideIngredient(<item:the_vault:black_chromatic_pickaxe>);
+JEI.hideIngredient(<item:the_vault:floating_text>);
+JEI.hideIngredient(<item:the_vault:vault_champion_trophy>);
+JEI.hideIngredient(<item:the_vault:final_vault_frame>);
+JEI.hideIngredient(<item:the_vault:vault_crate_arena>);
+JEI.hideIngredient(<item:the_vault:obelisk>);
+JEI.hideIngredient(<item:the_vault:mvp_crown>);
+JEI.hideIngredient(<item:the_vault:ore_vault_rock>);
+JEI.hideIngredient(<item:the_vault:vault_glass>);
+JEI.hideIngredient(<item:the_vault:loot_statue>);
+JEI.hideIngredient(<item:the_vault:shop_pedestal>);
+JEI.hideIngredient(<item:the_vault:trophy_statue>);
+JEI.hideIngredient(<item:the_vault:xp_altar>);
+JEI.hideIngredient(<item:the_vault:blood_altar>);
+JEI.hideIngredient(<item:the_vault:time_altar>);
+JEI.hideIngredient(<item:the_vault:soul_altar>);
+JEI.hideIngredient(<item:the_vault:hourglass>);
+JEI.hideIngredient(<item:the_vault:scavenger_treasure>);
+JEI.hideIngredient(<item:the_vault:stabilizer>);
+JEI.hideIngredient(<item:the_vault:etching_vendor_controller>);
+JEI.hideIngredient(<item:the_vault:placeholder>);
+JEI.hideIngredient(<item:the_vault:bronze_scrap>);
+JEI.hideIngredient(<item:the_vault:elite_spawner>);
+JEI.hideIngredient(<item:the_vault:lodestone>);
+JEI.hideIngredient(<item:the_vault:memory_powder>);
+JEI.hideIngredient(<item:the_vault:memory_shard>);
+JEI.hideIngredient(<item:the_vault:memory_crystal>);
+JEI.hideIngredient(<item:the_vault:crake_pedestal>);
+JEI.hideIngredient(<item:the_vault:crake_column>);
+JEI.hideIngredient(<item:the_vault:jewel>);
+JEI.hideIngredient(<item:the_vault:chunk_puffium>);
+JEI.hideIngredient(<item:the_vault:cluster_puffium>);
+JEI.hideIngredient(<item:the_vault:final_keystone_idona>);
+JEI.hideIngredient(<item:the_vault:final_keystone_velara>);
+JEI.hideIngredient(<item:the_vault:final_keystone_tenos>);
+JEI.hideIngredient(<item:the_vault:final_keystone_wendarr>);
+JEI.hideIngredient(<item:the_vault:gem_puffium>);
+JEI.hideIngredient(<item:the_vault:key_puffium>);
+JEI.hideIngredient(<item:the_vault:ore_puffium>);
+JEI.hideIngredient(<item:the_vault:vault_cookie>);
+JEI.hideIngredient(<item:the_vault:magnet_modification_table>);
+JEI.hideIngredient(<item:the_vault:aggressive_cow_egg>);
+JEI.hideIngredient(<item:the_vault:elite_drowned_egg>);
+JEI.hideIngredient(<item:the_vault:elite_enderman_egg>);
+JEI.hideIngredient(<item:the_vault:elite_husk_egg>);
+JEI.hideIngredient(<item:the_vault:elite_spider_egg>);
+JEI.hideIngredient(<item:the_vault:elite_skeleton_egg>);
+JEI.hideIngredient(<item:the_vault:elite_stray_egg>);
+JEI.hideIngredient(<item:the_vault:elite_wither_skeleton_egg>);
+JEI.hideIngredient(<item:the_vault:elite_witch_egg>);
+JEI.hideIngredient(<item:the_vault:elite_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:spirit_egg>);
+JEI.hideIngredient(<item:the_vault:t1_creeper_egg>);
+JEI.hideIngredient(<item:the_vault:t1_drowned_egg>);
+JEI.hideIngredient(<item:the_vault:t1_enderman_egg>);
+JEI.hideIngredient(<item:the_vault:t1_husk_egg>);
+JEI.hideIngredient(<item:the_vault:t1_piglin_egg>);
+JEI.hideIngredient(<item:the_vault:t1_skeleton_egg>);
+JEI.hideIngredient(<item:the_vault:t1_stray_egg>);
+JEI.hideIngredient(<item:the_vault:t1_wither_skeleton_egg>);
+JEI.hideIngredient(<item:the_vault:t1_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t2_creeper_egg>);
+JEI.hideIngredient(<item:the_vault:t2_drowned_egg>);
+JEI.hideIngredient(<item:the_vault:t2_enderman_egg>);
+JEI.hideIngredient(<item:the_vault:t2_husk_egg>);
+JEI.hideIngredient(<item:the_vault:t2_piglin_egg>);
+JEI.hideIngredient(<item:the_vault:t2_skeleton_egg>);
+JEI.hideIngredient(<item:the_vault:t2_stray_egg>);
+JEI.hideIngredient(<item:the_vault:t2_wither_skeleton_egg>);
+JEI.hideIngredient(<item:the_vault:t2_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t3_creeper_egg>);
+JEI.hideIngredient(<item:the_vault:t3_drowned_egg>);
+JEI.hideIngredient(<item:the_vault:t3_enderman_egg>);
+JEI.hideIngredient(<item:the_vault:t3_husk_egg>);
+JEI.hideIngredient(<item:the_vault:t3_piglin_egg>);
+JEI.hideIngredient(<item:the_vault:t3_skeleton_egg>);
+JEI.hideIngredient(<item:the_vault:t3_stray_egg>);
+JEI.hideIngredient(<item:the_vault:t3_wither_skeleton_egg>);
+JEI.hideIngredient(<item:the_vault:t3_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:vault_blue_gummy_soldier_egg>);
+JEI.hideIngredient(<item:the_vault:vault_fighter_0_egg>);
+JEI.hideIngredient(<item:the_vault:vault_fighter_1_egg>);
+JEI.hideIngredient(<item:the_vault:vault_fighter_2_egg>);
+JEI.hideIngredient(<item:the_vault:vault_fighter_3_egg>);
+JEI.hideIngredient(<item:the_vault:vault_fighter_4_egg>);
+JEI.hideIngredient(<item:the_vault:vault_fighter_5_egg>);
+JEI.hideIngredient(<item:the_vault:vault_fighter_6_egg>);
+JEI.hideIngredient(<item:the_vault:vault_fighter_7_egg>);
+JEI.hideIngredient(<item:the_vault:vault_fighter_8_egg>);
+JEI.hideIngredient(<item:the_vault:vault_fighter_9_egg>);
+JEI.hideIngredient(<item:the_vault:vault_green_gummy_soldier_egg>);
+JEI.hideIngredient(<item:the_vault:vault_red_gummy_soldier_egg>);
+JEI.hideIngredient(<item:the_vault:vault_spider_egg>);
+JEI.hideIngredient(<item:the_vault:vault_yellow_gummy_soldier_egg>);
+JEI.hideIngredient(<item:the_vault:winter_wolf_egg>);
+JEI.hideIngredient(<item:the_vault:enhancement_altar>);
+JEI.hideIngredient(<item:the_vault:treasure_door>);
+JEI.hideIngredient(<item:the_vault:modifier_discovery>);
+JEI.hideIngredient(<item:the_vault:vault_bedrock>);
+JEI.hideIngredient(<item:the_vault:custom_entity_spawner>);
+JEI.hideIngredient(<item:the_vault:crystal_bud_small>);
+JEI.hideIngredient(<item:the_vault:crystal_bud_medium>);
+JEI.hideIngredient(<item:the_vault:crystal_bud_large>);
+JEI.hideIngredient(<item:the_vault:gemmed_ingot>);
+JEI.hideIngredient(<item:the_vault:golden_tooth>);
+JEI.hideIngredient(<item:the_vault:unknown_egg>);
+JEI.hideIngredient(<item:the_vault:abyssal_ichor>);
+JEI.hideIngredient(<item:the_vault:archetype_star>);
+JEI.hideIngredient(<item:the_vault:archetype_star_core>);
+JEI.hideIngredient(<item:the_vault:archetype_star_essence>);
+JEI.hideIngredient(<item:the_vault:archetype_star_shard>);
+JEI.hideIngredient(<item:the_vault:acceleration_chip>);
+JEI.hideIngredient(<item:the_vault:cluster_netherite>);
+JEI.hideIngredient(<item:the_vault:crystal_seal_ancients>);
+JEI.hideIngredient(<item:the_vault:crystal_seal_raid>);
+JEI.hideIngredient(<item:the_vault:crystal_seal_speedrun>);
+JEI.hideIngredient(<item:the_vault:infused_eternal_soul>);
+JEI.hideIngredient(<item:the_vault:hardened_wutodic_mass>);
+JEI.hideIngredient(<item:the_vault:sublime_vault_elixir>);
+JEI.hideIngredient(<item:the_vault:sublime_vault_substance>);
+JEI.hideIngredient(<item:the_vault:sublime_vault_vision>);
+JEI.hideIngredient(<item:the_vault:legendary_treasure_normal>);
+JEI.hideIngredient(<item:the_vault:legendary_treasure_rare>);
+JEI.hideIngredient(<item:the_vault:legendary_treasure_epic>);
+JEI.hideIngredient(<item:the_vault:legendary_treasure_omega>);
+JEI.hideIngredient(<item:the_vault:t0_overgrown_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t5_winterwalker_egg>);
+JEI.hideIngredient(<item:the_vault:t4_winterwalker_egg>);
+JEI.hideIngredient(<item:the_vault:t3_winterwalker_egg>);
+JEI.hideIngredient(<item:the_vault:t2_winterwalker_egg>);
+JEI.hideIngredient(<item:the_vault:t1_winterwalker_egg>);
+JEI.hideIngredient(<item:the_vault:t0_winterwalker_egg>);
+JEI.hideIngredient(<item:the_vault:t5_skeleton_pirate_egg>);
+JEI.hideIngredient(<item:the_vault:t4_skeleton_pirate_egg>);
+JEI.hideIngredient(<item:the_vault:t1_overgrown_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t2_overgrown_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t3_overgrown_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t4_overgrown_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t5_overgrown_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t0_mummy_egg>);
+JEI.hideIngredient(<item:the_vault:t1_mummy_egg>);
+JEI.hideIngredient(<item:the_vault:vault_horse_egg>);
+JEI.hideIngredient(<item:the_vault:vault_dood_egg>);
+JEI.hideIngredient(<item:the_vault:easter_egg>);
+JEI.hideIngredient(<item:the_vault:shiver_egg>);
+JEI.hideIngredient(<item:the_vault:t0_skeleton_pirate_egg>);
+JEI.hideIngredient(<item:the_vault:t1_skeleton_pirate_egg>);
+JEI.hideIngredient(<item:the_vault:t2_skeleton_pirate_egg>);
+JEI.hideIngredient(<item:the_vault:t3_skeleton_pirate_egg>);
+JEI.hideIngredient(<item:the_vault:t2_mummy_egg>);
+JEI.hideIngredient(<item:the_vault:t0_mushroom_egg>);
+JEI.hideIngredient(<item:the_vault:t1_mushroom_egg>);
+JEI.hideIngredient(<item:the_vault:t2_mushroom_egg>);
+JEI.hideIngredient(<item:the_vault:t3_mushroom_egg>);
+JEI.hideIngredient(<item:the_vault:t4_mushroom_egg>);
+JEI.hideIngredient(<item:the_vault:t5_mushroom_egg>);
+JEI.hideIngredient(<item:the_vault:smolcap_egg>);
+JEI.hideIngredient(<item:the_vault:deathcap_egg>);
+JEI.hideIngredient(<item:the_vault:deep_dark_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:deep_dark_skeleton_egg>);
+JEI.hideIngredient(<item:the_vault:deep_dark_piglin_egg>);
+JEI.hideIngredient(<item:the_vault:deep_dark_silverfish_egg>);
+JEI.hideIngredient(<item:the_vault:deep_dark_horror_egg>);
+JEI.hideIngredient(<item:the_vault:chromatic_iron_tiny_dust>);
+JEI.hideIngredient(<item:the_vault:chromatic_iron_small_dust>);
+//JEI.addIngredient(<item:the_vault:bottle>.withTag({charges:6 as int,recharge:"time" as string,type:"brew" as string,vaultGearData:"[L;7069878597367160218L,-6692775768183260158L,1514722424829610009L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]"}));
 // IronFurnaces
 JEI.hideIngredient(<item:ironfurnaces:upgrade_silver>);
 JEI.hideIngredient(<item:ironfurnaces:upgrade_iron2>);
@@ -1232,6 +1496,13 @@ JEI.hideIngredient(<item:rftoolsbase:crafting_card>);
 JEI.hideIngredient(<item:rftoolsbase:tablet>);
 JEI.hideIngredient(<item:rftoolsbase:tablet_filled>);
 // Titanium
+JEI.hideMod("titanium");
+// Rotten Creatures
+JEI.hideMod("rottencreatures");
+// Ispawners
+JEI.hideIngredient(<item:ispawner:spawn_egg>);
+// AE2
+JEI.hideIngredient(<item:ae2:vibration_chamber>);
 
 
 craftingTable.remove(<item:ae2wtlib:infinity_booster_card>);

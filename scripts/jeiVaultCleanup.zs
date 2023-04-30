@@ -184,15 +184,10 @@ JEI.hideIngredient(<item:the_vault:drill_arrow>);
 JEI.hideIngredient(<item:the_vault:drill_arrow_part>);
 JEI.hideIngredient(<item:the_vault:floating_text>);
 JEI.hideIngredient(<item:the_vault:gemmed_ingot>);
-JEI.hideIngredient(<item:the_vault:gift_bomb_normal>);
-JEI.hideIngredient(<item:the_vault:gift_bomb_super>);
-JEI.hideIngredient(<item:the_vault:gift_bomb_mega>);
-JEI.hideIngredient(<item:the_vault:gift_bomb_omega>);
 JEI.hideIngredient(<item:the_vault:golden_tooth>);
 JEI.hideIngredient(<item:the_vault:hourglass>);
 JEI.hideIngredient(<item:the_vault:mvp_crown>);
 JEI.hideIngredient(<item:the_vault:ore_vault_rock>);
-JEI.hideIngredient(<item:the_vault:scavenger_chest>);
 JEI.hideIngredient(<item:the_vault:scavenger_treasure>);
 JEI.hideIngredient(<item:the_vault:stabilizer>);
 JEI.hideIngredient(<item:the_vault:unknown_egg>);
@@ -227,7 +222,6 @@ JEI.hideIngredient(<item:the_vault:memory_crystal>);
 JEI.hideIngredient(<item:the_vault:memory_powder>);
 JEI.hideIngredient(<item:the_vault:memory_shard>);
 JEI.hideIngredient(<item:the_vault:mystic_pear>);
-JEI.hideIngredient(<item:the_vault:raid_controller>);
 JEI.hideIngredient(<item:the_vault:unknown_item>);
 JEI.hideIngredient(<item:the_vault:sublime_vault_elixir>);
 JEI.hideIngredient(<item:the_vault:sublime_vault_substance>);
@@ -235,8 +229,3 @@ JEI.hideIngredient(<item:the_vault:sublime_vault_vision>);
 JEI.hideIngredient(<item:the_vault:trophy_statue>);
 JEI.hideIngredient(<item:the_vault:vault_crate_arena>);
 JEI.hideIngredient(<item:the_vault:vault_crate_champion>);
-JEI.hideIngredient(<item:the_vault:vault_pearl>);
-
-// Well … :)
-
-JEI.hideIngredient(<item:the_vault:burnt_crystal>);
