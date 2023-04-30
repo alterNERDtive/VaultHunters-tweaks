@@ -7,36 +7,6 @@ import mods.jei.component.JeiDrawable;
 import crafttweaker.api.resource.ResourceLocation;
 import crafttweaker.api.item.IItemStack;
 
-
-var pulveriseTool = <item:the_vault:tool>.withTag({offset: 0 as long, vaultGearData: [-2181340464152267846, -1956453410486721351, 1514722424829605912, 4616400934536516931, 107798892737, 423054278656, -8852492746032676864, -8559560530332385260, 18372019767163027, 288230376101658624, 8589934592, 184828609003782144, 185388976097100464, 140751079104801, 34359738360, 1024, 1514722424829605888, 5770026126585140547, -8388307835, 2199023255555, -6589870164517322752, 2903310526063837840, -7620749799, 2199023255555, -8024099520067403776, 7109014069478338562, -499432952282452, 144115188076118015, 288230376151711744, 4], Enchantments: [{lvl: 1 as short, id: "minecraft:silk_touch" as string}]}); 
-
-var pulveriseCat = JeiCategory.create<Custom>("pulverising", new TextComponent("Pulverising"), pulveriseTool, [pulveriseTool]) as Custom;
-pulveriseCat.background = JeiDrawable.blank(177, 53) as JeiDrawable;
-
-pulveriseCat.addDrawable(15, 9, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
-pulveriseCat.addDrawable(85, 32, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 19, 10, 42, 10) as JeiDrawable);
-pulveriseCat.addDrawable(43, 4, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 21, 18, 14) as JeiDrawable);
-
-pulveriseCat.addSlot(0, 16, 10, true);
-pulveriseCat.addSlot(1, 48, 27, true);
-pulveriseCat.addSlot(2, 139, 27, false);
-pulveriseCat.addRecipe([<item:minecraft:gravel>], [pulveriseTool, <item:minecraft:cobblestone>]);
-pulveriseCat.addRecipe([<item:minecraft:sand>], [pulveriseTool, <item:minecraft:gravel>]);
-pulveriseCat.addRecipe([<item:minecraft:brick> * 2], [pulveriseTool, <item:minecraft:bricks>]);
-pulveriseCat.addRecipe([<item:minecraft:nether_brick> * 2], [pulveriseTool, <item:minecraft:nether_bricks>]);
-pulveriseCat.addRecipe([<item:minecraft:nether_wart> * 2], [pulveriseTool, <item:minecraft:nether_wart_block>]);
-pulveriseCat.addRecipe([<item:the_vault:chipped_vault_rock>], [pulveriseTool, <item:the_vault:vault_stone>]);
-pulveriseCat.addRecipe([<item:minecraft:sand> * 2], [pulveriseTool, <item:minecraft:sandstone>]);
-pulveriseCat.addRecipe([<item:minecraft:red_sand> * 2], [pulveriseTool, <item:minecraft:red_sandstone>]);
-pulveriseCat.addRecipe([<item:minecraft:prismarine_shard> * 2], [pulveriseTool, <item:minecraft:prismarine>]);
-pulveriseCat.addRecipe([<item:minecraft:prismarine_shard> * 4], [pulveriseTool, <item:minecraft:prismarine_bricks>]);
-pulveriseCat.addRecipe([<item:minecraft:granite>], [pulveriseTool, <item:minecraft:polished_granite>]);
-pulveriseCat.addRecipe([<item:minecraft:diorite>], [pulveriseTool, <item:minecraft:polished_diorite>]);
-pulveriseCat.addRecipe([<item:minecraft:andesite>], [pulveriseTool, <item:minecraft:polished_andesite>]);
-pulveriseCat.addRecipe([<item:minecraft:quartz>], [pulveriseTool, <item:minecraft:quartz_block>]);
-pulveriseCat.addRecipe([<item:minecraft:pointed_dripstone> * 2], [pulveriseTool, <item:minecraft:dripstone_block>]);
-JEI.addCategory(pulveriseCat);
-
 var armourCat = JeiCategory.create<Custom>("artisan_station", new TextComponent("Vault Forge"), <item:the_vault:vault_forge>, [<item:the_vault:vault_forge>]) as Custom;
 armourCat.background = JeiDrawable.blank(180, 30) as JeiDrawable;
 
@@ -288,9 +258,9 @@ JEI.addCategory(inscription);
 // Black Market
 
 var blackMarket = JeiCategory.create<Custom>("black_market", new TextComponent("Black Market"), <item:the_vault:black_market>, [<item:the_vault:black_market>]) as Custom;
-blackMarket.background = JeiDrawable.blank(175, 240) as JeiDrawable;
+blackMarket.background = JeiDrawable.blank(175, 180) as JeiDrawable;
 
-for i in 0 .. 11 {
+for i in 0 .. 8 {
     blackMarket.addDrawable(4, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
     blackMarket.addDrawable(26, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
     blackMarket.addDrawable(47, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
@@ -301,7 +271,7 @@ for i in 0 .. 11 {
     blackMarket.addDrawable(152, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);
 }
 
-for i in 0 .. 11 {
+for i in 0 .. 8 {
     for column in 0 .. 8 {
         blackMarket.addSlot(8 * i + column, 6 + (column * 21), 6 + (i * 21), false);
     }
@@ -311,91 +281,65 @@ function blackMarketItem(item as string, minPrice as int, maxPrice as int, chanc
   return <item:${item}>.withTag({display: {Lore: ["[{\"text\":\"Min Price: " + minPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: " + maxPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: " + chance + "%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * quantity;
 }
 
-blackMarket.addRecipe([blackMarketItem("the_vault:skill_orb", 1500, 2500, 0.92, 1),
-blackMarketItem("the_vault:unidentified_treasure_key", 6000, 9000, 0.06, 1),
-blackMarketItem("the_vault:unidentified_artifact", 20000, 25000, 0.03, 1),
-blackMarketItem("the_vault:knowledge_star", 1000, 2000, 0.92, 1),
-blackMarketItem("the_vault:repair_core", 400, 900, 1.38, 1),
-blackMarketItem("the_vault:sour_orange", 1000, 1600, 0.23, 1),
-blackMarketItem("the_vault:sweet_kiwi", 80, 180, 1.84, 1),
-blackMarketItem("the_vault:bitter_lemon", 200, 800, 0.35, 1),
-blackMarketItem("the_vault:skill_shard", 160, 300, 1.84, 1),
-blackMarketItem("the_vault:knowledge_star_shard", 160, 300, 1.84, 1),
-blackMarketItem("the_vault:vault_platinum", 100, 600, 0.46, 1),
-blackMarketItem("the_vault:empty_flask", 20, 120, 2.76, 1),
-blackMarketItem("the_vault:regret_chunk", 10, 60, 2.76, 1),
-blackMarketItem("the_vault:regret_orb", 80, 160, 1.84, 1),
-blackMarketItem("the_vault:gem_pog", 600, 2000, 0.46, 1),
-blackMarketItem("the_vault:echo_pog", 3000, 7000, 0.12, 1),
-blackMarketItem("the_vault:gem_echo", 400, 1200, 0.35, 1),
-blackMarketItem("the_vault:vault_diamond_block", 100, 800, 0.46, 1),
-blackMarketItem("the_vault:blank_key", 4000, 7000, 0.12, 1),
-blackMarketItem("the_vault:mod_box", 400, 2400, 1.84, 1),
-blackMarketItem("the_vault:mystery_box", 40, 300, 0.92, 1),
-blackMarketItem("the_vault:wild_focus", 10, 60, 2.76, 1),
-blackMarketItem("the_vault:amplifying_focus", 20, 100, 2.76, 1),
-blackMarketItem("the_vault:nullifying_focus", 20, 100, 1.84, 1),
-blackMarketItem("the_vault:opportunistic_focus", 1800, 3200, 0.23, 1),
-blackMarketItem("the_vault:resilient_focus", 1800, 3200, 0.17, 1),
-blackMarketItem("the_vault:fundamental_focus", 100, 400, 0.46, 1),
-blackMarketItem("the_vault:chaotic_focus", 400, 800, 0.46, 1),
-blackMarketItem("the_vault:vault_essence", 40, 100, 2.76, 4),
-blackMarketItem("the_vault:vault_diamond", 50, 300, 2.76, 1),
-blackMarketItem("the_vault:vault_diamond", 50, 300, 0.92, 3),
-blackMarketItem("the_vault:vault_alloy", 300, 700, 1.38, 9),
-blackMarketItem("the_vault:vault_alloy", 300, 700, 1.38, 14),
-blackMarketItem("the_vault:trinket", 6000, 10000, 0.12, 1),
-blackMarketItem("the_vault:trinket_scrap", 3000, 6000, 0.23, 1),
-blackMarketItem("the_vault:phoenix_feather", 600, 1600, 0.92, 1),
-blackMarketItem("the_vault:eye_of_avarice", 2000, 4000, 0.23, 1),
-blackMarketItem("the_vault:vault_catalyst_chaos", 3000, 6000, 0.23, 1),
-blackMarketItem("the_vault:vault_catalyst_fragment", 50, 100, 1.84, 1),
-blackMarketItem("the_vault:aura_scroll", 600, 1200, 0.46, 1),
-blackMarketItem("the_vault:jewel", 200, 600, 4.72, 1),
-blackMarketItem("the_vault:inscription", 1000, 1600, 0.69, 1),
-blackMarketItem("the_vault:inscription", 1000, 1600, 2.42, 1),
-blackMarketItem("the_vault:inscription_piece", 200, 400, 2.88, 1),
-blackMarketItem("the_vault:helmet", 800, 2000, 0.69, 1),
-blackMarketItem("the_vault:chestplate", 800, 2000, 0.69, 1),
-blackMarketItem("the_vault:leggings", 800, 2000, 0.69, 1),
-blackMarketItem("the_vault:boots", 800, 2000, 0.69, 1),
-blackMarketItem("the_vault:sword", 800, 2000, 0.69, 1),
-blackMarketItem("the_vault:axe", 800, 2000, 0.69, 1),
-blackMarketItem("the_vault:shield", 800, 2000, 0.69, 1),
-blackMarketItem("the_vault:idol_benevolent", 1200, 2400, 0.17, 1),
-blackMarketItem("the_vault:idol_omniscient", 1200, 2400, 0.17, 1),
-blackMarketItem("the_vault:idol_timekeeper", 1200, 2400, 0.17, 1),
-blackMarketItem("the_vault:idol_malevolence", 1200, 2400, 0.17, 1),
-blackMarketItem("the_vault:black_chromatic_steel_ingot", 500, 900, 0.23, 1),
-blackMarketItem("the_vault:black_chromatic_steel_nugget", 250, 500, 0.46, 4),
-blackMarketItem("the_vault:mystical_powder", 80, 180, 0.92, 1),
-blackMarketItem("minecraft:diamond", 10, 40, 0.92, 16),
-blackMarketItem("minecraft:diamond", 10, 40, 0.92, 8),
-blackMarketItem("minecraft:netherite_ingot", 30, 80, 0.92, 2),
-blackMarketItem("minecraft:elytra", 80, 140, 1.84, 1),
-blackMarketItem("the_vault:magnetite", 10, 40, 1.84, 4),
-blackMarketItem("the_vault:magic_silk", 10, 40, 2.76, 4),
-blackMarketItem("the_vault:magic_silk", 10, 40, 1.84, 8),
-blackMarketItem("the_vault:vault_diamond", 20, 80, 1.38, 1),
-blackMarketItem("the_vault:eternal_soul", 20, 80, 0.92, 1),
-blackMarketItem("the_vault:eternal_soul", 160, 500, 0.46, 4),
-blackMarketItem("minecraft:golden_apple", 20, 40, 1.84, 1),
-blackMarketItem("the_vault:soul_flame", 40, 120, 1.84, 1),
-blackMarketItem("the_vault:vault_plating", 20, 100, 1.84, 4),
-blackMarketItem("the_vault:vault_plating", 20, 100, 1.84, 8),
-blackMarketItem("the_vault:vault_gold", 20, 80, 1.84, 1),
-blackMarketItem("the_vault:plain_burger", 20, 80, 1.84, 1),
-blackMarketItem("the_vault:crystal_seal_empty", 40, 160, 1.84, 1),
-blackMarketItem("the_vault:crystal_seal_hunter", 80, 200, 0.92, 1),
-blackMarketItem("the_vault:crystal_seal_cake", 80, 200, 0.92, 1),
-blackMarketItem("the_vault:crystal_seal_executioner", 80, 200, 0.92, 1),
-blackMarketItem("minecraft:trident", 20, 120, 1.38, 1),
-blackMarketItem("minecraft:totem_of_undying", 80, 160, 1.38, 1),
-blackMarketItem("the_vault:chromatic_steel_block", 400, 1200, 0.46, 1),
-blackMarketItem("the_vault:mote_clarity", 40, 80, 1.15, 1),
-blackMarketItem("the_vault:mote_purity", 300, 900, 1.15, 1),
-blackMarketItem("the_vault:carbon", 10, 40, 1.84, 4),
-blackMarketItem("the_vault:cooked_vault_steak", 6, 18, 1.84, 1)], []);
+blackMarket.addRecipe([blackMarketItem("the_vault:blank_key", 6000, 12000, 0.24, 1),
+blackMarketItem("the_vault:unidentified_artifact", 20000, 32000, 0.12, 1),
+blackMarketItem("the_vault:knowledge_star", 2400, 4800, 1.88, 1),
+blackMarketItem("the_vault:repair_core", 600, 1200, 3.77, 1),
+blackMarketItem("the_vault:sour_orange", 2000, 4000, 0.24, 1),
+blackMarketItem("the_vault:bitter_lemon", 800, 1400, 0.94, 1),
+blackMarketItem("the_vault:vault_platinum", 400, 800, 1.88, 1),
+blackMarketItem("the_vault:regret_orb", 200, 600, 3.77, 1),
+blackMarketItem("the_vault:mod_box", 400, 800, 3.77, 1),
+blackMarketItem("the_vault:opportunistic_focus", 3200, 6000, 0.47, 1),
+blackMarketItem("the_vault:resilient_focus", 2000, 4000, 0.47, 1),
+blackMarketItem("the_vault:fundamental_focus", 800, 1600, 1.88, 1),
+blackMarketItem("the_vault:chaotic_focus", 200, 400, 3.77, 1),
+blackMarketItem("the_vault:waxing_focus", 1600, 2400, 1.18, 1),
+blackMarketItem("the_vault:waning_focus", 1600, 2400, 1.18, 1),
+blackMarketItem("the_vault:trinket", 8000, 12000, 0.24, 1),
+blackMarketItem("the_vault:trinket_scrap", 4000, 8000, 0.47, 1),
+blackMarketItem("the_vault:phoenix_feather", 1000, 1600, 0.94, 1),
+blackMarketItem("the_vault:eye_of_avarice", 2000, 4000, 0.47, 1),
+blackMarketItem("the_vault:vault_catalyst_chaos", 3000, 6000, 0.47, 1),
+blackMarketItem("the_vault:jewel", 300, 800, 7.54, 1),
+blackMarketItem("the_vault:inscription", 1200, 2400, 3.77, 1),
+blackMarketItem("the_vault:helmet", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:chestplate", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:leggings", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:boots", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:sword", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:axe", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:shield", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:idol_benevolent", 1200, 2000, 0.94, 1),
+blackMarketItem("the_vault:idol_omniscient", 1200, 2000, 0.94, 1),
+blackMarketItem("the_vault:idol_timekeeper", 1200, 2000, 0.94, 1),
+blackMarketItem("the_vault:idol_malevolence", 1200, 2000, 0.94, 1),
+blackMarketItem("the_vault:magnet", 800, 1600, 3.77, 1),
+blackMarketItem("the_vault:soul_flame", 400, 800, 3.77, 1),
+blackMarketItem("the_vault:crystal_seal_empty", 200, 600, 3.77, 1),
+blackMarketItem("the_vault:crystal_seal_cake", 400, 800, 1.88, 1),
+blackMarketItem("the_vault:mote_purity", 800, 1200, 1.88, 1),
+blackMarketItem("the_vault:mote_sanctity", 3200, 6000, 0.47, 1),
+blackMarketItem("the_vault:faceted_focus", 400, 800, 1.88, 1),
+blackMarketItem("the_vault:mystery_egg", 200, 400, 1.88, 1),
+blackMarketItem("the_vault:mystery_hostile_egg", 400, 800, 0.47, 1),
+blackMarketItem("the_vault:unidentified_relic_fragment", 400, 800, 0.94, 1),
+blackMarketItem("the_vault:artifact_fragment", 2000, 4000, 0.24, 1),
+blackMarketItem("the_vault:wooden_chest_scroll", 400, 800, 0.47, 1),
+blackMarketItem("the_vault:ornate_chest_scroll", 800, 1600, 0.47, 1),
+blackMarketItem("the_vault:living_chest_scroll", 800, 1600, 0.47, 1),
+blackMarketItem("the_vault:gilded_chest_scroll", 800, 1600, 0.47, 1),
+blackMarketItem("the_vault:bounty_pearl", 200, 400, 1.88, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.71, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.71, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.82, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.71, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.82, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
+blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.47, 1)], []);
 
 JEI.addCategory(blackMarket);
 
@@ -467,69 +411,84 @@ for i in 0 .. 6 {
 
 for i in 0 .. 6 {
     for column in 0 .. 8 {
-        crystal.addSlot(8 * i + column, 6 + (column * 21), 6 + (i * 21), false);
+        crystal.addSlot(8 * i + column, 6 + (column * 21), 6 + (i * 21), true);
     }
 }
 
 function crystalItem(item as string, level as string, pool as string) as IItemStack {
-    for tag in [
-        <tagmanager:items>.tag("the_vault:altar_requirements"),
-        <tagmanager:items>.tag("the_vault:altar_requirements/" + level),
-        <tagmanager:items>.tag("the_vault:altar_requirements/" + pool.toLowerCase()),
-        <tagmanager:items>.tag("the_vault:altar_requirements/" + pool.toLowerCase() + "/" + level)
-    ]{
-        tag.add(<item:${item}>);
-    }
+  for tag in [
+      <tagmanager:items>.tag("the_vault:altar_requirements"),
+      <tagmanager:items>.tag("the_vault:altar_requirements/" + level),
+      <tagmanager:items>.tag("the_vault:altar_requirements/" + pool.toLowerCase()),
+      <tagmanager:items>.tag("the_vault:altar_requirements/" + pool.toLowerCase() + "/" + level)
+  ]{
+      tag.add(<item:${item}>);
+  }
   return <item:${item}>.withTag({display: {Lore: ["[{\"text\":\"Level: \",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\""+ level + "\",\"color\":\"white\",\"bold\":false},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false}]" as string, "[{\"text\":\"Pool: \",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"" + pool +"\",\"color\":\"white\",\"bold\":false}]" as string]}});
 }
 
-// Misc Items
-crystal.addRecipe([[crystalItem("minecraft:pointed_dripstone", 0, "Misc")],
-[crystalItem("minecraft:gold_ingot", 0, "Misc")],
-[crystalItem("minecraft:iron_ingot", 0, "Misc")],
-[crystalItem("minecraft:redstone", 0, "Misc")],
-[crystalItem("minecraft:emerald", 0, "Misc")],
-[crystalItem("minecraft:lapis_lazuli", 0, "Misc")],
-[crystalItem("minecraft:copper_ingot", 0, "Misc")],
-[crystalItem("minecraft:coal", 0, "Misc"),
-crystalItem("minecraft:charcoal", 0, "Misc")],
-[crystalItem("minecraft:amethyst_shard", 10, "Misc")],
-[crystalItem("minecraft:diamond", 10, "Misc")],
-[crystalItem("minecraft:spore_blossom", 10, "Misc")],
-[crystalItem("minecraft:glowstone_dust", 20, "Misc")],
-[crystalItem("minecraft:quartz", 20, "Misc")],
-[crystalItem("minecraft:name_tag", 20, "Misc")],
-[crystalItem("minecraft:prismarine_shard", 40, "Misc")],
-[crystalItem("minecraft:prismarine_crystals", 40, "Misc")],
-[crystalItem("minecraft:chorus_flower", 40, "Misc")],
-[crystalItem("minecraft:dead_brain_coral", 40, "Misc"),
-crystalItem("minecraft:dead_bubble_coral", 40, "Misc"),
-crystalItem("minecraft:dead_fire_coral", 40, "Misc"),
-crystalItem("minecraft:dead_horn_coral", 40, "Misc"),
-crystalItem("minecraft:dead_tube_coral", 40, "Misc"),
-crystalItem("minecraft:dead_tube_coral_fan", 40, "Misc"),
-crystalItem("minecraft:dead_brain_coral_fan", 40, "Misc"),
-crystalItem("minecraft:dead_bubble_coral_fan", 40, "Misc"),
-crystalItem("minecraft:dead_fire_coral_fan", 40, "Misc"),
-crystalItem("minecraft:dead_horn_coral_fan", 40, "Misc")],
-[crystalItem("minecraft:brain_coral", 40, "Misc"),
-crystalItem("minecraft:bubble_coral", 40, "Misc"),
-crystalItem("minecraft:fire_coral", 40, "Misc"),
-crystalItem("minecraft:horn_coral", 40, "Misc"),
-crystalItem("minecraft:tube_coral", 40, "Misc"),
-crystalItem("minecraft:tube_coral_fan", 40, "Misc"),
-crystalItem("minecraft:brain_coral_fan", 40, "Misc"),
-crystalItem("minecraft:bubble_coral_fan", 40, "Misc"),
-crystalItem("minecraft:fire_coral_fan", 40, "Misc"),
-crystalItem("minecraft:horn_coral_fan", 40, "Misc")],
-[crystalItem("minecraft:totem_of_undying", 40, "Misc")],
-[crystalItem("minecraft:saddle", 40, "Misc")],
-[crystalItem("minecraft:cobweb", 40, "Misc")],
-[crystalItem("minecraft:sponge", 75, "Misc")],
-[crystalItem("minecraft:nether_star", 75, "Misc")]],[]);
+// Farmable Items
+crystal.addRecipe([], [[crystalItem("minecraft:sugar_cane", 0, "Farmable")],
+[crystalItem("minecraft:carrot", 0, "Farmable")],
+[crystalItem("minecraft:potato", 0, "Farmable")],
+[crystalItem("minecraft:wheat_seeds", 0, "Farmable")],
+[crystalItem("minecraft:oak_leaves", 0, "Farmable"),
+crystalItem("minecraft:spruce_leaves", 0, "Farmable"),
+crystalItem("minecraft:birch_leaves", 0, "Farmable"),
+crystalItem("minecraft:jungle_leaves", 0, "Farmable"),
+crystalItem("minecraft:acacia_leaves", 0, "Farmable"),
+crystalItem("minecraft:dark_oak_leaves", 0, "Farmable"),
+crystalItem("minecraft:azalea_leaves", 0, "Farmable"),
+crystalItem("minecraft:flowering_azalea_leaves", 0, "Farmable"),
+crystalItem("ecologics:coconut_leaves", 0, "Farmable"),
+crystalItem("ecologics:walnut_leaves", 0, "Farmable")],
+[crystalItem("minecraft:kelp", 10, "Farmable")],
+[crystalItem("minecraft:cactus", 10, "Farmable")],
+[crystalItem("minecraft:bamboo", 10, "Farmable")],
+[crystalItem("minecraft:vine", 10, "Farmable")],
+[crystalItem("minecraft:beetroot", 10, "Farmable")],
+[crystalItem("minecraft:snowball", 10, "Farmable")],
+[crystalItem("minecraft:pumpkin", 10, "Farmable")],
+[crystalItem("minecraft:melon", 10, "Farmable")],
+[crystalItem("minecraft:sea_pickle", 10, "Farmable")],
+[crystalItem("minecraft:dandelion", 10, "Farmable"),
+crystalItem("minecraft:poppy", 10, "Farmable"),
+crystalItem("minecraft:blue_orchid", 10, "Farmable"),
+crystalItem("minecraft:allium", 10, "Farmable"),
+crystalItem("minecraft:azure_bluet", 10, "Farmable"),
+crystalItem("minecraft:oxeye_daisy", 10, "Farmable"),
+crystalItem("minecraft:cornflower", 10, "Farmable"),
+crystalItem("minecraft:lily_of_the_valley", 10, "Farmable")],
+[crystalItem("minecraft:beetroot_seeds", 10, "Farmable")],
+[crystalItem("minecraft:sweet_berries", 10, "Farmable")],
+[crystalItem("minecraft:apple", 10, "Farmable")],
+[crystalItem("minecraft:seagrass", 10, "Farmable")],
+[crystalItem("minecraft:brown_mushroom", 20, "Farmable")],
+[crystalItem("minecraft:red_mushroom", 20, "Farmable")],
+[crystalItem("minecraft:red_tulip", 20, "Farmable"),
+crystalItem("minecraft:orange_tulip", 20, "Farmable"),
+crystalItem("minecraft:white_tulip", 20, "Farmable"),
+crystalItem("minecraft:pink_tulip", 20, "Farmable")],
+[crystalItem("minecraft:sunflower", 20, "Farmable"),
+crystalItem("minecraft:rose_bush", 20, "Farmable"),
+crystalItem("minecraft:peony", 20, "Farmable"),
+crystalItem("minecraft:lilac", 20, "Farmable")],
+[crystalItem("minecraft:glow_lichen", 20, "Farmable")],
+[crystalItem("minecraft:clay_ball", 20, "Farmable")],
+[crystalItem("minecraft:brick", 20, "Farmable")],
+[crystalItem("minecraft:glow_berries", 20, "Farmable")],
+[crystalItem("minecraft:nether_wart", 20, "Farmable")],
+[crystalItem("minecraft:twisting_vines", 40, "Farmable")],
+[crystalItem("minecraft:weeping_vines", 40, "Farmable")],
+[crystalItem("minecraft:big_dripleaf", 40, "Farmable")],
+[crystalItem("minecraft:crimson_fungus", 40, "Farmable")],
+[crystalItem("minecraft:warped_fungus", 40, "Farmable")],
+[crystalItem("minecraft:chorus_fruit", 40, "Farmable")],
+[crystalItem("minecraft:lily_pad", 40, "Farmable")],
+[crystalItem("minecraft:wither_rose", 75, "Farmable")]]);
 
 // Resource
-crystal.addRecipe([[crystalItem("minecraft:cobblestone", 0, "Resource")],
+crystal.addRecipe([], [[crystalItem("minecraft:cobblestone", 0, "Resource")],
 [crystalItem("minecraft:diorite", 0, "Resource")],
 [crystalItem("minecraft:andesite", 0, "Resource")],
 [crystalItem("minecraft:granite", 0, "Resource")],
@@ -641,6 +600,7 @@ crystalItem("minecraft:black_concrete_powder", 20, "Resource")],
 [crystalItem("minecraft:blackstone", 20, "Resource")],
 [crystalItem("minecraft:dripstone_block", 20, "Resource")],
 [crystalItem("minecraft:prismarine", 20, "Resource")],
+[crystalItem("minecraft:soul_soil", 40, "Resource")],
 [crystalItem("minecraft:purpur_block", 40, "Resource")],
 [crystalItem("minecraft:mycelium", 40, "Resource")],
 [crystalItem("minecraft:end_stone", 40, "Resource")],
@@ -649,14 +609,15 @@ crystalItem("minecraft:black_concrete_powder", 20, "Resource")],
 [crystalItem("minecraft:warped_wart_block", 40, "Resource")],
 [crystalItem("minecraft:shroomlight", 40, "Resource")],
 [crystalItem("minecraft:podzol", 40, "Resource")],
+[crystalItem("minecraft:blue_ice", 75, "Resource")],
 [crystalItem("minecraft:crimson_stem", 75, "Resource")],
 [crystalItem("minecraft:warped_stem", 75, "Resource")],
 [crystalItem("minecraft:crying_obsidian", 75, "Resource")],
 [crystalItem("minecraft:calcite", 75, "Resource")],
-[crystalItem("minecraft:rooted_dirt", 75, "Resource")]],[]);
+[crystalItem("minecraft:rooted_dirt", 75, "Resource")]]);
 
 // Mob
-crystal.addRecipe([[crystalItem("minecraft:string", 0, "Mob")],
+crystal.addRecipe([], [[crystalItem("minecraft:string", 0, "Mob")],
 [crystalItem("minecraft:rotten_flesh", 0, "Mob")],
 [crystalItem("minecraft:bone", 0, "Mob")],
 [crystalItem("minecraft:spider_eye", 0, "Mob")],
@@ -700,70 +661,73 @@ crystalItem("minecraft:black_dye", 10, "Mob")],
 [crystalItem("minecraft:ink_sac", 20, "Mob")],
 [crystalItem("minecraft:glow_ink_sac", 20, "Mob")],
 [crystalItem("minecraft:pufferfish", 20, "Mob")],
+[crystalItem("minecraft:tropical_fish", 40, "Mob")],
 [crystalItem("minecraft:ghast_tear", 40, "Mob")],
 [crystalItem("minecraft:magma_cream", 40, "Mob")],
 [crystalItem("minecraft:nautilus_shell", 40, "Mob")],
 [crystalItem("minecraft:turtle_egg", 40, "Mob")],
-[crystalItem("minecraft:wither_skeleton_skull", 40, "Mob")]],[]);
+[crystalItem("minecraft:wither_skeleton_skull", 40, "Mob")],
+[crystalItem("minecraft:phantom_membrane", 75, "Mob")]]);
 
-// Farmable
-crystal.addRecipe([[crystalItem("minecraft:sugar_cane", 0, "Farmable")],
-[crystalItem("minecraft:carrot", 0, "Farmable")],
-[crystalItem("minecraft:potato", 0, "Farmable")],
-[crystalItem("minecraft:wheat_seeds", 0, "Farmable")],
-[crystalItem("minecraft:oak_leaves", 0, "Farmable"),
-crystalItem("minecraft:spruce_leaves", 0, "Farmable"),
-crystalItem("minecraft:birch_leaves", 0, "Farmable"),
-crystalItem("minecraft:jungle_leaves", 0, "Farmable"),
-crystalItem("minecraft:acacia_leaves", 0, "Farmable"),
-crystalItem("minecraft:dark_oak_leaves", 0, "Farmable"),
-crystalItem("minecraft:azalea_leaves", 0, "Farmable"),
-crystalItem("minecraft:flowering_azalea_leaves", 0, "Farmable"),
-crystalItem("ecologics:coconut_leaves", 0, "Farmable"),
-crystalItem("ecologics:walnut_leaves", 0, "Farmable")],
-[crystalItem("minecraft:kelp", 10, "Farmable")],
-[crystalItem("minecraft:cactus", 10, "Farmable")],
-[crystalItem("minecraft:bamboo", 10, "Farmable")],
-[crystalItem("minecraft:vine", 10, "Farmable")],
-[crystalItem("minecraft:beetroot", 10, "Farmable")],
-[crystalItem("minecraft:snowball", 10, "Farmable")],
-[crystalItem("minecraft:pumpkin", 10, "Farmable")],
-[crystalItem("minecraft:melon", 10, "Farmable")],
-[crystalItem("minecraft:sea_pickle", 10, "Farmable")],
-[crystalItem("minecraft:dandelion", 10, "Farmable"),
-crystalItem("minecraft:poppy", 10, "Farmable"),
-crystalItem("minecraft:blue_orchid", 10, "Farmable"),
-crystalItem("minecraft:allium", 10, "Farmable"),
-crystalItem("minecraft:azure_bluet", 10, "Farmable"),
-crystalItem("minecraft:oxeye_daisy", 10, "Farmable"),
-crystalItem("minecraft:cornflower", 10, "Farmable"),
-crystalItem("minecraft:lily_of_the_valley", 10, "Farmable")],
-[crystalItem("minecraft:beetroot_seeds", 10, "Farmable")],
-[crystalItem("minecraft:sweet_berries", 10, "Farmable")],
-[crystalItem("minecraft:apple", 10, "Farmable")],
-[crystalItem("minecraft:seagrass", 10, "Farmable")],
-[crystalItem("minecraft:brown_mushroom", 20, "Farmable")],
-[crystalItem("minecraft:red_mushroom", 20, "Farmable")],
-[crystalItem("minecraft:red_tulip", 20, "Farmable"),
-crystalItem("minecraft:orange_tulip", 20, "Farmable"),
-crystalItem("minecraft:white_tulip", 20, "Farmable"),
-crystalItem("minecraft:pink_tulip", 20, "Farmable")],
-[crystalItem("minecraft:sunflower", 20, "Farmable"),
-crystalItem("minecraft:rose_bush", 20, "Farmable"),
-crystalItem("minecraft:peony", 20, "Farmable"),
-crystalItem("minecraft:lilac", 20, "Farmable")],
-[crystalItem("minecraft:glow_lichen", 20, "Farmable")],
-[crystalItem("minecraft:clay_ball", 20, "Farmable")],
-[crystalItem("minecraft:brick", 20, "Farmable")],
-[crystalItem("minecraft:glow_berries", 20, "Farmable")],
-[crystalItem("minecraft:nether_wart", 20, "Farmable")],
-[crystalItem("minecraft:twisting_vines", 40, "Farmable")],
-[crystalItem("minecraft:big_dripleaf", 40, "Farmable")],
-[crystalItem("minecraft:crimson_fungus", 40, "Farmable")],
-[crystalItem("minecraft:warped_fungus", 40, "Farmable")],
-[crystalItem("minecraft:chorus_fruit", 40, "Farmable")],
-[crystalItem("minecraft:lily_pad", 40, "Farmable")],
-[crystalItem("minecraft:wither_rose", 75, "Farmable")]],[]);
+// Misc
+crystal.addRecipe([], [[crystalItem("minecraft:pointed_dripstone", 0, "Misc")],
+[crystalItem("minecraft:gold_ingot", 0, "Misc")],
+[crystalItem("minecraft:iron_ingot", 0, "Misc")],
+[crystalItem("minecraft:redstone", 0, "Misc")],
+[crystalItem("minecraft:emerald", 0, "Misc")],
+[crystalItem("minecraft:lapis_lazuli", 0, "Misc")],
+[crystalItem("minecraft:copper_ingot", 0, "Misc")],
+[crystalItem("minecraft:coal", 0, "Misc"),
+crystalItem("minecraft:charcoal", 0, "Misc")],
+[crystalItem("minecraft:amethyst_shard", 10, "Misc")],
+[crystalItem("minecraft:diamond", 10, "Misc")],
+[crystalItem("minecraft:spore_blossom", 10, "Misc")],
+[crystalItem("minecraft:glowstone_dust", 20, "Misc")],
+[crystalItem("minecraft:quartz", 20, "Misc")],
+[crystalItem("minecraft:name_tag", 20, "Misc")],
+[crystalItem("minecraft:prismarine_shard", 40, "Misc")],
+[crystalItem("minecraft:prismarine_crystals", 40, "Misc")],
+[crystalItem("minecraft:chorus_flower", 40, "Misc")],
+[crystalItem("minecraft:dead_brain_coral", 40, "Misc"),
+crystalItem("minecraft:dead_bubble_coral", 40, "Misc"),
+crystalItem("minecraft:dead_fire_coral", 40, "Misc"),
+crystalItem("minecraft:dead_horn_coral", 40, "Misc"),
+crystalItem("minecraft:dead_tube_coral", 40, "Misc"),
+crystalItem("minecraft:dead_tube_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_brain_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_bubble_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_fire_coral_fan", 40, "Misc"),
+crystalItem("minecraft:dead_horn_coral_fan", 40, "Misc")],
+[crystalItem("minecraft:brain_coral", 40, "Misc"),
+crystalItem("minecraft:bubble_coral", 40, "Misc"),
+crystalItem("minecraft:fire_coral", 40, "Misc"),
+crystalItem("minecraft:horn_coral", 40, "Misc"),
+crystalItem("minecraft:tube_coral", 40, "Misc"),
+crystalItem("minecraft:tube_coral_fan", 40, "Misc"),
+crystalItem("minecraft:brain_coral_fan", 40, "Misc"),
+crystalItem("minecraft:bubble_coral_fan", 40, "Misc"),
+crystalItem("minecraft:fire_coral_fan", 40, "Misc"),
+crystalItem("minecraft:horn_coral_fan", 40, "Misc")],
+[crystalItem("minecraft:totem_of_undying", 40, "Misc")],
+[crystalItem("minecraft:saddle", 40, "Misc")],
+[crystalItem("minecraft:cobweb", 40, "Misc")],
+[crystalItem("minecraft:sponge", 75, "Misc")],
+[crystalItem("minecraft:nether_star", 75, "Misc")],
+[crystalItem("minecraft:trident", 75, "Misc")],
+[crystalItem("minecraft:music_disc_13", 90, "Misc"),
+crystalItem("minecraft:music_disc_cat", 90, "Misc"),
+crystalItem("minecraft:music_disc_blocks", 90, "Misc"),
+crystalItem("minecraft:music_disc_chirp", 90, "Misc"),
+crystalItem("minecraft:music_disc_far", 90, "Misc"),
+crystalItem("minecraft:music_disc_mall", 90, "Misc"),
+crystalItem("minecraft:music_disc_mellohi", 90, "Misc"),
+crystalItem("minecraft:music_disc_stal", 90, "Misc"),
+crystalItem("minecraft:music_disc_strad", 90, "Misc"),
+crystalItem("minecraft:music_disc_ward", 90, "Misc"),
+crystalItem("minecraft:music_disc_11", 90, "Misc"),
+crystalItem("minecraft:music_disc_wait", 90, "Misc"),
+crystalItem("minecraft:music_disc_otherside", 90, "Misc"),
+crystalItem("minecraft:music_disc_pigstep", 90, "Misc")]]);
 
 // Add category
 JEI.addCategory(crystal);
