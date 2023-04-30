@@ -295,3 +295,9 @@ Those have been officially integrated into the mod pack! \o/
 ### Vault Diffuser
 
 * Increased the payout for common scavenger items from 1 to 4.
+
+### Vault Enchanter
+
+* Removed Emeralds cost from enchantments. Purely because I cba carrying the 
+  things over, and I’m salty that vault stations still don’t integrate with 
+  storage mods.
