@@ -207,7 +207,6 @@ JEI.hideIngredient(<item:the_vault:archetype_star_core>);
 JEI.hideIngredient(<item:the_vault:archetype_star_essence>);
 JEI.hideIngredient(<item:the_vault:archetype_star_shard>);
 JEI.hideIngredient(<item:the_vault:acceleration_chip>);
-JEI.hideIngredient(<item:the_vault:charm_upgrade_tier_4>);
 JEI.hideIngredient(<item:the_vault:cluster_netherite>);
 JEI.hideIngredient(<item:the_vault:crystal_seal_ancients>);
 JEI.hideIngredient(<item:the_vault:crystal_seal_raid>);
