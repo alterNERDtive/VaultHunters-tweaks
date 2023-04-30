@@ -4,7 +4,7 @@
       "title": "Storage",
       "research": [
         "Colossal Chests",
-        "Simple Storage Network",
+        "Simple Storage",
         "Refined Storage",
         "Applied Energistics",
         "Drawers",
@@ -64,7 +64,8 @@
         "Powah",
         "Mekanism Generators",
         "Thermal Dynamos",
-        "Iron Generators"
+        "Iron Generators",
+        "Botania Flux Field"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
@@ -112,6 +113,18 @@
         "groupCostIncrease": {
           "Handling": 5.0
         }
-    }
+    },
+    "Alchemy": {
+      "title": "Alchemy",
+      "research": [
+        "Potions",
+        "Mixtures",
+        "Brews"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Alchemy": 5.0
+      }
+  }
   }
 }

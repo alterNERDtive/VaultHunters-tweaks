@@ -28,31 +28,39 @@
       "max": 140
     }
   },
-  "totalMaximumProficiency": 20000,
-  "totalCategoryProficiency": 10000,
+  "totalMaximumProficiency": 2147483647,
+  "totalCategoryProficiency": 5000,
   "proficiencyPerCraft": {
-    "min": 1,
-    "max": 20
+    "min": 5,
+    "max": 10
   },
   "proficiencyPools": [
     {
       "minProficiency": 0,
+      "pool": "Beginner"
+    },
+    {
+      "minProficiency": 100,
       "pool": "Novice"
     },
     {
-      "minProficiency": 1000,
+      "minProficiency": 400,
+      "pool": "Maker"
+    },
+    {
+      "minProficiency": 800,
       "pool": "Apprentice"
     },
     {
-      "minProficiency": 3000,
-      "pool": "Master"
+      "minProficiency": 2000,
+      "pool": "Smith"
     },
     {
-      "minProficiency": 7000,
+      "minProficiency": 3600,
       "pool": "Artisan"
     },
     {
-      "minProficiency": 9500,
+      "minProficiency": 4800,
       "pool": "Master Artisan"
     }
   ]

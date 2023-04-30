@@ -44,6 +44,75 @@
             "max": 1,
             "pool": [
               {
+                "value": "the_vault:beginners_insurance",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:gilded",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:living",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:ornate",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:coin_pile",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:dummy",
+                "weight": 20
+              }
+            ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:item_quantity",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:item_rarity",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:dummy",
+                "weight": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:beginners_grace",
+                "weight": 1000
+              }
+            ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
                 "value": "the_vault:gilded",
                 "weight": 1
               },
@@ -729,6 +798,23 @@
         ]
       }
     ],
+    "the_vault:healing_penalty": [
+      {
+        "level": 0,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:antiheal",
+                "weight": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "the_vault:soul_flame_curse": [
       {
         "level": 0,
@@ -1203,10 +1289,6 @@
               {
                 "value": "the_vault:xp_gain",
                 "weight": 2
-              },
-              {
-                "value": "the_vault:frail",
-                "weight": 3
               },
               {
                 "value": "the_vault:haunted",

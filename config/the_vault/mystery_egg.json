@@ -191,7 +191,14 @@
         "amountMax": 1
       },
       "weight": 4
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_flutter",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
     }
-    
   ]
 }

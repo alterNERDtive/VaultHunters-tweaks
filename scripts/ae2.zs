@@ -286,15 +286,15 @@ craftingTable.addShaped("ae2_pattern", <item:ae2:blank_pattern>, [
 ]);
 
 craftingTable.addShaped("quantum_ring", <item:ae2:quantum_ring>, [
-    [<item:the_vault:chromatic_iron_ingot>,  <tag:items:ae2:smart_dense_cable>, <item:the_vault:chromatic_iron_ingot>], 
-    [ <tag:items:ae2:smart_dense_cable>, <item:the_vault:chromatic_iron_ingot>, <tag:items:ae2:smart_dense_cable>], 
-    [<item:the_vault:chromatic_iron_ingot>,  <tag:items:ae2:smart_dense_cable>, <item:the_vault:chromatic_iron_ingot>]]
+    [<item:the_vault:black_chromatic_steel_ingot>,  <item:ae2:logic_processor>, <item:the_vault:black_chromatic_steel_ingot>], 
+    [ <item:ae2:engineering_processor>, <item:ae2:dense_energy_cell>, <tag:items:ae2:smart_dense_cable>],
+    [<item:the_vault:black_chromatic_steel_ingot>,  <item:ae2:logic_processor>, <item:the_vault:black_chromatic_steel_ingot>]]
 );
 
 craftingTable.addShaped("singularity", <item:ae2:singularity>, [
-    [<item:the_vault:gem_larimar>,  <item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_larimar>], 
-    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>], 
-    [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_larimar>]]
+    [<item:the_vault:extraordinary_larimar>,  <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>], 
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:black_chromatic_steel_ingot>], 
+    [<item:the_vault:extraordinary_larimar>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>]]
 );
 craftingTable.addShaped("io_port", <item:ae2:io_port>, [
     [<item:the_vault:chromatic_steel_ingot>,  <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>], 
@@ -306,4 +306,52 @@ craftingTable.addShaped("security_station", <item:ae2:security_station>, [
     [<item:the_vault:chromatic_iron_ingot>, <item:ae2:engineering_processor>, <item:the_vault:chromatic_iron_ingot>], 
     [<item:ae2:fluix_glass_cable>, <item:the_vault:vault_diamond>, <item:ae2:fluix_glass_cable>], 
     [<item:the_vault:chromatic_iron_ingot>, <item:ae2:engineering_processor>, <item:the_vault:chromatic_iron_ingot>]
+]);
+
+craftingTable.addShaped("ae2t_disk_housing", <item:ae2things:disk_housing>, [
+    [<item:the_vault:chromatic_steel_ingot>, <item:ae2:engineering_processor>, <item:the_vault:chromatic_steel_ingot>], 
+    [<tag:items:ae2:covered_dense_cable>, <item:ae2:item_cell_housing>, <tag:items:ae2:covered_dense_cable>], 
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:minecraft:amethyst_block>, <item:the_vault:black_chromatic_steel_ingot>]
+]);
+
+craftingTable.addShapeless("ae2t_storage_cell_1k_shapeless", <item:ae2things:disk_drive_1k>, [
+    <item:ae2things:disk_housing>, <item:ae2:item_storage_cell_1k>
+]);
+
+craftingTable.addShapeless("ae2t_storage_cell_4k_shapeless", <item:ae2things:disk_drive_4k>, [
+    <item:ae2things:disk_housing>, <item:ae2:item_storage_cell_4k>
+]);
+
+craftingTable.addShapeless("ae2t_storage_cell_16k_shapeless", <item:ae2things:disk_drive_16k>, [
+    <item:ae2things:disk_housing>, <item:ae2:item_storage_cell_16k>
+]);
+
+craftingTable.addShapeless("ae2t_storage_cell_64k_shapeless", <item:ae2things:disk_drive_64k>, [
+    <item:ae2things:disk_housing>, <item:ae2:item_storage_cell_64k>
+]);
+
+craftingTable.addShapeless("ae2t_storage_cell_256k_shapeless", <item:ae2things:disk_drive_256k>, [
+    <item:ae2things:disk_housing>, <item:ae2:item_storage_cell_256k>
+]);
+
+craftingTable.addShaped("ae2t_advanced_inscriber", <item:ae2things:advanced_inscriber>, [
+    [<item:the_vault:perfect_larimar>, <item:minecraft:hopper>, <item:the_vault:perfect_larimar>],
+    [<item:ae2:engineering_processor>, <item:ae2:inscriber>, <item:ae2:engineering_processor>],
+    [<item:the_vault:perfect_larimar>, <item:minecraft:hopper>, <item:the_vault:perfect_larimar>]
+]);
+
+craftingTable.addShapeless("ae2_calculation_processor_press", <item:ae2:calculation_processor_press>, [
+    <item:the_vault:vault_crystal>.withTag({CrystalData: {Version: 1 as byte, Model: {type: "raw" as string}}}), <item:minecraft:paper>
+]);
+
+craftingTable.addShapeless("ae2_engineering_processor_press", <item:ae2:engineering_processor_press>, [
+    <item:the_vault:vault_crystal>.withTag({CrystalData: {Version: 1 as byte, Model: {type: "raw" as string}}}), <item:minecraft:emerald>
+]);
+
+craftingTable.addShapeless("ae2_logic_processor_press", <item:ae2:logic_processor_press>, [
+    <item:the_vault:vault_crystal>.withTag({CrystalData: {Version: 1 as byte, Model: {type: "raw" as string}}}), <item:minecraft:diamond>
+]);
+
+craftingTable.addShapeless("ae2_silicon_processor_press", <item:ae2:silicon_press>, [
+    <item:the_vault:vault_crystal>.withTag({CrystalData: {Version: 1 as byte, Model: {type: "raw" as string}}}), <tag:items:forge:silicon>
 ]);

@@ -218,7 +218,7 @@ craftingTable.addShapeless("rs_wireless_crafting_grid", <item:refinedstorageaddo
 ]);
 
 craftingTable.addShapeless("rs_pattern_grid", <item:refinedstorage:pattern_grid>, [
-    <item:refinedstorage:grid>, <item:refinedstorage:advanced_processor>,
+    <tag:items:refinedstorage:grid>, <item:refinedstorage:advanced_processor>,
     <item:refinedstorage:pattern>, <item:the_vault:omega_pog>
 ]);
 

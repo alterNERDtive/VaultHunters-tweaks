@@ -35,13 +35,13 @@
         ],
         "lockedBy": []
       },
-      "Fire Resistance": {
+      "Fire_Resistance": {
         "dependsOn": [
-          "Water Breathing"
+          "Water_Breathing"
         ],
         "lockedBy": []
       },
-      "Treasure Hunter": {
+      "Treasure_Hunter": {
         "dependsOn": [
           
         ],
@@ -54,7 +54,7 @@
           
         ],
         "lockedBy": [
-          "Treasure Hunter"
+          "Treasure_Hunter"
         ]
       },
       "Careless": {
@@ -65,52 +65,62 @@
         "lockedBy": [
         ]
       },
-      "Fatal Strike Chance": {
+      "Fatal_Strike_Chance": {
         "lockedBy": [
-          "Fatal Strike Damage"
+          "Fatal_Strike_Damage"
         ]
       },
-      "Fatal Strike Damage": {
+      "Fatal_Strike_Damage": {
         "lockedBy": [
-          "Fatal Strike Chance"
+          "Fatal_Strike_Chance"
         ]
       },
-      "Thorns Damage": {
+      "Thorns_Damage": {
         "lockedBy": [
-          "Thorns Chance"
+          "Thorns_Chance"
         ]
       },
-      "Thorns Chance": {
+      "Thorns_Chance": {
         "lockedBy": [
-          "Thorns Damage"
+          "Thorns_Damage"
         ]
       },
-      "Last Stand": {
+      "Last_Stand": {
         "lockedBy": [
           "Berserking"
         ]
       },
       "Berserking": {
         "lockedBy": [
-          "Last Stand"
+          "Last_Stand"
         ]
       },
-      "Weakness Affinity": {
+      "Nucleus": {
         "lockedBy": [
-          "Slowness Affinity",
-          "Wither Affinity"
+          "Daze"
         ]
       },
-      "Slowness Affinity": {
+      "Daze": {
         "lockedBy": [
-          "Weakness Affinity",
-          "Wither Affinity"
+          "Nucleus"
         ]
       },
-      "Wither Affinity": {
+      "Weakness_Affinity": {
         "lockedBy": [
-          "Slowness Affinity",
-          "Weakness Affinity"
+          "Slowness_Affinity",
+          "Wither_Affinity"
+        ]
+      },
+      "Slowness_Affinity": {
+        "lockedBy": [
+          "Weakness_Affinity",
+          "Wither_Affinity"
+        ]
+      },
+      "Wither_Affinity": {
+        "lockedBy": [
+          "Slowness_Affinity",
+          "Weakness_Affinity"
         ]
       },
       "Mekanism Generators": {
@@ -155,6 +165,7 @@
         ],
         "ignoreArrow": true
       },
+      
       "Backpacks": {
         "dependsOn": [
           "Belts"
@@ -164,6 +175,24 @@
       "Big Backpacks": {
         "dependsOn": [
           "Backpacks"
+        ],
+        "ignoreArrow": true
+      },
+      "Botania Flux Field": {
+        "dependsOn": [
+          "Botania"
+        ],
+        "ignoreArrow": true
+      },
+      "Mixtures": {
+        "dependsOn": [
+          "Potions"
+        ],
+        "ignoreArrow": true
+      },
+      "Brews": {
+        "dependsOn": [
+          "Mixtures"
         ],
         "ignoreArrow": true
       },
@@ -222,6 +251,26 @@
       "Depleted": {
         "lockedBy": [
           "Methodical"
+        ]
+      },
+      "Blizzard": {
+        "lockedBy": [
+          "Frostbite"
+        ]
+      },
+      "Frostbite": {
+        "lockedBy": [
+          "Blizzard"
+        ]
+      },
+      "Blight": {
+        "lockedBy": [
+          "Toxic_Reaction"
+        ]
+      },
+      "Toxic_Reaction": {
+        "lockedBy": [
+          "Blight"
         ]
       }
     }

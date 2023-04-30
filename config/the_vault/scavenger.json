@@ -30,7 +30,7 @@
       },
       {
         "type": "chest",
-        "target": "the_vault:gilded_chest",
+        "target": "@the_vault:gilded",
         "probability": 0.5,
         "icon": "the_vault:textures/gui/scavenger/gilded_chest.png",
         "entries": {
@@ -58,7 +58,7 @@
       },
       {
         "type": "chest",
-        "target": "the_vault:ornate_chest",
+        "target": "@the_vault:ornate",
         "probability": 0.5,
         "icon": "the_vault:textures/gui/scavenger/ornate_chest.png",
         "entries": {
@@ -86,7 +86,7 @@
       },
       {
         "type": "chest",
-        "target": "the_vault:living_chest",
+        "target": "@the_vault:living",
         "probability": 0.5,
         "icon": "the_vault:textures/gui/scavenger/living_chest.png",
         "entries": {
@@ -196,6 +196,34 @@
               "the_vault:t2_wither_skeleton",
               "the_vault:t3_wither_skeleton",
 
+              "the_vault:skeleton_pirate_t0",
+              "the_vault:skeleton_pirate_t1",
+              "the_vault:skeleton_pirate_t2",
+              "the_vault:skeleton_pirate_t3",
+              "the_vault:skeleton_pirate_t4",
+              "the_vault:skeleton_pirate_t5",
+              
+              "rottencreatures:mummy",
+              "rottencreatures:burned",
+              "rottencreatures:glacial_hunter",
+              "rottencreatures:swampy",
+              
+              "minecraft:vindicator",
+              "minecraft:ravager",
+              "minecraft:pillager",
+              
+              "the_vault:shiver",
+              "the_vault:deathcap",
+              "the_vault:mummy_t0",
+              "the_vault:mummy_t1",
+              "the_vault:mummy_t2",
+              "the_vault:deep_dark_skeleton",
+              "the_vault:deep_dark_horror",
+              "the_vault:deep_dark_silverfish",
+              
+              "rottencreatures:dead_beard",
+
+              "ecologics:coconut_crab",
               "quark:wraith",
               "minecraft:polar_bear",
               "minecraft:slime",
@@ -205,6 +233,14 @@
               "minecraft:blaze",
               "minecraft:magma_cube",
               "auxiliaryblocks:snowdood",
+              "alexsmobs:rocky_roller",
+              "alexsmobs:soul_vulture",
+              "alexsmobs:alligator_snapping_turtle",
+              "alexsmobs:tusklin",
+              "alexsmobs:mantis_shrimp",
+              "alexsmobs:bunfungus",
+              "quark:foxhound",
+              "the_vault:winter_wolf",
               "the_vault:vault_blue_gummy_soldier"
             ]
           },
@@ -234,20 +270,60 @@
               "the_vault:t1_zombie",
               "the_vault:t2_zombie",
               "the_vault:t3_zombie",
+
               "minecraft:drowned",
               "the_vault:t1_drowned",
               "the_vault:t2_drowned",
               "the_vault:t3_drowned",
+
               "minecraft:husk",
               "the_vault:t1_husk",
               "the_vault:t2_husk",
-              "the_vault:t4_husk",
+              "the_vault:t3_husk",
+
               "minecraft:enderman",
               "the_vault:t1_enderman",
               "the_vault:t2_enderman",
+              "the_vault:t3_enderman",
+
               "minecraft:piglin",
               "the_vault:t1_piglin",
               "the_vault:t2_piglin",
+              "the_vault:t3_piglin",
+              "the_vault:deep_dark_piglin",
+              
+              "the_vault:winterwalker_t0",
+              "the_vault:winterwalker_t1",
+              "the_vault:winterwalker_t2",
+              "the_vault:winterwalker_t3",
+              "the_vault:winterwalker_t4",
+              "the_vault:winterwalker_t5",
+
+              "the_vault:miner_zombie_t0",
+              "the_vault:miner_zombie_t1",
+              "the_vault:miner_zombie_t2",
+              "the_vault:miner_zombie_t3",
+              "the_vault:miner_zombie_t4",
+              "the_vault:miner_zombie_t5",
+
+              "the_vault:mushroom_t0",
+              "the_vault:mushroom_t1",
+              "the_vault:mushroom_t2",
+              "the_vault:mushroom_t3",
+              "the_vault:mushroom_t4",
+              "the_vault:mushroom_t5",
+
+              "the_vault:overgrown_zombie_t0",
+              "the_vault:overgrown_zombie_t1",
+              "the_vault:overgrown_zombie_t2",
+              "the_vault:overgrown_zombie_t3",
+              "the_vault:overgrown_zombie_t4",
+              "the_vault:overgrown_zombie_t5",
+
+              "rottencreatures:undead_miner",
+              
+              "the_vault:deep_dark_zombie",
+
               "the_vault:vault_yellow_gummy_soldier",
               "the_vault:vault_green_gummy_soldier",
               "the_vault:vault_red_gummy_soldier"
@@ -288,7 +364,7 @@
         "goalCount": {
           "type": "uniform",
           "min": 3,
-          "max": 5
+          "max": 4
         },
         "itemCount": {
           "type": "uniform",
@@ -306,6 +382,19 @@
         "itemCount": {
           "type": "uniform",
           "min": 3,
+          "max": 12
+        }
+      },
+      {
+        "level": 75,
+        "goalCount": {
+          "type": "uniform",
+          "min": 3,
+          "max": 5
+        },
+        "itemCount": {
+          "type": "uniform",
+          "min": 4,
           "max": 16
         }
       }

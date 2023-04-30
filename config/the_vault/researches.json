@@ -24,14 +24,14 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
           "USABILITY": true,
           "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
+          "ENTITY_INTERACTABILITY": true
         }
       },
       "name": "Simple Storage Network",
-      "cost": 2,
+      "cost": 1,
       "usesKnowledge": true
     },
     {
@@ -169,7 +169,7 @@
         }
       },
       "name": "Refined Storage",
-      "cost": 6,
+      "cost": 4,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/arcade/helmet",
@@ -192,7 +192,7 @@
         }
       },
       "name": "Applied Energistics",
-      "cost": 6,
+      "cost": 4,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/robotic/helmet",
@@ -908,6 +908,62 @@
     },
     {
       "itemRestrictions": {
+        "the_vault:bottle{type:\"potion\"}": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+            }
+        },
+        "the_vault:alchemy_table": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+            }
+        }
+          
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Potions",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:bottle{type:\"mixture\"}": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+            }
+          }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Mixtures",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:bottle{type:\"brew\"}": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+            }
+          }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Brews",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
         "mekanism:digital_miner": {
           "restricts": {
             "HITTABILITY": true,
@@ -1193,6 +1249,22 @@
       "entityRestrictions": {},
       "name": "Big Backpacks",
       "cost": 3,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "botania:mana_fluxfield": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Botania Flux Field",
+      "cost": 2,
       "usesKnowledge": true
     }
   ]
