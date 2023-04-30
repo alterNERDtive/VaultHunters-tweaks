@@ -150,15 +150,15 @@ rules.
 
 ### Fortune and Vault Ores
 
-* Removed Vein Miner: Fortune.
+* ~~Removed Vein Miner: Fortune.~~ Gone from the default pack.
 * Removed the chance to roll 0 on breaking Vault Ores.
 
-This should make the other Vein Miner specs (or unspecced!) more useful. It also 
-removes the unfun mechanic of getting 0 off an ore.
+~~This should make the other Vein Miner specs (or unspecced!) more useful.~~ 
+This removes the unfun mechanic of getting 0 off an ore.
 
-The end result should be getting roughly the same amount of gems with Fortune 
-3 that you got before with Fortune 4, and a significant increase if using lower 
-levels of Fortune or none at all.
+Still trying to find a way to make Fortune 3 act as Fortune 5. Moving Fortune to 
+Expertise is even _worse_ than tying it to Vein Miner, IMO. I recommend just 
+giving yourself 2 extra expertise points in the meantime.
 
 ### Gear Crafting
 
