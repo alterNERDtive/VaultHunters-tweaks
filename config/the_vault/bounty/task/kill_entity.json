@@ -363,7 +363,7 @@
         {
           "rewardPool": "rare",
           "value": {
-            "value": "the_vault:overgrown_zombie_t0",
+            "value": "the_vault:overgrown_zombie",
             "amount": {
               "min": 24,
               "max": 40
@@ -377,7 +377,7 @@
         {
           "rewardPool": "rare",
           "value": {
-            "value": "the_vault:winterwalker_t0",
+            "value": "the_vault:winterwalker",
             "amount": {
               "min": 24,
               "max": 40
@@ -391,7 +391,7 @@
         {
           "rewardPool": "rare",
           "value": {
-            "value": "the_vault:mushroom_t0",
+            "value": "the_vault:mushroom",
             "amount": {
               "min": 24,
               "max": 40
@@ -605,7 +605,7 @@
         {
           "rewardPool": "rare",
           "value": {
-            "value": "the_vault:overgrown_zombie_t0",
+            "value": "the_vault:overgrown_zombie",
             "amount": {
               "min": 32,
               "max": 48
@@ -619,7 +619,7 @@
         {
           "rewardPool": "rare",
           "value": {
-            "value": "the_vault:winterwalker_t0",
+            "value": "the_vault:winterwalker",
             "amount": {
               "min": 32,
               "max": 48
@@ -633,7 +633,7 @@
         {
           "rewardPool": "rare",
           "value": {
-            "value": "the_vault:mushroom_t0",
+            "value": "the_vault:mushroom",
             "amount": {
               "min": 32,
               "max": 48
