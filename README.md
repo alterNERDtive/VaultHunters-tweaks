@@ -8,7 +8,7 @@ Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
 Ko-fi](https://ko-fi.com/S6S1DLYBS).
 
-_Currently confirmed working on patch_: __9.0.2__
+_Currently confirmed working on patch_: __9.0.3__
 
 ## Installation
 
@@ -101,7 +101,8 @@ rules.
   invalid.
 * Pulverizing Stone → Gravel is now a thing. You want to use Silk Touch with 
   Pulverizing …
-* Mods no longer have a chance to spawn with backpacks.
+* ~~Mobs no longer have a chance to spawn with backpacks.~~ Fixed in the 
+  official pack.
 
 ## QoL Changes
 
