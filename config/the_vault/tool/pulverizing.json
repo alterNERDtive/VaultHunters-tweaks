@@ -308,6 +308,186 @@
         ]
       }
     ],
+    "compressium:stone_1": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_1",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:stone_2": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_2",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:stone_3": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_3",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:stone_4": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_4",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:stone_5": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_5",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:stone_6": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_6",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:stone_7": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_6",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:stone_8": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_6",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:stone_9": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_6",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
     "compressium:cobblestone_1": [
       {
         "roll": {
