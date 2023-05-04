@@ -181,6 +181,11 @@ These have been integrated into the base balancing.
 
 * Max size lowered to 40.
 
+### Junk Controller
+
+* Changed upgrade tiers from 27/54/1026/2052 items to 252/513/1026/2052. That 
+  should make getting Junk Management early more viable.
+
 ### ME Requester
 
 * Added the ME Requester mod (similar to what the RS Requester does).
