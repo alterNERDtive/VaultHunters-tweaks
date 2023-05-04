@@ -36,6 +36,15 @@ _Currently confirmed working on patch_: __9.0.3__
    as a Zip file.
 8. Copy the `data` folder from `ores` into the mod jar file.
 
+If you (or someone on your server) has unlocked Simple Storage Network or 
+Weirding Gadgets, you’ll need to manually edit 
+`data/the_vault_playerResearches.dat` and rename the unlocks. Otherwise you’ll 
+be booted with an “Invalid player data” error.
+
+There is a new config file for making this transition happen automatically 
+(`config/the_vault/player_research_transfer.json`), but it does not seem to be 
+functional yet.
+
 ## Upgrading to a New Vault Hunters Version
 
 1. __WAIT UNTIL I HAD A CHANCE TO UPDATE THE FILES__. Yes, that is important,
