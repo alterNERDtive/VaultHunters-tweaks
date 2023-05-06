@@ -112,8 +112,13 @@ rules.
   Pulverizing …
 * ~~Mobs no longer have a chance to spawn with backpacks.~~ Fixed in the 
   official pack.
+* Made Sky Stone actually mineable in raw vaults.
 
 ## QoL Changes
+
+### Budding Crystal (Sky Vaults)
+
+  * Increased growth rate.
 
 ### Vault Portal
 
@@ -141,10 +146,6 @@ rules.
   of Kaptainwutax via Tangofrags’ Discord).
 * ~~Re-enabled Redstone Fluxfield.~~ Now its own research in the official pack.
 * Can now dupe Unobtanium. Why? Why not.
-
-### Budding Crystal (Sky Vaults)
-
-* Increased growth rate.
 
 ### Chunk Loaders
 
