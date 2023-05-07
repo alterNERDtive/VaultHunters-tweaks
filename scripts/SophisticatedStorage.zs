@@ -163,9 +163,9 @@ craftingTable.remove(<item:sophisticatedstorage:controller>);
 craftingTable.remove(<item:sophisticatedstorage:storage_link>);
 
 craftingTable.addShaped("sophisticatedstorage_controller", <item:sophisticatedstorage:controller>, [
-  [<item:the_vault:chromatic_steel_ingot>, <item:sophisticatedstorage:storage_link>, <item:the_vault:chromatic_steel_ingot>],
-  [<item:the_vault:perfect_larimar>, <item:sophisticatedstorage:chest>, <item:the_vault:perfect_larimar>],
-  [<item:the_vault:chromatic_steel_ingot>, <item:sophisticatedstorage:storage_link>, <item:the_vault:chromatic_steel_ingot>]
+  [<item:the_vault:black_chromatic_steel_ingot>, <item:sophisticatedstorage:storage_link>, <item:the_vault:black_chromatic_steel_ingot>],
+  [<item:the_vault:extraordinary_larimar>, <item:the_vault:gem_pog>, <item:the_vault:extraordinary_larimar>],
+  [<item:the_vault:black_chromatic_steel_ingot>, <item:sophisticatedstorage:storage_link>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 JEI.addIngredient(<item:sophisticatedstorage:controller>);
 craftingTable.addShaped("sophisticatedstorage_storage_link", <item:sophisticatedstorage:storage_link>, [
