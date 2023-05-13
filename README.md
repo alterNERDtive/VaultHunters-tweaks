@@ -173,8 +173,8 @@ giving yourself 2 extra expertise points in the meantime.
 
 ### Gear Crafting
 
-* ~~Reverted the 10x proficiency gain nerf from a bunch of updates ago.~~~
-* ~~Removed the cap on total proficiency.~~~
+* ~~Reverted the 10x proficiency gain nerf from a bunch of updates ago.~~
+* ~~Removed the cap on total proficiency.~~
 
 These have been integrated into the base balancing.
 
