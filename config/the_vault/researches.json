@@ -624,7 +624,7 @@
         }
       },
       "name": "RFTools Utility",
-      "cost": 3,
+      "cost": 2,
       "usesKnowledge": true
     }
   ],

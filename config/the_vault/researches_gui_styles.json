@@ -199,7 +199,7 @@
       "icon": "the_vault:gui/researches/phytogenic_insulator"
     },
     "RFTools Utility": {
-      "x": 60,
+      "x": 490,
       "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/rftools_utility"
@@ -283,8 +283,8 @@
       "icon": "the_vault:gui/researches/brew"
     },
     "Automatic Genius": {
-      "x": 390,
-      "y": 320,
+      "x": 60,
+      "y": 160,
       "frameType": "STAR",
       "icon": "the_vault:gui/researches/automatic_genius"
     }

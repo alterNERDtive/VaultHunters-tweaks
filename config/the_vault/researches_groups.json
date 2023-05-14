@@ -79,7 +79,8 @@
         "Trashcans",
         "Elevators",
         "Waystones",
-        "Vault Compass"
+        "Vault Compass",
+        "RFTools Utility"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
@@ -107,8 +108,7 @@
           "Modular Routers",
           "Pipez",
           "Iron Furnaces",
-          "Dark Utilities",
-          "RFTools Utility"
+          "Dark Utilities"
         ],
         "globalCostIncrease": 0.0,
         "groupCostIncrease": {
