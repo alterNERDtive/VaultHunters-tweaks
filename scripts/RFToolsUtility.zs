@@ -3,7 +3,13 @@ for Iskall85's Vaulthunters */
 
 import mods.jei.JEI;
 
-//craftingTable.removeByModid("rftoolsutility");
+// tablet from base
+craftingTable.remove(<item:rftoolsbase:tablet>);
+craftingTable.addShaped("rftoolsbase_tablet", <item:rftoolsbase:tablet>, [
+  [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_essence>, <item:the_vault:chromatic_iron_ingot>],
+  [<item:the_vault:gem_larimar>, <tag:items:forge:storage_blocks/quartz>, <item:the_vault:gem_larimar>],
+  [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:gem_larimar>, <item:the_vault:chromatic_iron_ingot>]
+]);
 
 // I don’t think this mod should allow auto crafting, period
 JEI.hideRegex("rftoolsutility:crafter\\d");

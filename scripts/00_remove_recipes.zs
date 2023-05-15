@@ -1493,8 +1493,6 @@ JEI.hideIngredient(<item:rftoolsbase:infused_diamond>);
 JEI.hideIngredient(<item:rftoolsbase:dimensionalshard>);
 JEI.hideIngredient(<item:rftoolsbase:machine_infuser>);
 JEI.hideIngredient(<item:rftoolsbase:crafting_card>);
-JEI.hideIngredient(<item:rftoolsbase:tablet>);
-JEI.hideIngredient(<item:rftoolsbase:tablet_filled>);
 // Titanium
 JEI.hideMod("titanium");
 // Rotten Creatures
