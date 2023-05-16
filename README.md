@@ -113,6 +113,7 @@ rules.
 * ~~Mobs no longer have a chance to spawn with backpacks.~~ Fixed in the 
   official pack.
 * Made Sky Stone actually mineable in raw vaults.
+* Reduced Mekanism QIO to 4 knowledge points like RS and AE2.
 
 ## QoL Changes
 
