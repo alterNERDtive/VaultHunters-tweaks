@@ -252,6 +252,7 @@ Rooms have been fixed in the official files.
 * Added research requirements for AE2 Things, AE 2 WTLib, Applied Botanics,
   Applied Mekanistics; if you do not run these mods, it shouldn’t have any
   effect.
+* Lowered Big Backpack cost to 2 to bring it in line with small backpacks.
 
 ### Scavenger Vaults
 
