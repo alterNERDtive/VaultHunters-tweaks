@@ -245,7 +245,6 @@ Rooms have been fixed in the official files.
 
 ### Researches
 
-* Lowered the research penalty in the “Production” category to +8.
 * Raised the research cost of Automatic Genius to ~~10~~ 3. Might change again,
   not sure on the balancing of this one yet.
 * Automatic Genius no longer requires unlocking everything else.
