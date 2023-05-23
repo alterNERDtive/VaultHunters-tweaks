@@ -124,8 +124,8 @@
       "target": [
         {
           "value": {
-            "min": 200,
-            "max": 300,
+            "min": 250,
+            "max": 400,
             "type": "uniform"
           },
           "weight": 1

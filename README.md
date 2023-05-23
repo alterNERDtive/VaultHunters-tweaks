@@ -163,6 +163,7 @@ rules.
 ### Elixir Vaults
 
 * Made glorp sizes more distinct.
+* Made lvl 0–29 requirements slightly harder (25–33%).
 
 ### Fortune and Vault Ores
 
