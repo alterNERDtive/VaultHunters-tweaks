@@ -165,6 +165,8 @@ rules.
 * Made glorp sizes more distinct.
 * Made lvl 0–29 requirements slightly harder (25–33%).
 * Made lvl 50+ requirements easier (~20%).
+* Added lvl 75 tier with old lvl 50 requirements (this might or might not work 
+  out of the box, testing needed).
 
 ### Fortune and Vault Ores
 
