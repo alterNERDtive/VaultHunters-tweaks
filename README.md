@@ -160,6 +160,10 @@ rules.
 * Made the Trader block available without an unlock. Eliminates villager AI
   issues and improves server performance.
 
+### Elixir Vaults
+
+* Made glorp sizes more distinct.
+
 ### Fortune and Vault Ores
 
 * ~~Removed Vein Miner: Fortune.~~ Gone from the default pack.
