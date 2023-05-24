@@ -69,7 +69,7 @@
     ],
     "Mekanism QIO": [
       {"value": {"id": "mekanism:pellet_polonium", "amountMin": 1, "amountMax": 1}, "weight": 3},
-      {"value": {"id": "mekanism:lead_ingot", "amountMin": 8, "amountMax": 32}, "weight": 30},
+      {"value": {"id": "mekanism:ingot_lead", "amountMin": 8, "amountMax": 32}, "weight": 30},
       {"value": {"id": "mekanism:qio_drive_base", "amountMin": 1, "amountMax": 1}, "weight": 2},
       {"value": {"id": "mekanism:qio_drive_array", "amountMin": 1, "amountMax": 1}, "weight": 1}
     ],
