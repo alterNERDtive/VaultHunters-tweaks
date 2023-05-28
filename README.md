@@ -116,6 +116,7 @@ rules.
 * Reduced Mekanism QIO to 4 knowledge points like RS and AE2.
 * Lead Ingots now properly configured in the pool for Mekanism mod boxes; would 
   cause empty boxes before.
+* Added Uraninite Ore (Powah) to modded ore rooms in raw vaults.
 
 ## QoL Changes
 
