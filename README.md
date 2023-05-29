@@ -119,6 +119,7 @@ rules.
 * ~~Lead Ingots now properly configured in the pool for Mekanism mod boxes; 
   would cause empty boxes before.~~ Fixed in the official pack.
 * Added Uraninite Ore (Powah) to modded ore rooms in raw vaults.
+* Fixed BCC version number for Update 10.
 
 ## QoL Changes
 
