@@ -201,6 +201,9 @@ craftingTable.addShaped("thermal_satchel", <item:thermal:satchel>, [
 
 <recipetype:thermal:insolator>.addRecipe("insolator_warped_fungi", [<item:minecraft:warped_fungus> % 110, <item:minecraft:warped_stem> % 600, <item:minecraft:shroomlight> % 5, <item:minecraft:warped_wart_block> % 5], <item:minecraft:warped_fungus>, 1500, 30000);
 
+
+<recipetype:thermal:pulverizer>.addRecipe("sky_stone_dust", [<item:ae2:sky_dust>], <item:ae2:sky_stone_block>, 3, 2000);
+
 <recipetype:thermal:pulverizer>.addRecipe("fluix_to_dust", [<item:ae2:fluix_dust>], <item:ae2:fluix_crystal>, 3, 2000);
 
 <recipetype:thermal:pulverizer>.addRecipe("certus_to_dust", [<item:ae2:certus_quartz_dust>], <item:ae2:certus_quartz_crystal>, 3, 2000);

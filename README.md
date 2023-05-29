@@ -321,6 +321,10 @@ Taking suggestions for other recipe ideas!~~
 
 Those have been officially integrated into the mod pack! \o/
 
+### Thermal Expansion
+
+* Can now pulverize Sky Stone into Sky Stone Dust.
+
 ### Vanilla Recipes
 
 * Added recipe for making Concrete in a crafting table with a water bucket, 
