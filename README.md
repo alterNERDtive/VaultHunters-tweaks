@@ -321,6 +321,11 @@ Taking suggestions for other recipe ideas!~~
 
 Those have been officially integrated into the mod pack! \o/
 
+### Vanilla Recipes
+
+* Added recipe for making Concrete in a crafting table with a water bucket, 
+  similar to the Building Gadgets’ Dense Paste recipe added in Update 10.
+
 ### Vault Altar
 
 * Increased chance of getting a lucky recipe from 10% to 35%.
