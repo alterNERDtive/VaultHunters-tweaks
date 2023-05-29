@@ -220,6 +220,7 @@ craftingTable.remove(<item:snad:snad>);
 <recipetype:ae2:inscriber>.remove(<item:ae2:printed_calculation_processor>);
 <recipetype:ae2:inscriber>.remove(<item:ae2:engineering_processor>);
 <recipetype:ae2:inscriber>.remove(<item:ae2:printed_engineering_processor>);
+craftingTable.remove(<item:ae2:io_port>);
 craftingTable.remove(<item:ae2:controller>);
 craftingTable.remove(<item:ae2:vibration_chamber>);
 craftingTable.remove(<item:ae2:matter_cannon>);
@@ -524,6 +525,9 @@ craftingTable.remove(<item:mekanismgenerators:gas_burning_generator>);
 craftingTable.remove(<item:enercell:enercell>);
 
 // Refined Storage
+craftingTable.remove(<item:refinedstorage:network_receiver>);
+craftingTable.remove(<item:refinedstorage:network_transmitter>);
+craftingTable.remove(<item:refinedstorage:network_card>);
 craftingTable.remove(<item:refinedstorage:storage_housing>);
 craftingTable.remove(<item:refinedstorage:1k_storage_part>);
 craftingTable.remove(<item:refinedstorage:1k_storage_disk>);

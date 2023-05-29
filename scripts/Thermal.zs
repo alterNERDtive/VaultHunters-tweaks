@@ -200,3 +200,17 @@ craftingTable.addShaped("thermal_satchel", <item:thermal:satchel>, [
 <recipetype:thermal:insolator>.addRecipe("insolator_crimson_fungi", [<item:minecraft:crimson_fungus> % 110, <item:minecraft:crimson_stem> % 600, <item:minecraft:shroomlight> % 5, <item:minecraft:nether_wart_block> % 5], <item:minecraft:crimson_fungus>, 1500, 30000);
 
 <recipetype:thermal:insolator>.addRecipe("insolator_warped_fungi", [<item:minecraft:warped_fungus> % 110, <item:minecraft:warped_stem> % 600, <item:minecraft:shroomlight> % 5, <item:minecraft:warped_wart_block> % 5], <item:minecraft:warped_fungus>, 1500, 30000);
+
+<recipetype:thermal:pulverizer>.addRecipe("fluix_to_dust", [<item:ae2:fluix_dust>], <item:ae2:fluix_crystal>, 3, 2000);
+
+<recipetype:thermal:pulverizer>.addRecipe("certus_to_dust", [<item:ae2:certus_quartz_dust>], <item:ae2:certus_quartz_crystal>, 3, 2000);
+
+<recipetype:thermal:pulverizer>.addRecipe("ender_to_dust", [<item:ae2:ender_dust>], <item:minecraft:ender_pearl>, 3, 2000);
+
+<recipetype:thermal:insolator>.addRecipe("insolator_seagrass", [<item:minecraft:seagrass> % 200], <item:minecraft:seagrass>, 1000, 10000);
+
+<recipetype:thermal:insolator>.addRecipe("insolator_bigdrip", [<item:minecraft:big_dripleaf> % 200], <item:minecraft:big_dripleaf>, 1000, 10000);
+
+<recipetype:thermal:insolator>.addRecipe("insolator_smalldrip", [<item:minecraft:small_dripleaf> % 200], <item:minecraft:small_dripleaf>, 1000, 10000);
+
+<recipetype:thermal:pulverizer>.addRecipe("buildinggadgets_block_to_paste_thermal", [<item:buildinggadgets:construction_paste> % 411], <item:buildinggadgets:construction_block_dense>, 3, 2000);

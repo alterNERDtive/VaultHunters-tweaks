@@ -8,7 +8,7 @@ Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
 Ko-fi](https://ko-fi.com/S6S1DLYBS).
 
-_Currently confirmed working on patch_: __9.0.3__
+_Currently confirmed working on patch_: __10.0.0__
 
 ## Installation
 
@@ -102,7 +102,8 @@ rules.
   the ban has been fixed, the ban not lifted.
 * Totems of Undying stack in backpacks again. Since they no longer revive you,
   the unstackability is not necessary anymore.
-* Removed the Automatic Genius requirement from AE2 crafting terminals.
+* ~~Removed the Automatic Genius requirement from AE2 crafting terminals.~~ 
+  Fixed in the official pack.
 * Made AE2 Wireless Terminal compatible with curio slots, like the crafting
   variant.
 * Removed Simple Storage Network’s recipes.
@@ -112,10 +113,11 @@ rules.
   Pulverizing …
 * ~~Mobs no longer have a chance to spawn with backpacks.~~ Fixed in the 
   official pack.
-* Made Sky Stone actually mineable in raw vaults.
+* ~~Made Sky Stone actually mineable in raw vaults.~~ Fixed in the official 
+  pack.
 * Reduced Mekanism QIO to 4 knowledge points like RS and AE2.
-* Lead Ingots now properly configured in the pool for Mekanism mod boxes; would 
-  cause empty boxes before.
+* ~~Lead Ingots now properly configured in the pool for Mekanism mod boxes; 
+  would cause empty boxes before.~~ Fixed in the official pack.
 * Added Uraninite Ore (Powah) to modded ore rooms in raw vaults.
 
 ## QoL Changes
@@ -126,8 +128,8 @@ rules.
 
 ### Vault Portal
 
-* Can now be built out of _any_ type of vault stone, including Bumbo Polished
-  and Chiseled.
+* ~~Can now be built out of _any_ type of vault stone, including Bumbo Polished
+  and Chiseled.~~ Now part of the official pack.
 * Can now be built out of “Template Frames” created by an Extruder Mk2 router
   module. Because I want to build fancy things.
 
@@ -210,7 +212,9 @@ These have been integrated into the base balancing.
 
 ### ME Requester
 
-* Added the ME Requester mod (similar to what the RS Requester does).
+* ~~Added the ME Requester mod (similar to what the RS Requester does).~~
+
+Now part of the official pack!
 
 ### Modular Routers
 

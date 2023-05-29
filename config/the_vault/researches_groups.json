@@ -80,7 +80,8 @@
         "Elevators",
         "Waystones",
         "Vault Compass",
-        "RFTools Utility"
+        "RFTools Utility",
+        "Altar Automation"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {

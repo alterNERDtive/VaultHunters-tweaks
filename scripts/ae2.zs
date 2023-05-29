@@ -283,7 +283,7 @@ craftingTable.addShaped("ae2_pattern", <item:ae2:blank_pattern>, [
     [<item:the_vault:chromatic_iron_ingot>,<item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
-craftingTable.addShaped("quantum_ring", <item:ae2:quantum_ring>, [
+craftingTable.addShaped("quantum_ring", <item:ae2:quantum_ring> *8, [
     [<item:the_vault:black_chromatic_steel_ingot>,  <item:ae2:logic_processor>, <item:the_vault:black_chromatic_steel_ingot>], 
     [ <item:ae2:engineering_processor>, <item:ae2:dense_energy_cell>, <tag:items:ae2:smart_dense_cable>],
     [<item:the_vault:black_chromatic_steel_ingot>,  <item:ae2:logic_processor>, <item:the_vault:black_chromatic_steel_ingot>]]
@@ -306,30 +306,26 @@ craftingTable.addShaped("security_station", <item:ae2:security_station>, [
     [<item:the_vault:chromatic_iron_ingot>, <item:ae2:engineering_processor>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
-craftingTable.addShaped("ae2t_disk_housing", <item:ae2things:disk_housing>, [
-    [<item:the_vault:chromatic_steel_ingot>, <item:ae2:engineering_processor>, <item:the_vault:chromatic_steel_ingot>], 
-    [<tag:items:ae2:covered_dense_cable>, <item:ae2:item_cell_housing>, <tag:items:ae2:covered_dense_cable>], 
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:minecraft:amethyst_block>, <item:the_vault:black_chromatic_steel_ingot>]
-]);
+smithing.addRecipe("ae2t_disk_smithing", <item:ae2things:disk_housing>, <item:ae2:item_cell_housing>, <item:the_vault:black_chromatic_steel_ingot>);
 
 craftingTable.addShapeless("ae2t_storage_cell_1k_shapeless", <item:ae2things:disk_drive_1k>, [
-    <item:ae2things:disk_housing>, <item:ae2:item_storage_cell_1k>
+    <item:ae2things:disk_housing>, <item:ae2:cell_component_1k>
 ]);
 
 craftingTable.addShapeless("ae2t_storage_cell_4k_shapeless", <item:ae2things:disk_drive_4k>, [
-    <item:ae2things:disk_housing>, <item:ae2:item_storage_cell_4k>
+    <item:ae2things:disk_housing>, <item:ae2:cell_component_4k>
 ]);
 
 craftingTable.addShapeless("ae2t_storage_cell_16k_shapeless", <item:ae2things:disk_drive_16k>, [
-    <item:ae2things:disk_housing>, <item:ae2:item_storage_cell_16k>
+    <item:ae2things:disk_housing>, <item:ae2:cell_component_16k>
 ]);
 
 craftingTable.addShapeless("ae2t_storage_cell_64k_shapeless", <item:ae2things:disk_drive_64k>, [
-    <item:ae2things:disk_housing>, <item:ae2:item_storage_cell_64k>
+    <item:ae2things:disk_housing>, <item:ae2:cell_component_64k>
 ]);
 
 craftingTable.addShapeless("ae2t_storage_cell_256k_shapeless", <item:ae2things:disk_drive_256k>, [
-    <item:ae2things:disk_housing>, <item:ae2:item_storage_cell_256k>
+    <item:ae2things:disk_housing>, <item:ae2:cell_component_256k>
 ]);
 
 craftingTable.addShaped("ae2t_advanced_inscriber", <item:ae2things:advanced_inscriber>, [

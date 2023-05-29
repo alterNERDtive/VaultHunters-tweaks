@@ -1,6 +1,5 @@
 {
   "oldToNewResearch": {
-    "Simple Storage Network": "Sophisticated Storage",
-    "Weirding Gadgets": "Chunk Loaders"
+    "Old Research Name": "New Research Name"
   }
 }
