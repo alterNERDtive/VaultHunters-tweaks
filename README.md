@@ -267,6 +267,7 @@ Rooms have been fixed in the official files.
   Applied Mekanistics; if you do not run these mods, it shouldn’t have any
   effect.
 * Lowered Big Backpack cost to 2 to bring it in line with small backpacks.
+* Lowered Vaultar Automation research cost to 5.
 
 ### Scavenger Vaults
 

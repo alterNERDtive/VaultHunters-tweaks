@@ -942,7 +942,7 @@
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Altar Automation",
-      "cost": 32,
+      "cost": 5,
       "usesKnowledge": true
     },
     {
