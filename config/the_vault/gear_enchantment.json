@@ -3,12 +3,8 @@
     "protection": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -16,12 +12,8 @@
     "fire_protection": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -38,12 +30,8 @@
     "blast_protection": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -51,12 +39,8 @@
     "projectile_protection": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -109,12 +93,8 @@
     "binding_curse": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -131,12 +111,8 @@
     "sharpness": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -144,12 +120,8 @@
     "smite": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -157,12 +129,8 @@
     "bane_of_arthropods": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -179,12 +147,8 @@
     "fire_aspect": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -201,12 +165,8 @@
     "sweeping": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -250,12 +210,8 @@
     "power": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -263,12 +219,8 @@
     "punch": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -276,12 +228,8 @@
     "flame": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1
@@ -289,12 +237,8 @@
     "infinity": {
       "items": [
         {
-          "id": "stone",
-          "count": 1
-        },
-        {
-          "id": "stick",
-          "count": 1
+          "id": "emerald",
+          "count": 5
         }
       ],
       "levels": 1

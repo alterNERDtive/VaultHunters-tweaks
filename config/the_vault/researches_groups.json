@@ -4,7 +4,7 @@
       "title": "Storage",
       "research": [
         "Colossal Chests",
-        "Simple Storage",
+        "Simple Storage Network",
         "Refined Storage",
         "Applied Energistics",
         "Drawers",
@@ -79,7 +79,8 @@
         "Trashcans",
         "Elevators",
         "Waystones",
-        "Vault Compass"
+        "Vault Compass",
+        "Altar Automation"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {

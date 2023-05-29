@@ -245,3 +245,21 @@ craftingTable.addShaped("rs_pattern", <item:refinedstorage:pattern>, [
     [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>],
     [<item:refinedstorage:quartz_enriched_iron>,<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>]
 ]);
+
+craftingTable.addShaped("rs_network_card", <item:refinedstorage:network_card>, [
+    [<item:the_vault:extraordinary_larimar>,  <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>], 
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:black_chromatic_steel_ingot>], 
+    [<item:the_vault:extraordinary_larimar>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>]]
+);
+
+craftingTable.addShaped("rs_network_receiver", <item:refinedstorage:network_receiver>, [
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:refinedstorage:advanced_processor>, <item:the_vault:black_chromatic_steel_ingot>],
+    [<item:refinedstorage:construction_core>, <item:refinedstorage:machine_casing>, <item:refinedstorage:destruction_core>],
+    [<item:the_vault:black_chromatic_steel_ingot>,<item:refinedstorage:quartz_enriched_iron>, <item:the_vault:black_chromatic_steel_ingot>]
+]);
+
+craftingTable.addShaped("rs_network_transmitter", <item:refinedstorage:network_transmitter>, [
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:refinedstorage:advanced_processor>, <item:the_vault:black_chromatic_steel_ingot>],
+    [<item:refinedstorage:destruction_core>, <item:refinedstorage:machine_casing>, <item:refinedstorage:construction_core>],
+    [<item:the_vault:black_chromatic_steel_ingot>,<item:refinedstorage:quartz_enriched_iron>, <item:the_vault:black_chromatic_steel_ingot>]
+]);

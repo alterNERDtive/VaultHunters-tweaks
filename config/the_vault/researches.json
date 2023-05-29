@@ -850,6 +850,43 @@
     },
     {
       "itemRestrictions": {
+        "vaultintegrations:altar_conduit": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "vaultintegrations:speed_enhancement": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "vaultintegrations:quantity_enhancement": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "vaultintegrations:teleport_enhancement": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Altar Automation",
+      "cost": 32,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
         "thermal:dynamo_stirling": {
           "restricts": {
             "HITTABILITY": true,

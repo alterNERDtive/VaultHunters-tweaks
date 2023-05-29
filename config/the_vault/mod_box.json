@@ -17,9 +17,7 @@
     ],
     "Simple Storage Network": [
       {"value": {"id": "storagenetwork:kabel", "amountMin": 1, "amountMax": 16}, "weight": 30},
-      {"value": {"id": "storagenetwork:storage_kabel", "amountMin": 1, "amountMax": 8}, "weight": 15},
-      {"value": {"id": "storagenetwork:speed_upgrade", "amountMin": 1, "amountMax": 8}, "weight": 5},
-      {"value": {"id": "storagenetwork:stack_upgrade", "amountMin": 1, "amountMax": 8}, "weight": 1}
+      {"value": {"id": "storagenetwork:storage_kabel", "amountMin": 1, "amountMax": 8}, "weight": 15}
     ],
     "Drawers": [
       {"value": {"id": "framedcompactdrawers:framed_full_one", "amountMin": 1, "amountMax": 1}, "weight": 30},
@@ -34,7 +32,7 @@
     ],
     "Mekanism QIO": [
       {"value": {"id": "mekanism:pellet_polonium", "amountMin": 1, "amountMax": 1}, "weight": 3},
-      {"value": {"id": "mekanism:lead_ingot", "amountMin": 8, "amountMax": 32}, "weight": 30},
+      {"value": {"id": "mekanism:ingot_lead", "amountMin": 8, "amountMax": 32}, "weight": 30},
       {"value": {"id": "mekanism:qio_drive_base", "amountMin": 1, "amountMax": 1}, "weight": 2},
       {"value": {"id": "mekanism:qio_drive_array", "amountMin": 1, "amountMax": 1}, "weight": 1}
     ],
