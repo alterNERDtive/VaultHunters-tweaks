@@ -205,6 +205,7 @@ These have been integrated into the base balancing.
 ### Jewels
 
 * Max size lowered to 40.
+* Changed Jewel cutting reduction range from 1–10 to 3–10.
 
 ### Junk Controller
 
