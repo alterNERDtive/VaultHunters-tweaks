@@ -334,7 +334,9 @@ Those have been officially integrated into the mod pack! \o/
 
 ### Vault Altar
 
-* Increased chance of getting a lucky recipe from 10% to 35%.
+* ~~Increased chance of getting a lucky recipe from 10% to 35%.~~ There no 
+  longer is a base chance, the only way to get lucky recipes is now the 
+  expertise for it.
 * Recipe ingredients are now tagged for your filtering pleasure:
   * `the_vault:altar_requirements`
   * `the_vault:altar_requirements/<level>`
