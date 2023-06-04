@@ -161,12 +161,14 @@ rules.
 * Added the Chunk Loaders mod to the Weirding Gadgets research, complete with
   vaultified recipes.
 
-### Easy Villagers
+### Easy Villagers / Easy Piglins
 
 * “Vaultified” the recipes for Breeder, Converter and Incubator to bring them
   in line with the rest of the EV recipes.
 * Made the Trader block available without an unlock. Eliminates villager AI
   issues and improves server performance.
+* Added Easy Piglins to the Easy Villagers research. Makes this slightly less of 
+  a waste of points.
 
 ### Elixir Vaults
 

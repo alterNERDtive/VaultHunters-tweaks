@@ -168,12 +168,6 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/easy_villagers"
     },
-    "Easy Piglins": {
-      "x": 250,
-      "y": 240,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/easy_piglins"
-    },
     "Botany Pots": {
       "x": 300,
       "y": 240,
@@ -200,7 +194,7 @@
     },
     "Phytogenic Insulator": {
       "x": 250,
-      "y": 320,
+      "y": 240,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/phytogenic_insulator"
     },

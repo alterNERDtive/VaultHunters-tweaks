@@ -389,23 +389,6 @@
     },
     {
       "modIds": [
-        "easy_piglins"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Easy Piglins",
-      "cost": 2,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
         "darkutils"
       ],
       "restrictions": {
@@ -670,6 +653,20 @@
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "easy_piglins:piglin": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "easy_piglins:barterer": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         }
