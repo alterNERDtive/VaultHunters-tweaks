@@ -332,6 +332,12 @@ Those have been officially integrated into the mod pack! \o/
 * Added recipe for making Concrete in a crafting table with a water bucket, 
   similar to the Building Gadgets’ Dense Paste recipe added in Update 10.
 
+### Vault Alloy
+
+* Added recipe: Vault Ingot + Vaulterite Ingot.
+
+Vault Ingots are kinda useless right now otherwise.
+
 ### Vault Altar
 
 * ~~Increased chance of getting a lucky recipe from 10% to 35%.~~ There no 
