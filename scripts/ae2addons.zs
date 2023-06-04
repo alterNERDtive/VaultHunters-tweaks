@@ -85,7 +85,7 @@ craftingTable.addShaped("ae2_chemical_cell_housing", <item:appmek:chemical_cell_
 
 craftingTable.remove(<item:merequester:requester>);
 craftingTable.addShaped("ae2_me_requester", <item:merequester:requester>, [
-  [<item:the_vault:chromatic_steel_ingot>, <tag:items:ae2:interface>, <item:the_vault:chromatic_steel_ingot>],
-  [<item:ae2:crafting_accelerator>, <item:ae2:engineering_processor>, <item:ae2:crafting_accelerator>],
+  [<item:the_vault:chromatic_iron_ingot>, <tag:items:ae2:interface>, <item:the_vault:chromatic_iron_ingot>],
+  [<item:ae2:engineering_processor>, <item:ae2:crafting_unit>, <item:ae2:engineering_processor>],
   [<item:the_vault:vault_diamond>, <item:the_vault:vault_essence>, <item:the_vault:vault_diamond>]
 ]);
