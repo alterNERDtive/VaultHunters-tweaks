@@ -120,6 +120,8 @@ rules.
   would cause empty boxes before.~~ Fixed in the official pack.
 * Added Uraninite Ore (Powah) to modded ore rooms in raw vaults.
 * Fixed BCC version number for Update 10.
+* The Digital Miner’s Stone Generator Upgrade now correctly requires the Digital 
+  Miner research.
 
 ## QoL Changes
 

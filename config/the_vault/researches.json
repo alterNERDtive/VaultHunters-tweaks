@@ -1067,6 +1067,13 @@
             "USABILITY": true,
             "CRAFTABILITY": true
           }
+        },
+        "mekanism:upgrade_stone_generator": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
         }
       },
       "blockRestrictions": {},
