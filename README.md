@@ -256,6 +256,8 @@ Now part of the official pack!
 * ~~Moved End room to lvl 20.~~
 * Removed Dimensional Shard Ore from the modder ore resource rooms. It is 
   literally useless in this pack.
+* Moved modded ore room to lvl 0 to allow for easy no durability damage ores 
+  farming.
 
 Rooms have been fixed in the official files.
 
