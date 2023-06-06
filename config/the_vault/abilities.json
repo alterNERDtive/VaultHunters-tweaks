@@ -4790,7 +4790,7 @@
               {
                 "type": "javelin_sight",
                 "manaCost": 30.0,
-                "learnPointCost": 1,
+                "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 400,
                 "unlockLevel": 0,
@@ -4802,7 +4802,7 @@
               {
                 "type": "javelin_sight",
                 "manaCost": 30.0,
-                "learnPointCost": 1,
+                "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 300,
                 "unlockLevel": 0,
