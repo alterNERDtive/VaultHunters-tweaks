@@ -600,42 +600,42 @@
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
-            "CRAFTABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "chunkloaders:single_chunk_loader": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
-            "CRAFTABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "chunkloaders:basic_chunk_loader": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
-            "CRAFTABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "chunkloaders:advanced_chunk_loader": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
-            "CRAFTABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "chunkloaders:ultimate_chunk_loader": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
-            "CRAFTABILITY": true,
+            "CRAFTABILITY": true
           }
         },
         "ae2:spatial_anchor": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
-            "CRAFTABILITY": true,
+            "CRAFTABILITY": true
           }
         }
       },
