@@ -8,7 +8,7 @@ Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
 Ko-fi](https://ko-fi.com/S6S1DLYBS).
 
-_Currently confirmed working on patch_: __10.0.0__
+_Currently confirmed working on patch_: __10.1.0__
 
 ## Installation
 
@@ -119,7 +119,7 @@ rules.
 * ~~Lead Ingots now properly configured in the pool for Mekanism mod boxes; 
   would cause empty boxes before.~~ Fixed in the official pack.
 * Added Uraninite Ore (Powah) to modded ore rooms in raw vaults.
-* Fixed BCC version number for Update 10.
+* Fixed BCC version number for Update 10.1.
 * The Digital Miner’s Stone Generator Upgrade now correctly requires the Digital 
   Miner research.
 
