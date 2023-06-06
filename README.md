@@ -160,6 +160,8 @@ rules.
 
 * Added the Chunk Loaders mod to the Weirding Gadgets research, complete with
   vaultified recipes.
+* Re-enabled AE2’s Spatial Anchor recipe and added to the Chunk Loaders 
+  research.
 
 ### Easy Villagers / Easy Piglins
 

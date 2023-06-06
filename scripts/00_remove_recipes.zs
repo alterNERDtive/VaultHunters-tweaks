@@ -262,7 +262,6 @@ craftingTable.remove(<item:ae2:quartz_growth_accelerator>);
 craftingTable.remove(<item:ae2:wireless_booster>);
 craftingTable.remove(<item:ae2:pattern_provider>);
 craftingTable.remove(<item:ae2:blank_pattern>);
-craftingTable.remove(<item:ae2:spatial_anchor>);
 craftingTable.remove(<item:ae2things:disk_housing>);
 craftingTable.remove(<item:ae2things:disk_drive_1k>);
 craftingTable.remove(<item:ae2things:disk_drive_4k>);

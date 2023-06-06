@@ -300,24 +300,6 @@
     },
     {
       "modIds": [
-        "chunkloaders",
-        "weirdinggadget"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Chunk Loaders",
-      "cost": 5,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
         "ispawner"
       ],
       "restrictions": {
@@ -612,6 +594,57 @@
     }
   ],
   "CUSTOM_RESEARCHES": [
+    {
+      "itemRestrictions": {
+        "weirdinggadget:weirding_gadget": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true,
+          }
+        },
+        "chunkloaders:single_chunk_loader": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true,
+          }
+        },
+        "chunkloaders:basic_chunk_loader": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true,
+          }
+        },
+        "chunkloaders:advanced_chunk_loader": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true,
+          }
+        },
+        "chunkloaders:ultimate_chunk_loader": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true,
+          }
+        },
+        "ae2:spatial_anchor": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true,
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Chunk Loaders",
+      "cost": 5,
+      "usesKnowledge": true
+    },
     {
       "itemRestrictions": {
         "easy_villagers:auto_trader": {
