@@ -32,9 +32,6 @@ _Currently confirmed working on patch_: __10.1.0__
 6. Either _remove `scripts/RFToolsUtility.zs`_ or install the
    [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
    mod.
-7. Open the Vault Hunters mod jar file (`mods/the_vault-1.18.2-<version>.jar`) 
-   as a Zip file.
-8. Copy the `data` folder from `ores` into the mod jar file.
 
 If you (or someone on your server) has unlocked Simple Storage Network or 
 Weirding Gadgets, you’ll need to manually edit 
@@ -69,9 +66,6 @@ functional yet.
 7. Either _remove `scripts/RFToolsUtility.zs`_ or install the
    [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
    mod.
-8. Open the Vault Hunters mod jar file (`mods/the_vault-1.18.2-<version>.jar`) 
-   as a Zip file.
-9. Copy the `data` folder from `ores` into the mod jar file.
 
 ## FAQ
 
@@ -185,12 +179,12 @@ rules.
 * ~~Removed Vein Miner: Fortune.~~ Gone from the default pack.
 * Removed the chance to roll 0 on breaking Vault Ores.
 
-~~This should make the other Vein Miner specs (or unspecced!) more useful.~~ 
-This removes the unfun mechanic of getting 0 off an ore.
+This removes the unfun mechanic of getting 0 off an ore. Still trying to find 
+a way to make Fortune 3 act as Fortune 5. Moving Fortune to Expertise is even 
+_worse_ than tying it to Vein Miner, IMO. I recommend just giving yourself 
+2 extra expertise points in the meantime.
 
-Still trying to find a way to make Fortune 3 act as Fortune 5. Moving Fortune to 
-Expertise is even _worse_ than tying it to Vein Miner, IMO. I recommend just 
-giving yourself 2 extra expertise points in the meantime.
+This is now a datapack thanks to @XanderHess!
 
 ### Gear Crafting
 
