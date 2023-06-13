@@ -173,6 +173,14 @@ rules.
 * Made lvl 50+ requirements easier (~20%).
 * Added lvl 75 tier with old lvl 50 requirements (this might or might not work 
   out of the box, testing needed).
+* Buffed Wooden Chest tier 1 from 0–3 to 1–3. I don’t think loot should ever 
+  give flat 0.
+* Nerfed Coin Stack tiers from 0–3, 4 to 0–1, 2–3 to compensate; also should 
+  alleviate the issue that they roll multiple times and dominate most Elixir 
+  rolls.
+
+Mobs can still roll 0 glorp; I don’t quite like that either, but changing it 
+would require major rebalancing of the entire thing.
 
 ### Fortune and Vault Ores
 

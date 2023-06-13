@@ -137,7 +137,7 @@
           "rolls": [
             {
               "value": {
-                "min": 0,
+                "min": 1,
                 "max": 3,
                 "type": "uniform"
               },
@@ -257,15 +257,15 @@
             {
               "value": {
                 "min": 0,
-                "max": 3,
+                "max": 1,
                 "type": "uniform"
               },
               "weight": 5
             },
             {
               "value": {
-                "min": 4,
-                "max": 4,
+                "min": 2,
+                "max": 3,
                 "type": "uniform"
               },
               "weight": 1
@@ -649,7 +649,7 @@
           "rolls": [
             {
               "value": {
-                "min": 0,
+                "min": 1,
                 "max": 3,
                 "type": "uniform"
               },
@@ -769,15 +769,15 @@
             {
               "value": {
                 "min": 0,
-                "max": 3,
+                "max": 1,
                 "type": "uniform"
               },
               "weight": 5
             },
             {
               "value": {
-                "min": 4,
-                "max": 4,
+                "min": 2,
+                "max": 3,
                 "type": "uniform"
               },
               "weight": 1
@@ -1161,7 +1161,7 @@
           "rolls": [
             {
               "value": {
-                "min": 0,
+                "min": 1,
                 "max": 3,
                 "type": "uniform"
               },
@@ -1281,15 +1281,15 @@
             {
               "value": {
                 "min": 0,
-                "max": 3,
+                "max": 1,
                 "type": "uniform"
               },
               "weight": 5
             },
             {
               "value": {
-                "min": 4,
-                "max": 4,
+                "min": 2,
+                "max": 3,
                 "type": "uniform"
               },
               "weight": 1
@@ -1673,7 +1673,7 @@
           "rolls": [
             {
               "value": {
-                "min": 0,
+                "min": 1,
                 "max": 3,
                 "type": "uniform"
               },
@@ -1793,15 +1793,15 @@
             {
               "value": {
                 "min": 0,
-                "max": 3,
+                "max": 1,
                 "type": "uniform"
               },
               "weight": 5
             },
             {
               "value": {
-                "min": 4,
-                "max": 4,
+                "min": 2,
+                "max": 3,
                 "type": "uniform"
               },
               "weight": 1
