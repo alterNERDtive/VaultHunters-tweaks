@@ -358,6 +358,8 @@ Vault Ingots are kinda useless right now otherwise.
   * `the_vault:altar_requirements/<level>`
   * `the_vault:altar_requirements/<pool>`
   * `the_vault:altar_requirements/<pool>/<level>`
+* Reduced infusion time (redstone input to crystal pops off) from 5s to 1s 
+  because I’m impatient AF. #justadhdthings
 
 ### Vault Diffuser
 
