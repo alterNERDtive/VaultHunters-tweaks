@@ -150,6 +150,12 @@ JEI.hideIngredient(<item:the_vault:vault_red_gummy_soldier_egg>);
 JEI.hideIngredient(<item:the_vault:vault_spider_egg>);
 JEI.hideIngredient(<item:the_vault:vault_yellow_gummy_soldier_egg>);
 JEI.hideIngredient(<item:the_vault:winter_wolf_egg>);
+JEI.hideIngredient(<item:the_vault:t0_miner_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t1_miner_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t2_miner_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t3_miner_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t4_miner_zombie_egg>);
+JEI.hideIngredient(<item:the_vault:t5_miner_zombie_egg>);
 
 JEI.hideIngredient(<item:the_vault:crake_pedestal>);
 JEI.hideIngredient(<item:the_vault:enhancement_altar>);
@@ -161,6 +167,7 @@ JEI.hideIngredient(<item:the_vault:pylon>);
 JEI.hideIngredient(<item:the_vault:scavenger_altar>);
 JEI.hideIngredient(<item:the_vault:shop_pedestal>);
 JEI.hideIngredient(<item:the_vault:treasure_door>);
+JEI.hideIngredient(<item:the_vault:alchemy_archive>);
 
 JEI.hideIngredient(<item:the_vault:vault_bedrock>);
 JEI.hideIngredient(<item:the_vault:vault_glass>);
@@ -228,3 +235,15 @@ JEI.hideIngredient(<item:the_vault:sublime_vault_vision>);
 JEI.hideIngredient(<item:the_vault:trophy_statue>);
 JEI.hideIngredient(<item:the_vault:vault_crate_arena>);
 JEI.hideIngredient(<item:the_vault:vault_crate_champion>);
+
+JEI.hideIngredient(<item:the_vault:vault_crate>);
+JEI.hideIngredient(<item:the_vault:vault_crate_cake>);
+JEI.hideIngredient(<item:the_vault:vault_crate_scavenger>);
+JEI.hideIngredient(<item:the_vault:vault_crate_bounty>);
+JEI.hideIngredient(<item:the_vault:vault_crate_monolith>);
+JEI.hideIngredient(<item:the_vault:vault_crate_elixir>);
+
+JEI.hideIngredient(<item:the_vault:blue_puzzle_concrete>);
+JEI.hideIngredient(<item:the_vault:yellow_puzzle_concrete>);
+JEI.hideIngredient(<item:the_vault:pink_puzzle_concrete>);
+JEI.hideIngredient(<item:the_vault:green_puzzle_concrete>);
