@@ -116,6 +116,10 @@ rules.
 * Fixed BCC version number for Update 10.1.
 * The Digital Miner’s Stone Generator Upgrade now correctly requires the Digital 
   Miner research.
+* “Andersite” “Joke” removed.
+* Routers can interact with Vault Altars again.
+* Fake Players can interact with research-gated things again (e.g. Routers can 
+  bone meal Botany Pots, Molecular Assemblers can craft modded shit again, …).
 
 ## QoL Changes
 
