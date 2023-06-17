@@ -39,5 +39,5 @@
     "min": 3,
     "max": 10
   },
-  "jewelCuttingModifierRemovalChance": 0.5
+  "jewelCuttingModifierRemovalChance": 0.25
 }

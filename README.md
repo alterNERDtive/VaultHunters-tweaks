@@ -182,6 +182,11 @@ rules.
 Mobs can still roll 0 glorp; I don’t quite like that either, but changing it 
 would require major rebalancing of the entire thing.
 
+### Expertises
+
+* Removed Jeweler Expertise.
+* Changed base chance to break a jewel when cutting from 50% to 25%.
+
 ### Fortune and Vault Ores
 
 * ~~Removed Vein Miner: Fortune.~~ Gone from the default pack.
