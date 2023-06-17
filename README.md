@@ -186,6 +186,8 @@ would require major rebalancing of the entire thing.
 
 * Removed Jeweler Expertise.
 * Changed base chance to break a jewel when cutting from 50% to 25%.
+* Removed Fortunate Expertise.
+* Vault Enchanter can now enchant Fortune 5.
 
 ### Fortune and Vault Ores
 

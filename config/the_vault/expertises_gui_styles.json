@@ -71,12 +71,6 @@
             "y": 140,
             "frameType": "STAR",
             "icon": "the_vault:gui/skills/experienced"
-          },
-          "Fortunate": {
-            "x": 70,
-            "y": 140,
-            "frameType": "STAR",
-            "icon": "the_vault:gui/skills/fortunate"
           }   
     }
 }
