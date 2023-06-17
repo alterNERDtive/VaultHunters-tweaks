@@ -121,6 +121,13 @@ rules.
 * Fake Players can interact with research-gated things again (e.g. Routers can 
   bone meal Botany Pots, Molecular Assemblers can craft modded shit again, …).
 
+## Performance Fixes
+
+* Removed an event handler for item colour changes that was called thousands of 
+  times per second; this gives a noticeable performance boost. Downside: jewels 
+  and unidentified gear are now all colourless. This is going to be fixed in 
+  update 11.
+
 ## QoL Changes
 
 ### Budding Crystal (Sky Vaults)
