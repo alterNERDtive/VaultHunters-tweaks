@@ -22,7 +22,7 @@
     },
     {
       "value": "the_vault:relic/cupcake/frag5",
-      "weight": 2
+      "weight": 1
     },
 
 
@@ -44,7 +44,7 @@
     },
     {
       "value": "the_vault:relic/elemental/frag5",
-      "weight": 2
+      "weight": 1
     },
     
 
@@ -66,7 +66,7 @@
     },
     {
       "value": "the_vault:relic/miner/frag5",
-      "weight": 2
+      "weight": 1
     },
 
 
@@ -88,7 +88,7 @@
     },
     {
       "value": "the_vault:relic/nazar/frag5",
-      "weight": 2
+      "weight": 1
     },
 
 
@@ -110,7 +110,7 @@
     },
     {
       "value": "the_vault:relic/twitch/frag5",
-      "weight": 2
+      "weight": 1
     },
 
 
@@ -132,7 +132,7 @@
     },
     {
       "value": "the_vault:relic/warrior/frag5",
-      "weight": 2
+      "weight": 1
     },
     
 
@@ -154,7 +154,7 @@
     },
     {
       "value": "the_vault:relic/dragon/frag5",
-      "weight": 2
+      "weight": 1
     },
 
 
@@ -176,7 +176,7 @@
     },
     {
       "value": "the_vault:relic/richity/frag5",
-      "weight": 2
+      "weight": 1
     }
 
   ]

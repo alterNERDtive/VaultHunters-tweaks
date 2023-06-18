@@ -18,6 +18,12 @@
             "frameType": "STAR",
             "icon": "the_vault:gui/skills/blacksmithing"
           },
+          "Jeweler": {
+            "x": 210,
+            "y": 70,
+            "frameType": "STAR",
+            "icon": "the_vault:gui/skills/jeweller"
+          },
           "Angel": {
             "x": 350,
             "y": 70,
@@ -71,6 +77,12 @@
             "y": 140,
             "frameType": "STAR",
             "icon": "the_vault:gui/skills/experienced"
+          },
+          "Fortunate": {
+            "x": 70,
+            "y": 140,
+            "frameType": "STAR",
+            "icon": "the_vault:gui/skills/fortunate"
           }   
     }
 }
