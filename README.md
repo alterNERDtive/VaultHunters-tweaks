@@ -117,7 +117,7 @@ rules.
 * The Digital Miner’s Stone Generator Upgrade now correctly requires the Digital 
   Miner research.
 * “Andersite” “Joke” removed.
-* Routers can interact with Vault Altars again.
+* ~~Routers can interact with Vault Altars again.~~ Currently not working.
 * Fake Players can interact with research-gated things again (e.g. Routers can 
   bone meal Botany Pots, Molecular Assemblers can craft modded shit again, …).
 
