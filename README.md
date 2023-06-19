@@ -4,6 +4,9 @@ This is a compilation of configuration changes I have made to my personal [Vault
 Hunters](https://vaulthunters.gg) instance. As I like making stuff I do
 available to the public, so is this. For free, as usual.
 
+I’m currently working on putting a bunch of this stuff into a dedicated mod: 
+https://git.alternerd.tv/the_vault-tweaks
+
 Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
 Ko-fi](https://ko-fi.com/S6S1DLYBS).
@@ -117,7 +120,7 @@ rules.
 * The Digital Miner’s Stone Generator Upgrade now correctly requires the Digital 
   Miner research.
 * “Andersite” “Joke” removed.
-* ~~Routers can interact with Vault Altars again.~~ Currently not working.
+* Routers can interact with Vault Altars again.
 * Fake Players can interact with research-gated things again (e.g. Routers can 
   bone meal Botany Pots, Molecular Assemblers can craft modded shit again, …).
 
