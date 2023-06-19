@@ -4,19 +4,19 @@ This is a compilation of configuration changes I have made to my personal [Vault
 Hunters](https://vaulthunters.gg) instance. As I like making stuff I do
 available to the public, so is this. For free, as usual.
 
-__In addition to the config changes in this repository I am and recommend 
-running the accompanying mod__: https://git.alternerd.tv/the_vault-tweaks
-
 Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
 Ko-fi](https://ko-fi.com/S6S1DLYBS).
+
+__In addition to the config changes in this repository I am and recommend 
+running the accompanying mod__: https://git.alternerd.tv/the_vault-tweaks
 
 _Currently confirmed working on patch_: __10.1.0__
 
 ## Installation
 
 1. Install the latest version of
-   [the tweaks mod](https://git.alternerd.tv/the_vault-tweaks).
+   [the tweaks mod](https://git.alternerd.tv/the_vault-tweaks/releases/latest).
 2. Clone or download this.
 3. Copy the `config` and `scripts` folders into your instance’s `minecraft`
    folder, or however that one is called in the launcher you are using.
@@ -53,7 +53,7 @@ functional yet.
    since I need to manually check if anything has changed in all files that I
    have modified; otherwise you might break things.
 2. Install the latest version of
-   [the tweaks mod](https://git.alternerd.tv/the_vault-tweaks).
+   [the tweaks mod](https://git.alternerd.tv/the_vault-tweaks/releases/latest).
 3. Pull or download this.
 4. Copy files again.
 5. Either _remove `scripts/ChunkLoaders.zs`_ or install the
