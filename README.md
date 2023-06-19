@@ -4,8 +4,8 @@ This is a compilation of configuration changes I have made to my personal [Vault
 Hunters](https://vaulthunters.gg) instance. As I like making stuff I do
 available to the public, so is this. For free, as usual.
 
-I’m currently working on putting a bunch of this stuff into a dedicated mod: 
-https://git.alternerd.tv/the_vault-tweaks
+__In addition to the config changes in this repository I am and recommend 
+running the accompanying mod__: https://git.alternerd.tv/the_vault-tweaks
 
 Of course you can still [sponsor me on
 Github](https://github.com/sponsors/alterNERDtive) or [buy me a
@@ -15,24 +15,26 @@ _Currently confirmed working on patch_: __10.1.0__
 
 ## Installation
 
-1. Clone or download this.
-2. Copy the `config` and `scripts` folders into your instance’s `minecraft`
+1. Install the latest version of
+   [the tweaks mod](https://git.alternerd.tv/the_vault-tweaks).
+2. Clone or download this.
+3. Copy the `config` and `scripts` folders into your instance’s `minecraft`
    folder, or however that one is called in the launcher you are using.
-3. Either _remove `scripts/ChunkLoaders.zs`_ or install the
+4. Either _remove `scripts/ChunkLoaders.zs`_ or install the
    [Chunk Loaders mod](https://www.curseforge.com/minecraft/mc-mods/chunk-loaders)
    and _update_ “SuperMartijn642's Core Lib” and “Trash Cans” to their latest
    versions.
-4. Either _remove `scripts/SophisticatedStorage.zs`_ or install the
+5. Either _remove `scripts/SophisticatedStorage.zs`_ or install the
    [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage)
    and [Crafting Station](https://www.curseforge.com/minecraft/mc-mods/crafting-station)
    mods.
-5. Either _remove `scripts/ae2addons.zs`_ or install the
+6. Either _remove `scripts/ae2addons.zs`_ or install the
    [Applied Botanics](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon),
    [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics),
    [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things) and
    [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester)
    mods.
-6. Either _remove `scripts/RFToolsUtility.zs`_ or install the
+7. Either _remove `scripts/RFToolsUtility.zs`_ or install the
    [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
    mod.
 
@@ -50,23 +52,25 @@ functional yet.
 1. __WAIT UNTIL I HAD A CHANCE TO UPDATE THE FILES__. Yes, that is important,
    since I need to manually check if anything has changed in all files that I
    have modified; otherwise you might break things.
-2. Pull or download this.
-3. Copy files again.
-4. Either _remove `scripts/ChunkLoaders.zs`_ or install the
+2. Install the latest version of
+   [the tweaks mod](https://git.alternerd.tv/the_vault-tweaks).
+3. Pull or download this.
+4. Copy files again.
+5. Either _remove `scripts/ChunkLoaders.zs`_ or install the
    [Chunk Loaders mod](https://www.curseforge.com/minecraft/mc-mods/chunk-loaders)
    and _update_ “SuperMartijn642's Core Lib” and “Trash Cans” to their latest
    versions, again.
-5. Either _remove `scripts/SophisticatedStorage.zs`_ or install the
+6. Either _remove `scripts/SophisticatedStorage.zs`_ or install the
    [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage)
    and [Crafting Station](https://www.curseforge.com/minecraft/mc-mods/crafting-station)
    mods.
-6. Either _remove `scripts/ae2addons.zs`_ or install the
+7. Either _remove `scripts/ae2addons.zs`_ or install the
    [Applied Botanics](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon),
    [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics),
    [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)
    [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester)
    mods.
-7. Either _remove `scripts/RFToolsUtility.zs`_ or install the
+8. Either _remove `scripts/RFToolsUtility.zs`_ or install the
    [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
    mod.
 
@@ -75,7 +79,8 @@ functional yet.
 __Q__: I don’t like how you changed the balance, it’s kind of cheating. Can you
 give me the QoL changes only?
 
-__A__: No. But you can figure out which files those are and only use them.
+__A__: No. But you can figure out which files those are and only use them, and 
+the mod has client/server config files that allow toggling all its features.
 
 __Q__: Can you change some values for me? I’d like to do the balancing a little
 differently!
@@ -119,30 +124,6 @@ rules.
 * Fixed BCC version number for Update 10.1.
 * The Digital Miner’s Stone Generator Upgrade now correctly requires the Digital 
   Miner research.
-* “Andersite” “Joke” removed.
-* Routers can interact with Vault Altars again.
-* Fake Players can interact with research-gated things again (e.g. Routers can 
-  bone meal Botany Pots, Molecular Assemblers can craft modded shit again, …).
-
-## Performance Fixes
-
-* Removed an event handler for item colour changes that was called thousands of 
-  times per second; this gives a noticeable performance boost. Downside: jewels 
-  and unidentified gear are now all colourless. This is going to be fixed in 
-  update 11.
-
-## QoL Changes
-
-### Budding Crystal (Sky Vaults)
-
-  * Increased growth rate.
-
-### Vault Portal
-
-* ~~Can now be built out of _any_ type of vault stone, including Bumbo Polished
-  and Chiseled.~~ Now part of the official pack.
-* Can now be built out of “Template Frames” created by an Extruder Mk2 router
-  module. Because I want to build fancy things.
 
 ## Balance Changes
 
@@ -196,13 +177,6 @@ rules.
 Mobs can still roll 0 glorp; I don’t quite like that either, but changing it 
 would require major rebalancing of the entire thing.
 
-### Expertises
-
-* Removed Jeweler Expertise.
-* Changed base chance to break a jewel when cutting from 50% to 25%.
-* Removed Fortunate Expertise.
-* Vault Enchanter can now enchant Fortune 5.
-
 ### Fortune and Vault Ores
 
 * ~~Removed Vein Miner: Fortune.~~ Gone from the default pack.
@@ -234,12 +208,6 @@ These have been integrated into the base balancing.
 ### Jewels
 
 * Max size lowered to 40.
-* Changed Jewel cutting reduction range from 1–10 to 3–10.
-
-### Junk Controller
-
-* Changed upgrade tiers from 27/54/1026/2052 items to 252/513/1026/2052. That 
-  should make getting Junk Management early more viable.
 
 ### Mekanism
 
@@ -290,11 +258,6 @@ Rooms have been fixed in the official files.
 
 * Reverted some of the crafting recipe changes introduced in update 5.
 * Lowered the cost of 64k storage parts.
-
-### Relic Fragments
-
-* Doubled the weight of \#5 fragments. Now all of them are equally likely to
-  drop.
 
 ### Researches
 
@@ -379,8 +342,6 @@ Vault Ingots are kinda useless right now otherwise.
   * `the_vault:altar_requirements/<level>`
   * `the_vault:altar_requirements/<pool>`
   * `the_vault:altar_requirements/<pool>/<level>`
-* Reduced infusion time (redstone input to crystal pops off) from 5s to 1s 
-  because I’m impatient AF. #justadhdthings
 
 ### Vault Diffuser
 
