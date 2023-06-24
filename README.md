@@ -11,6 +11,10 @@ Ko-fi](https://ko-fi.com/S6S1DLYBS).
 __In addition to the config changes in this repository I am and recommend 
 running the accompanying mod__: https://git.alternerd.tv/the_vault-tweaks
 
+I’m also running <https://github.com/radimous/SkinFighters>, 
+<https://github.com/radimous/FastVaultGear> and 
+<https://github.com/radimous/invhudmpfix>.
+
 _Currently confirmed working on patch_: __10.1.0__
 
 ## Installation
