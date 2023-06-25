@@ -224,6 +224,10 @@ These have been integrated into the base balancing.
 
 Now part of the official pack!
 
+### Mod Box
+
+* Adjusted drop chances for Refined Storage items to bring them in line with Applied Energistic.
+
 ### Modular Routers
 
 * Re-enabled the player module. (Be __careful__ with this one. The vault mod
