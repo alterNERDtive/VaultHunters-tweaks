@@ -34,9 +34,9 @@ _Currently confirmed working on patch_: __10.1.0__
    mods.
 6. Either _remove `scripts/ae2addons.zs`_ or install the
    [Applied Botanics](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon),
-   [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics),
-   [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things) and
-   [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester)
+   [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics)
+   and
+   [AE2WtLib](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals/)
    mods.
 7. Either _remove `scripts/RFToolsUtility.zs`_ or install the
    [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
@@ -70,9 +70,9 @@ functional yet.
    mods.
 7. Either _remove `scripts/ae2addons.zs`_ or install the
    [Applied Botanics](https://www.curseforge.com/minecraft/mc-mods/applied-botanics-addon),
-   [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics),
-   [AE2 Things](https://www.curseforge.com/minecraft/mc-mods/ae2things)
-   [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester)
+   [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics)
+   and
+   [AE2WtLib](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals/)
    mods.
 8. Either _remove `scripts/RFToolsUtility.zs`_ or install the
    [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
