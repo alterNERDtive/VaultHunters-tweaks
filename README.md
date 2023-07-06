@@ -212,6 +212,7 @@ allowed to spend _any of it_ just feels bad.
 * Made lvl 50+ requirements easier (~20%).
 * Added lvl 75 tier with old lvl 50 requirements (this might or might not work 
   out of the box, testing needed).
+* Added lvl 90 tier with increased requirements (1200–1600 → 1400–2000).
 * Buffed Wooden Chest tier 1 from 0–3 to 1–3. I don’t think loot should ever 
   give flat 0.
 * Nerfed Coin Stack tiers from 0–3, 4 to 0–1, 2–3 to compensate; also should 
