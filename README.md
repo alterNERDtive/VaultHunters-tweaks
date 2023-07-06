@@ -133,18 +133,18 @@ rules.
 
 ### Abilities
 
-### Hunter
+#### Hunter
 
 * Halved cooldown times for all ranks.
 
-### Vein Miner
+#### Vein Miner
 
 * Halved the block penalty for both specs. Instead of only getting a quarter of 
   the unspecced version, they now get to mine half of that again (4–32).
 
-## Talents
+### Talents
 
-### Berserking
+#### Berserking
 
 * Changed the health threshold to 50%.
 * Halved the damage bonus.
@@ -152,7 +152,7 @@ rules.
 Juggling around 20% HP is not very fun, especially if you can killed from 21% to 
 0 in a single hit.
 
-### Last Stand
+#### Last Stand
 
 * Changed the health threshold to 50%.
 * Changed the resistance bonus to 7/11/14/16%.
@@ -164,12 +164,25 @@ The new buff values make it less likely to run over the resistance cap, wasting
 talent points. Additionally, resistance gets better the more you have; so the 
 talent levels scale down.
 
-### Lucky Hit – Cleave
+#### Lucky Hit – Cleave
 
 * Nerfed damage to 40%/60%/80%.
 
 It’s still way too good. The new scaling makes putting more points into it feel 
 less of a waste.
+
+#### Sorcery
+
+* Changed health threshold to 80%.
+* Buffed mana regeneration bonus from 10–80% to 20–160%.
+
+Having _full_ health as requirement is frustrating, especially since the game 
+can show you as full even though you have taken a miniscule amount of damage, 
+deactivating the talent.
+
+At the same time it is ridiculously weak; I would prefer to make it 
+multiplicative instead of additive (and nerf the values), but that requires code 
+changes I am not willing to maintain. So flat buff it is.
 
 ### Applied Energistics
 
