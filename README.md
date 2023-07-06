@@ -166,10 +166,16 @@ talent levels scale down.
 
 #### Lucky Hit – Cleave
 
-* Nerfed damage to 40%/60%/80%.
+* Nerfed damage to 40/60/80%.
 
 It’s still way too good. The new scaling makes putting more points into it feel 
 less of a waste.
+
+#### Toxic Reaction
+
+* Nerfed proc chance to 30/50/60/75%.
+
+Yes, it needed a nerf at 100%. No, 90% is not enough.
 
 #### Sorcery
 

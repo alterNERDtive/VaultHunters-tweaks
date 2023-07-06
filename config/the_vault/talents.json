@@ -1652,7 +1652,7 @@
               "{ActiveEffects:[{\"forge:id\":\"the_vault:nova_dot\"}]}"
             ],
             "ability": "Nova_Dot",
-            "probability": 0.7,
+            "probability": 0.6,
             "learnPointCost": 2,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -1664,7 +1664,7 @@
               "{ActiveEffects:[{\"forge:id\":\"the_vault:nova_dot\"}]}"
             ],
             "ability": "Nova_Dot",
-            "probability": 0.9,
+            "probability": 0.75,
             "learnPointCost": 2,
             "regretPointCost": 1,
             "unlockLevel": 0
