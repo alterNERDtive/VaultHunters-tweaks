@@ -197,41 +197,9 @@ changes I am not willing to maintain. So flat buff it is.
 While keeping yourself at 100% mana is easier to manage than health, not being 
 allowed to spend _any of it_ just feels bad.
 
-### Applied Energistics
+### Vault Balancing
 
-* Lowered the cost of 64 and 256k storage components.
-* Removed Chiseled Quartz / Quartz Pillars from the Energy Cell recipe. Just any 
-  Quartz block now. Like, wtf where they even thinking doing that recipe⁈
-
-### Botania
-
-* Re-enabled Crafty Crate, simply as an alternative to compacting drawers.
-* Re-enabled Gaia Ingot because I was curious. Can probably get some OP stuff
-  though.
-* Re-enabled dirt and water rods in Vaults. Seriously, they are just worse
-  versions of infinite Unobtainium + Infinite Water Bucket.
-* Orechids can now create modded ores from Stone and Deepslate (script courtesy
-  of Kaptainwutax via Tangofrags’ Discord).
-* ~~Re-enabled Redstone Fluxfield.~~ Now its own research in the official pack.
-* Can now dupe Unobtanium. Why? Why not.
-
-### Chunk Loaders
-
-* Added the Chunk Loaders mod to the Weirding Gadgets research, complete with
-  vaultified recipes.
-* Re-enabled AE2’s Spatial Anchor recipe and added to the Chunk Loaders 
-  research.
-
-### Easy Villagers / Easy Piglins
-
-* “Vaultified” the recipes for Breeder, Converter and Incubator to bring them
-  in line with the rest of the EV recipes.
-* Made the Trader block available without an unlock. Eliminates villager AI
-  issues and improves server performance.
-* Added Easy Piglins to the Easy Villagers research. Makes this slightly less of 
-  a waste of points.
-
-### Elixir Vaults
+#### Elixir Vaults
 
 * Made glorp sizes more distinct.
 * Made lvl 0–29 requirements slightly harder (25–33%).
@@ -247,7 +215,100 @@ allowed to spend _any of it_ just feels bad.
 Mobs can still roll 0 glorp; I don’t quite like that either, but changing it 
 would require major rebalancing of the entire thing.
 
-### Fortune and Vault Ores
+#### Raw Vaults (Sky Vaults)
+
+* ~~Moved Nether room to lvl 0.~~
+* ~~Moved End room to lvl 20.~~
+* Removed Dimensional Shard Ore from the modder ore resource rooms. It is 
+literally useless in this pack.
+* Moved modded ore room to lvl 0 to allow for easy no durability damage ores 
+farming.
+
+Rooms have been fixed in the official files.
+
+#### Scavenger Vaults
+
+* Lowered the maximum amount of an item you might need across the board.
+
+### Mods
+
+#### Applied Energistics
+
+* Lowered the cost of 64 and 256k storage components.
+* Removed Chiseled Quartz / Quartz Pillars from the Energy Cell recipe. Just any 
+  Quartz block now. Like, wtf where they even thinking doing that recipe⁈
+
+#### Botania
+
+* Re-enabled Crafty Crate, simply as an alternative to compacting drawers.
+* Re-enabled Gaia Ingot because I was curious. Can probably get some OP stuff
+  though.
+* Re-enabled dirt and water rods in Vaults. Seriously, they are just worse
+  versions of infinite Unobtainium + Infinite Water Bucket.
+* Orechids can now create modded ores from Stone and Deepslate (script courtesy
+  of Kaptainwutax via Tangofrags’ Discord).
+* ~~Re-enabled Redstone Fluxfield.~~ Now its own research in the official pack.
+* Can now dupe Unobtanium. Why? Why not.
+
+#### Chunk Loaders
+
+* Added the Chunk Loaders mod to the Weirding Gadgets research, complete with
+  vaultified recipes.
+* Re-enabled AE2’s Spatial Anchor recipe and added to the Chunk Loaders 
+  research.
+
+#### Easy Villagers / Easy Piglins
+
+* “Vaultified” the recipes for Breeder, Converter and Incubator to bring them
+  in line with the rest of the EV recipes.
+* Made the Trader block available without an unlock. Eliminates villager AI
+  issues and improves server performance.
+* Added Easy Piglins to the Easy Villagers research. Makes this slightly less of 
+  a waste of points.
+
+#### Mekanism
+
+* Added recipe for crushing Ender Pearls to Ender Dust for feature parity with 
+  Thermal Expansion.
+
+#### ME Requester
+
+* ~~Added the ME Requester mod (similar to what the RS Requester does).~~
+
+Now part of the official pack!
+
+#### Modular Routers
+
+* Re-enabled the player module. (Be __careful__ with this one. The vault mod
+  does … weird things to your inventory when you die. Most things are fixed by
+  relogging.)
+
+#### Refined Storage
+
+* Reverted some of the crafting recipe changes introduced in update 5.
+* Lowered the cost of 64k storage parts.
+
+#### Sophisticated Backpacks
+
+* Re-enabled Jukebox Upgrade. Because why the fuck is that even disabled in the 
+  first place⁈
+
+#### Sophisticated Storage
+
+* It’s in now! Recipes vaultified.
+* Replaces SSN research.
+* Includes the Crafting Station mod to have an equivalent to SSN’s Storage 
+  Request Table.
+* Increased the upgrade slot count from 1/2/2/3/4 to 2/3/3/5/7 to match 
+  Backpacks. We want this to replace those for bulk storage, no?
+
+#### Thermal Expansion
+
+* Can now pulverize Sky Stone into Sky Stone Dust.
+
+### Miscellaneous Changes
+
+#### Fortune and Vault Ores
 
 * ~~Removed Vein Miner: Fortune.~~ Gone from the default pack.
 * Removed the chance to roll 0 on breaking Vault Ores.
@@ -259,44 +320,27 @@ _worse_ than tying it to Vein Miner, IMO. I recommend just giving yourself
 
 This is now a datapack thanks to @XanderHess!
 
-### Gear Crafting
+#### Gear Crafting
 
 * ~~Reverted the 10x proficiency gain nerf from a bunch of updates ago.~~
 * ~~Removed the cap on total proficiency.~~
 
 These have been integrated into the base balancing.
 
-### JEI Integration
+#### JEI Integration
 
 * Up-to-date version of Freud’s JEI integration script for vault mod stuff.
 * Removed all the outdated / uncraftable / not yet implemented vault stuff.
 
-### Jewels
+#### Jewels
 
 * Max size lowered to 40.
 
-### Mekanism
-
-* Added recipe for crushing Ender Pearls to Ender Dust for feature parity with 
-  Thermal Expansion.
-
-### ME Requester
-
-* ~~Added the ME Requester mod (similar to what the RS Requester does).~~
-
-Now part of the official pack!
-
-### Mod Box
+#### Mod Boxes
 
 * Adjusted drop chances for Refined Storage items to bring them in line with Applied Energistic.
 
-### Modular Routers
-
-* Re-enabled the player module. (Be __careful__ with this one. The vault mod
-  does … weird things to your inventory when you die. Most things are fixed by
-  relogging.)
-
-### Mystery Eggs
+#### Mystery Eggs
 
 * Added modded mob eggs to the mystery hostile egg:
   * Basalz (Thermal)
@@ -305,7 +349,7 @@ Now part of the official pack!
   * Wraith (Quark)
 * Reduced chance for the worst offenders to show up.
 
-### Pickarang/Flamarang
+#### Pickarang/Flamarang
 
 * Made significantly cheaper. Because fuck gating essential tools behind Echo
   POGs just because someone™ doesn’t like them.
@@ -313,23 +357,7 @@ Now part of the official pack!
   enables cheese. But otherwise you couldn’t use it on some blocks found in raw
   vault quarries.
 
-### Raw Vaults (Sky Vaults)
-
-* ~~Moved Nether room to lvl 0.~~
-* ~~Moved End room to lvl 20.~~
-* Removed Dimensional Shard Ore from the modder ore resource rooms. It is 
-  literally useless in this pack.
-* Moved modded ore room to lvl 0 to allow for easy no durability damage ores 
-  farming.
-
-Rooms have been fixed in the official files.
-
-### Refined Storage
-
-* Reverted some of the crafting recipe changes introduced in update 5.
-* Lowered the cost of 64k storage parts.
-
-### Researches
+#### Researches
 
 * Raised the research cost of Automatic Genius to ~~10~~ 3. Might change again,
   not sure on the balancing of this one yet.
@@ -340,41 +368,23 @@ Rooms have been fixed in the official files.
 * Lowered Big Backpack cost to 2 to bring it in line with small backpacks.
 * Lowered Vaultar Automation research cost to 5.
 
-### Scavenger Vaults
-
-* Lowered the maximum amount of an item you might need across the board.
-
-### Snapshot Modifiers (Beginner’s Grace, Casual mode, Afterlife, Phoenix)
+#### Snapshot Modifiers (Beginner’s Grace, Casual mode, Afterlife, Phoenix)
 
 * Removed gear durability damage penalty. I wish there was a way to bring “old”
   casual back, but there is not.
 
-### Sophisticated Backpacks
-
-* Re-enabled Jukebox Upgrade. Because why the fuck is that even disabled in the
-  first place⁈
-
-### Sophisticated Storage
-
-* It’s in now! Recipes vaultified.
-* Replaces SSN research.
-* Includes the Crafting Station mod to have an equivalent to SSN’s Storage
-  Request Table.
-* Increased the upgrade slot count from 1/2/2/3/4 to 2/3/3/5/7 to match
-  Backpacks. We want this to replace those for bulk storage, no?
-
-### Soul Shards
+#### Soul Shards
 
 * ~~Increased drop rate of soul shards across the board.~~
 
 Has been matched (surpassed even) by official balance changes.
 
-### Spirit Extractor
+#### Spirit Extractor
 
 * Lowered revival costs across the board.
 * ~~Lowered death scaling.~~ Has been removed in the official pack.
 
-### Spore Blossom
+#### Spore Blossom
 
 * ~~added Botania transmutation recipes:~~
   * ~~Azalea → Flowering Azalea~~
@@ -387,22 +397,18 @@ Taking suggestions for other recipe ideas!~~
 
 Those have been officially integrated into the mod pack! \o/
 
-### Thermal Expansion
-
-* Can now pulverize Sky Stone into Sky Stone Dust.
-
-### Vanilla Recipes
+#### Vanilla Recipes
 
 * Added recipe for making Concrete in a crafting table with a water bucket, 
   similar to the Building Gadgets’ Dense Paste recipe added in Update 10.
 
-### Vault Alloy
+#### Vault Alloy
 
 * Added recipe: Vault Ingot + Vaulterite Ingot.
 
 Vault Ingots are kinda useless right now otherwise.
 
-### Vault Altar
+#### Vault Altar
 
 * ~~Increased chance of getting a lucky recipe from 10% to 35%.~~ There no 
   longer is a base chance, the only way to get lucky recipes is now the 
@@ -413,6 +419,6 @@ Vault Ingots are kinda useless right now otherwise.
   * `the_vault:altar_requirements/<pool>`
   * `the_vault:altar_requirements/<pool>/<level>`
 
-### Vault Diffuser
+#### Vault Diffuser
 
 * Increased the payout for common scavenger items from 1 to 4.
