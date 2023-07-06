@@ -152,6 +152,18 @@ rules.
 Juggling around 20% HP is not very fun, especially if you can killed from 21% to 
 0 in a single hit.
 
+### Last Stand
+
+* Changed the health threshold to 50%.
+* Changed the resistance bonus to 7/11/14/16%.
+
+Juggling around 20% HP is not very fun, especially if you can killed from 21% to 
+0 in a single hit.
+
+The new buff values make it less likely to run over the resistance cap, wasting 
+talent points. Additionally, resistance gets better the more you have; so the 
+talent levels scale down.
+
 ### Applied Energistics
 
 * Lowered the cost of 64 and 256k storage components.
