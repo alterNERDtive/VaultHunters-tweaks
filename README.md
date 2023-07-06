@@ -164,6 +164,13 @@ The new buff values make it less likely to run over the resistance cap, wasting
 talent points. Additionally, resistance gets better the more you have; so the 
 talent levels scale down.
 
+### Lucky Hit – Cleave
+
+* Nerfed damage to 40%/60%/80%.
+
+It’s still way too good. The new scaling makes putting more points into it feel 
+less of a waste.
+
 ### Applied Energistics
 
 * Lowered the cost of 64 and 256k storage components.
