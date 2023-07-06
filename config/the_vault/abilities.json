@@ -2216,15 +2216,6 @@
               {
                 "type": "vein_miner_durability",
                 "additionalUnbreakingLevel": 1,
-                "blockLimit": 2,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 0,
-                "unlockLevel": 0
-              },
-              {
-                "type": "vein_miner_durability",
-                "additionalUnbreakingLevel": 1,
                 "blockLimit": 4,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
@@ -2244,6 +2235,15 @@
                 "type": "vein_miner_durability",
                 "additionalUnbreakingLevel": 1,
                 "blockLimit": 16,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 0,
+                "unlockLevel": 0
+              },
+              {
+                "type": "vein_miner_durability",
+                "additionalUnbreakingLevel": 1,
+                "blockLimit": 32,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 0,
@@ -2258,14 +2258,6 @@
             "tiers": [
               {
                 "type": "vein_miner_void",
-                "blockLimit": 2,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 0,
-                "unlockLevel": 0
-              },
-              {
-                "type": "vein_miner_void",
                 "blockLimit": 4,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
@@ -2283,6 +2275,14 @@
               {
                 "type": "vein_miner_void",
                 "blockLimit": 16,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 0,
+                "unlockLevel": 0
+              },
+              {
+                "type": "vein_miner_void",
+                "blockLimit": 32,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 0,

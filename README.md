@@ -131,6 +131,17 @@ rules.
 
 ## Balance Changes
 
+### Abilities
+
+### Hunter
+
+* Halved cooldown times for all ranks.
+
+### Vein Miner
+
+* Halved the block penalty for both specs. Instead of only getting a quarter of 
+  the unspecced version, they now get to mine half of that again (4–32).
+
 ### Applied Energistics
 
 * Lowered the cost of 64 and 256k storage components.
@@ -199,10 +210,6 @@ This is now a datapack thanks to @XanderHess!
 * ~~Removed the cap on total proficiency.~~
 
 These have been integrated into the base balancing.
-
-### Hunter
-
-* Halved cooldown times for all ranks.
 
 ### JEI Integration
 
