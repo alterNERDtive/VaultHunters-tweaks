@@ -184,6 +184,13 @@ At the same time it is ridiculously weak; I would prefer to make it
 multiplicative instead of additive (and nerf the values), but that requires code 
 changes I am not willing to maintain. So flat buff it is.
 
+#### Witchery
+
+* Changed mana threshold to 80%.
+
+While keeping yourself at 100% mana is easier to manage than health, not being 
+allowed to spend _any of it_ just feels bad.
+
 ### Applied Energistics
 
 * Lowered the cost of 64 and 256k storage components.

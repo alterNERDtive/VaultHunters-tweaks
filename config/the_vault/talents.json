@@ -952,7 +952,7 @@
           {
             "type": "high_mana_gear_attribute",
             "attribute": "the_vault:soul_chance",
-            "manaThreshold": 0.99,
+            "manaThreshold": 0.8,
             "value": 0.2,
             "effect": "the_vault:witchery",
             "learnPointCost": 1,
@@ -963,7 +963,7 @@
           {
             "type": "high_mana_gear_attribute",
             "attribute": "the_vault:soul_chance",
-            "manaThreshold": 0.99,
+            "manaThreshold": 0.8,
             "value": 0.4,
             "effect": "the_vault:witchery",
             "learnPointCost": 1,
@@ -974,7 +974,7 @@
           {
             "type": "high_mana_gear_attribute",
             "attribute": "the_vault:soul_chance",
-            "manaThreshold": 0.99,
+            "manaThreshold": 0.8,
             "value": 0.6,
             "effect": "the_vault:witchery",
             "learnPointCost": 1,
@@ -985,7 +985,7 @@
           {
             "type": "high_mana_gear_attribute",
             "attribute": "the_vault:soul_chance",
-            "manaThreshold": 0.99,
+            "manaThreshold": 0.8,
             "value": 0.8,
             "effect": "the_vault:witchery",
             "learnPointCost": 1,
