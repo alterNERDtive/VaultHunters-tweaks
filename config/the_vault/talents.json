@@ -758,8 +758,26 @@
         "tiers": [
           {
             "type": "low_health_damage",
+            "damageIncrease": 0.1,
+            "healthThreshold": 0.5,
+            "effect": "the_vault:beserking",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "low_health_damage",
             "damageIncrease": 0.2,
-            "healthThreshold": 0.2,
+            "healthThreshold": 0.5,
+            "effect": "the_vault:beserking",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "low_health_damage",
+            "damageIncrease": 0.3,
+            "healthThreshold": 0.5,
             "effect": "the_vault:beserking",
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -768,25 +786,7 @@
           {
             "type": "low_health_damage",
             "damageIncrease": 0.4,
-            "healthThreshold": 0.2,
-            "effect": "the_vault:beserking",
-            "learnPointCost": 1,
-            "regretPointCost": 1,
-            "unlockLevel": 0
-          },
-          {
-            "type": "low_health_damage",
-            "damageIncrease": 0.6,
-            "healthThreshold": 0.2,
-            "effect": "the_vault:beserking",
-            "learnPointCost": 1,
-            "regretPointCost": 1,
-            "unlockLevel": 0
-          },
-          {
-            "type": "low_health_damage",
-            "damageIncrease": 0.8,
-            "healthThreshold": 0.2,
+            "healthThreshold": 0.5,
             "effect": "the_vault:beserking",
             "learnPointCost": 1,
             "regretPointCost": 1,

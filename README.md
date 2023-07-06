@@ -142,6 +142,16 @@ rules.
 * Halved the block penalty for both specs. Instead of only getting a quarter of 
   the unspecced version, they now get to mine half of that again (4–32).
 
+## Talents
+
+### Berserking
+
+* Changed the health threshold to 50%.
+* Halved the damage bonus.
+
+Juggling around 20% HP is not very fun, especially if you can killed from 21% to 
+0 in a single hit.
+
 ### Applied Energistics
 
 * Lowered the cost of 64 and 256k storage components.
