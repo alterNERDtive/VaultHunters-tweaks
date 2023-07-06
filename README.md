@@ -197,6 +197,12 @@ changes I am not willing to maintain. So flat buff it is.
 While keeping yourself at 100% mana is easier to manage than health, not being 
 allowed to spend _any of it_ just feels bad.
 
+### Expertises
+
+#### Angel
+
+* Removed the level requirement.
+
 ### Vault Balancing
 
 #### Elixir Vaults

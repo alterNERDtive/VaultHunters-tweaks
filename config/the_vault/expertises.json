@@ -81,7 +81,7 @@
                 "type": "creative_flight",
                 "learnPointCost": 1,
                 "regretPointCost": 0,
-                "unlockLevel": 50
+                "unlockLevel": 0
               }
             ]
           },
