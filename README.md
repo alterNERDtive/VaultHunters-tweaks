@@ -295,6 +295,12 @@ Now part of the official pack!
 * Reverted some of the crafting recipe changes introduced in update 5.
 * Lowered the cost of 64k storage parts.
 
+#### RFTools Utility
+
+* Added to the pack.
+* Vaultified the recipies.
+* Removed the beacon/weather control stuff and some upgrades that cause crashes.
+
 #### Sophisticated Backpacks
 
 * Re-enabled Jukebox Upgrade. Because why the fuck is that even disabled in the 
