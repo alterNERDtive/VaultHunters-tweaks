@@ -348,6 +348,7 @@ These have been integrated into the base balancing.
 #### Jewels
 
 * Max size lowered to 40.
+* Added Reaping jewels (at 20% the weight of Picking/Axing/Shovelling).
 
 #### Mod Boxes
 

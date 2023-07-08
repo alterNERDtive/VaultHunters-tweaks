@@ -126,6 +126,21 @@
         ]
       },
       {
+        "attribute": "the_vault:reaping",
+        "group": "ModReaping",
+        "identifier": "the_vault:reaping",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      {
         "attribute": "the_vault:coin_affinity",
         "group": "ModCoinAffinity",
         "identifier": "the_vault:coin_affinity",
