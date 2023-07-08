@@ -1182,7 +1182,7 @@
             "tiers": [
               {
                 "type": "sweeping_lucky_hit",
-                "damagePercentage": 0.4,
+                "damagePercentage": 0.3,
                 "damageRange": 2.0,
                 "knockbackStrength": 0.0,
                 "learnPointCost": 2,
@@ -1191,7 +1191,7 @@
               },
               {
                 "type": "sweeping_lucky_hit",
-                "damagePercentage": 0.6,
+                "damagePercentage": 0.55,
                 "damageRange": 2.0,
                 "knockbackStrength": 0.0,
                 "learnPointCost": 2,

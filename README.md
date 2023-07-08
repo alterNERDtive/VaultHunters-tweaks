@@ -166,7 +166,7 @@ talent levels scale down.
 
 #### Lucky Hit – Cleave
 
-* Nerfed damage to 40/60/80%.
+* Nerfed damage to 30/55/80%.
 
 It’s still way too good. The new scaling makes putting more points into it feel 
 less of a waste.
