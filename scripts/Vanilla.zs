@@ -54,10 +54,14 @@ craftingTable.addShaped("goldenapple", <item:minecraft:golden_apple>, [
     [<item:minecraft:gold_block>, <item:minecraft:gold_ingot>, <item:minecraft:gold_block>]
 ]);
 
-craftingTable.addShaped("weirding_gadget", <item:weirdinggadget:weirding_gadget>, [
+craftingTable.addShaped("chunky", <item:chunkymcchunkface:chunk_loader>, [
     [<item:the_vault:gem_larimar>, <item:the_vault:perfect_larimar>, <item:the_vault:gem_larimar>],
     [<item:minecraft:gold_block>, <item:the_vault:chromatic_steel_block>, <item:minecraft:gold_block>],
-    [<item:minecraft:gold_block>, <item:the_vault:chromatic_steel_ingot>, <item:minecraft:gold_block>]
+    [<item:minecraft:obsidian>, <item:the_vault:chromatic_steel_ingot>, <item:minecraft:obsidian>]
+]);
+
+craftingTable.addShapeless("weird_to_chunk", <item:chunkymcchunkface:chunk_loader>, [
+    <item:weirdinggadget:weirding_gadget>
 ]);
 
 craftingTable.addShaped("cage_dust", <item:ispawner:cage_dust>, [

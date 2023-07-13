@@ -413,6 +413,9 @@ craftingTable.remove(<item:botania:mana_spreader>);
 craftingTable.remove(<item:botania:alchemy_catalyst>);
 craftingTable.remove(<item:botania:mana_fluxfield>);
 
+//Chunky
+craftingTable.remove(<item:chunkymcchunkface:chunk_loader>);
+
 //Drawers
 for logId, logName in logs {
     craftingTable.remove(<item:storagedrawers:${logName}_full_drawers_1>);
@@ -822,6 +825,11 @@ craftingTable.remove(<item:create:steam_engine>);
 craftingTable.remove(<item:create:schematicannon>);
 craftingTable.remove(<item:create:schematic_table>);
 craftingTable.remove(<item:create:empty_schematic>);
+craftingTable.remove(<item:create:copper_backtank>);
+craftingTable.remove(<item:create:large_water_wheel>);
+<recipetype:minecraft:smithing>.remove(<item:create:netherite_backtank>);
+<recipetype:minecraft:smithing>.remove(<item:create:netherite_diving_helmet>);
+<recipetype:minecraft:smithing>.remove(<item:create:netherite_diving_boots>);
 <recipetype:create:crushing>.removeByName("create:crushing/veridium_recycling");
 <recipetype:create:crushing>.removeByName("create:crushing/veridium");
 <recipetype:create:crushing>.removeByName("create:crushing/crimsite_recycling");

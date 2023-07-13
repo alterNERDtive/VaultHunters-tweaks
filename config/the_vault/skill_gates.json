@@ -179,7 +179,7 @@
           { "type": "constant", "id": "Vault Compass" },
           { "type": "constant", "id": "Altar Automation" },
           { "type": "constant", "id": "Building Gadgets" },
-          { "type": "constant", "id": "Weirding Gadgets" },
+          { "type": "constant", "id": "Chunkloading" },
           { "type": "constant", "id": "Mining Gadgets" },
           { "type": "constant", "id": "Digital Miner" },
           { "type": "constant", "id": "Easy Villagers" },

@@ -175,7 +175,8 @@
 		"framedcompactdrawers:*",
 		"storagedrawers:*",
 		"minecraft:ender_pearl",
-		"minecraft:firework_rocket"
+		"minecraft:firework_rocket",
+		"naturescompass:naturescompass"
 	],
 	"BLOCK_BLACKLIST": [
 		"darkutils:*",
