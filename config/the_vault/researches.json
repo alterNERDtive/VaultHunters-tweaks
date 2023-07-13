@@ -596,7 +596,14 @@
   "CUSTOM_RESEARCHES": [
     {
       "itemRestrictions": {
-        "weirdinggadget:weirding_gadget": {
+        "wingdinggadget:weirding_gadget": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "chunkymcchunkface:chunk_loader": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,

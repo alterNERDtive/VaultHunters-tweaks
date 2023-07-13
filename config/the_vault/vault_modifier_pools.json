@@ -1338,26 +1338,34 @@
         "entries": [
           {
             "min": 30,
-            "max": 30,
+            "max": 50,
             "pool": [
               {
                 "value": "the_vault:wild",
-                "weight": 6
+                "weight": 8
               },
               {
                 "value": "the_vault:furious_mobs",
-                "weight": 4
+                "weight": 8
               },
               {
                 "value": "the_vault:chunky_mobs",
-                "weight": 6
+                "weight": 8
               },
               {
                 "value": "the_vault:trapped",
-                "weight": 4
+                "weight": 8
+              },
+              {
+                "value": "the_vault:infuriated_mobs",
+                "weight": 8
               },
               {
                 "value": "the_vault:gilded",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:gilded_cascade",
                 "weight": 4
               },
               {
@@ -1365,7 +1373,15 @@
                 "weight": 4
               },
               {
+                "value": "the_vault:ornate_cascade",
+                "weight": 4
+              },
+              {
                 "value": "the_vault:living",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:living_cascade",
                 "weight": 4
               },
               {
@@ -1374,11 +1390,11 @@
               },
               {
                 "value": "the_vault:item_quantity",
-                "weight": 2
+                "weight": 4
               },
               {
                 "value": "the_vault:item_rarity",
-                "weight": 2
+                "weight": 4
               },
               {
                 "value": "the_vault:xp_gain",
@@ -1386,12 +1402,9 @@
               },
               {
                 "value": "the_vault:haunted",
-                "weight": 3
-              },
-              {
-                "value": "the_vault:infuriated_mobs",
-                "weight": 3
+                "weight": 4
               }
+              
             ]
           }
         ]

@@ -1221,7 +1221,7 @@
           {
             "type": "cast_on_hit",
             "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}"
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}"
             ],
             "ability": "nova_frost_4",
             "probability": 1.0,
@@ -1232,7 +1232,7 @@
           {
             "type": "cast_on_hit",
             "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}"
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}"
             ],
             "ability": "Nova",
             "probability": 0.1,
@@ -1243,7 +1243,7 @@
           {
             "type": "cast_on_hit",
             "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}"
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}"
             ],
             "ability": "Nova",
             "probability": 0.15,
@@ -1254,7 +1254,7 @@
           {
             "type": "cast_on_hit",
             "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}"
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}"
             ],
             "ability": "Nova",
             "probability": 0.2,
@@ -1339,27 +1339,15 @@
       {
         "type": "tiered",
         "id": "Blizzard",
-        "name": "Blizzard",
+        "name": "Frozen Impact",
         "tiers": [
           {
             "type": "cast_on_hit",
             "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
               "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
             ],
             "ability": "nova_frost_1",
-            "probability": 0.05,
-            "learnPointCost": 1,
-            "regretPointCost": 1,
-            "unlockLevel": 0
-          },
-          {
-            "type": "cast_on_hit",
-            "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}",
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
-            ],
-            "ability": "nova_frost_2",
             "probability": 0.1,
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -1368,10 +1356,10 @@
           {
             "type": "cast_on_hit",
             "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
               "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
             ],
-            "ability": "nova_frost_3",
+            "ability": "nova_frost_2",
             "probability": 0.15,
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -1380,11 +1368,23 @@
           {
             "type": "cast_on_hit",
             "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
+            ],
+            "ability": "nova_frost_3",
+            "probability": 0.2,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "cast_on_hit",
+            "filter": [
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
               "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
             ],
             "ability": "nova_frost_4",
-            "probability": 0.2,
+            "probability": 0.25,
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -1399,12 +1399,26 @@
           {
             "type": "effect_on_hit",
             "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
               "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
             ],
             "effect": "the_vault:glacial_shatter",
             "amplifier": 10,
-            "duration": 20,
+            "duration": 60,
+            "probability": 0.025,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "effect_on_hit",
+            "filter": [
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
+            ],
+            "effect": "the_vault:glacial_shatter",
+            "amplifier": 10,
+            "duration": 60,
             "probability": 0.05,
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -1413,12 +1427,26 @@
           {
             "type": "effect_on_hit",
             "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
               "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
             ],
             "effect": "the_vault:glacial_shatter",
             "amplifier": 10,
-            "duration": 40,
+            "duration": 60,
+            "probability": 0.075,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "effect_on_hit",
+            "filter": [
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
+            ],
+            "effect": "the_vault:glacial_shatter",
+            "amplifier": 10,
+            "duration": 60,
             "probability": 0.1,
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -1427,7 +1455,21 @@
           {
             "type": "effect_on_hit",
             "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
+            ],
+            "effect": "the_vault:glacial_shatter",
+            "amplifier": 10,
+            "duration": 60,
+            "probability": 0.125,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "effect_on_hit",
+            "filter": [
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
               "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
             ],
             "effect": "the_vault:glacial_shatter",
@@ -1441,12 +1483,26 @@
           {
             "type": "effect_on_hit",
             "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"minecraft:slowness\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
               "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
             ],
             "effect": "the_vault:glacial_shatter",
             "amplifier": 10,
-            "duration": 80,
+            "duration": 60,
+            "probability": 0.175,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "effect_on_hit",
+            "filter": [
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:chilled\"}]}",
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:hypothermia\"}]}"
+            ],
+            "effect": "the_vault:glacial_shatter",
+            "amplifier": 10,
+            "duration": 60,
             "probability": 0.2,
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -1465,27 +1521,7 @@
             "filter": [
               "{ActiveEffects:[{\"forge:id\":\"the_vault:noai\"}]}"
             ],
-            "damageIncrease": 0.2,
-            "learnPointCost": 1,
-            "regretPointCost": 1,
-            "unlockLevel": 0
-          },
-          {
-            "type": "damage_on_hit",
-            "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:noai\"}]}"
-            ],
-            "damageIncrease": 0.3,
-            "learnPointCost": 1,
-            "regretPointCost": 1,
-            "unlockLevel": 0
-          },
-          {
-            "type": "damage_on_hit",
-            "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:noai\"}]}"
-            ],
-            "damageIncrease": 0.4,
+            "damageIncrease": 0.25,
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -1499,6 +1535,26 @@
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
+          },
+          {
+            "type": "damage_on_hit",
+            "filter": [
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:noai\"}]}"
+            ],
+            "damageIncrease": 0.75,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "damage_on_hit",
+            "filter": [
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:noai\"}]}"
+            ],
+            "damageIncrease": 1.0,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
           }
         ]
       },
@@ -1507,6 +1563,17 @@
         "id": "Nucleus",
         "name": "Nucleus",
         "tiers": [
+          {
+            "type": "cast_on_kill",
+            "filter": [
+              "{ActiveEffects:[{\"forge:id\":\"the_vault:noai\"}]}"
+            ],
+            "ability": "Nova_Base",
+            "probability": 0.1,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
           {
             "type": "cast_on_kill",
             "filter": [
@@ -1536,17 +1603,6 @@
             ],
             "ability": "Nova_Base",
             "probability": 0.4,
-            "learnPointCost": 2,
-            "regretPointCost": 1,
-            "unlockLevel": 0
-          },
-          {
-            "type": "cast_on_kill",
-            "filter": [
-              "{ActiveEffects:[{\"forge:id\":\"the_vault:noai\"}]}"
-            ],
-            "ability": "Nova_Base",
-            "probability": 0.5,
             "learnPointCost": 2,
             "regretPointCost": 1,
             "unlockLevel": 0

@@ -15,7 +15,7 @@ I’m also running <https://github.com/radimous/SkinFighters>,
 <https://github.com/radimous/FastVaultGear> and 
 <https://github.com/radimous/invhudmpfix>.
 
-_Currently confirmed working on patch_: __10.1.0__
+_Currently confirmed working on version_: __3.11__
 
 ## Installation
 
@@ -125,9 +125,11 @@ rules.
 * ~~Lead Ingots now properly configured in the pool for Mekanism mod boxes; 
   would cause empty boxes before.~~ Fixed in the official pack.
 * Added Uraninite Ore (Powah) to modded ore rooms in raw vaults.
-* Fixed BCC version number for Update 10.1.
+* Fixed BCC version number for Update 11.
 * The Digital Miner’s Stone Generator Upgrade now correctly requires the Digital 
   Miner research.
+* Fixed Witchery description to include the new 80% gating.
+* Added missing top tier for Vein Miner specializations.
 
 ## Balance Changes
 
@@ -192,7 +194,7 @@ changes I am not willing to maintain. So flat buff it is.
 
 #### Witchery
 
-* Changed mana threshold to 80%.
+* ~~Changed mana threshold to 80%.~~ Now part of the base pack!
 
 While keeping yourself at 100% mana is easier to manage than health, not being 
 allowed to spend _any of it_ just feels bad.
