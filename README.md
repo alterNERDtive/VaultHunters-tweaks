@@ -205,6 +205,16 @@ allowed to spend _any of it_ just feels bad.
 
 * Removed the level requirement.
 
+### Items
+
+#### Stone of Jordan
+
+* Moved to Trinket slot.
+
+With Update 11 there is a clear distinction between “utility” trinkets 
+(charm/red slot) and “power” trinkets (trinket/blue slot). Stone definitely 
+increases your power level.
+
 ### Vault Balancing
 
 #### Elixir Vaults
