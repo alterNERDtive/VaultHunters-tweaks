@@ -44,62 +44,7 @@ armourCat.addRecipe([<item:the_vault:magnet>], [<item:the_vault:magnetite_ingot>
 armourCat.addRecipe([<item:the_vault:idol_benevolent>, <item:the_vault:idol_omniscient>, <item:the_vault:idol_timekeeper>, <item:the_vault:idol_malevolence>], [<item:minecraft:diamond> * 5, <item:the_vault:vault_bronze> * 81, [<item:the_vault:god_blessing>.withTag({type: "idona" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "velara" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "wendarr" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "tenos" as string}) * 3], <item:the_vault:vault_diamond> * 8]);
 
 // Trinkets
-JEI.hideIngredient(<item:the_vault:trinket>);
-JEI.addIngredient(<item:the_vault:trinket>);
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [-2819599717796404518, -5856188570444291444, 1514722424829573163, 5928572538477319491, 2676634361676693832, 23103566735658533, 23085592362438742, 82693], vaultUses: 24 as int})], [<item:the_vault:vault_alloy> * 32, <item:the_vault:vault_diamond> * 16, <item:the_vault:vault_gold> * 8, <item:the_vault:gem_alexandrite> * 64, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [-2819599717796404518, -5856188570444291444, 1514722424829573163, 5928572538477319491, 2676634361676693832, 23103566735658533, 23085592362438742, 82693], vaultUses: 24 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [4518472306209906890, -2784437617211410162, 1514722424829573163, 5928572538477319491, 2676634361676693832, 23103588210495013, 2327258649571971158, 211467362112261], vaultUses: 18 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 16, <item:the_vault:gem_alexandrite> * 196, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [4518472306209906890, -2784437617211410162, 1514722424829573163, 5928572538477319491, 2676634361676693832, 23103588210495013, 2327258649571971158, 211467362112261], vaultUses: 18 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [-434085841990310886, -260229942178414004, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103579620560421, 3732944545826033750, 57043714817], vaultUses: 24 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 16, <item:the_vault:gem_alexandrite> * 196, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [-434085841990310886, -260229942178414004, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103579620560421, 3732944545826033750, 57043714817], vaultUses: 24 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [8946267498471511514, 7961717488789915103, 1514722424829573161, 5928572538477319491, 2676634361676693832, 23103575325593125, 1376167485089337430, 1696683020], vaultUses: 16 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 16, <item:the_vault:gem_alexandrite> * 196, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [8946267498471511514, 7961717488789915103, 1514722424829573161, 5928572538477319491, 2676634361676693832, 23103575325593125, 1376167485089337430, 1696683020], vaultUses: 16 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [-4213398756555162742, -5265935157502611469, 1514722424829573163, 5928572538477319491, 2676634361676693832, 23103618275266085, 4757812115898716246, -3522936895171308031, 80031857], vaultUses: 17 as int})], [<item:the_vault:vault_alloy> * 32, <item:the_vault:vault_diamond> * 16, <item:the_vault:vault_gold> * 8, <item:the_vault:gem_alexandrite> * 64, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [-4213398756555162742, -5265935157502611469, 1514722424829573163, 5928572538477319491, 2676634361676693832, 23103618275266085, 4757812115898716246, -3522936895171308031, 80031857], vaultUses: 17 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [722428263547565818, -7768537511751780827, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103579620560421, -7871354500035817386, 22765881089], vaultUses: 23 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 16, <item:the_vault:gem_alexandrite> * 196, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [722428263547565818, -7768537511751780827, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103579620560421, -7871354500035817386, 22765881089], vaultUses: 23 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [-1828568842070857270, 9113763370005672471, 1514722424829573162, 5928572538477319491, 2676634361676693832, 23103583915527717, 1409363459118813270, 1391649128524], vaultUses: 21 as int})], [<item:the_vault:vault_alloy> * 64, <item:the_vault:vault_diamond> * 32, <item:the_vault:vault_gold> * 12, <item:the_vault:gem_alexandrite> * 128, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [-1828568842070857270, 9113763370005672471, 1514722424829573162, 5928572538477319491, 2676634361676693832, 23103583915527717, 1409363459118813270, 1391649128524], vaultUses: 21 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [-5256072788984937750, 5941841075023039800, 1514722424829573162, 5928572538477319491, 2676634361676693832, 23103575325593125, 146125685154467926, 1287734560], vaultUses: 19 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 16, <item:the_vault:gem_alexandrite> * 196, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [-5256072788984937750, 5941841075023039800, 1514722424829573162, 5928572538477319491, 2676634361676693832, 23103575325593125, 146125685154467926, 1287734560], vaultUses: 19 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [7048441180304221114, 966719329673121104, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103583915527717, -8064816388441550762, 4952768397368], vaultUses: 25 as int})], [<item:the_vault:vault_alloy> * 32, <item:the_vault:vault_diamond> * 16, <item:the_vault:vault_gold> * 8, <item:the_vault:gem_alexandrite> * 64, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [7048441180304221114, 966719329673121104, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103583915527717, -8064816388441550762, 4952768397368], vaultUses: 25 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [6086368525465959274, 5026295315450306550, 1514722424829573161, 5928572538477319491, 2676634361676693832, 23103592505462309, -7706199675926130602, 22607359231722816], vaultUses: 11 as int})], [<item:the_vault:vault_alloy> * 32, <item:the_vault:vault_diamond> * 16, <item:the_vault:vault_gold> * 8, <item:the_vault:gem_alexandrite> * 64, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [6086368525465959274, 5026295315450306550, 1514722424829573161, 5928572538477319491, 2676634361676693832, 23103592505462309, -7706199675926130602, 22607359231722816], vaultUses: 11 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [-2232951330844657174, 6930815505267067717, 1514722424829573163, 5928572538477319491, 2676634361676693832, 23103605390364197, -3183446555999776682, 5210683761216345092, 289], vaultUses: 25 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 16, <item:the_vault:gem_alexandrite> * 196, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [-2232951330844657174, 6930815505267067717, 1514722424829573163, 5928572538477319491, 2676634361676693832, 23103605390364197, -3183446555999776682, 5210683761216345092, 289], vaultUses: 25 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [-3764859501776946278, 6666450176529638151, 1514722424829573162, 5928572538477319491, 2676634361676693832, 23103601095396901, -3183446555999776682, -8858171654867364860, 4], vaultUses: 19 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 16, <item:the_vault:gem_alexandrite> * 196, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [-3764859501776946278, 6666450176529638151, 1514722424829573162, 5928572538477319491, 2676634361676693832, 23103601095396901, -3183446555999776682, -8858171654867364860, 4], vaultUses: 19 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [4628181776176829082, -3152760154316358345, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103583915527717, 4961075875588165718, 3350143699973], vaultUses: 18 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 16, <item:the_vault:gem_alexandrite> * 196, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [4628181776176829082, -3152760154316358345, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103583915527717, 4961075875588165718, 3350143699973], vaultUses: 18 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [1675141466702533082, 6969405443065135385, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103583915527717, 4864209176059007062, 5574940033101], vaultUses: 15 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 16, <item:the_vault:gem_alexandrite> * 196, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [1675141466702533082, 6969405443065135385, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103583915527717, 4864209176059007062, 5574940033101], vaultUses: 15 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [-5162838399224875974, 3716516073092813263, 1514722424829573161, 5928572538477319491, 2676634361676693832, 23103588210495013, 5840109308593918038, 318065033117752], vaultUses: 13 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 16, <item:the_vault:gem_alexandrite> * 196, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [-5162838399224875974, 3716516073092813263, 1514722424829573161, 5928572538477319491, 2676634361676693832, 23103588210495013, 5840109308593918038, 318065033117752], vaultUses: 13 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [4862777371648089914, -5343035233342127966, 1514722424829573162, 5928572538477319491, 2676634361676693832, 23103579620560421, -2209525406955909034, 82345972480], vaultUses: 14 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 32, <item:the_vault:vault_gold> * 12, <item:the_vault:gem_alexandrite> * 128, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [4862777371648089914, -5343035233342127966, 1514722424829573162, 5928572538477319491, 2676634361676693832, 23103579620560421, -2209525406955909034, 82345972480], vaultUses: 14 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [7359414525642463242, -1775555172953390193, 1514722424829573163, 5928572538477319491, 2676634361676693832, 23103601095396901, 4977938260789645398, 1010006456021700157, 5], vaultUses: 16 as int})], [<item:the_vault:vault_alloy> * 32, <item:the_vault:vault_diamond> * 16, <item:the_vault:vault_gold> * 8, <item:the_vault:gem_alexandrite> * 64, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [7359414525642463242, -1775555172953390193, 1514722424829573163, 5928572538477319491, 2676634361676693832, 23103601095396901, 4977938260789645398, 1010006456021700157, 5], vaultUses: 16 as int}));
-
-armourCat.addRecipe([<item:the_vault:trinket>.withTag({vaultGearData: [5944663566315699098, -8197508526454089586, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103609685331493, 1228943359166468182, 5484580942976963144, 19760], vaultUses: 11 as int})], [<item:the_vault:vault_alloy> * 128, <item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 16, <item:the_vault:gem_alexandrite> * 192, <item:the_vault:trinket_scrap>]);
-JEI.addIngredient(<item:the_vault:trinket>.withTag({vaultGearData: [5944663566315699098, -8197508526454089586, 1514722424829573160, 5928572538477319491, 2676634361676693832, 23103609685331493, 1228943359166468182, 5484580942976963144, 19760], vaultUses: 11 as int}));
+armourCat.addRecipe([<item:the_vault:trinket>.anyDamage()], [<item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 32, <item:the_vault:gem_alexandrite> * 192, <item:the_vault:trinket_scrap>]);
 
 // Add category
 JEI.addCategory(armourCat);
@@ -207,10 +152,6 @@ JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/blacksmith", 7012096, 1)
 inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/library", 7012096, 3)], [<item:the_vault:gilded_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/library", 7012096, 3));
 
-// Digsite
-inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/digsite", 7012096, 6)], [<item:the_vault:wooden_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
-JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/digsite", 7012096, 6));
-
 // Cove
 inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/cove", 7012096, 4)], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/cove", 7012096, 4));
@@ -277,69 +218,117 @@ for i in 0 .. 8 {
     }
 }
 
-function blackMarketItem(item as string, minPrice as int, maxPrice as int, chance as float, quantity as int) as IItemStack {
-  return <item:${item}>.withTag({display: {Lore: ["[{\"text\":\"Min Price: " + minPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: " + maxPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: " + chance + "%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * quantity;
+function blackMarketItem(item as string, minPrice as int, maxPrice as int, chance as float, quantity as int, minLevel as int) as IItemStack {
+  return <item:${item}>.withTag({display: {Lore: ["[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Min Price: " + minPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: " + maxPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Min Level: " + minLevel + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: " + chance + "%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * quantity;
 }
 
-blackMarket.addRecipe([blackMarketItem("the_vault:blank_key", 6000, 12000, 0.24, 1),
-blackMarketItem("the_vault:unidentified_artifact", 20000, 32000, 0.12, 1),
-blackMarketItem("the_vault:knowledge_star", 2400, 4800, 1.88, 1),
-blackMarketItem("the_vault:repair_core", 600, 1200, 3.77, 1),
-blackMarketItem("the_vault:sour_orange", 2000, 4000, 0.24, 1),
-blackMarketItem("the_vault:bitter_lemon", 800, 1400, 0.94, 1),
-blackMarketItem("the_vault:vault_platinum", 400, 800, 1.88, 1),
-blackMarketItem("the_vault:regret_orb", 200, 600, 3.77, 1),
-blackMarketItem("the_vault:mod_box", 400, 800, 3.77, 1),
-blackMarketItem("the_vault:opportunistic_focus", 3200, 6000, 0.47, 1),
-blackMarketItem("the_vault:resilient_focus", 2000, 4000, 0.47, 1),
-blackMarketItem("the_vault:fundamental_focus", 800, 1600, 1.88, 1),
-blackMarketItem("the_vault:chaotic_focus", 200, 400, 3.77, 1),
-blackMarketItem("the_vault:waxing_focus", 1600, 2400, 1.18, 1),
-blackMarketItem("the_vault:waning_focus", 1600, 2400, 1.18, 1),
-blackMarketItem("the_vault:trinket", 8000, 12000, 0.24, 1),
-blackMarketItem("the_vault:trinket_scrap", 4000, 8000, 0.47, 1),
-blackMarketItem("the_vault:phoenix_feather", 1000, 1600, 0.94, 1),
-blackMarketItem("the_vault:eye_of_avarice", 2000, 4000, 0.47, 1),
-blackMarketItem("the_vault:vault_catalyst_chaos", 3000, 6000, 0.47, 1),
-blackMarketItem("the_vault:jewel", 300, 800, 7.54, 1),
-blackMarketItem("the_vault:inscription", 1200, 2400, 3.77, 1),
-blackMarketItem("the_vault:helmet", 800, 1600, 3.77, 1),
-blackMarketItem("the_vault:chestplate", 800, 1600, 3.77, 1),
-blackMarketItem("the_vault:leggings", 800, 1600, 3.77, 1),
-blackMarketItem("the_vault:boots", 800, 1600, 3.77, 1),
-blackMarketItem("the_vault:sword", 800, 1600, 3.77, 1),
-blackMarketItem("the_vault:axe", 800, 1600, 3.77, 1),
-blackMarketItem("the_vault:shield", 800, 1600, 3.77, 1),
-blackMarketItem("the_vault:idol_benevolent", 1200, 2000, 0.94, 1),
-blackMarketItem("the_vault:idol_omniscient", 1200, 2000, 0.94, 1),
-blackMarketItem("the_vault:idol_timekeeper", 1200, 2000, 0.94, 1),
-blackMarketItem("the_vault:idol_malevolence", 1200, 2000, 0.94, 1),
-blackMarketItem("the_vault:magnet", 800, 1600, 3.77, 1),
-blackMarketItem("the_vault:soul_flame", 400, 800, 3.77, 1),
-blackMarketItem("the_vault:crystal_seal_empty", 200, 600, 3.77, 1),
-blackMarketItem("the_vault:crystal_seal_cake", 400, 800, 1.88, 1),
-blackMarketItem("the_vault:mote_purity", 800, 1200, 1.88, 1),
-blackMarketItem("the_vault:mote_sanctity", 3200, 6000, 0.47, 1),
-blackMarketItem("the_vault:faceted_focus", 400, 800, 1.88, 1),
-blackMarketItem("the_vault:mystery_egg", 200, 400, 1.88, 1),
-blackMarketItem("the_vault:mystery_hostile_egg", 400, 800, 0.47, 1),
-blackMarketItem("the_vault:unidentified_relic_fragment", 400, 800, 0.94, 1),
-blackMarketItem("the_vault:artifact_fragment", 2000, 4000, 0.24, 1),
-blackMarketItem("the_vault:wooden_chest_scroll", 400, 800, 0.47, 1),
-blackMarketItem("the_vault:ornate_chest_scroll", 800, 1600, 0.47, 1),
-blackMarketItem("the_vault:living_chest_scroll", 800, 1600, 0.47, 1),
-blackMarketItem("the_vault:gilded_chest_scroll", 800, 1600, 0.47, 1),
-blackMarketItem("the_vault:bounty_pearl", 200, 400, 1.88, 1),
-blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.71, 1),
-blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.71, 1),
-blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.82, 1),
-blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.71, 1),
-blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.82, 1),
-blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
-blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
-blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
-blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.35, 1),
-blackMarketItem("the_vault:vault_catalyst_infused", 1200, 2400, 0.47, 1)], []);
+function blackMarketOmegaItem(item as string, minPrice as int, maxPrice as int, chance as float, quantity as int, minLevel as int) as IItemStack {
+  return <item:${item}>.withTag({display: {Lore: ["[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"OMEGA\",\"bold\":true,\"color\":\"purple\"}]","[{\"text\":\"Min Price: " + minPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Max Price: " + maxPrice + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Min Level: " + minLevel + "\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Chance: " + chance + "%\",\"italic\":false,\"color\":\"gray\"}]"]}}) * quantity;
+}
+
+blackMarket.addRecipe([blackMarketItem("the_vault:knowledge_star", 2400, 4800, 1.52, 1, 0),
+blackMarketItem("the_vault:bitter_lemon", 800, 1400, 1.22, 1, 0),
+blackMarketItem("the_vault:vault_platinum", 400, 800, 2.43, 1, 0),
+blackMarketItem("the_vault:regret_orb", 100, 200, 4.86, 1, 0),
+blackMarketItem("the_vault:jewel", 300, 500, 6.08, 1, 0),
+blackMarketItem("the_vault:helmet", 250, 500, 3.65, 1, 0),
+blackMarketItem("the_vault:chestplate", 250, 500, 3.65, 1, 0),
+blackMarketItem("the_vault:leggings", 250, 500, 3.65, 1, 0),
+blackMarketItem("the_vault:boots", 250, 500, 3.65, 1, 0),
+blackMarketItem("the_vault:sword", 250, 500, 3.65, 1, 0),
+blackMarketItem("the_vault:axe", 250, 500, 3.65, 1, 0),
+blackMarketItem("the_vault:shield", 250, 500, 2.74, 1, 0),
+blackMarketItem("the_vault:wand", 250, 500, 2.74, 1, 0),
+blackMarketItem("the_vault:idol_benevolent", 400, 800, 1.06, 1, 0),
+blackMarketItem("the_vault:idol_omniscient", 400, 800, 1.06, 1, 0),
+blackMarketItem("the_vault:idol_timekeeper", 400, 800, 1.06, 1, 0),
+blackMarketItem("the_vault:idol_malevolence", 400, 800, 1.06, 1, 0),
+blackMarketItem("the_vault:magnet", 250, 500, 3.65, 1, 0),
+blackMarketItem("the_vault:unidentified_relic_fragment", 400, 800, 1.22, 1, 0),
+blackMarketItem("the_vault:bounty_pearl", 200, 400, 2.43, 1, 0),
+blackMarketItem("minecraft:emerald", 40, 100, 9.73, 32, 0),
+blackMarketItem("minecraft:elytra", 200, 600, 3.65, 1, 0),
+blackMarketItem("the_vault:black_chromatic_steel_nugget", 400, 800, 6.08, 4, 0),
+blackMarketItem("minecraft:wither_skeleton_skull", 100, 200, 3.65, 1, 0),
+blackMarketItem("the_vault:vault_diamond", 600, 1000, 4.86, 4, 0),
+blackMarketItem("the_vault:gem_pog", 1000, 1400, 1.22, 1, 0),
+blackMarketItem("sophisticatedbackpacks:backpack", 1600, 2400, 1.22, 1, 0),
+blackMarketItem("the_vault:chromatic_steel_ingot", 400, 800, 9.73, 6, 0),
+blackMarketItem("the_vault:repair_core", 300, 500, 4.86, 1, 0),
+blackMarketItem("the_vault:blank_key", 6000, 12000, 0.21, 1, 20),
+blackMarketItem("the_vault:unidentified_artifact", 20000, 32000, 0.11, 1, 20),
+blackMarketItem("the_vault:sour_orange", 2000, 4000, 0.21, 1, 20),
+blackMarketItem("the_vault:mod_box", 400, 800, 3.42, 1, 20),
+blackMarketItem("the_vault:opportunistic_focus", 3200, 6000, 0.43, 1, 20),
+blackMarketItem("the_vault:resilient_focus", 2000, 4000, 0.43, 1, 20),
+blackMarketItem("the_vault:fundamental_focus", 900, 1400, 1.71, 1, 20),
+blackMarketItem("the_vault:trinket", 8000, 12000, 0.21, 1, 20),
+blackMarketItem("the_vault:trinket_scrap", 4000, 8000, 0.43, 1, 20),
+blackMarketItem("the_vault:phoenix_feather", 800, 1200, 0.86, 1, 20),
+blackMarketItem("the_vault:eye_of_avarice", 1500, 3000, 0.43, 1, 20),
+blackMarketItem("the_vault:vault_catalyst_chaos", 6000, 12000, 0.43, 1, 20),
+blackMarketItem("the_vault:soul_flame", 400, 800, 3.42, 1, 20),
+blackMarketItem("the_vault:crystal_seal_empty", 200, 600, 3.42, 1, 20),
+blackMarketItem("the_vault:crystal_seal_cake", 400, 800, 1.71, 1, 20),
+blackMarketItem("the_vault:mote_purity", 800, 1200, 0.86, 1, 20),
+blackMarketItem("the_vault:mote_sanctity", 3200, 6000, 0.21, 1, 20),
+blackMarketItem("the_vault:mystery_egg", 200, 400, 2.14, 1, 20),
+blackMarketItem("the_vault:mystery_hostile_egg", 400, 800, 0.86, 1, 20),
+blackMarketItem("the_vault:artifact_fragment", 2000, 4000, 0.21, 1, 20),
+blackMarketItem("the_vault:wooden_chest_scroll", 400, 800, 0.43, 1, 20),
+blackMarketItem("the_vault:ornate_chest_scroll", 800, 1600, 0.43, 1, 20),
+blackMarketItem("the_vault:living_chest_scroll", 800, 1600, 0.43, 1, 20),
+blackMarketItem("the_vault:gilded_chest_scroll", 800, 1600, 0.43, 1, 20),
+blackMarketItem("the_vault:vault_catalyst_infused", 600, 1200, 0.64, 1, 20),
+blackMarketItem("the_vault:black_chromatic_steel_ingot", 600, 1000, 4.28, 1, 20),
+blackMarketItem("the_vault:spicy_hearty_burger", 3000, 3600, 1.28, 1, 20),
+blackMarketItem("the_vault:chaotic_focus", 400, 600, 3.22, 3, 50),
+blackMarketItem("the_vault:inscription", 1000, 1800, 3.22, 1, 50),
+blackMarketItem("the_vault:faceted_focus", 400, 800, 1.61, 1, 50),
+blackMarketItem("sophisticatedbackpacks:iron_backpack", 1600, 2400, 0.60, 1, 50),
+blackMarketItem("the_vault:waxing_focus", 1300, 1900, 1.08, 1, 75),
+blackMarketItem("the_vault:waning_focus", 1300, 1900, 1.08, 1, 75)], []);
+
+blackMarket.addRecipe([blackMarketOmegaItem("the_vault:knowledge_star", 800, 1600, 4.51, 1, 0),
+blackMarketOmegaItem("the_vault:helmet", 350, 600, 6.02, 1, 0),
+blackMarketOmegaItem("the_vault:chestplate", 350, 600, 6.02, 1, 0),
+blackMarketOmegaItem("the_vault:leggings", 350, 600, 6.02, 1, 0),
+blackMarketOmegaItem("the_vault:boots", 350, 600, 6.02, 1, 0),
+blackMarketOmegaItem("the_vault:sword", 350, 600, 6.02, 1, 0),
+blackMarketOmegaItem("the_vault:axe", 250, 500, 6.02, 1, 0),
+blackMarketOmegaItem("the_vault:shield", 350, 600, 4.89, 1, 0),
+blackMarketOmegaItem("the_vault:wand", 350, 600, 4.89, 1, 0),
+blackMarketOmegaItem("the_vault:idol_benevolent", 500, 900, 1.50, 1, 0),
+blackMarketOmegaItem("the_vault:idol_omniscient", 500, 900, 1.50, 1, 0),
+blackMarketOmegaItem("the_vault:idol_timekeeper", 500, 900, 1.50, 1, 0),
+blackMarketOmegaItem("the_vault:idol_malevolence", 500, 900, 1.50, 1, 0),
+blackMarketOmegaItem("the_vault:magnet", 350, 600, 6.02, 1, 0),
+blackMarketOmegaItem("the_vault:jewel", 300, 600, 12.03, 1, 0),
+blackMarketOmegaItem("the_vault:vault_diamond", 400, 800, 12.03, 5, 0),
+blackMarketOmegaItem("the_vault:gem_pog", 800, 1000, 6.02, 1, 0),
+blackMarketOmegaItem("sophisticatedbackpacks:backpack", 1000, 1800, 3.01, 1, 0),
+blackMarketOmegaItem("the_vault:bounty_pearl", 500, 900, 3.01, 5, 0),
+blackMarketOmegaItem("the_vault:bitter_lemon", 600, 800, 1.50, 1, 0),
+blackMarketOmegaItem("the_vault:blank_key", 6000, 8000, 0.37, 1, 20),
+blackMarketOmegaItem("the_vault:unidentified_artifact", 16000, 24000, 0.18, 1, 20),
+blackMarketOmegaItem("the_vault:sour_orange", 1500, 3000, 0.37, 1, 20),
+blackMarketOmegaItem("the_vault:opportunistic_focus", 2400, 5000, 0.74, 1, 20),
+blackMarketOmegaItem("the_vault:resilient_focus", 1500, 3000, 0.74, 1, 20),
+blackMarketOmegaItem("the_vault:fundamental_focus", 800, 1200, 2.95, 3, 20),
+blackMarketOmegaItem("the_vault:trinket", 6000, 10000, 0.37, 1, 20),
+blackMarketOmegaItem("the_vault:trinket_scrap", 3000, 6000, 0.74, 1, 20),
+blackMarketOmegaItem("the_vault:phoenix_feather", 800, 1200, 1.47, 2, 20),
+blackMarketOmegaItem("the_vault:eye_of_avarice", 1000, 1800, 0.74, 1, 20),
+blackMarketOmegaItem("the_vault:vault_catalyst_chaos", 6000, 12000, 0.74, 1, 20),
+blackMarketOmegaItem("the_vault:mote_purity", 500, 900, 1.47, 1, 20),
+blackMarketOmegaItem("the_vault:mote_sanctity", 2400, 4800, 0.37, 1, 20),
+blackMarketOmegaItem("the_vault:artifact_fragment", 1500, 3000, 0.37, 1, 20),
+blackMarketOmegaItem("the_vault:vault_catalyst_infused", 500, 900, 1.10, 1, 20),
+blackMarketOmegaItem("sophisticatedbackpacks:iron_backpack", 1000, 1800, 1.57, 1, 50),
+blackMarketOmegaItem("the_vault:faceted_focus", 500, 800, 3.13, 2, 50),
+blackMarketOmegaItem("the_vault:inscription", 1000, 1600, 4.70, 1, 50),
+blackMarketOmegaItem("the_vault:waxing_focus", 1400, 1900, 1.92, 3, 75),
+blackMarketOmegaItem("the_vault:waning_focus", 1400, 1900, 1.92, 3, 75)], []);
 
 JEI.addCategory(blackMarket);
 
