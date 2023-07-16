@@ -422,6 +422,10 @@ Taking suggestions for other recipe ideas!~~
 
 Those have been officially integrated into the mod pack! \o/
 
+#### Tooltips
+
+Integrated the fan-made updated tooltips by a1qs.
+
 #### Vanilla Recipes
 
 * Added recipe for making Concrete in a crafting table with a water bucket, 
