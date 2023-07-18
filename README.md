@@ -426,6 +426,11 @@ Those have been officially integrated into the mod pack! \o/
 
 Integrated the fan-made updated tooltips by a1qs.
 
+#### Treasure Keys
+
+Added Smithing Table recipes in addition to the Anvil ones. Purely because I’m 
+lazy and want to be able to auto craft them.
+
 #### Vanilla Recipes
 
 * Added recipe for making Concrete in a crafting table with a water bucket, 
