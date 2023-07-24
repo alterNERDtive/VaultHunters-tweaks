@@ -29,19 +29,19 @@ armourCat.addSlot(5, 110, 6, true);
 armourCat.addSlot(6, 158, 6, false);
 
 // Gear
-armourCat.addRecipe([<item:the_vault:leggings>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_bronze> * 81, <item:the_vault:vault_plating> * 8, <item:the_vault:vault_alloy> * 9]);
-armourCat.addRecipe([<item:the_vault:chestplate>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_bronze> * 81, <item:the_vault:vault_plating> * 8, <item:the_vault:vault_alloy> * 9]);
-armourCat.addRecipe([<item:the_vault:helmet>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_bronze> * 81, <item:the_vault:vault_plating> * 8, <item:the_vault:vault_alloy> * 9]);
-armourCat.addRecipe([<item:the_vault:boots>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_bronze> * 81, <item:the_vault:vault_plating> * 8, <item:the_vault:vault_alloy> * 9]);
-armourCat.addRecipe([<item:the_vault:sword>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_bronze> * 81, <item:the_vault:vault_plating> * 8, <item:the_vault:vault_alloy> * 9]);
-armourCat.addRecipe([<item:the_vault:axe>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_bronze> * 81, <item:the_vault:vault_plating> * 8, <item:the_vault:vault_alloy> * 9]);
-armourCat.addRecipe([<item:the_vault:shield>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_bronze> * 81, <item:the_vault:vault_plating> * 8, <item:the_vault:vault_alloy> * 9]);
+armourCat.addRecipe([<item:the_vault:leggings>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, <item:the_vault:vault_alloy> * 9]);
+armourCat.addRecipe([<item:the_vault:chestplate>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, <item:the_vault:vault_alloy> * 9]);
+armourCat.addRecipe([<item:the_vault:helmet>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, <item:the_vault:vault_alloy> * 9]);
+armourCat.addRecipe([<item:the_vault:boots>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, <item:the_vault:vault_alloy> * 9]);
+armourCat.addRecipe([<item:the_vault:sword>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, <item:the_vault:vault_alloy> * 9]);
+armourCat.addRecipe([<item:the_vault:axe>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, <item:the_vault:vault_alloy> * 9]);
+armourCat.addRecipe([<item:the_vault:shield>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, <item:the_vault:vault_alloy> * 9]);
 
 // Magnet
-armourCat.addRecipe([<item:the_vault:magnet>], [<item:the_vault:magnetite_ingot> * 9, <item:minecraft:diamond> * 5, <item:the_vault:vault_bronze> * 81, <item:the_vault:vault_plating> * 8, <item:minecraft:netherite_ingot>]);
+armourCat.addRecipe([<item:the_vault:magnet>], [<item:the_vault:magnetite_ingot> * 9, <item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, <item:the_vault:vault_plating> * 8, <item:minecraft:netherite_ingot>]);
 
 // Idols
-armourCat.addRecipe([<item:the_vault:idol_benevolent>, <item:the_vault:idol_omniscient>, <item:the_vault:idol_timekeeper>, <item:the_vault:idol_malevolence>], [<item:minecraft:diamond> * 5, <item:the_vault:vault_bronze> * 81, [<item:the_vault:god_blessing>.withTag({type: "idona" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "velara" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "wendarr" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "tenos" as string}) * 3], <item:the_vault:vault_diamond> * 8]);
+armourCat.addRecipe([<item:the_vault:idol_benevolent>, <item:the_vault:idol_omniscient>, <item:the_vault:idol_timekeeper>, <item:the_vault:idol_malevolence>], [<item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, [<item:the_vault:god_blessing>.withTag({type: "idona" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "velara" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "wendarr" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "tenos" as string}) * 3], <item:the_vault:vault_diamond> * 8]);
 
 // Trinkets
 armourCat.addRecipe([<item:the_vault:trinket>.anyDamage()], [<item:the_vault:vault_diamond> * 64, <item:the_vault:vault_gold> * 32, <item:the_vault:gem_alexandrite> * 192, <item:the_vault:trinket_scrap>]);
