@@ -263,3 +263,9 @@ craftingTable.addShaped("rs_network_transmitter", <item:refinedstorage:network_t
     [<item:refinedstorage:destruction_core>, <item:refinedstorage:machine_casing>, <item:refinedstorage:construction_core>],
     [<item:the_vault:black_chromatic_steel_ingot>,<item:refinedstorage:quartz_enriched_iron>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
+
+craftingTable.addShaped("rs_security_card", <item:refinedstorage:security_card>, [
+    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>],
+    [<item:the_vault:extraordinary_larimar>, <item:refinedstorage:advanced_processor>, <item:the_vault:extraordinary_larimar>],
+    [<item:refinedstorage:quartz_enriched_iron>,<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>]
+]);

@@ -567,6 +567,7 @@ craftingTable.remove(<item:refinedstorage:crafter>);
 craftingTable.remove(<item:refinedstorage:crafter_manager>);
 craftingTable.remove(<item:refinedstorage:pattern>);
 craftingTable.remove(<tag:items:refinedstorage:pattern_grid>);
+craftingTable.remove(<item:refinedstorage:security_card>);
 
 // Weirding Gadget
 craftingTable.remove(<item:weirdinggadget:weirding_gadget>);
@@ -680,7 +681,6 @@ craftingTable.remove(<item:easy_villagers:farmer>);
 craftingTable.remove(<item:easy_villagers:iron_farm>);
 
 // Vanilla
-craftingTable.remove(<item:minecraft:shield>);
 craftingTable.remove(<item:minecraft:golden_apple>);
 craftingTable.remove(<item:minecraft:bundle>);
 brewing.removeRecipe(<item:minecraft:potion>.withTag({Potion: "alexsmobs:strong_knockback_resistance"}), <item:minecraft:glowstone_dust>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:knockback_resistance"}));
