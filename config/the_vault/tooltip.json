@@ -1,6 +1,10 @@
 {
   "tooltips": [
     {
+      "item": "minecraft:shield",
+      "value": "Shields automatically block attacks based on their block chance and can not be used to manually block\nThis Vanilla shield has a 5% block chance"
+    },
+    {
       "item": "minecraft:totem_of_undying",
       "value": "Does not function inside a vault!"
     },

@@ -1202,6 +1202,13 @@
             "CRAFTABILITY": true
           }
         },
+        "sophisticatedbackpacks:void_upgrade": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
         "sophisticatedbackpacks:pickup_upgrade": {
           "restricts": {
             "HITTABILITY": false,
@@ -1328,13 +1335,6 @@
           }
         },
         "sophisticatedbackpacks:stack_upgrade_tier_4": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:void_upgrade": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,

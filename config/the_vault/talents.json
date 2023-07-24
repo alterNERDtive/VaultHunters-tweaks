@@ -1098,13 +1098,6 @@
             "tiers": [
               {
                 "type": "damage_lucky_hit",
-                "damageIncrease": 1.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 25
-              },
-              {
-                "type": "damage_lucky_hit",
                 "damageIncrease": 1.5,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
@@ -1112,7 +1105,14 @@
               },
               {
                 "type": "damage_lucky_hit",
-                "damageIncrease": 2.0,
+                "damageIncrease": 3.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 25
+              },
+              {
+                "type": "damage_lucky_hit",
+                "damageIncrease": 4.5,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 25
