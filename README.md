@@ -124,11 +124,12 @@ rules.
 * ~~Lead Ingots now properly configured in the pool for Mekanism mod boxes; 
   would cause empty boxes before.~~ Fixed in the official pack.
 * Added Uraninite Ore (Powah) to modded ore rooms in raw vaults.
-* Fixed BCC version number for Update 11.
+* Fixed BCC version number.
 * The Digital Miner’s Stone Generator Upgrade now correctly requires the Digital 
   Miner research.
 * Fixed Witchery description to include the new 80% gating.
 * Added missing top tier for Vein Miner specializations.
+* Fixed affinities on jewels not having the correct weights.
 
 ## Balance Changes
 
