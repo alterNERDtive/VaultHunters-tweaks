@@ -130,6 +130,7 @@ rules.
 * Fixed Witchery description to include the new 80% gating.
 * Added missing top tier for Vein Miner specializations.
 * Fixed affinities on jewels not having the correct weights.
+* Fixed “The Bounty Hunter” quest not being completable.
 
 ## Balance Changes
 

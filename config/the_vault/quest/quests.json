@@ -557,7 +557,7 @@
         ]
       },
       "icon": "the_vault:gui/quests/bounty_table",
-      "targetId": "the_vault:any",
+      "targetId": "the_vault:bounty_block",
       "targetProgress": 1.0,
       "unlockedBy": "shard_pouch",
       "reward": {
