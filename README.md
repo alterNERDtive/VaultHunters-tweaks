@@ -42,13 +42,11 @@ _Currently confirmed working on version_: __3.11.1__
    mod.
 
 If you (or someone on your server) has unlocked Simple Storage Network or 
-Weirding Gadgets, you’ll need to manually edit 
-`data/the_vault_playerResearches.dat` and rename the unlocks. Otherwise you’ll 
-be booted with an “Invalid player data” error.
+Weirding Gadgets, their research will be automatically replaced with 
+Sophisticated Storage and Chunk Loaders respectively.
 
-There is a new config file for making this transition happen automatically 
-(`config/the_vault/player_research_transfer.json`), but it does not seem to be 
-functional yet.
+If you ever go back to using the default configs, you’ll have to remove that 
+research from everyone first or NBT edit the names.
 
 ## Upgrading to a New Vault Hunters Version
 
