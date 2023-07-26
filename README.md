@@ -442,17 +442,6 @@ lazy and want to be able to auto craft them.
 
 Vault Ingots are kinda useless right now otherwise.
 
-#### Vault Altar
-
-* ~~Increased chance of getting a lucky recipe from 10% to 35%.~~ There no 
-  longer is a base chance, the only way to get lucky recipes is now the 
-  expertise for it.
-* Recipe ingredients are now tagged for your filtering pleasure:
-  * `the_vault:altar_requirements`
-  * `the_vault:altar_requirements/<level>`
-  * `the_vault:altar_requirements/<pool>`
-  * `the_vault:altar_requirements/<pool>/<level>`
-
 #### Vault Diffuser
 
 * Increased the payout for common scavenger items from 1 to 4.

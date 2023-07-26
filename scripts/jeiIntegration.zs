@@ -405,14 +405,6 @@ for i in 0 .. 6 {
 }
 
 function crystalItem(item as string, level as string, pool as string) as IItemStack {
-  for tag in [
-      <tagmanager:items>.tag("the_vault:altar_requirements"),
-      <tagmanager:items>.tag("the_vault:altar_requirements/" + level),
-      <tagmanager:items>.tag("the_vault:altar_requirements/" + pool.toLowerCase()),
-      <tagmanager:items>.tag("the_vault:altar_requirements/" + pool.toLowerCase() + "/" + level)
-  ]{
-      tag.add(<item:${item}>);
-  }
   return <item:${item}>.withTag({display: {Lore: ["[{\"text\":\"Level: \",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\""+ level + "\",\"color\":\"white\",\"bold\":false},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false}]" as string, "[{\"text\":\"Pool: \",\"italic\":false,\"color\":\"white\",\"bold\":true},{\"text\":\"" + pool +"\",\"color\":\"white\",\"bold\":false}]" as string]}});
 }
 
