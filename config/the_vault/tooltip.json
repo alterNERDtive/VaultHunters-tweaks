@@ -862,7 +862,7 @@
     },
     {
       "item": "the_vault:mod_box",
-      "value": "Contains a random modded item\nfrom any of your unlocked mods"
+      "value": "Right Click to open\n\nContains Knowledge Shards or if you have unlocked any mod that has Mod Box rewards it will contain items from that mod"
     },
     {
       "item": "the_vault:identification_tome",

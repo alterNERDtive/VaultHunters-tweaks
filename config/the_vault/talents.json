@@ -405,31 +405,7 @@
               {
                 "type": "gear_attribute",
                 "attribute": "the_vault:damage_nether",
-                "value": 0.1,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_nether",
-                "value": 0.2,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_nether",
-                "value": 0.3,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_nether",
-                "value": 0.4,
+                "value": 0.25,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -438,6 +414,30 @@
                 "type": "gear_attribute",
                 "attribute": "the_vault:damage_nether",
                 "value": 0.5,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_nether",
+                "value": 0.75,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_nether",
+                "value": 1.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_nether",
+                "value": 1.25,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -452,31 +452,7 @@
               {
                 "type": "gear_attribute",
                 "attribute": "the_vault:damage_undead",
-                "value": 0.1,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_undead",
-                "value": 0.2,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_undead",
-                "value": 0.3,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_undead",
-                "value": 0.4,
+                "value": 0.25,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -485,6 +461,30 @@
                 "type": "gear_attribute",
                 "attribute": "the_vault:damage_undead",
                 "value": 0.5,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_undead",
+                "value": 0.75,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_undead",
+                "value": 1.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_undead",
+                "value": 1.25,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -499,31 +499,7 @@
               {
                 "type": "gear_attribute",
                 "attribute": "the_vault:damage_spiders",
-                "value": 0.1,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_spiders",
-                "value": 0.2,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_spiders",
-                "value": 0.3,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_spiders",
-                "value": 0.4,
+                "value": 0.25,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -532,6 +508,30 @@
                 "type": "gear_attribute",
                 "attribute": "the_vault:damage_spiders",
                 "value": 0.5,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_spiders",
+                "value": 0.75,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_spiders",
+                "value": 1.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_spiders",
+                "value": 1.25,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -546,31 +546,7 @@
               {
                 "type": "gear_attribute",
                 "attribute": "the_vault:damage_illagers",
-                "value": 0.1,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_illagers",
-                "value": 0.2,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_illagers",
-                "value": 0.3,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_illagers",
-                "value": 0.4,
+                "value": 0.25,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -579,6 +555,30 @@
                 "type": "gear_attribute",
                 "attribute": "the_vault:damage_illagers",
                 "value": 0.5,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_illagers",
+                "value": 0.75,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_illagers",
+                "value": 1.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_illagers",
+                "value": 1.25,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0

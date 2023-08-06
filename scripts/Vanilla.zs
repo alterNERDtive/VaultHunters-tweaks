@@ -244,10 +244,20 @@ craftingTable.addShaped("pebble", <item:twigs:pebble> *4, [
     [<item:the_vault:polished_vault_stone>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
+craftingTable.addShaped("scaffolding", <item:minecraft:scaffolding> *6, [
+    [<item:the_vault:wooden_chunk>, <item:the_vault:wooden_chunk>, <item:the_vault:wooden_chunk>],
+    [<item:the_vault:wooden_chunk>, <item:minecraft:air>, <item:the_vault:wooden_chunk>],
+    [<item:the_vault:wooden_chunk>, <item:minecraft:air>, <item:the_vault:wooden_chunk>]
+]);
+
 craftingTable.addShapeless("necrotic_bones", <item:minecraft:bone>, [
     <item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>,
     <item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>,
     <item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>
+]);
+
+craftingTable.addShapeless("supp_ash", <item:supplementaries:ash> *8, [
+    <item:minecraft:flint>, <tag:items:minecraft:logs>
 ]);
 
 <recipetype:mekanism:combining>.addRecipe("cobweb", ItemStackIngredient.from(<item:minecraft:string>), ItemStackIngredient.from(<item:minecraft:vine>), <item:minecraft:cobweb>);
