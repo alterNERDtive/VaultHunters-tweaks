@@ -104,6 +104,9 @@
         },
         "Mana_Shield_Retribution": {
           "icon": "the_vault:gui/abilities/mana_shield_retribution"
+        },
+        "Mana_Shield_Implode": {
+          "icon": "the_vault:gui/abilities/mana_shield_implode"
         }
       }
     },

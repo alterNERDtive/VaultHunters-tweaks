@@ -14,7 +14,7 @@ running the accompanying mod__: https://git.alternerd.tv/the_vault-tweaks
 I’m also running <https://github.com/radimous/SkinFighters> and
 <https://github.com/radimous/FastVaultGear>.
 
-_Currently confirmed working on version_: __3.11.1__
+_Currently confirmed working on version_: __3.11.2__
 
 ## Installation
 
@@ -99,8 +99,8 @@ rules.
 
 ## Fixes
 
-* Fixed “Wild” having a significantly higher weight than the other negative
-  modifiers past level 20.
+* ~~Fixed “Wild” having a significantly higher weight than the other negative
+  modifiers past level 20.~~ No longer exists as random modifier.
 * Vault compass can once again be put in a backpack. The exploit that prompted
   the ban has been fixed, the ban not lifted.
 * Totems of Undying stack in backpacks again. Since they no longer revive you,
@@ -122,13 +122,14 @@ rules.
 * ~~Lead Ingots now properly configured in the pool for Mekanism mod boxes; 
   would cause empty boxes before.~~ Fixed in the official pack.
 * Added Uraninite Ore (Powah) to modded ore rooms in raw vaults.
-* Fixed BCC version number.
+* ~~Fixed BCC version number.~~ Fixed in the official pack.
 * The Digital Miner’s Stone Generator Upgrade now correctly requires the Digital 
   Miner research.
 * Fixed Witchery description to include the new 80% gating.
 * Added missing top tier for Vein Miner specializations.
 * Fixed affinities on jewels not having the correct weights.
-* Fixed “The Bounty Hunter” quest not being completable.
+* ~~Fixed “The Bounty Hunter” quest not being completable.~~ Fixed in the 
+  official pack.
 
 ## Balance Changes
 
@@ -360,10 +361,6 @@ These have been integrated into the base balancing.
 
 * Max size lowered to 40.
 * Added Reaping jewels (at 20% the weight of Picking/Axing/Shovelling).
-
-#### Mod Boxes
-
-* Adjusted drop chances for Refined Storage items to bring them in line with Applied Energistic.
 
 #### Mystery Eggs
 

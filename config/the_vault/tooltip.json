@@ -473,10 +473,6 @@
       "value": "Removes a random curse from a Vault Crystal."
     },
     {
-      "item": "the_vault:mod_box",
-      "value": "Contains a random modded item\nfrom any of your unlocked mods"
-    },
-    {
       "item": "the_vault:identification_tome",
       "value": "Hold in the off hand to instantly\nidentify vault gear."
     },
@@ -871,6 +867,10 @@
     {
       "item": "the_vault:wardrobe",
       "value": "Allows for switching between hotbars, curios and armor"
+    },
+    {
+      "item": "the_vault:mod_box",
+      "value": "Right Click to open\n\nContains Knowledge Shards or if you have unlocked any mod that has Mod Box rewards it will contain items from that mod"
     },
     {
       "item": "the_vault:skill_altar",

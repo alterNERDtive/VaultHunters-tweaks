@@ -634,7 +634,7 @@
         ]
       },
       "icon": "the_vault:gui/quests/bounty",
-      "targetId": "the_vault:bounty_block",
+      "targetId": "the_vault:any",
       "targetProgress": 1.0,
       "unlockedBy": "complete_bounty",
       "reward": {

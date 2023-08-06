@@ -114,7 +114,7 @@
         "lockedBy": []
       },
       "Double Pouches": {
-        "dependsOn": [{ "type": "constant", "id": "Pouches" }],
+        "dependsOn": [],
         "ignoreArrow": true,
         "lockedBy": []
       },
