@@ -102,20 +102,6 @@
         },
         {
           "value": {
-            "value": "the_vault:hunter_eye",
-            "amount": {
-              "min": 1,
-              "max": 3
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "rare"
-          },
-          "weight": 2
-        },
-        {
-          "value": {
             "value": "the_vault:vault_apple",
             "amount": {
               "min": 8,
@@ -369,20 +355,6 @@
             "rewardPool": "common"
           },
           "weight": 8
-        },
-        {
-          "value": {
-            "value": "the_vault:hunter_eye",
-            "amount": {
-              "min": 4,
-              "max": 9
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
-          },
-          "weight": 3
         },
         {
           "value": {
@@ -754,20 +726,6 @@
         },
         {
           "value": {
-            "value": "the_vault:hunter_eye",
-            "amount": {
-              "min": 5,
-              "max": 10
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
-          },
-          "weight": 3
-        },
-        {
-          "value": {
             "value": "the_vault:vault_apple",
             "amount": {
               "min": 20,
@@ -863,20 +821,6 @@
             "rewardPool": "common"
           },
           "weight": 4
-        },
-        {
-          "value": {
-            "value": "the_vault:inscription_piece",
-            "amount": {
-              "min": 2,
-              "max": 6
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
-          },
-          "weight": 2
         },
         {
           "value": {
@@ -1122,34 +1066,6 @@
         },
         {
           "value": {
-            "value": "the_vault:hunter_eye",
-            "amount": {
-              "min": 6,
-              "max": 12
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
-          },
-          "weight": 3
-        },
-        {
-          "value": {
-            "value": "the_vault:eternal_soul",
-            "amount": {
-              "min": 24,
-              "max": 48
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "rare"
-          },
-          "weight": 8
-        },
-        {
-          "value": {
             "value": "the_vault:sword",
             "amount": {
               "min": 2,
@@ -1173,20 +1089,6 @@
             "validDimensions": [],
             "vaultOnly": true,
             "rewardPool": "rare"
-          },
-          "weight": 2
-        },
-        {
-          "value": {
-            "value": "the_vault:inscription_piece",
-            "amount": {
-              "min": 8,
-              "max": 16
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
           },
           "weight": 2
         },
@@ -1532,34 +1434,6 @@
         },
         {
           "value": {
-            "value": "the_vault:hunter_eye",
-            "amount": {
-              "min": 6,
-              "max": 12
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
-          },
-          "weight": 3
-        },
-        {
-          "value": {
-            "value": "the_vault:eternal_soul",
-            "amount": {
-              "min": 24,
-              "max": 48
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
-          },
-          "weight": 8
-        },
-        {
-          "value": {
             "value": "the_vault:sword",
             "amount": {
               "min": 2,
@@ -1578,20 +1452,6 @@
             "amount": {
               "min": 2,
               "max": 3
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
-          },
-          "weight": 2
-        },
-        {
-          "value": {
-            "value": "the_vault:inscription_piece",
-            "amount": {
-              "min": 10,
-              "max": 24
             },
             "floorToNearestTen": false,
             "validDimensions": [],

@@ -218,6 +218,7 @@
     "the_vault:rotten_meat_block": 4,
     "the_vault:mossy_bone_block": 4,
     "the_vault:ancient_copper_block": 4,
+    "the_vault:inscription_piece": 32,
     "the_vault:default": 0
   }
 }
