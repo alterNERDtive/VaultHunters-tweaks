@@ -430,7 +430,7 @@
     },
     {
       "item": "the_vault:infinite_water_bucket",
-      "value": "A permanent source of water"
+      "value": "An infinite source of water"
     },
     {
       "item": "the_vault:void_liquid_bucket",
@@ -442,7 +442,7 @@
     },
     {
       "item": "the_vault:red_vault_essence",
-      "value": "Crafting ingredient"
+      "value": "Legacy Item"
     },
     {
       "item": "the_vault:unidentified_treasure_key",
@@ -471,6 +471,10 @@
     {
       "item": "the_vault:mote_purity",
       "value": "Removes a random curse from a Vault Crystal."
+    },
+    {
+      "item": "the_vault:mod_box",
+      "value": "Right Click to open\nContains Knowledge Shards or if you have unlocked any mod that has Mod Box rewards\n it will contain items from that mod"
     },
     {
       "item": "the_vault:identification_tome",
@@ -634,7 +638,7 @@
     },
     {
       "item": "the_vault:vault_catalyst_fragment",
-      "value": "Used to craft Vault Catalysts"
+      "value": "Used to craft Vault Catalysts\nFound at Level 20+ in In non-modified Vaults"
     },
     {
       "item": "the_vault:soul_flame",
@@ -719,6 +723,18 @@
     {
       "item": "the_vault:altar_chest_scroll",
       "value": "Used to create a decorational Altar Chest"
+    },
+    {
+      "item": "the_vault:hardened_chest_scroll",
+      "value": "Used to create a decorational Hardened Chest"
+    },
+    {
+      "item": "the_vault:flesh_chest_scroll",
+      "value": "Used to create a decorational Flesh Chest"
+    },
+    {
+      "item": "the_vault:enigma_chest_scroll",
+      "value": "Used to create a decorational Enigma Chest"
     },
     {
       "item": "the_vault:treasure_chest_scroll",
@@ -869,10 +885,6 @@
       "value": "Allows for switching between hotbars, curios and armor"
     },
     {
-      "item": "the_vault:mod_box",
-      "value": "Right Click to open\n\nContains Knowledge Shards or if you have unlocked any mod that has Mod Box rewards it will contain items from that mod"
-    },
-    {
       "item": "the_vault:skill_altar",
       "value": "Allows for switching between skill builds"
     },
@@ -901,12 +913,12 @@
       "value": "Unbreakable version of the Vanilla Anvil"
     },
     {
-      "item": "the_vault:angel_block",
-      "value": "Grants Creative flight in a 64-block radius\nRequires the Angel Expertise"
+      "item": "the_vault:treasure_sand",
+      "value": "Can contain various goods\nFound in Treasure rooms and Digsite Rooms"
     },
     {
-      "item": "the_vault:wand",
-      "value": "Slot: Offhand"
+      "item": "the_vault:angel_block",
+      "value": "Grants Creative flight in a 64-block radius\nRequires the Angel Expertise"
     }
   ]
 }
