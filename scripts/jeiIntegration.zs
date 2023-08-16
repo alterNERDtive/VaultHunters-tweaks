@@ -40,6 +40,9 @@ armourCat.addRecipe([<item:the_vault:shield>], [<item:minecraft:netherite_ingot>
 // Magnet
 armourCat.addRecipe([<item:the_vault:magnet>], [<item:the_vault:magnetite_ingot> * 9, <item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, <item:the_vault:vault_plating> * 8, <item:minecraft:netherite_ingot>]);
 
+// Wand
+armourCat.addRecipe([<item:the_vault:wand>], [<item:minecraft:netherite_ingot> * 2, <item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, <item:the_vault:vault_alloy> * 9]);
+
 // Idols
 armourCat.addRecipe([<item:the_vault:idol_benevolent>, <item:the_vault:idol_omniscient>, <item:the_vault:idol_timekeeper>, <item:the_vault:idol_malevolence>], [<item:minecraft:diamond> * 5, <item:the_vault:vault_gold>, [<item:the_vault:god_blessing>.withTag({type: "idona" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "velara" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "wendarr" as string}) * 3, <item:the_vault:god_blessing>.withTag({type: "tenos" as string}) * 3], <item:the_vault:vault_diamond> * 8]);
 
@@ -138,58 +141,58 @@ function runeItem(pool as string, color as int, model as int) as IItemStack {
   return <item:the_vault:inscription>.withTag({data: {completion: 0.0 as float, entries: [{pool: pool, count: 1 as int, color: color}], model: model, time: 0 as int, instability: 0.0 as float}});
 }
 
-inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.05 as float, entries: [{count: 1 as int, color: 16777215 as int, type: 0 as int}], model: 0 as int, time: 400 as int, instability: 0.01 as float}})], [<item:the_vault:inscription_piece> * 8, <item:the_vault:vault_bronze> * 64]);
+inscription.addRecipe([<item:the_vault:inscription>.withTag({data: {completion: 0.05 as float, entries: [{count: 1 as int, color: 16777215 as int, type: 0 as int}], model: 0 as int, time: 400 as int, instability: 0.01 as float}})], [<item:the_vault:inscription_piece> * 8, <item:the_vault:vault_gold> * 1]);
 
 // Mushroom
-inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/mush_room", 7012096, 2)], [<item:the_vault:living_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/mush_room", 7012096, 2)], [<item:the_vault:living_chest_scroll> * 5, <item:the_vault:vault_gold> * 16, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/mush_room", 7012096, 2));
 
 // Blacksmith
-inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/blacksmith", 7012096, 1)], [<item:the_vault:ornate_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/blacksmith", 7012096, 1)], [<item:the_vault:ornate_chest_scroll> * 5, <item:the_vault:vault_gold> * 16, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/blacksmith", 7012096, 1));
 
 // Library
-inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/library", 7012096, 3)], [<item:the_vault:gilded_chest_scroll> * 5, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/library", 7012096, 3)], [<item:the_vault:gilded_chest_scroll> * 5, <item:the_vault:vault_gold> * 16, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/library", 7012096, 3));
 
 // Cove
-inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/cove", 7012096, 4)], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 4]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/cove", 7012096, 4)], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_gold> * 16, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/cove", 7012096, 4));
 
 // Mine
-inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/mine", 7012096, 9)], [<item:the_vault:gem_larimar> * 256, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/mine", 7012096, 9)], [<item:the_vault:gem_larimar> * 256, <item:the_vault:vault_gold> * 16, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/mine", 7012096, 9));
 
 // Vendor
-inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/vendor", 7012096, 12)], [<item:the_vault:poisonous_mushroom> * 16, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:hunter_eye> * 2]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/vendor", 7012096, 12)], [<item:the_vault:gem_echo> * 4, <item:the_vault:inscription_piece> * 32]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/vendor", 7012096, 12));
 
 // Painting
-inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/painting", 7012096, 10)], [<item:the_vault:wooden_chest_scroll> * 2, <item:the_vault:living_chest_scroll> * 2, <item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 324, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8, <item:the_vault:bounty_pearl> * 8]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/omega/painting", 7012096, 10)], [<item:the_vault:wooden_chest_scroll> * 2, <item:the_vault:living_chest_scroll> * 2, <item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_gold> * 8, <item:the_vault:inscription_piece> * 32, <item:the_vault:gem_echo> * 8, <item:the_vault:bounty_pearl> * 8]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/omega/painting", 7012096, 10));
 
 // Dragon
-inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/dragon", 15769088, 7)], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/dragon", 15769088, 7)], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:inscription_piece> * 16, <item:the_vault:gem_echo> * 2]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/dragon", 15769088, 7));
 
 // Village
-inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/village", 15769088, 13)], [<item:the_vault:living_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/village", 15769088, 13)], [<item:the_vault:living_chest_scroll> * 2, <item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_gold> * 12, <item:the_vault:inscription_piece> * 16]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/village", 15769088, 13));
 
 // Factory
-inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/factory", 15769088, 8)], [<item:minecraft:netherite_block>, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/factory", 15769088, 8)], [<item:minecraft:netherite_block>, <item:the_vault:vault_gold> * 8, <item:the_vault:inscription_piece> * 8]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/factory", 15769088, 8));
 
 // Wild West
-inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/wildwest", 15769088, 14)], [<item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/wildwest", 15769088, 14)], [<item:the_vault:gilded_chest_scroll> * 2, <item:the_vault:vault_gold> * 8, <item:the_vault:inscription_piece> * 8]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/wildwest", 15769088, 14));
 
 // X-Mark
-inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/x-mark", 15769088, 15)], [<item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 8]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/x-mark", 15769088, 15)], [<item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:vault_gold> * 8, <item:the_vault:inscription_piece> * 8]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/x-mark", 15769088, 15));
 
 // Crystal Caves
-inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/crystal_caves", 15769088, 5)], [<item:the_vault:gem_larimar> * 64, <item:the_vault:vault_bronze> * 192, <item:the_vault:inscription_piece> * 16]);
+inscription.addRecipe([runeItem("the_vault:vault/rooms/challenge/crystal_caves", 15769088, 5)], [<item:the_vault:gem_larimar> * 64, <item:the_vault:vault_gold> * 8, <item:the_vault:inscription_piece> * 16]);
 JEI.addIngredient(runeItem("the_vault:vault/rooms/challenge/crystal_caves", 15769088, 5));
 
 // Add category
@@ -409,11 +412,7 @@ function crystalItem(item as string, level as string, pool as string) as IItemSt
 }
 
 // Farmable Items
-crystal.addRecipe([], [[crystalItem("minecraft:sugar_cane", 0, "Farmable")],
-[crystalItem("minecraft:carrot", 0, "Farmable")],
-[crystalItem("minecraft:potato", 0, "Farmable")],
-[crystalItem("minecraft:wheat_seeds", 0, "Farmable")],
-[crystalItem("minecraft:wheat", 0, "Farmable")],
+crystal.addRecipe([], [[crystalItem("minecraft:wheat_seeds", 0, "Farmable")],
 [crystalItem("minecraft:oak_leaves", 0, "Farmable"),
 crystalItem("minecraft:spruce_leaves", 0, "Farmable"),
 crystalItem("minecraft:birch_leaves", 0, "Farmable"),
@@ -424,6 +423,10 @@ crystalItem("minecraft:azalea_leaves", 0, "Farmable"),
 crystalItem("minecraft:flowering_azalea_leaves", 0, "Farmable"),
 crystalItem("ecologics:coconut_leaves", 0, "Farmable"),
 crystalItem("ecologics:walnut_leaves", 0, "Farmable")],
+[crystalItem("minecraft:sugar_cane", 10, "Farmable")],
+[crystalItem("minecraft:carrot", 10, "Farmable")],
+[crystalItem("minecraft:potato", 10, "Farmable")],
+[crystalItem("minecraft:wheat", 10, "Farmable")],
 [crystalItem("minecraft:kelp", 10, "Farmable")],
 [crystalItem("minecraft:cactus", 10, "Farmable")],
 [crystalItem("minecraft:bamboo", 10, "Farmable")],
@@ -472,21 +475,21 @@ crystalItem("minecraft:lilac", 20, "Farmable")],
 [crystalItem("minecraft:wither_rose", 75, "Farmable")]]);
 
 // Resource
-crystal.addRecipe([], [[crystalItem("minecraft:cobblestone", 0, "Resource")],
-[crystalItem("minecraft:diorite", 0, "Resource")],
-[crystalItem("minecraft:andesite", 0, "Resource")],
-[crystalItem("minecraft:granite", 0, "Resource")],
-[crystalItem("minecraft:stone", 0, "Resource")],
-[crystalItem("minecraft:gravel", 0, "Resource")],
-[crystalItem("minecraft:sand", 0, "Resource"),
-crystalItem("minecraft:red_sand", 0, "Resource")],
+crystal.addRecipe([], [[crystalItem("minecraft:cobblestone", 0, "Resource"),
+crystalItem("minecraft:diorite", 0, "Resource"),
+crystalItem("minecraft:andesite", 0, "Resource"),
+crystalItem("minecraft:granite", 0, "Resource")],
 [crystalItem("minecraft:dirt", 0, "Resource")],
-[crystalItem("minecraft:oak_log", 0, "Resource"),
-crystalItem("minecraft:spruce_log", 0, "Resource"),
-crystalItem("minecraft:birch_log", 0, "Resource"),
-crystalItem("minecraft:jungle_log", 0, "Resource"),
-crystalItem("minecraft:acacia_log", 0, "Resource"),
-crystalItem("minecraft:dark_oak_log", 0, "Resource")],
+[crystalItem("minecraft:stone", 10, "Resource")],
+[crystalItem("minecraft:gravel", 10, "Resource")],
+[crystalItem("minecraft:sand", 10, "Resource"),
+crystalItem("minecraft:red_sand", 10, "Resource")],
+[crystalItem("minecraft:oak_log", 10, "Resource"),
+crystalItem("minecraft:spruce_log", 10, "Resource"),
+crystalItem("minecraft:birch_log", 10, "Resource"),
+crystalItem("minecraft:jungle_log", 10, "Resource"),
+crystalItem("minecraft:acacia_log", 10, "Resource"),
+crystalItem("minecraft:dark_oak_log", 10, "Resource")],
 [crystalItem("minecraft:moss_block", 10, "Resource")],
 [crystalItem("minecraft:white_wool", 10, "Resource"),
 crystalItem("minecraft:orange_wool", 10, "Resource"),
@@ -600,12 +603,14 @@ crystalItem("minecraft:black_concrete_powder", 20, "Resource")],
 [crystalItem("minecraft:calcite", 75, "Resource")],
 [crystalItem("minecraft:rooted_dirt", 75, "Resource")]]);
 
+
 // Mob
-crystal.addRecipe([], [[crystalItem("minecraft:string", 0, "Mob")],
-[crystalItem("minecraft:rotten_flesh", 0, "Mob")],
-[crystalItem("minecraft:bone", 0, "Mob")],
-[crystalItem("minecraft:spider_eye", 0, "Mob")],
-[crystalItem("minecraft:arrow", 0, "Mob")],
+crystal.addRecipe([], [[crystalItem("minecraft:stick", 0, "Mob")],
+[crystalItem("minecraft:string", 10, "Mob")],
+[crystalItem("minecraft:rotten_flesh", 10, "Mob")],
+[crystalItem("minecraft:bone", 10, "Mob")],
+[crystalItem("minecraft:spider_eye", 10, "Mob")],
+[crystalItem("minecraft:arrow", 10, "Mob")],
 [crystalItem("minecraft:feather", 10, "Mob")],
 [crystalItem("minecraft:porkchop", 10, "Mob")],
 [crystalItem("minecraft:beef", 10, "Mob")],
@@ -654,15 +659,15 @@ crystalItem("minecraft:black_dye", 10, "Mob")],
 [crystalItem("minecraft:phantom_membrane", 75, "Mob")]]);
 
 // Misc
-crystal.addRecipe([], [[crystalItem("minecraft:pointed_dripstone", 0, "Misc")],
-[crystalItem("minecraft:gold_ingot", 0, "Misc")],
-[crystalItem("minecraft:iron_ingot", 0, "Misc")],
-[crystalItem("minecraft:redstone", 0, "Misc")],
-[crystalItem("minecraft:emerald", 0, "Misc")],
-[crystalItem("minecraft:lapis_lazuli", 0, "Misc")],
+crystal.addRecipe([], [[crystalItem("minecraft:iron_ingot", 0, "Misc")],
 [crystalItem("minecraft:copper_ingot", 0, "Misc")],
 [crystalItem("minecraft:coal", 0, "Misc"),
 crystalItem("minecraft:charcoal", 0, "Misc")],
+[crystalItem("minecraft:pointed_dripstone", 10, "Misc")],
+[crystalItem("minecraft:gold_ingot", 10, "Misc")],
+[crystalItem("minecraft:redstone", 10, "Misc")],
+[crystalItem("minecraft:emerald", 10, "Misc")],
+[crystalItem("minecraft:lapis_lazuli", 10, "Misc")],
 [crystalItem("minecraft:amethyst_shard", 10, "Misc")],
 [crystalItem("minecraft:diamond", 10, "Misc")],
 [crystalItem("minecraft:spore_blossom", 10, "Misc")],
