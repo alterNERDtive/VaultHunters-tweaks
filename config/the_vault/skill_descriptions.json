@@ -263,7 +263,7 @@
     ,"Auto Feeding": [{"text":"Unlocks the ability to craft "},{"text":"Feeding Upgrades","color":"yellow"},{"text":" for your pouches, belts & backpacks!\n\n"},{"text":"Feeding Upgrades","color":"yellow"},{"text":" can automatically feed you directly from your pouches, belts & backpacks and removes the need to eat food manually."}]
     ,"Double Pouches": [{"text":"Unlocks the ability to craft "},{"text":"Double Pouches","color":"yellow"},{"text":", which offers more storage space and one more upgrade slot than Pouches."}]
     ,"Belts": [{"text":"Unlocks the ability to craft "},{"text":"Belts","color":"yellow"},{"text":", which offers more storage space than Double Pouches."}]
-    ,"Backpacks": [{"text":"Unlocks the ability to craft "},{"text":"Backpacks","color":"yellow"},{"text":", which offers more storage space and one more upgrade slot than Belts."}]
-    ,"Big Backpacks": [{"text":"Unlocks the ability to craft "},{"text":"Big Backpacks","color":"yellow"},{"text":", which offers more storage space and one more upgrade slot than Backpacks."}]
+    ,"Backpacks": [{"text":"Unlocks the ability to craft "},{"text":"Backpacks","color":"yellow"},{"text":", which offers more storage space and two more upgrade slots than Belts."}]
+    ,"Big Backpacks": [{"text":"Unlocks the ability to craft "},{"text":"Big Backpacks","color":"yellow"},{"text":", which offers more storage space and two more upgrade slots than Backpacks."}]
   }
 }
