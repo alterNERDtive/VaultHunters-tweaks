@@ -113,7 +113,7 @@
       {"value": {"id": "thermal:dynamo_disenchantment", "amountMin": 1, "amountMax": 1}, "weight": 100},
       {"value": {"id": "thermal:dynamo_gourmand", "amountMin": 1, "amountMax": 1}, "weight": 100}
     ],
-    "Thermal": [
+    "Thermal Expansion": [
       {"value": {"id": "thermal:device_nullifier", "amountMin": 1, "amountMax": 1}, "weight": 100},
       {"value": {"id": "thermal:device_water_gen", "amountMin": 1, "amountMax": 1}, "weight": 80},
       {"value": {"id": "thermal:device_fisher", "amountMin": 1, "amountMax": 1}, "weight": 60},
@@ -153,7 +153,7 @@
     ],
     "Botania": [
       {"value": {"id": "botania:blacker_lotus", "amountMin": 1, "amountMax": 1}, "weight": 140},
-      {"value": {"id": "botania:gourmaryllys", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "botania:gourmaryllis", "amountMin": 1, "amountMax": 1}, "weight": 80},
       {"value": {"id": "botania:rosa_arcana", "amountMin": 1, "amountMax": 1}, "weight": 80},
       {"value": {"id": "botania:overgrowth_seed", "amountMin": 1, "amountMax": 1}, "weight": 70},
       {"value": {"id": "botania:munchdew", "amountMin": 1, "amountMax": 1}, "weight": 60},

@@ -14,7 +14,7 @@ running the accompanying mod__: https://git.alternerd.tv/the_vault-tweaks
 I’m also running <https://github.com/radimous/SkinFighters> and
 <https://github.com/radimous/FastVaultGear>.
 
-_Currently confirmed working on version_: __3.11.2.1__
+_Currently confirmed working on version_: __3.11.2.2__
 
 ## Installation
 
