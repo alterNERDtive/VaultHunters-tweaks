@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/chaos_starts",
+  "rooms": "the_vault:vault/rooms/chaos_rooms",
+  "tunnels": "the_vault:vault/tunnels/chaos_tunnels",
+  "ambient_light": 0.25,
+  "fog_color": 0,
+  "grass_color": 16777215,
+  "foliage_color": 16777215,
+  "water_color": 16777215,
+  "water_fog_color": 16777215,
+  "particle": "the_vault:reverse_diffuser",
+  "particle_probability": 0.15
+}

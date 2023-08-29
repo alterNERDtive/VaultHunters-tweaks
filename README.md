@@ -430,15 +430,26 @@ lazy and want to be able to auto craft them.
 
 #### Vanilla Recipes
 
-* Added recipe for making Concrete in a crafting table with a water bucket, 
-  similar to the Building Gadgets’ Dense Paste recipe added in Update 10.
+Added recipe for making Concrete in a crafting table with a water bucket, 
+similar to the Building Gadgets’ Dense Paste recipe added in Update 10.
 
 #### Vault Alloy
 
-* Added recipe: Vault Ingot + Vaulterite Ingot.
+Added recipe: Vault Ingot + Vaulterite Ingot.
 
 Vault Ingots are kinda useless right now otherwise.
 
 #### Vault Diffuser
 
-* Increased the payout for common scavenger items from 1 to 4.
+Increased the payout for common scavenger items from 1 to 4.
+
+## Miscellaneous
+
+### Chaos Vault Theme
+
+Added the Chaos Vault Theme by `joshwannapaas` on Discord. Combine a random 
+Vault Augment with a Chaos Catalyst to craft a Chaos Augment. Will not consume 
+the Catalyst.
+
+The Chaos Vault Theme picks every room and corridor from a random theme for an 
+extra chaotic experience.
