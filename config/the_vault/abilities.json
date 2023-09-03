@@ -193,7 +193,7 @@
           {
             "type": "tiered",
             "id": "Heal_Group",
-            "name": "Heal: Aid",
+            "name": "Group Heal",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -392,7 +392,7 @@
           {
             "type": "tiered",
             "id": "Heal_Cleanse",
-            "name": "Heal: Cleanse",
+            "name": "Cleanse",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -423,7 +423,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 600,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "cleanse_1"
               },
               {
                 "type": "heal_cleanse",
@@ -453,7 +454,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 560,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "cleanse_2"
               },
               {
                 "type": "heal_cleanse",
@@ -483,7 +485,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 520,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "cleanse_3"
               },
               {
                 "type": "heal_cleanse",
@@ -513,7 +516,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 480,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "cleanse_4"
               },
               {
                 "type": "heal_cleanse",
@@ -1131,7 +1135,7 @@
           {
             "type": "tiered",
             "id": "Dash_Damage",
-            "name": "Dash: Bullet",
+            "name": "Bullet",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -1321,7 +1325,7 @@
           {
             "type": "tiered",
             "id": "Dash_Warp",
-            "name": "Dash: Warp",
+            "name": "Warp",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -1725,7 +1729,7 @@
           {
             "type": "tiered",
             "id": "Nova_Slow",
-            "name": "Nova: Frost",
+            "name": "Frost Nova",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -1800,7 +1804,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 400,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "nova_frost_5"
               },
               {
                 "type": "nova_slow",
@@ -1814,7 +1819,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 400,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "nova_frost_6"
               },
               {
                 "type": "nova_slow",
@@ -1828,7 +1834,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 400,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "nova_frost_7"
               },
               {
                 "type": "nova_slow",
@@ -1842,7 +1849,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 400,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "nova_frost_8"
               },
               {
                 "type": "nova_slow",
@@ -1989,7 +1997,7 @@
           {
             "type": "tiered",
             "id": "Nova_Dot",
-            "name": "Nova: Poison",
+            "name": "Poison Nova",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -2462,7 +2470,7 @@
           {
             "type": "tiered",
             "id": "Ghost_Walk_Spirit",
-            "name": "Ghost Walk: Spirit",
+            "name": "Spirit Walk",
             "maxLearnableTier": 2,
             "tiers": [
               {
@@ -2596,7 +2604,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 100,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_jump_1"
               },
               {
                 "type": "mega_jump",
@@ -2605,7 +2614,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 100,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_jump_2"
               },
               {
                 "type": "mega_jump",
@@ -2614,7 +2624,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 100,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_jump_3"
               },
               {
                 "type": "mega_jump",
@@ -2623,7 +2634,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 100,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_jump_4"
               },
               {
                 "type": "mega_jump",
@@ -2632,7 +2644,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 100,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_jump_5"
               },
               {
                 "type": "mega_jump",
@@ -2641,7 +2654,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 100,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_jump_6"
               },
               {
                 "type": "mega_jump",
@@ -2650,7 +2664,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 100,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_jump_7"
               },
               {
                 "type": "mega_jump",
@@ -2659,7 +2674,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 100,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_jump_8"
               },
               {
                 "type": "mega_jump",
@@ -2781,7 +2797,7 @@
           {
             "type": "tiered",
             "id": "Mega_Jump_Break_Down",
-            "name": "Mega Jump: Dig",
+            "name": "Mega Dig",
             "maxLearnableTier": 5,
             "tiers": [
               {
@@ -2792,7 +2808,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 200,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_drill_1"
               },
               {
                 "type": "mega_jump_break_down",
@@ -2802,7 +2819,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 200,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_drill_2"
               },
               {
                 "type": "mega_jump_break_down",
@@ -2823,7 +2841,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 200,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_drill_4"
               },
               {
                 "type": "mega_jump_break_down",
@@ -2833,7 +2852,8 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 200,
-                "unlockLevel": 0
+                "unlockLevel": 0,
+                "id": "mega_drill_5"
               },
               {
                 "type": "mega_jump_break_down",
@@ -3096,7 +3116,7 @@
           {
             "type": "tiered",
             "id": "Rampage_Leech",
-            "name": "Rampage: Vampire",
+            "name": "Vampiric",
             "maxLearnableTier": 4,
             "tiers": [
               {
@@ -3258,7 +3278,7 @@
           {
             "type": "tiered",
             "id": "Rampage_Chain",
-            "name": "Rampage: Chain",
+            "name": "Chaining",
             "maxLearnableTier": 4,
             "tiers": [
               {
@@ -3681,7 +3701,7 @@
           {
             "type": "tiered",
             "id": "Smite_Archon",
-            "name": "Smite: Archon",
+            "name": "Archon",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -4327,7 +4347,7 @@
           {
             "type": "tiered",
             "id": "Empower_Ice_Armor",
-            "name": "Empower: Ice Armor",
+            "name": "Ice Armor",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -4562,7 +4582,7 @@
           {
             "type": "tiered",
             "id": "Empower_Slowness_Aura",
-            "name": "Empower: Entropic Bind",
+            "name": "Entropic Bind",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -4994,7 +5014,7 @@
           {
             "type": "tiered",
             "id": "Vein_Miner_Durability",
-            "name": "Vein Miner: Finesse",
+            "name": "Finesse Miner",
             "maxLearnableTier": 4,
             "tiers": [
               {
@@ -5128,7 +5148,7 @@
           {
             "type": "tiered",
             "id": "Vein_Miner_Void",
-            "name": "Vein Miner: Void",
+            "name": "Void Miner",
             "maxLearnableTier": 4,
             "tiers": [
               {
@@ -7527,7 +7547,7 @@
           {
             "type": "tiered",
             "id": "Mana_Shield_Retribution",
-            "name": "Mana Shield: Retribution",
+            "name": "Retribution",
             "maxLearnableTier": 10,
             "tiers": [
               {
@@ -7795,7 +7815,7 @@
           {
             "type": "tiered",
             "id": "Mana_Shield_Implode",
-            "name": "Mana Shield: Implode",
+            "name": "Implode",
             "maxLearnableTier": 10,
             "tiers": [
               {
@@ -8235,7 +8255,7 @@
           {
             "type": "tiered",
             "id": "Taunt_Repel",
-            "name": "Taunt: Fear",
+            "name": "Fear",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -8459,7 +8479,7 @@
           {
             "type": "tiered",
             "id": "Taunt_Charm",
-            "name": "Taunt: Charm",
+            "name": "Charm",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -8951,7 +8971,7 @@
           {
             "type": "tiered",
             "id": "Stonefall_Snow",
-            "name": "Stonefall: Hero's Landing",
+            "name": "Hero's Landing",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -9211,7 +9231,7 @@
           {
             "type": "tiered",
             "id": "Stonefall_Cold",
-            "name": "Stonefall: Coldsnap",
+            "name": "Coldsnap",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -9515,7 +9535,7 @@
           {
             "type": "tiered",
             "id": "Totem_Base",
-            "name": "Totem: Rejuvenation",
+            "name": "Rejuvenation Totem",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -9739,7 +9759,7 @@
           {
             "type": "tiered",
             "id": "Totem_Player_Damage",
-            "name": "Totem: Wrath",
+            "name": "Wrath Totem",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -9981,7 +10001,7 @@
           {
             "type": "tiered",
             "id": "Totem_Mana_Regen",
-            "name": "Totem: Spirit",
+            "name": "Spirit Totem",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -10223,7 +10243,7 @@
           {
             "type": "tiered",
             "id": "Totem_Mob_Damage",
-            "name": "Totem: Hatred",
+            "name": "Hatred Totem",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -10643,7 +10663,7 @@
           {
             "type": "tiered",
             "id": "Javelin_Piercing",
-            "name": "Javelin: Piercing",
+            "name": "Piercing Javelin",
             "maxLearnableTier": 2,
             "tiers": [
               {
@@ -10795,7 +10815,7 @@
           {
             "type": "tiered",
             "id": "Javelin_Scatter",
-            "name": "Javelin: Scatter",
+            "name": "Scatter Javelin",
             "maxLearnableTier": 2,
             "tiers": [
               {
@@ -10971,7 +10991,7 @@
           {
             "type": "tiered",
             "id": "Javelin_Sight",
-            "name": "Javelin: Sight",
+            "name": "Sight Javelin",
             "maxLearnableTier": 2,
             "tiers": [
               {
@@ -11377,7 +11397,7 @@
           {
             "type": "tiered",
             "id": "Shell_Porcupine",
-            "name": "Shell: Porcupine",
+            "name": "Porcupine",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -11594,7 +11614,7 @@
           {
             "type": "tiered",
             "id": "Shell_Quill",
-            "name": "Shell: Quill",
+            "name": "Quill",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -12043,7 +12063,7 @@
           {
             "type": "tiered",
             "id": "Fireball_Volley",
-            "name": "Fireball: Volley",
+            "name": "Fire Volley",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -12267,7 +12287,7 @@
           {
             "type": "tiered",
             "id": "Fireball_Fireshot",
-            "name": "Fireball: Fireshot",
+            "name": "Fireshot",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -12723,7 +12743,7 @@
           {
             "type": "tiered",
             "id": "Storm_Arrow_Blizzard",
-            "name": "Storm Arrow: Blizzard",
+            "name": "Blizzard Arrow",
             "maxLearnableTier": 8,
             "tiers": [
               {
@@ -13239,7 +13259,7 @@
           {
             "type": "tiered",
             "id": "Battle_Cry_Spectral_Strike",
-            "name": "Battle Cry: Spectral Strike",
+            "name": "Spectral Cry",
             "maxLearnableTier": 4,
             "tiers": [
               {
@@ -13415,7 +13435,7 @@
           {
             "type": "tiered",
             "id": "Battle_Cry_Lucky_Strike",
-            "name": "Battle Cry: Lucky Strike",
+            "name": "Lucky Cry",
             "maxLearnableTier": 4,
             "tiers": [
               {

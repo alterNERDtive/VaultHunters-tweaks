@@ -457,7 +457,7 @@
         }
       },
       "name": "Botany Pots",
-      "cost": 2,
+      "cost": 4,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/fairy/helmet",
@@ -1043,13 +1043,6 @@
     {
       "itemRestrictions": {
         "the_vault:bottle{type:\"potion\"}": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
-            }
-        },
-        "the_vault:alchemy_table": {
           "restricts": {
             "HITTABILITY": true,
             "USABILITY": true,
