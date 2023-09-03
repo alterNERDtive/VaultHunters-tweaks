@@ -33,7 +33,7 @@
           },
           {
             "type": "gear_attribute",
-            "attribute": "the_vault:damage_illagers",
+            "attribute": "the_vault:ability_power",
             "value": 12.0,
             "learnPointCost": 1,
             "regretPointCost": 1,

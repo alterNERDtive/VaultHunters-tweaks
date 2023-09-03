@@ -99,6 +99,8 @@ rules.
 
 ## Fixes
 
+* Fixed the “Intelligence” talent giving Illager damage at tier 4. Seems they 
+  don’t even force 4 eyes when commiting …
 * ~~Fixed “Wild” having a significantly higher weight than the other negative
   modifiers past level 20.~~ No longer exists as random modifier.
 * Vault compass can once again be put in a backpack. The exploit that prompted
