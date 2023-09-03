@@ -99,6 +99,7 @@ rules.
 
 ## Fixes
 
+* Fixed BCC version number, AGAIN.
 * Fixed the “Intelligence” talent giving Illager damage at tier 4. Seems they 
   don’t even force 4 eyes when commiting …
 * ~~Fixed “Wild” having a significantly higher weight than the other negative
