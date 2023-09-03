@@ -25,6 +25,7 @@
 		"minecraft:spruce_boat",
 		"minecraft:acacia_boat",
 		"minecraft:birch_boat",
+		"the_vault:animal_jar",
 		"minecraft:jungle_boat",
 		"minecraft:dark_oak_boat",
 		"minecraft:egg",
@@ -184,7 +185,10 @@
 		"ae2:portable_item_cell_64k",
 		"ae2:portable_item_cell_256k",
 		"minecraft:firework_rocket",
-		"naturescompass:naturescompass"
+		"naturescompass:naturescompass",
+		"supplementaries:bomb",
+		"supplementaries:bomb_blue",
+		"supplementaries:bomb_spiky"
 	],
 	"BLOCK_BLACKLIST": [
 		"darkutils:*",
@@ -207,6 +211,7 @@
 		"ae2:spatial_io_port",
 		"ae2:debug_phantom_node",
 		"ae2:sky_compass",
+		"the_vault:animal_jar",
 		"ae2:creative_energy_cell",
 		"ae2:sky_stone_chest",
 		"ae2:wireless_access_point",

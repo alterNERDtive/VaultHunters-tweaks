@@ -15,7 +15,7 @@
             "color": "$text"
           },
           {
-            "text": "\n\nIn this quest line we teach you about the basic fundamentals of the game and help you get started on your journey. ",
+            "text": "\n\nIn this quest line we teach you about the basic fundamentals of the game and help you get started on your journey.",
             "color": "$text"
           },
           {
@@ -59,7 +59,7 @@
             "color": "$text"
           },
           {
-            "text": "\n/the_vault research_team invite playername ",
+            "text": "\n\n/the_vault research_team invite playername ",
             "color": "$manaCost"
           },
           {
@@ -365,6 +365,10 @@
           {
             "item": "minecraft:experience_bottle",
             "amount": 10
+          },
+          {
+            "item": "minecraft:emerald",
+            "amount": 20
           }
         ],
         "vaultExp": 0
@@ -418,8 +422,12 @@
       "reward": {
         "items": [
           {
-            "item": "the_vault:vault_bronze",
-            "amount": 32
+            "item": "the_vault:sword",
+            "nbt": ""
+          },
+          {
+            "item": "the_vault:shield",
+            "nbt": ""
           }
         ],
         "vaultExp": 0
@@ -1163,6 +1171,80 @@
       }
     },
     {
+      "type": "collection",
+      "id": "regret",
+      "name": "Regretting Decisions",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "It can be rather stressful to make decisions when it comes to which abilities and what talents to take throughout your playthrough, but, don't stress!\n\nVault Hunters have a mechanic for regretting your decisions using ",
+            "color": "$text"
+          },
+          {
+            "text": "Regret Orbs",
+            "color": "$regret"
+          },
+          {
+            "text": ". Consuming a Regret Orb will give you an unspent regret point, which can be used to unlearn talents or abilities.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "To craft a Regret Orb you need ",
+            "color": "$text"
+          },
+          {
+            "text": "Regret Nuggets",
+            "color": "$regret"
+          },
+          {
+            "text": " which can be found in ",
+            "color": "$text"
+          },
+          {
+            "text": "Gilded Chests",
+            "color": "$gilded"
+          },
+          {
+            "text": ". Fully completed Regret Orbs can also be obtained through",
+            "color": "$text"
+          },
+          {
+            "text": " bounties ",
+            "color": "$name"
+          },
+          {
+            "text": "and",
+            "color": "$text"
+          },
+          {
+            "text": " completion crates",
+            "color": "$name"
+          },
+          {
+            "text": ".",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nAcquire a Regret Orb",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/regretorb",
+      "targetId": "the_vault:regret_orb",
+      "targetProgress": 1.0,
+      "unlockedBy": "sage_seal",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:regret_orb",
+            "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
       "type": "block_interact",
       "id": "complete_god_altar",
       "name": "God Altars",
@@ -1193,7 +1275,7 @@
       "icon": "the_vault:gui/quests/god_altar",
       "targetId": "the_vault:god_altar",
       "targetProgress": 1.0,
-      "unlockedBy": "sage_seal",
+      "unlockedBy": "regret",
       "reward": {
         "items": [
           {
@@ -1265,6 +1347,86 @@
     },
     {
       "type": "collection",
+      "id": "soul_diffuser",
+      "name": "The Soul Diffuser",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "The Soul Diffuser breaks down vault items into soul dust which can then be turned into Soul Shards to be used as a currency for the Black Market. This gives you the choice of deciding what you deem valuable and what you deem worthy of diffusing!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nAcquire a Vault Soul Diffuser",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/diffuser",
+      "targetId": "the_vault:vault_diffuser",
+      "targetProgress": 1.0,
+      "unlockedBy": "craft_black_market",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:soul_shard",
+            "amount": 256
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "identification_stand",
+      "name": "Identification Stand",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "The Identification Stand is a block that when right clicked on will ",
+            "color": "$text"
+          },
+          {
+            "text": "identify",
+            "color": "$name"
+          },
+          {
+            "text": " all unidentified vault gear in your inventory instantly.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nAcquire an Identification Stand",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/identificationstand",
+      "targetId": "the_vault:identification_stand",
+      "targetProgress": 1.0,
+      "unlockedBy": "soul_diffuser",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:helmet",
+            "nbt": ""
+          },
+          {
+            "item": "the_vault:chestplate",
+            "nbt": ""
+          },
+          {
+            "item": "the_vault:leggings",
+            "nbt": ""
+          },
+          {
+            "item": "the_vault:boots",
+            "nbt": ""
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
       "id": "craft_knowledge_star",
       "name": "Using Knowledge",
       "descriptionData": {
@@ -1282,7 +1444,7 @@
       "icon": "the_vault:gui/quests/knowledge",
       "targetId": "the_vault:knowledge_star",
       "targetProgress": 1.0,
-      "unlockedBy": "craft_black_market",
+      "unlockedBy": "identification_stand",
       "reward": {
         "items": [
           {
@@ -1316,6 +1478,10 @@
         "items": [
           {
             "item": "the_vault:knowledge_star"
+          },
+          {
+            "item": "the_vault:regret_orb",
+            "amount": 10
           }
         ],
         "vaultExp": 0
@@ -1526,36 +1692,7 @@
         "vaultExp": 0
       }
     },
-    {
-      "type": "collection",
-      "id": "soul_diffuser",
-      "name": "The Soul Diffuser",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "The Soul Diffuser breaks down vault items into soul dust which can then be turned into Soul Shards to be used as a currency for the Black Market. This gives you the choice of deciding what you deem valuable and what you deem worthy of diffusing!",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nAcquire a Vault Soul Diffuser",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/diffuser",
-      "targetId": "the_vault:vault_diffuser",
-      "targetProgress": 1.0,
-      "unlockedBy": "apply_catalyst",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:soul_shard",
-            "amount": 256
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
+    
     {
       "type": "collection",
       "id": "modifier_workbench",
@@ -1575,7 +1712,7 @@
       "icon": "the_vault:gui/quests/modifier",
       "targetId": "the_vault:modifier_workbench",
       "targetProgress": 1.0,
-      "unlockedBy": "soul_diffuser",
+      "unlockedBy": "apply_catalyst",
       "reward": {
         "items": [
           {

@@ -4,6 +4,46 @@
     "skills": [
       {
         "type": "tiered",
+        "id": "Intelligence",
+        "name": "Intelligence",
+        "tiers": [
+          {
+            "type": "gear_attribute",
+            "attribute": "the_vault:ability_power",
+            "value": 3.0,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "gear_attribute",
+            "attribute": "the_vault:ability_power",
+            "value": 6.0,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "gear_attribute",
+            "attribute": "the_vault:ability_power",
+            "value": 9.0,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "gear_attribute",
+            "attribute": "the_vault:damage_illagers",
+            "value": 12.0,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          }
+        ]
+      },
+      
+      {
+        "type": "tiered",
         "id": "Haste",
         "name": "Haste",
         "tiers": [
@@ -1272,7 +1312,21 @@
         "tiers": [
           {
             "type": "prudent",
+            "probability": 0.05,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "prudent",
             "probability": 0.1,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "prudent",
+            "probability": 0.15,
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -1286,7 +1340,21 @@
           },
           {
             "type": "prudent",
+            "probability": 0.25,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "prudent",
             "probability": 0.3,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "prudent",
+            "probability": 0.35,
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -1308,28 +1376,28 @@
           {
             "type": "alchemist",
             "durationIncrease": 0.2,
-            "learnPointCost": 1,
+            "learnPointCost": 2,
             "regretPointCost": 1,
             "unlockLevel": 0
           },
           {
             "type": "alchemist",
             "durationIncrease": 0.4,
-            "learnPointCost": 1,
+            "learnPointCost": 2,
             "regretPointCost": 1,
             "unlockLevel": 0
           },
           {
             "type": "alchemist",
             "durationIncrease": 0.6,
-            "learnPointCost": 1,
+            "learnPointCost": 2,
             "regretPointCost": 1,
             "unlockLevel": 0
           },
           {
             "type": "alchemist",
             "durationIncrease": 0.8,
-            "learnPointCost": 1,
+            "learnPointCost": 2,
             "regretPointCost": 1,
             "unlockLevel": 0
           }
