@@ -266,5 +266,6 @@
     ,"Backpacks": [{"text":"Unlocks the ability to craft "},{"text":"Backpacks","color":"yellow"},{"text":", which offers more storage space and two more upgrade slots than Belts."}]
     ,"Big Backpacks": [{"text":"Unlocks the ability to craft "},{"text":"Big Backpacks","color":"yellow"},{"text":", which offers more storage space and two more upgrade slots than Backpacks."}]
     ,"Intelligence": [{"text":"Increases your "},{"text":"Ability Power","color":"#FF00CB"},{"text":"\n\n1 "},{"text":"+3","color":"#FF00CB"},{"text":"\n2 "},{"text":"+6","color":"#FF00CB"},{"text":"\n3 "},{"text":"+9","color":"#FF00CB"},{"text":"\n4 "},{"text":"+12","color":"#FF00CB"}]
+    ,"Soul Harvester": [{"text":"Unlocks the "},{"text":"Soul Harvester","color":"yellow"},{"text":" which is a much faster way of breaking down items to "},{"text":"Soul Essence","color":"light_purple"},{"text":".\n\nThe Soul Harvester automatically pulls from an inventory above it, and automatically pushes to an inventory below it, and it is, very fast."}]
   }
 }
