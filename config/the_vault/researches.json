@@ -1335,9 +1335,10 @@
       "cost": 2,
       "usesKnowledge": true
     },
+    
     {
       "itemRestrictions": {
-        "botania:mana_fluxfield": {
+        "the_vault:vault_harvester": {
           "restricts": {
             "HITTABILITY": true,
             "USABILITY": true,
@@ -1347,7 +1348,7 @@
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
-      "name": "Botania Flux Field",
+      "name": "Soul Harvester",
       "cost": 2,
       "usesKnowledge": true
     }

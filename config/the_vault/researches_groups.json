@@ -96,7 +96,8 @@
         "Junk Management",
         "Stack Upgrading",
         "Auto Feeding",
-        "Auto Refill"
+        "Auto Refill",
+        "Soul Harvester"
 
       ],
       "globalCostIncrease": 0.0,

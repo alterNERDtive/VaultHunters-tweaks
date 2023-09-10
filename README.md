@@ -14,7 +14,7 @@ running the accompanying mod__: https://git.alternerd.tv/the_vault-tweaks
 I’m also running <https://github.com/radimous/SkinFighters> and
 <https://github.com/radimous/FastVaultGear>.
 
-_Currently confirmed working on version_: __3.11.3__
+_Currently confirmed working on version_: __3.11.4__
 
 ## Installation
 
@@ -99,7 +99,7 @@ rules.
 
 ## Fixes
 
-* Fixed BCC version number, AGAIN.
+* Fixed BCC version number, AGAIN. (AND AGAIN.)
 * Fixed the “Intelligence” talent giving Illager damage at tier 4. Seems they 
   don’t even force 4 eyes when commiting …
 * ~~Fixed “Wild” having a significantly higher weight than the other negative

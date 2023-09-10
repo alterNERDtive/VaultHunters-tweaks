@@ -79,6 +79,12 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/big_backpacks"
     },
+    "Soul Harvester": {
+      "x": 250,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/soul_harvester"
+    },
     "Junk Management": {
       "x": 300,
       "y": 40,
