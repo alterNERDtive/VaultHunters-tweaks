@@ -102,7 +102,7 @@
     "the_vault:yellow_puzzle_concrete": 128,
     "the_vault:pink_puzzle_concrete": 256,
     "the_vault:green_puzzle_concrete": 1024,
-    "the_vault:god_blessing": 128,
+    "the_vault:god_blessing": 18,
     "the_vault:gorgeous_jewel": 1024,
     "the_vault:ash_jewel": 1024,
     "the_vault:benite_jewel": 1024,
@@ -220,6 +220,7 @@
     "the_vault:ancient_copper_block": 4,
     "the_vault:inscription_piece": 32,
     "the_vault:living_rock_block_cobble": 4,
+    "the_vault:gilded_candelabra": 4,
     "the_vault:default": 0
   }
 }

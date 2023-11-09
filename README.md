@@ -14,7 +14,10 @@ running the accompanying mod__: https://git.alternerd.tv/the_vault-tweaks
 I’m also running <https://github.com/radimous/SkinFighters> and
 <https://github.com/radimous/FastVaultGear>.
 
-_Currently confirmed working on version_: __3.11.5__
+_Current~~ly confirmed working on~~ version_: __3.12.1__
+
+**This is untested since i a) don’t actually play VH right now and b) am sick 
+:<**
 
 ## Installation
 
@@ -99,7 +102,7 @@ rules.
 
 ## Fixes
 
-* Fixed BCC version number, AGAIN. (AND AGAIN.) And again …
+* Fixed BCC version number, AGAIN. (AND AGAIN.) And again … oh! Again!
 * Fixed the “Intelligence” talent giving Illager damage at tier 4. Seems they 
   don’t even force 4 eyes when commiting …
 * ~~Fixed “Wild” having a significantly higher weight than the other negative
@@ -362,7 +365,8 @@ These have been integrated into the base balancing.
 
 #### Jewels
 
-* Max size lowered to 40.
+* ~~Max size lowered to 40.~~ 35 in the base game now. Will evaluate later if 
+  this stuff needs changing, with the way jewel cutting works now.
 * Added Reaping jewels (at 20% the weight of Picking/Axing/Shovelling).
 
 #### Mystery Eggs

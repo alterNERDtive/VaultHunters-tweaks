@@ -1,6 +1,14 @@
 {
   "tooltips": [
     {
+      "item": "the_vault:paradoxical_gem",
+      "value": "Combine with a sealed Divine Paradox crystal in run mode to wipe and reset all your Divine Paradox progress"
+    },
+    {
+      "item": "the_vault:plunderer_pearl",
+      "value": "Combine with an empty Vault Crystal to add the Plunderer modifier, making the vault not yield any experience, but increases the loot amount by 10% and vault ores by 25%"
+    },
+    {
       "item": "minecraft:shield",
       "value": "Shields automatically block attacks based on their block chance and can not be used to manually block\nThis Vanilla shield has a 5% block chance"
     },
