@@ -10,7 +10,7 @@
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:cat_in_a_jar": {
@@ -23,7 +23,7 @@
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "charm",
+        "curiosSlot": "blue_trinket",
         "chance": 0.75
       }
     },
@@ -37,7 +37,7 @@
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:chromatic_feather": {
@@ -50,7 +50,7 @@
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:chromatic_powder": {
@@ -65,7 +65,7 @@
       "config": {
         "key": "the_vault:durability_wear_reduction",
         "value": 0.5,
-        "curiosSlot": "trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:ender_anchor": {
@@ -78,7 +78,7 @@
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:clover": {
@@ -93,7 +93,7 @@
       "config": {
         "key": "the_vault:lucky_hit_chance_percentile",
         "value": 0.25,
-        "curiosSlot": "trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:cufflinks": {
@@ -108,7 +108,7 @@
       "config": {
         "key": "the_vault:cooldown_reduction_percentile",
         "value": 0.5,
-        "curiosSlot": "trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:spellbook": {
@@ -123,7 +123,7 @@
       "config": {
         "key": "the_vault:ability_power_percentile",
         "value": 0.5,
-        "curiosSlot": "trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:crystal_ball": {
@@ -143,7 +143,7 @@
           "amount": 1,
           "operation": 2
         },
-        "curiosSlot": "trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:elven_socks": {
@@ -156,7 +156,7 @@
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:giants_heart": {
@@ -176,7 +176,7 @@
           "amount": 0.25,
           "operation": 2
         },
-        "curiosSlot": "trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:gluttony_pendant": {
@@ -189,7 +189,7 @@
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:golden_burger": {
@@ -203,7 +203,7 @@
       "maxUses": 30,
       "config": {
         "experienceIncrease": 1.0,
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:high_heels": {
@@ -223,7 +223,7 @@
           "amount": 1.0,
           "operation": 0
         },
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:idonas_blade": {
@@ -238,7 +238,7 @@
       "config": {
         "key": "the_vault:soul_chance_percentile",
         "value": 1,
-        "curiosSlot": "trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:lucky_goose": {
@@ -253,7 +253,7 @@
       "config": {
         "key": "the_vault:item_rarity",
         "value": 0.5,
-        "curiosSlot": "trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:night_vision_goggles": {
@@ -269,7 +269,7 @@
         "effect": "",
         "addedAmplifier": 1,
 		    "radius": 16,
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:phylactery": {
@@ -289,7 +289,7 @@
           "amount": 0.5,
           "operation": 2
         },
-        "curiosSlot": "trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:tenos_charm": {
@@ -304,7 +304,7 @@
       "config": {
         "key": "the_vault:item_quantity",
         "value": 0.25,
-        "curiosSlot": "trinket"
+        "curiosSlot": "red_trinket"
       }
     },
     "the_vault:velaras_petal": {
@@ -319,7 +319,7 @@
       "config": {
         "effect": "minecraft:regeneration",
         "addedAmplifier": 1,
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:wendarrs_hourglass": {
@@ -333,7 +333,7 @@
       "maxUses": 30,
       "config": {
         "timeAdded": 3000,
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:stone_of_jordan": {
@@ -346,7 +346,7 @@
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "charm",
+        "curiosSlot": "blue_trinket",
         "name": "all_abilities",
         "value": 1
       }
@@ -361,7 +361,7 @@
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "charm"
+        "curiosSlot": "blue_trinket"
       }
     }
   }

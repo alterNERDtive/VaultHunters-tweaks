@@ -58,14 +58,21 @@
         "tiers": [
           {
             "type": "crafting_potential",
-            "chanceToNotConsumePotential": 0.25,
+            "chanceToNotConsumePotential": 0.2,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "crafting_potential",
-            "chanceToNotConsumePotential": 0.5,
+            "chanceToNotConsumePotential": 0.4,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "crafting_potential",
+            "chanceToNotConsumePotential": 0.6,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -173,7 +180,14 @@
         "tiers": [
           {
             "type": "divine",
-            "affinityIncrease": 0.15,
+            "affinityIncrease": 0.1,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "divine",
+            "affinityIncrease": 0.2,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -181,13 +195,6 @@
           {
             "type": "divine",
             "affinityIncrease": 0.3,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "divine",
-            "affinityIncrease": 0.45,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -285,13 +292,6 @@
         "tiers": [
           {
             "type": "experience",
-            "increasedExpPercentage": 5.0,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "experience",
             "increasedExpPercentage": 10.0,
             "learnPointCost": 1,
             "regretPointCost": 0,
@@ -299,7 +299,14 @@
           },
           {
             "type": "experience",
-            "increasedExpPercentage": 15.0,
+            "increasedExpPercentage": 20.0,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "experience",
+            "increasedExpPercentage": 30.0,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -334,21 +341,21 @@
         "tiers": [
           {
             "type": "jeweler",
-            "modifierChanceReduction": 0.08,
+            "numberOfFreeCuts": 1,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "jeweler",
-            "modifierChanceReduction": 0.16,
+            "numberOfFreeCuts": 2,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "jeweler",
-            "modifierChanceReduction": 0.24,
+            "numberOfFreeCuts": 3,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0

@@ -1251,7 +1251,7 @@
     },
     {
       "itemRestrictions": {
-        "the_vault:botania:mana_fluxfield": {
+        "botania:mana_fluxfield": {
           "restricts": {
             "HITTABILITY": true,
             "USABILITY": true,

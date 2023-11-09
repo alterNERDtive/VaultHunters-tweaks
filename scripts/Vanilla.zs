@@ -42,12 +42,7 @@ craftingTable.addShaped("minecraft_" + dyeName + "_concrete", <item:minecraft:${
     [<tag:items:forge:concrete>, <item:minecraft:${dyeId}>, <tag:items:forge:concrete>],
     [<tag:items:forge:concrete>, <tag:items:forge:concrete>, <tag:items:forge:concrete>]
 ]);
-
-craftingTable.addShapeless("minecraft_" + dyeName + "_shulker_box", <item:minecraft:${dyeName}_shulker_box>, [
-    <tag:items:forge:shulker_boxes>, <item:minecraft:${dyeId}>
-]);
 }
-
 
 craftingTable.addShaped("goldenapple", <item:minecraft:golden_apple>, [
     [<item:minecraft:gold_block>, <item:minecraft:gold_ingot>, <item:minecraft:gold_block>],

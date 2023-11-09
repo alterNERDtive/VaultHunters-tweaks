@@ -3453,7 +3453,7 @@
             "tiers": [
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 1.6,
                 "intervalTicks": 260,
                 "percentAbilityPowerDealt": 2.0,
                 "manaCostPerSecond": 0.4,
@@ -3466,7 +3466,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 1.7,
                 "intervalTicks": 240,
                 "percentAbilityPowerDealt": 2.5,
                 "manaCostPerSecond": 0.6,
@@ -3479,7 +3479,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 1.8,
                 "intervalTicks": 220,
                 "percentAbilityPowerDealt": 3.0,
                 "manaCostPerSecond": 0.8,
@@ -3492,7 +3492,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 1.9,
                 "intervalTicks": 200,
                 "percentAbilityPowerDealt": 3.5,
                 "manaCostPerSecond": 1.0,
@@ -3505,7 +3505,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 2.0,
                 "intervalTicks": 180,
                 "percentAbilityPowerDealt": 4.0,
                 "manaCostPerSecond": 1.2,
@@ -3518,7 +3518,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 2.1,
                 "intervalTicks": 160,
                 "percentAbilityPowerDealt": 4.5,
                 "manaCostPerSecond": 1.4,
@@ -3531,7 +3531,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 2.2,
                 "intervalTicks": 140,
                 "percentAbilityPowerDealt": 5.0,
                 "manaCostPerSecond": 1.6,
@@ -3544,7 +3544,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 2.3,
                 "intervalTicks": 120,
                 "percentAbilityPowerDealt": 5.5,
                 "manaCostPerSecond": 1.8,
@@ -3558,7 +3558,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 2.4,
                 "intervalTicks": 120,
                 "percentAbilityPowerDealt": 6.0,
                 "manaCostPerSecond": 2.0,
@@ -3572,7 +3572,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 2.5,
                 "intervalTicks": 120,
                 "percentAbilityPowerDealt": 6.5,
                 "manaCostPerSecond": 2.2,
@@ -3586,7 +3586,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 2.6,
                 "intervalTicks": 120,
                 "percentAbilityPowerDealt": 7.0,
                 "manaCostPerSecond": 2.4,
@@ -3600,7 +3600,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 2.7,
                 "intervalTicks": 120,
                 "percentAbilityPowerDealt": 7.5,
                 "manaCostPerSecond": 2.6,
@@ -3614,7 +3614,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 2.8,
                 "intervalTicks": 120,
                 "percentAbilityPowerDealt": 8.0,
                 "manaCostPerSecond": 2.8,
@@ -3628,7 +3628,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 2.9,
                 "intervalTicks": 120,
                 "percentAbilityPowerDealt": 8.5,
                 "manaCostPerSecond": 3.0,
@@ -3642,7 +3642,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 3.0,
                 "intervalTicks": 120,
                 "percentAbilityPowerDealt": 9.0,
                 "manaCostPerSecond": 3.2,
@@ -3656,7 +3656,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 3.1,
                 "intervalTicks": 120,
                 "percentAbilityPowerDealt": 9.5,
                 "manaCostPerSecond": 3.4,
@@ -3670,7 +3670,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 3.2,
                 "intervalTicks": 120,
                 "percentAbilityPowerDealt": 10.0,
                 "manaCostPerSecond": 3.6,
@@ -3684,7 +3684,7 @@
               },
               {
                 "type": "smite",
-                "radius": 4.0,
+                "radius": 3.3,
                 "intervalTicks": 120,
                 "percentAbilityPowerDealt": 6.25,
                 "manaCostPerSecond": 3.8,
@@ -3963,7 +3963,7 @@
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
-                "unlockLevel": 1,
+                "unlockLevel": 0,
                 "color": 14282239,
                 "id": "archon_18"
               }
@@ -5537,7 +5537,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5552,7 +5552,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5567,7 +5567,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5582,7 +5582,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5597,7 +5597,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5612,7 +5612,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5627,7 +5627,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5642,7 +5642,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5658,7 +5658,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5674,7 +5674,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5690,7 +5690,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5706,7 +5706,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5722,7 +5722,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5738,7 +5738,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5754,7 +5754,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5770,7 +5770,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5786,7 +5786,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -5802,7 +5802,7 @@
                 "type": "hunter",
                 "filters": [
                   "@the_vault:objective_blocks",
-                  "@the_vault:god_altars"
+                  "the_vault:god_altar"
                 ],
                 "searchRadius": 48.0,
                 "color": -14308352,
@@ -7086,7 +7086,7 @@
             "type": "tiered",
             "id": "Farmer_Base",
             "name": "Farmer",
-
+            "maxLearnableTier": 4,
             "tiers": [
               {
                 "type": "farmer",
@@ -7138,6 +7138,7 @@
             "type": "tiered",
             "id": "Farmer_Melon",
             "name": "Farmer: Cultivator",
+            "maxLearnableTier": 4,
             "tiers": [
               {
                 "type": "farmer_melon",
@@ -7189,6 +7190,7 @@
             "type": "tiered",
             "id": "Farmer_Cactus",
             "name": "Farmer: Gardener",
+            "maxLearnableTier": 4,
             "tiers": [
               {
                 "type": "farmer_cactus",
@@ -7240,6 +7242,7 @@
             "type": "tiered",
             "id": "Farmer_Animal",
             "name": "Farmer: Rancher",
+            "maxLearnableTier": 4,
             "tiers": [
               {
                 "type": "farmer_animal",
@@ -10803,12 +10806,12 @@
             "tiers": [
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 30.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 60,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 1,
                 "numberOfJavelins": 3,
                 "piercing": 1,
@@ -10817,12 +10820,12 @@
               },
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 34.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 2,
                 "numberOfJavelins": 4,
                 "piercing": 3,
@@ -10831,12 +10834,12 @@
               },
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 36.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 3,
                 "numberOfJavelins": 5,
                 "piercing": 5,
@@ -10845,12 +10848,12 @@
               },
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 38.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 3,
                 "numberOfJavelins": 6,
                 "piercing": 7,
@@ -10859,12 +10862,12 @@
               },
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 40.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 3,
                 "numberOfJavelins": 7,
                 "piercing": 9,
@@ -10873,12 +10876,12 @@
               },
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 42.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 3,
                 "numberOfJavelins": 8,
                 "piercing": 11,
@@ -10887,12 +10890,12 @@
               },
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 44.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 3,
                 "numberOfJavelins": 9,
                 "piercing": 13,
@@ -10901,12 +10904,12 @@
               },
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 46.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 3,
                 "numberOfJavelins": 10,
                 "piercing": 15,
@@ -10915,12 +10918,12 @@
               },
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 48.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 3,
                 "numberOfJavelins": 11,
                 "piercing": 17,
@@ -10929,12 +10932,12 @@
               },
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 50.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 3,
                 "numberOfJavelins": 12,
                 "piercing": 19,
@@ -10943,12 +10946,12 @@
               },
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 52.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 3,
                 "numberOfJavelins": 13,
                 "piercing": 21,
@@ -10957,12 +10960,12 @@
               },
               {
                 "type": "javelin_scatter",
-                "manaCost": 25.0,
+                "manaCost": 54.0,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 40,
                 "unlockLevel": 0,
-                "percentAttackDamageDealt": 0.3,
+                "percentAttackDamageDealt": 0.25,
                 "numberOfBounces": 3,
                 "numberOfJavelins": 14,
                 "piercing": 23,
@@ -11126,7 +11129,7 @@
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "cooldownTicks": 120,
-                "unlockLevel": 1,
+                "unlockLevel": 0,
                 "percentAttackDamageDealt": 0.2,
                 "throwPower": 1.75,
                 "radius": 52,
