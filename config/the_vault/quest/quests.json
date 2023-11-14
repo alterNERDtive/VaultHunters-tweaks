@@ -986,7 +986,7 @@
             "color": "$text"
           },
           {
-            "text": "10-30",
+            "text": "10-35",
             "color": "$qhighlight"
           },
           {
@@ -1248,7 +1248,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": " to your charges!\nSome of these ",
+            "text": " to your charges!\n\nSome of these ",
             "color": "$text"
           },
           {
@@ -1256,7 +1256,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": " has to be unlocked, which you will learn about later, but a handful are ",
+            "text": " have to be unlocked, which you will learn about later, but a handful are ",
             "color": "$text"
           },
           {
@@ -1479,7 +1479,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Jewels may not always have the perfect size to be utilised to their maximum potential, which is where the Jewel Cutting Station comes into play!\n\nThe Cutting Station takes Silver Scrap and Vault Bronze and gives the player a 50% chance to cut down the size of a jewel randomly between 1 and 10 size. If the cut fails, the jewel will be lowered by one tier' Perfect become Flawless, Flawless become Flawed, Flawed become Chipped and lastly if a Chipped jewel cut fails, the jewel will break and provide the player with a Gemstone and a small amount of Wutodie.\n\nYou may also spec into the Jeweler Expertise which provides the player with an increased chance of succeeding a cut!",
+            "text": "Jewels may not always have the perfect size to be utilised to their maximum potential, which is where the Jewel Cutting Station comes into play!\n\nThe Cutting Station takes Silver Scrap and Vault Bronze and gives the player a 50% chance to cut down the size of a jewel randomly between 1 and 10 size. If the cut fails, the jewel will be lowered by one tier' Perfect become Flawless, Flawless become Flawed, Flawed become Chipped and lastly if a Chipped jewel cut fails, the jewel will break and provide the player with a Gemstone and a small amount of Wutodie.\n\nYou may also spec into the Jeweler Expertise which provides the player with up to 3 free cuts without removing an affix!",
             "color": "$text"
           },
           {
@@ -1769,7 +1769,7 @@
             "color": "$text"
           },
           {
-            "text": "tossed in to fire",
+            "text": "dropped in to fire",
             "color": "$orange"
           },
           {
@@ -1777,7 +1777,7 @@
             "color": "$text"
           },
           {
-            "text": "fragment",
+            "text": "Artifact Fragment",
             "color": "$fragment"
           },
           {
@@ -1822,7 +1822,7 @@
       "icon": "the_vault:gui/quests/extractor",
       "targetId": "the_vault:spirit_extractor",
       "targetProgress": 1.0,
-      "unlockedBy": "reach_level_20",
+      "unlockedBy": "artifact",
       "reward": {
         "items": [
           {
@@ -1978,7 +1978,7 @@
       "descriptionData": {
         "description": [
             {
-              "text": "Dungeons are scary places inside the vault, containing a challenge and loot!\n",
+              "text": "Dungeons are scary places inside the vault, containing a challenge and loot!\n\n",
               "color": "$text"
             },
             {
@@ -2018,7 +2018,7 @@
               "color": "$text"
             },
             {
-              "text": "Dungeons have different ",
+              "text": " Dungeons have different ",
               "color": "$text"
             },
             {
@@ -2042,7 +2042,7 @@
               "color": "$qhighlight"
             },
             {
-              "text": "!\nDungeons also contain",
+              "text": "!\n\nDungeons also contain",
               "color": "$text"
             },
             {
