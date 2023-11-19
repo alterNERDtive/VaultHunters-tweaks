@@ -198,7 +198,8 @@
     "the_vault:elite_spider": 1800.0,
     "the_vault:elite_stray": 2600.0,
     "the_vault:elite_witch": 2600.0,
-    "the_vault:elite_wither_skeleton": 3000.0 
+    "the_vault:elite_wither_skeleton": 3000.0,
+    "the_vault:levishroom": 64.0
   },
   "completion" : {
     "boss": {

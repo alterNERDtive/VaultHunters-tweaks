@@ -14,7 +14,7 @@ running the accompanying mod__: https://git.alternerd.tv/the_vault-tweaks
 I’m also running <https://github.com/radimous/SkinFighters> and
 <https://github.com/radimous/FastVaultGear>.
 
-_Current~~ly confirmed working on~~ version_: __3.12.1__
+_Current~~ly confirmed working on~~ version_: __3.12.4__
 
 **This is untested since i a) don’t actually play VH right now and b) am sick 
 :<**
