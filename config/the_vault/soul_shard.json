@@ -638,18 +638,6 @@
         {
           "value": {
             "item": {
-              "ITEM": "the_vault:soul_flame",
-              "AMOUNT": 1,
-              "NBT": "{}"
-            },
-            "minPrice": 400,
-            "maxPrice": 800
-          },
-          "weight": 32
-        },
-        {
-          "value": {
-            "item": {
               "ITEM": "the_vault:crystal_seal_empty",
               "AMOUNT": 1,
               "NBT": "{}"
@@ -1347,18 +1335,6 @@
             },
             "minPrice": 700,
             "maxPrice": 1400
-          },
-          "weight": 32
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:soul_flame",
-              "AMOUNT": 1,
-              "NBT": "{}"
-            },
-            "minPrice": 400,
-            "maxPrice": 800
           },
           "weight": 32
         },
@@ -2098,18 +2074,6 @@
             },
             "minPrice": 800,
             "maxPrice": 1600
-          },
-          "weight": 32
-        },
-        {
-          "value": {
-            "item": {
-              "ITEM": "the_vault:soul_flame",
-              "AMOUNT": 1,
-              "NBT": "{}"
-            },
-            "minPrice": 400,
-            "maxPrice": 800
           },
           "weight": 32
         },

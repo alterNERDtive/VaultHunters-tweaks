@@ -2133,11 +2133,61 @@
       "icon": "the_vault:gui/quests/dungeon_quest",
       "targetId": "the_vault:dungeon_door",
       "targetProgress": 1.0,
-      "unlockedBy": "trinkets",
+      "unlockedBy": "plunderer",
       "reward": {
         "items": [
           {
             "item": "the_vault:gem_pog"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "anvil",
+      "id": "warden",
+      "name": "Warden's Pearl",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "After level 20, while not playing on ",
+            "color": "$text"
+          },
+          {
+            "text": "Casual mode",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", dying in a vault means that you either lose gold by buying back your spirit, or lose items if you don't buy back your spirit.\n\nThis can sometimes be both scary and frustrating; however, if you ever find yourself in a situation where you would like to gain insurance from death before entering a vault, you can check out the ",
+            "color": "$text"
+          },
+          {
+            "text": "Warden's Pearl",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".\n\nThis item, when combined with an unmodified vault crystal, will let you keep your inventory if you would die. It does so, while ",
+            "color": "$text"
+          },
+          {
+            "text": "halving the experience gained",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " in the vault, which can be positive in case you ever need to catch up!",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/wardens",
+      "targetId": "the_vault:wardens_pearl",
+      "targetProgress": 1.0,
+      "unlockedBy": "trinkets",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_diamond",
+            "amount": 4
           }
         ],
         "vaultExp": 0
@@ -2194,7 +2244,7 @@
       "icon": "the_vault:gui/quests/plunderer",
       "targetId": "the_vault:plunderer_pearl",
       "targetProgress": 1.0,
-      "unlockedBy": "dungeons",
+      "unlockedBy": "warden",
       "reward": {
         "items": [
           {
@@ -2305,7 +2355,7 @@
       "icon": "the_vault:gui/quests/archives",
       "targetId": "the_vault:alchemy_archive",
       "targetProgress": 1.0,
-      "unlockedBy": "plunderer",
+      "unlockedBy": "dungeons",
       "reward": {
         "items": [
           {
@@ -2335,7 +2385,7 @@
       "icon": "the_vault:gui/quests/modifier",
       "targetId": "the_vault:modifier_workbench",
       "targetProgress": 1.0,
-      "unlockedBy": "archives",
+      "unlockedBy": "dungeons",
       "reward": {
         "items": [
           {
@@ -3160,7 +3210,7 @@
       "icon": "the_vault:gui/quests/level50",
       "targetId": "the_vault:50",
       "targetProgress": 1.0,
-      "unlockedBy": "paradoxical_gem",
+      "unlockedBy": "god_altars",
       "reward": {
         "items": [
           {
@@ -3279,6 +3329,112 @@
         "items": [
           {
             "item": "the_vault:lost_bounty"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "anvil",
+      "id": "soul_flame",
+      "name": "Soul Flames",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Are you ready for your ascension?",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nAfter level 65 you are able to play around with and use ",
+            "color": "$text"
+          },
+          {
+            "text": "Soul Flames",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "!\n\nA ",
+            "color": "$text"
+          },
+          {
+            "text": "Soul Flame",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " is a risk & reward challenge that can be applied to your Vault Crystal, just like a ",
+            "color": "$text"
+          },
+          {
+            "text": "Catalyst",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". The Crystal has to be at least level 65 and have no other modification done to it.\nWhen applied, you add ",
+            "color": "$text"
+          },
+          {
+            "text": "Ascension",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " to your crystal!\n\nIf you complete the vault, you will get your ",
+            "color": "$text"
+          },
+          {
+            "text": "Soul Flame",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " back with a ",
+            "color": "$text"
+          },
+          {
+            "text": "Flame stack",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " on it. Every ",
+            "color": "$text"
+          },
+          {
+            "text": "Flame stack",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " increases the amount of chests, ores, and coins that spawn inside the vault, and also increases the rarity of items, as well as giving you extra XP.\nYou can stack ",
+            "color": "$text"
+          },
+          {
+            "text": "Flames",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " indefinitely, but if you don't complete the vault, you will lose all your progression on your ",
+            "color": "$text"
+          },
+          {
+            "text": "Soul Flame",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " and begin again from 0 stacks.\n\nThis is not a mandatory part of the game, but should you choose to participate, we wish you good luck!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nApply a Soul Flame to a Vault Crystal",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/flame",
+      "targetId": "the_vault:soul_flame",
+      "targetProgress": 1.0,
+      "unlockedBy": "treasure",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 64
           }
         ],
         "vaultExp": 0
