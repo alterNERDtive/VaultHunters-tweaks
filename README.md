@@ -427,9 +427,11 @@ Taking suggestions for other recipe ideas!~~
 
 Those have been officially integrated into the mod pack! \o/
 
-#### Tooltips
+#### ~~Tooltips~~
 
-Integrated the fan-made updated tooltips by a1qs.
+~~Integrated the fan-made updated tooltips by a1qs.~~
+
+Removed since those have not been updated for latest Vault Hunters.
 
 #### Treasure Keys
 
