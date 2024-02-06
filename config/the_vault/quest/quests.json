@@ -1345,7 +1345,7 @@
       "descriptionData": {
         "description": [
         {
-          "text": "As you level up, the Vault will adapt and present you with new, more challenging Objectives; these can also be added to your crystal by crafting a Seal and applying it to your crystal in an anvil. \n\nLevel 10 marks the introduction of the Elixir Objective to random vaults.\nLevel 20 marks the introduction of the Scavenger Objective to random vaults.\nLevel 50 marks the introduction of the Hunt The Guardians Objective to random vaults.",
+          "text": "As you level up, the Vault will adapt and present you with new, more challenging Objectives; these can also be added to your crystal by crafting a Seal and applying it to your crystal in an anvil. \n\nLevel 10 marks the introduction of the Light the Brazier Objective to random vaults.\nLevel 20 marks the introduction of the Scavenger Objective to random vaults.\nLevel 50 marks the introduction of the Hunt The Guardians Objective to random vaults.",
           "color": "$text"
         },
         {
@@ -1369,22 +1369,22 @@
     },
     {
       "type": "anvil",
-      "id": "sage_seal",
-      "name": "Elixir Vaults",
+      "id": "scout_seal",
+      "name": "Sealing your crystals",
       "descriptionData": {
         "description": [
         {
-          "text": "Combining a Vault Crystal and a Seal in an anvil will set the objective on the crystal to that of the Seals, allowing you more control over the type of Objective you are presented. \n\nElixir Vaults function by tasking the player with collecting and submitting an amount of Elixir and awarding the player elixir for each action carried out within the Vault. The Elixir amounts awarded for each action can change every Vault so you may want to note what action awards the most Elixir, visible by the increase of size/quantity of the Elixir orbs.\n\nOnce you have filled your Elixir bar you will need to find and fill a Lodestone to complete the Vault. \n\nIn Co-Op instead of completing the Vault you will then be able to collect Elixir for your friends to help them complete their objective. The Vault completes when all remaining Vaulters have successfully filled their Lodestones! ",
+          "text": "Combining a Vault Crystal and a Seal in an anvil will set the objective on the crystal to that of the Seals, allowing you more control over the type of Objective you are presented. \n\nSeals always need to be applied first to a crystal before modifying the crystal any further! \n\nEmpty seals can be found in completion crates or in the black market.",
           "color": "$text"
         },
         {
-          "text": "\n\nApply a Seal of the Sage to a Vault Crystal",
+          "text": "\n\nApply a Seal of the Scout to a Vault Crystal",
           "color": "$heal"
         }
         ]
       },
-      "icon": "the_vault:gui/quests/sage",
-      "targetId": "the_vault:crystal_seal_sage",
+      "icon": "the_vault:gui/quests/scout",
+      "targetId": "the_vault:crystal_seal_scout",
       "targetProgress": 1.0,
       "unlockedBy": "level_ten",
       "reward": {
@@ -1460,7 +1460,7 @@
       "icon": "the_vault:gui/quests/regretorb",
       "targetId": "the_vault:regret_orb",
       "targetProgress": 1.0,
-      "unlockedBy": "sage_seal",
+      "unlockedBy": "scout_seal",
       "reward": {
         "items": [
           {
@@ -1479,7 +1479,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Jewels may not always have the perfect size to be utilised to their maximum potential, which is where the Jewel Cutting Station comes into play!\n\nThe Cutting Station takes Silver Scrap and Vault Bronze and gives the player a 50% chance to cut down the size of a jewel randomly between 1 and 10 size. If the cut fails, the jewel will be lowered by one tier' Perfect become Flawless, Flawless become Flawed, Flawed become Chipped and lastly if a Chipped jewel cut fails, the jewel will break and provide the player with a Gemstone and a small amount of Wutodie.\n\nYou may also spec into the Jeweler Expertise which provides the player with up to 3 free cuts without removing an affix!",
+            "text": "Jewels may not always have the perfect size to be utilised to their maximum potential, which is where the Jewel Cutting Station comes into play!\n\nThe Cutting Station takes Silver Scrap and Vault Gold and gives the player a 100% chance to cut down the size of a jewel randomly between 1 and 4 size. This will remove one of the affixes until there is only one left, after this the jewel will break and provide the player with a Gemstone and a small amount of Wutodie.\n\nYou may also spec into the Jeweler Expertise which provides the player with up to 3 free cuts without removing an affix!",
             "color": "$text"
           },
           {
@@ -1971,6 +1971,119 @@
         "vaultExp": 0
       }
     },
+    
+    {
+      "type": "anvil",
+      "id": "warden",
+      "name": "Warden's Pearl",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "After level 20, while not playing on ",
+            "color": "$text"
+          },
+          {
+            "text": "Casual mode",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", dying in a vault means that you either lose gold by buying back your spirit, or lose items if you don't buy back your spirit.\n\nThis can sometimes be both scary and frustrating; however, if you ever find yourself in a situation where you would like to gain insurance from death before entering a vault, you can check out the ",
+            "color": "$text"
+          },
+          {
+            "text": "Warden's Pearl",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".\n\nThis item, when combined with an unmodified vault crystal, will let you keep your inventory if you would die. It does so, while ",
+            "color": "$text"
+          },
+          {
+            "text": "halving the experience gained",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " in the vault, which can be positive in case you ever need to catch up!",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/wardens",
+      "targetId": "the_vault:wardens_pearl",
+      "targetProgress": 1.0,
+      "unlockedBy": "trinkets",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_diamond",
+            "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "anvil",
+      "id": "plunderer",
+      "name": "Plunderer's Pearl",
+      "descriptionData": {
+        "description": [
+          {
+              "text": "As you level up the vaults get more difficult, as everything inside a vault scales.\n\nThis can sometimes lead to you falling behind with your gear progression, which can make the vaults more difficult.\n\nIf you find yourself in this situation you can use a ",
+              "color": "$text"
+          },
+          {
+              "text": "Plunderer's Pearl",
+              "color": "$qhighlight"
+          },
+          {
+              "text": "! This pearl can be combined with a Vault Crystal in an anvil to make the vault in to a ",
+              "color": "$text"
+          },
+          {
+              "text": "Plunderer's Vault",
+              "color": "$qhighlight"
+          },
+          {
+              "text": ", which ",
+              "color": "$text"
+          },
+          {
+              "text": "removes all experience gain",
+              "color": "$qhighlight"
+          },
+          {
+              "text": ", but ",
+              "color": "$text"
+          },
+          {
+              "text": "increase the amount of loot & vault ores",
+              "color": "$qhighlight"
+          },
+          {
+              "text": " slightly!",
+              "color": "$text"
+          },
+          {
+            "text": "\n\nApply a Plunderer's Pearl to a Vault Crystal",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/plunderer",
+      "targetId": "the_vault:plunderer_pearl",
+      "targetProgress": 1.0,
+      "unlockedBy": "warden",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_diamond",
+            "amount": 4
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
     {
       "type": "block_interact",
       "id": "dungeons",
@@ -2074,73 +2187,11 @@
       "icon": "the_vault:gui/quests/dungeon_quest",
       "targetId": "the_vault:dungeon_door",
       "targetProgress": 1.0,
-      "unlockedBy": "trinkets",
+      "unlockedBy": "plunderer",
       "reward": {
         "items": [
           {
             "item": "the_vault:gem_pog"
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "anvil",
-      "id": "plunderer",
-      "name": "Plunderer's Pearl",
-      "descriptionData": {
-        "description": [
-          {
-              "text": "As you level up the vaults get more difficult, as everything inside a vault scales.\n\nThis can sometimes lead to you falling behind with your gear progression, which can make the vaults more difficult.\n\nIf you find yourself in this situation you can use a ",
-              "color": "$text"
-          },
-          {
-              "text": "Plunderer's Pearl",
-              "color": "$qhighlight"
-          },
-          {
-              "text": "! This pearl can be combined with a Vault Crystal in an anvil to make the vault in to a ",
-              "color": "$text"
-          },
-          {
-              "text": "Plunderer's Vault",
-              "color": "$qhighlight"
-          },
-          {
-              "text": ", which ",
-              "color": "$text"
-          },
-          {
-              "text": "removes all experience gain",
-              "color": "$qhighlight"
-          },
-          {
-              "text": ", but ",
-              "color": "$text"
-          },
-          {
-              "text": "increase the amount of loot & vault ores",
-              "color": "$qhighlight"
-          },
-          {
-              "text": " slightly!",
-              "color": "$text"
-          },
-          {
-            "text": "\n\nApply a Plunderer's Pearl to a Vault Crystal",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/plunderer",
-      "targetId": "the_vault:plunderer_pearl",
-      "targetProgress": 1.0,
-      "unlockedBy": "dungeons",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:vault_diamond",
-            "amount": 4
           }
         ],
         "vaultExp": 0
@@ -2246,7 +2297,7 @@
       "icon": "the_vault:gui/quests/archives",
       "targetId": "the_vault:alchemy_archive",
       "targetProgress": 1.0,
-      "unlockedBy": "plunderer",
+      "unlockedBy": "dungeons",
       "reward": {
         "items": [
           {
@@ -2275,7 +2326,7 @@
       "icon": "the_vault:gui/quests/modifier",
       "targetId": "the_vault:modifier_workbench",
       "targetProgress": 1.0,
-      "unlockedBy": "archives",
+      "unlockedBy": "dungeons",
       "reward": {
         "items": [
           {
@@ -2507,7 +2558,7 @@
       "icon": "the_vault:gui/quests/seal",
       "targetId": "the_vault:crystal_seal_architect",
       "targetProgress": 1.0,
-      "unlockedBy": "transmog",
+      "unlockedBy": "apply_catalyst",
       "reward": {
         "items": [
           {
@@ -3060,7 +3111,7 @@
                   "color": "$qhighlight"
               },
               {
-                  "text": ". These are extremely expensive, and when combined with a crystal sealed with the Seal of the Ordinator, in an anvil, it will completely nullify your progress, this action can not be undone, so use with great care!\n\nWe will give you a Paradoxical Gem, but be careful when, or if, you use it at all!",
+                  "text": ". These are extremely expensive, and when combined with a crystal sealed with the Seal of the Creator, in an anvil, it will completely nullify your progress, this action can not be undone, so use with great care!\n\nWe will give you a Paradoxical Gem, but be careful when, or if, you use it at all!",
                   "color": "$text"
               }
             ] 
@@ -3100,7 +3151,7 @@
       "icon": "the_vault:gui/quests/level50",
       "targetId": "the_vault:50",
       "targetProgress": 1.0,
-      "unlockedBy": "paradoxical_gem",
+      "unlockedBy": "god_altars",
       "reward": {
         "items": [
           {
@@ -3219,6 +3270,112 @@
         "items": [
           {
             "item": "the_vault:lost_bounty"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "anvil",
+      "id": "soul_flame",
+      "name": "Soul Flames",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Are you ready for your ascension?",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nAfter level 65 you are able to play around with and use ",
+            "color": "$text"
+          },
+          {
+            "text": "Soul Flames",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "!\n\nA ",
+            "color": "$text"
+          },
+          {
+            "text": "Soul Flame",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " is a risk & reward challenge that can be applied to your Vault Crystal, just like a ",
+            "color": "$text"
+          },
+          {
+            "text": "Catalyst",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". The Crystal has to be at least level 65 and have no other modification done to it.\nWhen applied, you add ",
+            "color": "$text"
+          },
+          {
+            "text": "Ascension",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " to your crystal!\n\nIf you complete the vault, you will get your ",
+            "color": "$text"
+          },
+          {
+            "text": "Soul Flame",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " back with a ",
+            "color": "$text"
+          },
+          {
+            "text": "Flame stack",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " on it. Every ",
+            "color": "$text"
+          },
+          {
+            "text": "Flame stack",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " increases the amount of chests, ores, and coins that spawn inside the vault, and also increases the rarity of items, as well as giving you extra XP.\nYou can stack ",
+            "color": "$text"
+          },
+          {
+            "text": "Flames",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " indefinitely, but if you don't complete the vault, you will lose all your progression on your ",
+            "color": "$text"
+          },
+          {
+            "text": "Soul Flame",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " and begin again from 0 stacks.\n\nThis is not a mandatory part of the game, but should you choose to participate, we wish you good luck!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nApply a Soul Flame to a Vault Crystal",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/flame",
+      "targetId": "the_vault:soul_flame",
+      "targetProgress": 1.0,
+      "unlockedBy": "treasure",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 64
           }
         ],
         "vaultExp": 0

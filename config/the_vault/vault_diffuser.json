@@ -221,6 +221,8 @@
     "the_vault:inscription_piece": 32,
     "the_vault:living_rock_block_cobble": 4,
     "the_vault:gilded_candelabra": 4,
+    "the_vault:gemstone": 64,
+    "the_vault:compressed_soot_block": 9,
     "the_vault:default": 0
   }
 }

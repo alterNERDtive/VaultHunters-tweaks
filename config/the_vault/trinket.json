@@ -179,6 +179,20 @@
         "curiosSlot": "red_trinket"
       }
     },
+    "the_vault:golden_burger": {
+      "weight": 10,
+      "name": "Golden Burger",
+      "effectText": "+100% Vault Experience",
+      "color": 16534066,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "experienceIncrease": 1.0,
+        "curiosSlot": "red_trinket"
+      }
+    },
     "the_vault:gluttony_pendant": {
       "weight": 10,
       "name": "Gluttony Pendant",
@@ -192,20 +206,7 @@
         "curiosSlot": "blue_trinket"
       }
     },
-    "the_vault:golden_burger": {
-      "weight": 10,
-      "name": "Golden Burger",
-      "effectText": "Doubles the Vault Experience gained inside a vault",
-      "color": 3304444,
-      "minCraftedUses": 12,
-      "maxCraftedUses": 12,
-      "minUses": 20,
-      "maxUses": 30,
-      "config": {
-        "experienceIncrease": 1.0,
-        "curiosSlot": "blue_trinket"
-      }
-    },
+    
     "the_vault:high_heels": {
       "weight": 10,
       "name": "The Frog",

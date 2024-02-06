@@ -14,10 +14,10 @@ running the accompanying mod__: https://git.alternerd.tv/the_vault-tweaks
 I’m also running <https://github.com/radimous/SkinFighters> and
 <https://github.com/radimous/FastVaultGear>.
 
-_Current~~ly confirmed working on~~ version_: __3.12.4__
+_Current~~ly confirmed working on~~ version_: __3.13__
 
-**This is untested since i a) don’t actually play VH right now and b) am sick 
-:<**
+**This is largely untested since i don’t actually play VH right now. I didn’t 
+see anything that would be cause for concern though.**
 
 ## Installation
 
@@ -230,6 +230,7 @@ increases your power level.
 * Made lvl 50+ requirements easier (~20%).
 * Added lvl 75 tier with old lvl 50 requirements (this might or might not work 
   out of the box, testing needed).
+* Yeeted the “new” lvl 80 tier as it’s obsolete with my changes.
 * Added lvl 90 tier with increased requirements (1200–1600 → 1400–2000).
 * Buffed Wooden Chest tier 1 from 0–3 to 1–3. I don’t think loot should ever 
   give flat 0.
